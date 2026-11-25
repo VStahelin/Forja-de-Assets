@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "project": "cleaners",
+    "mode": "strip",
+    "frameCount": 14,
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "fps": 5,
+    "width": 448,
+    "height": 32,
+    "scale": 1,
+    "format": "png",
+    "image": "ui_hud_item_icons_01.png",
+    "animations": {
+      "hand": [
+        0
+      ],
+      "mop": [
+        1
+      ],
+      "bucket_empty": [
+        2
+      ],
+      "bucket_water": [
+        3
+      ],
+      "dart": [
+        4
+      ],
+      "skull": [
+        5
+      ],
+      "long_bone": [
+        6
+      ],
+      "dented_helm": [
+        7
+      ],
+      "wrapped_body": [
+        8
+      ],
+      "chest_bait": [
+        9
+      ],
+      "shovel": [
+        10
+      ],
+      "inspection_lantern": [
+        11
+      ],
+      "wide_mop": [
+        12
+      ],
+      "stiff_brush": [
+        13
+      ]
+    }
+  },
+  "frames": {
+    "frame_0": {
+      "x": 0,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "logical": {
+        "x": 0,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    },
+    "frame_1": {
+      "x": 32,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "logical": {
+        "x": 32,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    },
+    "frame_2": {
+      "x": 64,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "logical": {
+        "x": 64,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    },
+    "frame_3": {
+      "x": 96,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "logical": {
+        "x": 96,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    },
+    "frame_4": {
+      "x": 128,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "logical": {
+        "x": 128,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    },
+    "frame_5": {
+      "x": 160,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "logical": {
+        "x": 160,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    },
+    "frame_6": {
+      "x": 192,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "logical": {
+        "x": 192,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    },
+    "frame_7": {
+      "x": 224,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "logical": {
+        "x": 224,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    },
+    "frame_8": {
+      "x": 256,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "logical": {
+        "x": 256,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    },
+    "frame_9": {
+      "x": 288,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "logical": {
+        "x": 288,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    },
+    "frame_10": {
+      "x": 320,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "logical": {
+        "x": 320,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    },
+    "frame_11": {
+      "x": 352,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "logical": {
+        "x": 352,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    },
+    "frame_12": {
+      "x": 384,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "logical": {
+        "x": 384,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    },
+    "frame_13": {
+      "x": 416,
+      "y": 0,
+      "width": 32,
+      "height": 32,
+      "logical": {
+        "x": 416,
+        "y": 0,
+        "width": 32,
+        "height": 32
+      }
+    }
+  }
+}

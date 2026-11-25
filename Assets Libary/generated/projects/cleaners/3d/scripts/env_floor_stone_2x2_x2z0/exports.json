@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "engine/SM_Env_FloorStone_2x2_x2z0.glb",
+      "runtime_role": "default"
+    }
+  ]
+}

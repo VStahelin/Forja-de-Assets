@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "prop_barrel_01/exports/prop_barrel_01.glb",
+      "runtime_role": "default"
+    }
+  ]
+}

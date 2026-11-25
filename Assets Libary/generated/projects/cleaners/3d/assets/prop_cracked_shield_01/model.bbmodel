@@ -1,0 +1,822 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "prop_cracked_shield_01",
+  "model_identifier": "",
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {
+    "model_as_code": {
+      "version": 3,
+      "uv_ready": true,
+      "modeling_mode": "free",
+      "orientation": {
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "validation_policy": {
+        "check_coplanar": true
+      },
+      "sockets": {},
+      "chains": {},
+      "armature_chains": {},
+      "binding_policies": {},
+      "uv_sharing": [],
+      "uv_packing": {
+        "start_size": [
+          32,
+          32
+        ],
+        "allow_rectangular": true,
+        "uv_scale": 8,
+        "max_size": 1024,
+        "fixed_texture_size": false,
+        "island_padding": 1,
+        "require_integer_uvs": false,
+        "layout": "faces"
+      }
+    }
+  },
+  "elements": [
+    {
+      "name": "shield",
+      "color": 0,
+      "origin": [
+        0,
+        6,
+        8.881784197001252e-16
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "s0_v000": [
+          0.18400000000000016,
+          6,
+          -0.23999999999999932
+        ],
+        "s0_v001": [
+          -3.3360000000000003,
+          4.399999999999999,
+          -0.23999999999999932
+        ],
+        "s0_v002": [
+          -2.6959999999999997,
+          -0.7200000000000006,
+          -0.23999999999999932
+        ],
+        "s0_v003": [
+          0.18400000000000016,
+          -6,
+          -0.23999999999999932
+        ],
+        "s0_v004": [
+          3.064,
+          -0.7200000000000006,
+          -0.23999999999999932
+        ],
+        "s0_v005": [
+          3.3360000000000003,
+          3.968,
+          -0.3199999999999994
+        ],
+        "s1_v000": [
+          0.18400000000000016,
+          6,
+          0.3199999999999994
+        ],
+        "s1_v001": [
+          -3.3360000000000003,
+          4.399999999999999,
+          0.3199999999999994
+        ],
+        "s1_v002": [
+          -2.6959999999999997,
+          -0.7200000000000006,
+          0.3199999999999994
+        ],
+        "s1_v003": [
+          0.18400000000000016,
+          -6,
+          0.3199999999999994
+        ],
+        "s1_v004": [
+          3.064,
+          -0.7200000000000006,
+          0.3199999999999994
+        ],
+        "s1_v005": [
+          3.3360000000000003,
+          3.968,
+          0.23999999999999932
+        ],
+        "cap_start_center": [
+          0.18400000000000016,
+          1.2266666666666666,
+          -0.23999999999999932
+        ],
+        "cap_end_center": [
+          0.18400000000000016,
+          1.2266666666666666,
+          0.3199999999999994
+        ]
+      },
+      "faces": {
+        "s0__s1_side_000_1": {
+          "vertices": [
+            "s0_v001",
+            "s1_v001",
+            "s1_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "s0__s1_side_000_1",
+          "uv": {
+            "s0_v001": [
+              149.03370115379894,
+              27.260000000000005
+            ],
+            "s1_v001": [
+              149.03370115379894,
+              31.739999999999995
+            ],
+            "s1_v000": [
+              179.96629884620106,
+              31.739999999999995
+            ]
+          },
+          "rotation": 0
+        },
+        "s0__s1_side_000_2": {
+          "vertices": [
+            "s0_v001",
+            "s1_v000",
+            "s0_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "s0__s1_side_000_2",
+          "uv": {
+            "s0_v001": [
+              149.03370115379894,
+              34.260000000000005
+            ],
+            "s1_v000": [
+              179.96629884620106,
+              38.739999999999995
+            ],
+            "s0_v000": [
+              179.96629884620106,
+              34.260000000000005
+            ]
+          },
+          "rotation": 0
+        },
+        "s0__s1_side_001_1": {
+          "vertices": [
+            "s0_v002",
+            "s1_v002",
+            "s1_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "s0__s1_side_001_1",
+          "uv": {
+            "s0_v002": [
+              41.260000000000005,
+              87.63937983564429
+            ],
+            "s1_v002": [
+              45.739999999999995,
+              87.63937983564429
+            ],
+            "s1_v001": [
+              45.739999999999995,
+              46.360620164355716
+            ]
+          },
+          "rotation": 0
+        },
+        "s0__s1_side_001_2": {
+          "vertices": [
+            "s0_v002",
+            "s1_v001",
+            "s0_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "s0__s1_side_001_2",
+          "uv": {
+            "s0_v002": [
+              48.260000000000005,
+              87.63937983564429
+            ],
+            "s1_v001": [
+              52.739999999999995,
+              46.360620164355716
+            ],
+            "s0_v001": [
+              48.260000000000005,
+              46.360620164355716
+            ]
+          },
+          "rotation": 0
+        },
+        "s0__s1_side_002_1": {
+          "vertices": [
+            "s0_v003",
+            "s1_v003",
+            "s1_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "s0__s1_side_002_1",
+          "uv": {
+            "s0_v003": [
+              27.260000000000005,
+              49.557531045392
+            ],
+            "s1_v003": [
+              31.739999999999995,
+              49.557531045392
+            ],
+            "s1_v002": [
+              31.739999999999995,
+              1.4424689546080032
+            ]
+          },
+          "rotation": 0
+        },
+        "s0__s1_side_002_2": {
+          "vertices": [
+            "s0_v003",
+            "s1_v002",
+            "s0_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "s0__s1_side_002_2",
+          "uv": {
+            "s0_v003": [
+              27.260000000000005,
+              100.55753104539201
+            ],
+            "s1_v002": [
+              31.739999999999995,
+              52.442468954607996
+            ],
+            "s0_v002": [
+              27.260000000000005,
+              52.442468954607996
+            ]
+          },
+          "rotation": 0
+        },
+        "s0__s1_side_003_1": {
+          "vertices": [
+            "s0_v003",
+            "s0_v004",
+            "s1_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "s0__s1_side_003_1",
+          "uv": {
+            "s0_v003": [
+              34.260000000000005,
+              49.557531045392
+            ],
+            "s0_v004": [
+              34.260000000000005,
+              1.4424689546079996
+            ],
+            "s1_v004": [
+              38.739999999999995,
+              1.4424689546079996
+            ]
+          },
+          "rotation": 0
+        },
+        "s0__s1_side_003_2": {
+          "vertices": [
+            "s0_v003",
+            "s1_v004",
+            "s1_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "s0__s1_side_003_2",
+          "uv": {
+            "s0_v003": [
+              34.260000000000005,
+              100.557531045392
+            ],
+            "s1_v004": [
+              38.739999999999995,
+              52.442468954608
+            ],
+            "s1_v003": [
+              38.739999999999995,
+              100.557531045392
+            ]
+          },
+          "rotation": 0
+        },
+        "s0__s1_side_004_1": {
+          "vertices": [
+            "s0_v004",
+            "s0_v005",
+            "s1_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "s0__s1_side_004_1",
+          "uv": {
+            "s0_v004": [
+              145.9,
+              120.78353662120102
+            ],
+            "s0_v005": [
+              145.26,
+              83.21646337879898
+            ],
+            "s1_v005": [
+              149.74,
+              83.21646337879898
+            ]
+          },
+          "rotation": 0
+        },
+        "s0__s1_side_004_2": {
+          "vertices": [
+            "s0_v004",
+            "s1_v005",
+            "s1_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "s0__s1_side_004_2",
+          "uv": {
+            "s0_v004": [
+              148.26,
+              79.78353662120102
+            ],
+            "s1_v005": [
+              152.1,
+              42.21646337879898
+            ],
+            "s1_v004": [
+              152.74,
+              79.78353662120102
+            ]
+          },
+          "rotation": 0
+        },
+        "s0__s1_side_005_1": {
+          "vertices": [
+            "s0_v005",
+            "s0_v000",
+            "s1_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "s0__s1_side_005_1",
+          "uv": {
+            "s0_v005": [
+              31.500868241538555,
+              121.44
+            ],
+            "s0_v000": [
+              1.4991317584614468,
+              122.08000000000001
+            ],
+            "s1_v000": [
+              1.4991317584614468,
+              126.56
+            ]
+          },
+          "rotation": 0
+        },
+        "s0__s1_side_005_2": {
+          "vertices": [
+            "s0_v005",
+            "s1_v000",
+            "s1_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "s0__s1_side_005_2",
+          "uv": {
+            "s0_v005": [
+              179.50086824153854,
+              19.440000000000005
+            ],
+            "s1_v000": [
+              149.49913175846146,
+              24.559999999999995
+            ],
+            "s1_v005": [
+              179.50086824153854,
+              23.919999999999995
+            ]
+          },
+          "rotation": 0
+        },
+        "cap_start_000_1": {
+          "vertices": [
+            "cap_start_center",
+            "s0_v005",
+            "s0_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap_start_000_1",
+          "uv": {
+            "cap_start_center": [
+              83.39122361742393,
+              111.1834921651455
+            ],
+            "s0_v005": [
+              108.60877638257607,
+              89.24527371010197
+            ],
+            "s0_v004": [
+              106.4326423876137,
+              126.75472628989803
+            ]
+          },
+          "rotation": 0
+        },
+        "cap_start_000_2": {
+          "vertices": [
+            "cap_start_center",
+            "s0_v004",
+            "s0_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap_start_000_2",
+          "uv": {
+            "cap_start_center": [
+              1.4800000000000004,
+              1.0933333333333337
+            ],
+            "s0_v004": [
+              24.52,
+              16.66666666666667
+            ],
+            "s0_v003": [
+              1.4800000000000004,
+              58.906666666666666
+            ]
+          },
+          "rotation": 0
+        },
+        "cap_start_001_1": {
+          "vertices": [
+            "cap_start_center",
+            "s0_v003",
+            "s0_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap_start_001_1",
+          "uv": {
+            "cap_start_center": [
+              24.52,
+              61.093333333333334
+            ],
+            "s0_v003": [
+              24.52,
+              118.90666666666667
+            ],
+            "s0_v002": [
+              1.4800000000000004,
+              76.66666666666667
+            ]
+          },
+          "rotation": 0
+        },
+        "cap_start_001_2": {
+          "vertices": [
+            "cap_start_center",
+            "s0_v002",
+            "s0_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap_start_001_2",
+          "uv": {
+            "cap_start_center": [
+              114.58,
+              71.40666666666667
+            ],
+            "s0_v002": [
+              91.54,
+              86.97999999999999
+            ],
+            "s0_v001": [
+              86.42,
+              46.02
+            ]
+          },
+          "rotation": 0
+        },
+        "cap_start_002_1": {
+          "vertices": [
+            "cap_start_center",
+            "s0_v001",
+            "s0_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap_start_002_1",
+          "uv": {
+            "cap_start_center": [
+              145.58,
+              80.59333333333333
+            ],
+            "s0_v001": [
+              117.42,
+              55.20666666666668
+            ],
+            "s0_v000": [
+              145.58,
+              42.406666666666666
+            ]
+          },
+          "rotation": 0
+        },
+        "cap_start_002_2": {
+          "vertices": [
+            "cap_start_center",
+            "s0_v000",
+            "s0_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap_start_002_2",
+          "uv": {
+            "cap_start_center": [
+              117.38793974007419,
+              121.59333333333333
+            ],
+            "s0_v000": [
+              117.38793974007419,
+              83.40666666666667
+            ],
+            "s0_v005": [
+              142.6120602599258,
+              99.66266666666667
+            ]
+          },
+          "rotation": 0
+        },
+        "cap_end_000_1": {
+          "vertices": [
+            "cap_end_center",
+            "s1_v000",
+            "s1_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap_end_000_1",
+          "uv": {
+            "cap_end_center": [
+              118.58,
+              39.593333333333334
+            ],
+            "s1_v000": [
+              118.58,
+              1.4066666666666663
+            ],
+            "s1_v001": [
+              90.42,
+              14.206666666666678
+            ]
+          },
+          "rotation": 0
+        },
+        "cap_end_000_2": {
+          "vertices": [
+            "cap_end_center",
+            "s1_v001",
+            "s1_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap_end_000_2",
+          "uv": {
+            "cap_end_center": [
+              83.58,
+              71.40666666666667
+            ],
+            "s1_v001": [
+              55.42,
+              46.02
+            ],
+            "s1_v002": [
+              60.540000000000006,
+              86.97999999999999
+            ]
+          },
+          "rotation": 0
+        },
+        "cap_end_001_1": {
+          "vertices": [
+            "s1_v002",
+            "s1_v003",
+            "s1_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap_end_001_1",
+          "uv": {
+            "s1_v002": [
+              41.46,
+              1.3800000000000026
+            ],
+            "s1_v003": [
+              64.5,
+              43.62
+            ],
+            "s1_v004": [
+              87.53999999999999,
+              1.3800000000000026
+            ]
+          },
+          "rotation": 0
+        },
+        "cap_end_001_2": {
+          "vertices": [
+            "s1_v002",
+            "s1_v004",
+            "cap_end_center"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap_end_001_2",
+          "uv": {
+            "s1_v002": [
+              149.46,
+              16.78666666666667
+            ],
+            "s1_v004": [
+              195.54,
+              16.78666666666667
+            ],
+            "cap_end_center": [
+              172.5,
+              1.2133333333333312
+            ]
+          },
+          "rotation": 0
+        },
+        "cap_end_002_1": {
+          "vertices": [
+            "cap_end_center",
+            "s1_v004",
+            "s1_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap_end_002_1",
+          "uv": {
+            "cap_end_center": [
+              55.39122361742393,
+              111.1834921651455
+            ],
+            "s1_v004": [
+              78.4326423876137,
+              126.75472628989803
+            ],
+            "s1_v005": [
+              80.60877638257607,
+              89.24527371010197
+            ]
+          },
+          "rotation": 0
+        },
+        "cap_end_002_2": {
+          "vertices": [
+            "cap_end_center",
+            "s1_v005",
+            "s1_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap_end_002_2",
+          "uv": {
+            "cap_end_center": [
+              121.38793974007419,
+              39.593333333333334
+            ],
+            "s1_v005": [
+              146.6120602599258,
+              17.662666666666667
+            ],
+            "s1_v000": [
+              121.38793974007419,
+              1.4066666666666663
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "5a1f0116-b5c9-5f74-bd21-278ae365db52",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "center": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "center": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "root",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "export": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "model_as_code_role": "folder"
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "isOpen": true,
+      "children": [
+        "5a1f0116-b5c9-5f74-bd21-278ae365db52"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "a6af3679-741e-46d7-b154-1376879dd056",
+      "id": "0",
+      "name": "texture.png",
+      "relative_path": "texture.png",
+      "width": 256,
+      "height": 128,
+      "uv_width": 256,
+      "uv_height": 128,
+      "mode": "link",
+      "internal": false,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false
+    }
+  ],
+  "animations": [],
+  "resolution": {
+    "width": 256,
+    "height": 128
+  }
+}

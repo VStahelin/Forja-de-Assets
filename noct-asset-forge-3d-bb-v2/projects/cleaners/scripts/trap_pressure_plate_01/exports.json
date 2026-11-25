@@ -1,0 +1,14 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "engine/SK_Trap_PressurePlate_01.glb",
+      "runtime_role": "default",
+      "animations": [
+        "pose_raised",
+        "pose_pressed"
+      ]
+    }
+  ]
+}

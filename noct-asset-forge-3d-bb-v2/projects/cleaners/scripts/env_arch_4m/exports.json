@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "env_arch_4m/exports/env_arch_4m.glb",
+      "runtime_role": "default"
+    }
+  ]
+}

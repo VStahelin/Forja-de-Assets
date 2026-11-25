@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111419">
+  <title>Forja de Assets</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <aside class="sidebar" id="sidebar" aria-label="Navegação principal"></aside>
+  <main class="shell" id="main">
+    <div class="loading" role="status">Abrindo a forja…</div>
+  </main>
+  <section id="transport" class="transport" hidden aria-label="Reprodutor de áudio">
+    <div class="transport-name"><span id="playing-type"></span><strong id="playing-name"></strong></div>
+    <audio id="audio" controls preload="metadata"></audio>
+    <button class="btn" id="stop-audio" type="button">Fechar player</button>
+  </section>
+  <dialog id="dialog"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

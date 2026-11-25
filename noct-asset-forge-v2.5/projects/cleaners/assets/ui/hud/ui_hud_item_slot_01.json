@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "project": "cleaners",
+    "mode": "strip",
+    "frameCount": 2,
+    "frameWidth": 40,
+    "frameHeight": 40,
+    "fps": 5,
+    "width": 80,
+    "height": 40,
+    "scale": 1,
+    "format": "png",
+    "image": "ui_hud_item_slot_01.png",
+    "animations": {
+      "normal": [
+        0
+      ],
+      "highlight": [
+        1
+      ]
+    }
+  },
+  "frames": {
+    "frame_0": {
+      "x": 0,
+      "y": 0,
+      "width": 40,
+      "height": 40,
+      "logical": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      }
+    },
+    "frame_1": {
+      "x": 40,
+      "y": 0,
+      "width": 40,
+      "height": 40,
+      "logical": {
+        "x": 40,
+        "y": 0,
+        "width": 40,
+        "height": 40
+      }
+    }
+  }
+}

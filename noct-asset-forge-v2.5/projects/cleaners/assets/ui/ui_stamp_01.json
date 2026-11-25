@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "project": "cleaners",
+    "mode": "strip",
+    "frameCount": 2,
+    "frameWidth": 40,
+    "frameHeight": 22,
+    "fps": 5,
+    "width": 80,
+    "height": 22,
+    "scale": 1,
+    "format": "png",
+    "image": "ui_stamp_01.png",
+    "animations": {
+      "approved": [
+        0
+      ],
+      "rejected": [
+        1
+      ]
+    }
+  },
+  "frames": {
+    "frame_0": {
+      "x": 0,
+      "y": 0,
+      "width": 40,
+      "height": 22,
+      "logical": {
+        "x": 0,
+        "y": 0,
+        "width": 40,
+        "height": 22
+      }
+    },
+    "frame_1": {
+      "x": 40,
+      "y": 0,
+      "width": 40,
+      "height": 22,
+      "logical": {
+        "x": 40,
+        "y": 0,
+        "width": 40,
+        "height": 22
+      }
+    }
+  }
+}

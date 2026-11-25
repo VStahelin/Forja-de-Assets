@@ -1,0 +1,2429 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "forge-mark",
+  "model_identifier": "",
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {
+    "model_as_code": {
+      "version": 3,
+      "uv_ready": true,
+      "modeling_mode": "free",
+      "orientation": {
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "validation_policy": {
+        "check_coplanar": true
+      },
+      "sockets": {},
+      "chains": {},
+      "armature_chains": {},
+      "binding_policies": {},
+      "uv_packing": {
+        "start_size": [
+          32,
+          32
+        ],
+        "allow_rectangular": true,
+        "uv_scale": 1,
+        "max_size": 1024,
+        "fixed_texture_size": false,
+        "island_padding": 1,
+        "require_integer_uvs": false,
+        "layout": "charts"
+      }
+    }
+  },
+  "elements": [
+    {
+      "name": "anvil",
+      "color": 0,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "level_0_v000": [
+          -7.3,
+          0,
+          4
+        ],
+        "level_0_v001": [
+          7.3,
+          0,
+          4
+        ],
+        "level_0_v002": [
+          8,
+          0,
+          3.3
+        ],
+        "level_0_v003": [
+          8,
+          0,
+          -3.3
+        ],
+        "level_0_v004": [
+          7.3,
+          0,
+          -4
+        ],
+        "level_0_v005": [
+          -7.3,
+          0,
+          -4
+        ],
+        "level_0_v006": [
+          -8,
+          0,
+          -3.3
+        ],
+        "level_0_v007": [
+          -8,
+          0,
+          3.3
+        ],
+        "level_1_v000": [
+          -7.3,
+          2,
+          4
+        ],
+        "level_1_v001": [
+          7.3,
+          2,
+          4
+        ],
+        "level_1_v002": [
+          8,
+          2,
+          3.3
+        ],
+        "level_1_v003": [
+          8,
+          2,
+          -3.3
+        ],
+        "level_1_v004": [
+          7.3,
+          2,
+          -4
+        ],
+        "level_1_v005": [
+          -7.3,
+          2,
+          -4
+        ],
+        "level_1_v006": [
+          -8,
+          2,
+          -3.3
+        ],
+        "level_1_v007": [
+          -8,
+          2,
+          3.3
+        ],
+        "level_2_v000": [
+          -3.3,
+          5,
+          3
+        ],
+        "level_2_v001": [
+          3.3,
+          5,
+          3
+        ],
+        "level_2_v002": [
+          4,
+          5,
+          2.3
+        ],
+        "level_2_v003": [
+          4,
+          5,
+          -2.3
+        ],
+        "level_2_v004": [
+          3.3,
+          5,
+          -3
+        ],
+        "level_2_v005": [
+          -3.3,
+          5,
+          -3
+        ],
+        "level_2_v006": [
+          -4,
+          5,
+          -2.3
+        ],
+        "level_2_v007": [
+          -4,
+          5,
+          2.3
+        ],
+        "level_3_v000": [
+          -3.3,
+          9,
+          3
+        ],
+        "level_3_v001": [
+          3.3,
+          9,
+          3
+        ],
+        "level_3_v002": [
+          4,
+          9,
+          2.3
+        ],
+        "level_3_v003": [
+          4,
+          9,
+          -2.3
+        ],
+        "level_3_v004": [
+          3.3,
+          9,
+          -3
+        ],
+        "level_3_v005": [
+          -3.3,
+          9,
+          -3
+        ],
+        "level_3_v006": [
+          -4,
+          9,
+          -2.3
+        ],
+        "level_3_v007": [
+          -4,
+          9,
+          2.3
+        ],
+        "level_4_v000": [
+          -9.3,
+          11,
+          4
+        ],
+        "level_4_v001": [
+          8.3,
+          11,
+          4
+        ],
+        "level_4_v002": [
+          9,
+          11,
+          3.3
+        ],
+        "level_4_v003": [
+          9,
+          11,
+          -3.3
+        ],
+        "level_4_v004": [
+          8.3,
+          11,
+          -4
+        ],
+        "level_4_v005": [
+          -9.3,
+          11,
+          -4
+        ],
+        "level_4_v006": [
+          -10,
+          11,
+          -3.3
+        ],
+        "level_4_v007": [
+          -10,
+          11,
+          3.3
+        ],
+        "level_5_v000": [
+          -12.3,
+          14,
+          4
+        ],
+        "level_5_v001": [
+          12.3,
+          14,
+          4
+        ],
+        "level_5_v002": [
+          13,
+          14,
+          3.3
+        ],
+        "level_5_v003": [
+          13,
+          14,
+          -3.3
+        ],
+        "level_5_v004": [
+          12.3,
+          14,
+          -4
+        ],
+        "level_5_v005": [
+          -12.3,
+          14,
+          -4
+        ],
+        "level_5_v006": [
+          -13,
+          14,
+          -3.3
+        ],
+        "level_5_v007": [
+          -13,
+          14,
+          3.3
+        ],
+        "level_6_v000": [
+          -12.3,
+          17,
+          4
+        ],
+        "level_6_v001": [
+          14.3,
+          17,
+          4
+        ],
+        "level_6_v002": [
+          15,
+          17,
+          3.3
+        ],
+        "level_6_v003": [
+          15,
+          17,
+          -3.3
+        ],
+        "level_6_v004": [
+          14.3,
+          17,
+          -4
+        ],
+        "level_6_v005": [
+          -12.3,
+          17,
+          -4
+        ],
+        "level_6_v006": [
+          -13,
+          17,
+          -3.3
+        ],
+        "level_6_v007": [
+          -13,
+          17,
+          3.3
+        ],
+        "sole_center": [
+          0,
+          0,
+          0
+        ],
+        "face_center": [
+          1,
+          17,
+          0
+        ]
+      },
+      "faces": {
+        "sides_0_000": {
+          "vertices": [
+            "level_0_v001",
+            "level_1_v001",
+            "level_1_v000",
+            "level_0_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_0_000",
+          "uv": {
+            "level_0_v001": [
+              32.0,
+              18.398345947265625
+            ],
+            "level_1_v001": [
+              32.0,
+              16.398345947265625
+            ],
+            "level_1_v000": [
+              46.600006103515625,
+              16.398345947265625
+            ],
+            "level_0_v000": [
+              46.600006103515625,
+              18.398345947265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_0_001": {
+          "vertices": [
+            "level_0_v002",
+            "level_1_v002",
+            "level_1_v001",
+            "level_0_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_0_001",
+          "uv": {
+            "level_0_v002": [
+              31.010055541992188,
+              18.398345947265625
+            ],
+            "level_1_v002": [
+              31.010055541992188,
+              16.398345947265625
+            ],
+            "level_1_v001": [
+              32.0,
+              16.398345947265625
+            ],
+            "level_0_v001": [
+              32.0,
+              18.398345947265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_0_002": {
+          "vertices": [
+            "level_0_v003",
+            "level_1_v003",
+            "level_1_v002",
+            "level_0_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_0_002",
+          "uv": {
+            "level_0_v003": [
+              24.410049438476562,
+              18.398345947265625
+            ],
+            "level_1_v003": [
+              24.410049438476562,
+              16.398345947265625
+            ],
+            "level_1_v002": [
+              31.010055541992188,
+              16.398345947265625
+            ],
+            "level_0_v002": [
+              31.010055541992188,
+              18.398345947265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_0_003": {
+          "vertices": [
+            "level_0_v004",
+            "level_1_v004",
+            "level_1_v003",
+            "level_0_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_0_003",
+          "uv": {
+            "level_0_v004": [
+              23.42010498046875,
+              18.398345947265625
+            ],
+            "level_1_v004": [
+              23.42010498046875,
+              16.398345947265625
+            ],
+            "level_1_v003": [
+              24.410049438476562,
+              16.398345947265625
+            ],
+            "level_0_v003": [
+              24.410049438476562,
+              18.398345947265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_0_004": {
+          "vertices": [
+            "level_0_v005",
+            "level_1_v005",
+            "level_1_v004",
+            "level_0_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_0_004",
+          "uv": {
+            "level_0_v005": [
+              8.820098876953125,
+              18.398345947265625
+            ],
+            "level_1_v005": [
+              8.820098876953125,
+              16.398345947265625
+            ],
+            "level_1_v004": [
+              23.42010498046875,
+              16.398345947265625
+            ],
+            "level_0_v004": [
+              23.42010498046875,
+              18.398345947265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_0_005": {
+          "vertices": [
+            "level_1_v006",
+            "level_1_v005",
+            "level_0_v005",
+            "level_0_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_0_005",
+          "uv": {
+            "level_1_v006": [
+              7.8301544189453125,
+              16.398345947265625
+            ],
+            "level_1_v005": [
+              8.820098876953125,
+              16.398345947265625
+            ],
+            "level_0_v005": [
+              8.820098876953125,
+              18.398345947265625
+            ],
+            "level_0_v006": [
+              7.8301544189453125,
+              18.398345947265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_0_006": {
+          "vertices": [
+            "level_1_v007",
+            "level_1_v006",
+            "level_0_v006",
+            "level_0_v007"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_0_006",
+          "uv": {
+            "level_1_v007": [
+              1.2301483154296875,
+              16.398345947265625
+            ],
+            "level_1_v006": [
+              7.8301544189453125,
+              16.398345947265625
+            ],
+            "level_0_v006": [
+              7.8301544189453125,
+              18.398345947265625
+            ],
+            "level_0_v007": [
+              1.2301483154296875,
+              18.398345947265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_0_007": {
+          "vertices": [
+            "level_1_v000",
+            "level_1_v007",
+            "level_0_v007",
+            "level_0_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_0_007",
+          "uv": {
+            "level_1_v000": [
+              123.12132263183594,
+              9.636810302734375
+            ],
+            "level_1_v007": [
+              124.11126708984375,
+              9.636810302734375
+            ],
+            "level_0_v007": [
+              124.11126708984375,
+              11.636810302734375
+            ],
+            "level_0_v000": [
+              123.12132263183594,
+              11.636810302734375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#1"
+        },
+        "sides_1_000": {
+          "vertices": [
+            "level_1_v001",
+            "level_2_v001",
+            "level_2_v000",
+            "level_1_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_1_000",
+          "uv": {
+            "level_1_v001": [
+              32.0,
+              16.398345947265625
+            ],
+            "level_2_v001": [
+              36.0,
+              13.236068725585938
+            ],
+            "level_2_v000": [
+              42.600006103515625,
+              13.236068725585938
+            ],
+            "level_1_v000": [
+              46.600006103515625,
+              16.398345947265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_1_001": {
+          "vertices": [
+            "level_2_v002",
+            "level_2_v001",
+            "level_1_v001",
+            "level_1_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_1_001",
+          "uv": {
+            "level_2_v002": [
+              24.0,
+              46.0
+            ],
+            "level_2_v001": [
+              24.989944458007812,
+              46.0
+            ],
+            "level_1_v001": [
+              22.868621826171875,
+              50.636810302734375
+            ],
+            "level_1_v002": [
+              21.878677368164062,
+              50.636810302734375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#4"
+        },
+        "sides_1_002": {
+          "vertices": [
+            "level_2_v003",
+            "level_2_v002",
+            "level_1_v002",
+            "level_1_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_1_002",
+          "uv": {
+            "level_2_v003": [
+              31.0,
+              25.0
+            ],
+            "level_2_v002": [
+              35.600006103515625,
+              25.0
+            ],
+            "level_1_v002": [
+              36.600006103515625,
+              30.0
+            ],
+            "level_1_v003": [
+              30.0,
+              30.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#9"
+        },
+        "sides_1_003": {
+          "vertices": [
+            "level_1_v004",
+            "level_2_v004",
+            "level_2_v003",
+            "level_1_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_1_003",
+          "uv": {
+            "level_1_v004": [
+              124.0,
+              23.0
+            ],
+            "level_2_v004": [
+              121.87867736816406,
+              18.363189697265625
+            ],
+            "level_2_v003": [
+              122.86862182617188,
+              18.363189697265625
+            ],
+            "level_1_v003": [
+              124.98994445800781,
+              23.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#13"
+        },
+        "sides_1_004": {
+          "vertices": [
+            "level_1_v005",
+            "level_2_v005",
+            "level_2_v004",
+            "level_1_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_1_004",
+          "uv": {
+            "level_1_v005": [
+              8.820098876953125,
+              16.398345947265625
+            ],
+            "level_2_v005": [
+              12.820098876953125,
+              13.236068725585938
+            ],
+            "level_2_v004": [
+              19.42010498046875,
+              13.236068725585938
+            ],
+            "level_1_v004": [
+              23.42010498046875,
+              16.398345947265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_1_005": {
+          "vertices": [
+            "level_2_v006",
+            "level_2_v005",
+            "level_1_v005",
+            "level_1_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_1_005",
+          "uv": {
+            "level_2_v006": [
+              22.0,
+              53.0
+            ],
+            "level_2_v005": [
+              22.989944458007812,
+              53.0
+            ],
+            "level_1_v005": [
+              20.868621826171875,
+              57.636810302734375
+            ],
+            "level_1_v006": [
+              19.878677368164062,
+              57.636810302734375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#14"
+        },
+        "sides_1_006": {
+          "vertices": [
+            "level_1_v007",
+            "level_2_v007",
+            "level_2_v006",
+            "level_1_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_1_006",
+          "uv": {
+            "level_1_v007": [
+              12.0,
+              51.0
+            ],
+            "level_2_v007": [
+              13.0,
+              46.0
+            ],
+            "level_2_v006": [
+              17.600006103515625,
+              46.0
+            ],
+            "level_1_v006": [
+              18.600006103515625,
+              51.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#10"
+        },
+        "sides_1_007": {
+          "vertices": [
+            "level_1_v000",
+            "level_2_v000",
+            "level_2_v007",
+            "level_1_v007"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_1_007",
+          "uv": {
+            "level_1_v000": [
+              123.12132263183594,
+              9.636810302734375
+            ],
+            "level_2_v000": [
+              121.0,
+              5.0
+            ],
+            "level_2_v007": [
+              121.98994445800781,
+              5.0
+            ],
+            "level_1_v007": [
+              124.11126708984375,
+              9.636810302734375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#1"
+        },
+        "sides_2_000": {
+          "vertices": [
+            "level_2_v001",
+            "level_3_v001",
+            "level_3_v000",
+            "level_2_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_2_000",
+          "uv": {
+            "level_2_v001": [
+              36.0,
+              13.236068725585938
+            ],
+            "level_3_v001": [
+              36.0,
+              9.236068725585938
+            ],
+            "level_3_v000": [
+              42.600006103515625,
+              9.236068725585938
+            ],
+            "level_2_v000": [
+              42.600006103515625,
+              13.236068725585938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_2_001": {
+          "vertices": [
+            "level_2_v002",
+            "level_3_v002",
+            "level_3_v001",
+            "level_2_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_2_001",
+          "uv": {
+            "level_2_v002": [
+              35.01005554199219,
+              13.236068725585938
+            ],
+            "level_3_v002": [
+              35.01005554199219,
+              9.236068725585938
+            ],
+            "level_3_v001": [
+              36.0,
+              9.236068725585938
+            ],
+            "level_2_v001": [
+              36.0,
+              13.236068725585938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_2_002": {
+          "vertices": [
+            "level_2_v003",
+            "level_3_v003",
+            "level_3_v002",
+            "level_2_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_2_002",
+          "uv": {
+            "level_2_v003": [
+              30.410049438476562,
+              13.236068725585938
+            ],
+            "level_3_v003": [
+              30.410049438476562,
+              9.236068725585938
+            ],
+            "level_3_v002": [
+              35.01005554199219,
+              9.236068725585938
+            ],
+            "level_2_v002": [
+              35.01005554199219,
+              13.236068725585938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_2_003": {
+          "vertices": [
+            "level_2_v004",
+            "level_3_v004",
+            "level_3_v003",
+            "level_2_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_2_003",
+          "uv": {
+            "level_2_v004": [
+              121.87867736816406,
+              18.363189697265625
+            ],
+            "level_3_v004": [
+              121.87867736816406,
+              14.363189697265625
+            ],
+            "level_3_v003": [
+              122.86862182617188,
+              14.363189697265625
+            ],
+            "level_2_v003": [
+              122.86862182617188,
+              18.363189697265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#13"
+        },
+        "sides_2_004": {
+          "vertices": [
+            "level_2_v005",
+            "level_3_v005",
+            "level_3_v004",
+            "level_2_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_2_004",
+          "uv": {
+            "level_2_v005": [
+              12.820098876953125,
+              13.236068725585938
+            ],
+            "level_3_v005": [
+              12.820098876953125,
+              9.236068725585938
+            ],
+            "level_3_v004": [
+              19.42010498046875,
+              9.236068725585938
+            ],
+            "level_2_v004": [
+              19.42010498046875,
+              13.236068725585938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_2_005": {
+          "vertices": [
+            "level_3_v006",
+            "level_3_v005",
+            "level_2_v005",
+            "level_2_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_2_005",
+          "uv": {
+            "level_3_v006": [
+              11.830154418945312,
+              9.236068725585938
+            ],
+            "level_3_v005": [
+              12.820098876953125,
+              9.236068725585938
+            ],
+            "level_2_v005": [
+              12.820098876953125,
+              13.236068725585938
+            ],
+            "level_2_v006": [
+              11.830154418945312,
+              13.236068725585938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_2_006": {
+          "vertices": [
+            "level_3_v007",
+            "level_3_v006",
+            "level_2_v006",
+            "level_2_v007"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_2_006",
+          "uv": {
+            "level_3_v007": [
+              7.2301483154296875,
+              9.236068725585938
+            ],
+            "level_3_v006": [
+              11.830154418945312,
+              9.236068725585938
+            ],
+            "level_2_v006": [
+              11.830154418945312,
+              13.236068725585938
+            ],
+            "level_2_v007": [
+              7.2301483154296875,
+              13.236068725585938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_2_007": {
+          "vertices": [
+            "level_3_v000",
+            "level_3_v007",
+            "level_2_v007",
+            "level_2_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_2_007",
+          "uv": {
+            "level_3_v000": [
+              121.0,
+              1.0
+            ],
+            "level_3_v007": [
+              121.98994445800781,
+              1.0
+            ],
+            "level_2_v007": [
+              121.98994445800781,
+              5.0
+            ],
+            "level_2_v000": [
+              121.0,
+              5.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#1"
+        },
+        "sides_3_000": {
+          "vertices": [
+            "level_4_v001",
+            "level_4_v000",
+            "level_3_v000",
+            "level_3_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_3_000",
+          "uv": {
+            "level_4_v001": [
+              31.0,
+              7.0
+            ],
+            "level_4_v000": [
+              48.600006103515625,
+              7.0
+            ],
+            "level_3_v000": [
+              42.600006103515625,
+              9.236068725585938
+            ],
+            "level_3_v001": [
+              36.0,
+              9.236068725585938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_3_001": {
+          "vertices": [
+            "level_3_v002",
+            "level_4_v002",
+            "level_4_v001",
+            "level_3_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_3_001",
+          "uv": {
+            "level_3_v002": [
+              17.6568603515625,
+              33.81352233886719
+            ],
+            "level_4_v002": [
+              14.82843017578125,
+              29.12310791015625
+            ],
+            "level_4_v001": [
+              15.818374633789062,
+              29.12310791015625
+            ],
+            "level_3_v001": [
+              18.646804809570312,
+              33.81352233886719
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#3"
+        },
+        "sides_3_002": {
+          "vertices": [
+            "level_3_v003",
+            "level_4_v003",
+            "level_4_v002",
+            "level_3_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_3_002",
+          "uv": {
+            "level_3_v003": [
+              2.0,
+              35.385162353515625
+            ],
+            "level_4_v003": [
+              1.0,
+              30.0
+            ],
+            "level_4_v002": [
+              7.600006103515625,
+              30.0
+            ],
+            "level_3_v002": [
+              6.600006103515625,
+              35.385162353515625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#8"
+        },
+        "sides_3_003": {
+          "vertices": [
+            "level_4_v004",
+            "level_4_v003",
+            "level_3_v003",
+            "level_3_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_3_003",
+          "uv": {
+            "level_4_v004": [
+              4.0,
+              46.0
+            ],
+            "level_4_v003": [
+              4.9899444580078125,
+              46.0
+            ],
+            "level_3_v003": [
+              2.161529541015625,
+              50.69041442871094
+            ],
+            "level_3_v004": [
+              1.17156982421875,
+              50.69041442871094
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#12"
+        },
+        "sides_3_004": {
+          "vertices": [
+            "level_3_v005",
+            "level_4_v005",
+            "level_4_v004",
+            "level_3_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_3_004",
+          "uv": {
+            "level_3_v005": [
+              12.820098876953125,
+              9.236068725585938
+            ],
+            "level_4_v005": [
+              6.820098876953125,
+              7.0
+            ],
+            "level_4_v004": [
+              24.42010498046875,
+              7.0
+            ],
+            "level_3_v004": [
+              19.42010498046875,
+              9.236068725585938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_3_005": {
+          "vertices": [
+            "level_3_v006",
+            "level_4_v006",
+            "level_4_v005",
+            "level_3_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_3_005",
+          "uv": {
+            "level_3_v006": [
+              7.0,
+              63.0
+            ],
+            "level_4_v006": [
+              3.4644622802734375,
+              57.66145324707031
+            ],
+            "level_4_v005": [
+              4.4544219970703125,
+              57.66145324707031
+            ],
+            "level_3_v005": [
+              7.9899444580078125,
+              63.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#11"
+        },
+        "sides_3_006": {
+          "vertices": [
+            "level_4_v007",
+            "level_4_v006",
+            "level_3_v006",
+            "level_3_v007"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_3_006",
+          "uv": {
+            "level_4_v007": [
+              21.0,
+              25.0
+            ],
+            "level_4_v006": [
+              27.600006103515625,
+              25.0
+            ],
+            "level_3_v006": [
+              26.600006103515625,
+              31.324554443359375
+            ],
+            "level_3_v007": [
+              22.0,
+              31.324554443359375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#6"
+        },
+        "sides_3_007": {
+          "vertices": [
+            "level_4_v000",
+            "level_4_v007",
+            "level_3_v007",
+            "level_3_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_3_007",
+          "uv": {
+            "level_4_v000": [
+              13.878677368164062,
+              56.67424011230469
+            ],
+            "level_4_v007": [
+              14.868621826171875,
+              56.67424011230469
+            ],
+            "level_3_v007": [
+              11.333099365234375,
+              62.01277160644531
+            ],
+            "level_3_v000": [
+              10.3431396484375,
+              62.01277160644531
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#2"
+        },
+        "sides_4_000": {
+          "vertices": [
+            "level_4_v001",
+            "level_5_v001",
+            "level_5_v000",
+            "level_4_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_4_000",
+          "uv": {
+            "level_4_v001": [
+              31.0,
+              7.0
+            ],
+            "level_5_v001": [
+              27.0,
+              4.0
+            ],
+            "level_5_v000": [
+              51.600006103515625,
+              4.0
+            ],
+            "level_4_v000": [
+              48.600006103515625,
+              7.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_4_001": {
+          "vertices": [
+            "level_4_v002",
+            "level_5_v002",
+            "level_5_v001",
+            "level_4_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_4_001",
+          "uv": {
+            "level_4_v002": [
+              14.82843017578125,
+              29.12310791015625
+            ],
+            "level_5_v002": [
+              12.0,
+              25.0
+            ],
+            "level_5_v001": [
+              12.989944458007812,
+              25.0
+            ],
+            "level_4_v001": [
+              15.818374633789062,
+              29.12310791015625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#3"
+        },
+        "sides_4_002": {
+          "vertices": [
+            "level_4_v003",
+            "level_5_v003",
+            "level_5_v002",
+            "level_4_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_4_002",
+          "uv": {
+            "level_4_v003": [
+              1.0,
+              30.0
+            ],
+            "level_5_v003": [
+              1.0,
+              25.0
+            ],
+            "level_5_v002": [
+              7.600006103515625,
+              25.0
+            ],
+            "level_4_v002": [
+              7.600006103515625,
+              30.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#8"
+        },
+        "sides_4_003": {
+          "vertices": [
+            "level_5_v004",
+            "level_5_v003",
+            "level_4_v003",
+            "level_4_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_4_003",
+          "uv": {
+            "level_5_v004": [
+              6.82843017578125,
+              41.87689208984375
+            ],
+            "level_5_v003": [
+              7.8183746337890625,
+              41.87689208984375
+            ],
+            "level_4_v003": [
+              4.9899444580078125,
+              46.0
+            ],
+            "level_4_v004": [
+              4.0,
+              46.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#12"
+        },
+        "sides_4_004": {
+          "vertices": [
+            "level_5_v005",
+            "level_5_v004",
+            "level_4_v004",
+            "level_4_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_4_004",
+          "uv": {
+            "level_5_v005": [
+              19.0,
+              60.0
+            ],
+            "level_5_v004": [
+              43.600006103515625,
+              60.0
+            ],
+            "level_4_v004": [
+              39.600006103515625,
+              63.0
+            ],
+            "level_4_v005": [
+              22.0,
+              63.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#15"
+        },
+        "sides_4_005": {
+          "vertices": [
+            "level_4_v006",
+            "level_5_v006",
+            "level_5_v005",
+            "level_4_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_4_005",
+          "uv": {
+            "level_4_v006": [
+              3.4644622802734375,
+              57.66145324707031
+            ],
+            "level_5_v006": [
+              1.3431396484375,
+              53.98722839355469
+            ],
+            "level_5_v005": [
+              2.333099365234375,
+              53.98722839355469
+            ],
+            "level_4_v005": [
+              4.4544219970703125,
+              57.66145324707031
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#11"
+        },
+        "sides_4_006": {
+          "vertices": [
+            "level_5_v007",
+            "level_5_v006",
+            "level_4_v006",
+            "level_4_v007"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_4_006",
+          "uv": {
+            "level_5_v007": [
+              52.58995056152344,
+              4.0
+            ],
+            "level_5_v006": [
+              59.18995666503906,
+              4.0
+            ],
+            "level_4_v006": [
+              59.18995666503906,
+              8.242645263671875
+            ],
+            "level_4_v007": [
+              52.58995056152344,
+              8.242645263671875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_4_007": {
+          "vertices": [
+            "level_5_v000",
+            "level_5_v007",
+            "level_4_v007",
+            "level_4_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_4_007",
+          "uv": {
+            "level_5_v000": [
+              16.0,
+              53.0
+            ],
+            "level_5_v007": [
+              16.989944458007812,
+              53.0
+            ],
+            "level_4_v007": [
+              14.868621826171875,
+              56.67424011230469
+            ],
+            "level_4_v000": [
+              13.878677368164062,
+              56.67424011230469
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#2"
+        },
+        "sides_5_000": {
+          "vertices": [
+            "level_5_v001",
+            "level_6_v001",
+            "level_6_v000",
+            "level_5_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_5_000",
+          "uv": {
+            "level_5_v001": [
+              27.0,
+              4.0
+            ],
+            "level_6_v001": [
+              25.0,
+              1.0
+            ],
+            "level_6_v000": [
+              51.600006103515625,
+              1.0
+            ],
+            "level_5_v000": [
+              51.600006103515625,
+              4.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_5_001": {
+          "vertices": [
+            "level_5_v002",
+            "level_6_v002",
+            "level_6_v001",
+            "level_5_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_5_001",
+          "uv": {
+            "level_5_v002": [
+              12.0,
+              25.0
+            ],
+            "level_6_v002": [
+              10.585784912109375,
+              21.683380126953125
+            ],
+            "level_6_v001": [
+              11.575729370117188,
+              21.683380126953125
+            ],
+            "level_5_v001": [
+              12.989944458007812,
+              25.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#3"
+        },
+        "sides_5_002": {
+          "vertices": [
+            "level_5_v003",
+            "level_6_v003",
+            "level_6_v002",
+            "level_5_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_5_002",
+          "uv": {
+            "level_5_v003": [
+              1.0,
+              25.0
+            ],
+            "level_6_v003": [
+              1.0,
+              21.394454956054688
+            ],
+            "level_6_v002": [
+              7.600006103515625,
+              21.394454956054688
+            ],
+            "level_5_v002": [
+              7.600006103515625,
+              25.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#8"
+        },
+        "sides_5_003": {
+          "vertices": [
+            "level_6_v004",
+            "level_6_v003",
+            "level_5_v003",
+            "level_5_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_5_003",
+          "uv": {
+            "level_6_v004": [
+              8.242645263671875,
+              38.560272216796875
+            ],
+            "level_6_v003": [
+              9.232589721679688,
+              38.560272216796875
+            ],
+            "level_5_v003": [
+              7.8183746337890625,
+              41.87689208984375
+            ],
+            "level_5_v004": [
+              6.82843017578125,
+              41.87689208984375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#12"
+        },
+        "sides_5_004": {
+          "vertices": [
+            "level_6_v005",
+            "level_6_v004",
+            "level_5_v004",
+            "level_5_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_5_004",
+          "uv": {
+            "level_6_v005": [
+              60.179901123046875,
+              1.0
+            ],
+            "level_6_v004": [
+              86.77989196777344,
+              1.0
+            ],
+            "level_5_v004": [
+              84.77989196777344,
+              4.0
+            ],
+            "level_5_v005": [
+              60.179901123046875,
+              4.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_5_005": {
+          "vertices": [
+            "level_6_v006",
+            "level_6_v005",
+            "level_5_v005",
+            "level_5_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_5_005",
+          "uv": {
+            "level_6_v006": [
+              59.18995666503906,
+              1.0
+            ],
+            "level_6_v005": [
+              60.179901123046875,
+              1.0
+            ],
+            "level_5_v005": [
+              60.179901123046875,
+              4.0
+            ],
+            "level_5_v006": [
+              59.18995666503906,
+              4.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_5_006": {
+          "vertices": [
+            "level_6_v007",
+            "level_6_v006",
+            "level_5_v006",
+            "level_5_v007"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_5_006",
+          "uv": {
+            "level_6_v007": [
+              52.58995056152344,
+              1.0
+            ],
+            "level_6_v006": [
+              59.18995666503906,
+              1.0
+            ],
+            "level_5_v006": [
+              59.18995666503906,
+              4.0
+            ],
+            "level_5_v007": [
+              52.58995056152344,
+              4.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sides_5_007": {
+          "vertices": [
+            "level_6_v000",
+            "level_6_v007",
+            "level_5_v007",
+            "level_5_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "sides_5_007",
+          "uv": {
+            "level_6_v000": [
+              51.600006103515625,
+              1.0
+            ],
+            "level_6_v007": [
+              52.58995056152344,
+              1.0
+            ],
+            "level_5_v007": [
+              52.58995056152344,
+              4.0
+            ],
+            "level_5_v000": [
+              51.600006103515625,
+              4.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#0"
+        },
+        "sole_000": {
+          "vertices": [
+            "level_0_v001",
+            "level_0_v000",
+            "sole_center",
+            "level_0_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "sole",
+          "model_as_code_source_face": "sole_000",
+          "uv": {
+            "level_0_v001": [
+              13.0,
+              36.0
+            ],
+            "level_0_v000": [
+              27.600006103515625,
+              36.0
+            ],
+            "sole_center": [
+              20.300003051757812,
+              40.0
+            ],
+            "level_0_v002": [
+              12.300003051757812,
+              36.69999694824219
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#7"
+        },
+        "sole_001": {
+          "vertices": [
+            "level_0_v004",
+            "level_0_v003",
+            "level_0_v002",
+            "sole_center"
+          ],
+          "texture": 0,
+          "model_as_code_group": "sole",
+          "model_as_code_source_face": "sole_001",
+          "uv": {
+            "level_0_v004": [
+              13.0,
+              44.0
+            ],
+            "level_0_v003": [
+              12.300003051757812,
+              43.30000305175781
+            ],
+            "level_0_v002": [
+              12.300003051757812,
+              36.69999694824219
+            ],
+            "sole_center": [
+              20.300003051757812,
+              40.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#7"
+        },
+        "sole_002": {
+          "vertices": [
+            "level_0_v005",
+            "level_0_v004",
+            "sole_center",
+            "level_0_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "sole",
+          "model_as_code_source_face": "sole_002",
+          "uv": {
+            "level_0_v005": [
+              27.600006103515625,
+              44.0
+            ],
+            "level_0_v004": [
+              13.0,
+              44.0
+            ],
+            "sole_center": [
+              20.300003051757812,
+              40.0
+            ],
+            "level_0_v006": [
+              28.300003051757812,
+              43.30000305175781
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#7"
+        },
+        "sole_003": {
+          "vertices": [
+            "level_0_v000",
+            "level_0_v007",
+            "level_0_v006",
+            "sole_center"
+          ],
+          "texture": 0,
+          "model_as_code_group": "sole",
+          "model_as_code_source_face": "sole_003",
+          "uv": {
+            "level_0_v000": [
+              27.600006103515625,
+              36.0
+            ],
+            "level_0_v007": [
+              28.300003051757812,
+              36.69999694824219
+            ],
+            "level_0_v006": [
+              28.300003051757812,
+              43.30000305175781
+            ],
+            "sole_center": [
+              20.300003051757812,
+              40.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#7"
+        },
+        "face_000": {
+          "vertices": [
+            "face_center",
+            "level_6_v000",
+            "level_6_v001",
+            "level_6_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "face",
+          "model_as_code_source_face": "face_000",
+          "uv": {
+            "face_center": [
+              104.0,
+              9.0
+            ],
+            "level_6_v000": [
+              117.88848876953125,
+              9.0
+            ],
+            "level_6_v001": [
+              92.41558837890625,
+              16.661026000976562
+            ],
+            "level_6_v002": [
+              91.54364013671875,
+              16.192291259765625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#5"
+        },
+        "face_001": {
+          "vertices": [
+            "level_6_v002",
+            "level_6_v003",
+            "level_6_v004",
+            "face_center"
+          ],
+          "texture": 0,
+          "model_as_code_group": "face",
+          "model_as_code_source_face": "face_001",
+          "uv": {
+            "level_6_v002": [
+              91.54364013671875,
+              16.192291259765625
+            ],
+            "level_6_v003": [
+              89.64277648925781,
+              9.8719482421875
+            ],
+            "level_6_v004": [
+              90.11151123046875,
+              9.0
+            ],
+            "face_center": [
+              104.0,
+              9.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#5"
+        },
+        "face_002": {
+          "vertices": [
+            "face_center",
+            "level_6_v004",
+            "level_6_v005",
+            "level_6_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "face",
+          "model_as_code_source_face": "face_002",
+          "uv": {
+            "face_center": [
+              104.0,
+              9.0
+            ],
+            "level_6_v004": [
+              90.11151123046875,
+              9.0
+            ],
+            "level_6_v005": [
+              115.58441162109375,
+              1.3389739990234375
+            ],
+            "level_6_v006": [
+              116.45635986328125,
+              1.807708740234375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#5"
+        },
+        "face_003": {
+          "vertices": [
+            "level_6_v006",
+            "level_6_v007",
+            "level_6_v000",
+            "face_center"
+          ],
+          "texture": 0,
+          "model_as_code_group": "face",
+          "model_as_code_source_face": "face_003",
+          "uv": {
+            "level_6_v006": [
+              116.45635986328125,
+              1.807708740234375
+            ],
+            "level_6_v007": [
+              118.35722351074219,
+              8.1280517578125
+            ],
+            "level_6_v000": [
+              117.88848876953125,
+              9.0
+            ],
+            "face_center": [
+              104.0,
+              9.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "anvil#5"
+        }
+      },
+      "type": "mesh",
+      "uuid": "4b47461d-730f-59b5-a80d-5dbf9d56aa52",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "level_0": [
+            0,
+            0,
+            0
+          ],
+          "level_1": [
+            0,
+            2,
+            0
+          ],
+          "level_2": [
+            0,
+            5,
+            0
+          ],
+          "level_3": [
+            0,
+            9,
+            0
+          ],
+          "level_4": [
+            0,
+            11,
+            0
+          ],
+          "level_5": [
+            0,
+            14,
+            0
+          ],
+          "level_6": [
+            0,
+            17,
+            0
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "level_0": [
+            "level_0_v000",
+            "level_0_v001",
+            "level_0_v002",
+            "level_0_v003",
+            "level_0_v004",
+            "level_0_v005",
+            "level_0_v006",
+            "level_0_v007"
+          ],
+          "level_1": [
+            "level_1_v000",
+            "level_1_v001",
+            "level_1_v002",
+            "level_1_v003",
+            "level_1_v004",
+            "level_1_v005",
+            "level_1_v006",
+            "level_1_v007"
+          ],
+          "level_2": [
+            "level_2_v000",
+            "level_2_v001",
+            "level_2_v002",
+            "level_2_v003",
+            "level_2_v004",
+            "level_2_v005",
+            "level_2_v006",
+            "level_2_v007"
+          ],
+          "level_3": [
+            "level_3_v000",
+            "level_3_v001",
+            "level_3_v002",
+            "level_3_v003",
+            "level_3_v004",
+            "level_3_v005",
+            "level_3_v006",
+            "level_3_v007"
+          ],
+          "level_4": [
+            "level_4_v000",
+            "level_4_v001",
+            "level_4_v002",
+            "level_4_v003",
+            "level_4_v004",
+            "level_4_v005",
+            "level_4_v006",
+            "level_4_v007"
+          ],
+          "level_5": [
+            "level_5_v000",
+            "level_5_v001",
+            "level_5_v002",
+            "level_5_v003",
+            "level_5_v004",
+            "level_5_v005",
+            "level_5_v006",
+            "level_5_v007"
+          ],
+          "level_6": [
+            "level_6_v000",
+            "level_6_v001",
+            "level_6_v002",
+            "level_6_v003",
+            "level_6_v004",
+            "level_6_v005",
+            "level_6_v006",
+            "level_6_v007"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "level_0": [
+            0,
+            0,
+            0
+          ],
+          "level_1": [
+            0,
+            2,
+            0
+          ],
+          "level_2": [
+            0,
+            5,
+            0
+          ],
+          "level_3": [
+            0,
+            9,
+            0
+          ],
+          "level_4": [
+            0,
+            11,
+            0
+          ],
+          "level_5": [
+            0,
+            14,
+            0
+          ],
+          "level_6": [
+            0,
+            17,
+            0
+          ]
+        },
+        "frames": {
+          "level_0": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "level_1": {
+            "origin": [
+              0,
+              2,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "level_2": {
+            "origin": [
+              0,
+              5,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "level_3": {
+            "origin": [
+              0,
+              9,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "level_4": {
+            "origin": [
+              0,
+              11,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "level_5": {
+            "origin": [
+              0,
+              14,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "level_6": {
+            "origin": [
+              0,
+              17,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "root",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "export": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "model_as_code_role": "folder"
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "isOpen": true,
+      "children": [
+        "4b47461d-730f-59b5-a80d-5dbf9d56aa52"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "f7979773-f48e-40d2-b29d-887d97b21eb8",
+      "id": "0",
+      "name": "texture.png",
+      "relative_path": "texture.png",
+      "width": 128,
+      "height": 64,
+      "uv_width": 128,
+      "uv_height": 64,
+      "mode": "link",
+      "internal": false,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false
+    }
+  ],
+  "animations": [],
+  "resolution": {
+    "width": 128,
+    "height": 64
+  }
+}

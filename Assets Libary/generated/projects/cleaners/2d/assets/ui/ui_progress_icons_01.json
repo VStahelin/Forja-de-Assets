@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "project": "cleaners",
+    "mode": "strip",
+    "frameCount": 5,
+    "frameWidth": 10,
+    "frameHeight": 10,
+    "fps": 5,
+    "width": 50,
+    "height": 10,
+    "scale": 1,
+    "format": "png",
+    "image": "ui_progress_icons_01.png",
+    "animations": {
+      "merit": [
+        0
+      ],
+      "coin": [
+        1
+      ],
+      "star": [
+        2
+      ],
+      "pin": [
+        3
+      ],
+      "seal": [
+        4
+      ]
+    }
+  },
+  "frames": {
+    "frame_0": {
+      "x": 0,
+      "y": 0,
+      "width": 10,
+      "height": 10,
+      "logical": {
+        "x": 0,
+        "y": 0,
+        "width": 10,
+        "height": 10
+      }
+    },
+    "frame_1": {
+      "x": 10,
+      "y": 0,
+      "width": 10,
+      "height": 10,
+      "logical": {
+        "x": 10,
+        "y": 0,
+        "width": 10,
+        "height": 10
+      }
+    },
+    "frame_2": {
+      "x": 20,
+      "y": 0,
+      "width": 10,
+      "height": 10,
+      "logical": {
+        "x": 20,
+        "y": 0,
+        "width": 10,
+        "height": 10
+      }
+    },
+    "frame_3": {
+      "x": 30,
+      "y": 0,
+      "width": 10,
+      "height": 10,
+      "logical": {
+        "x": 30,
+        "y": 0,
+        "width": 10,
+        "height": 10
+      }
+    },
+    "frame_4": {
+      "x": 40,
+      "y": 0,
+      "width": 10,
+      "height": 10,
+      "logical": {
+        "x": 40,
+        "y": 0,
+        "width": 10,
+        "height": 10
+      }
+    }
+  }
+}

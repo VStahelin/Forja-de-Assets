@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "env_vault_groin_4x4/exports/env_vault_groin_4x4.glb",
+      "runtime_role": "default"
+    }
+  ]
+}

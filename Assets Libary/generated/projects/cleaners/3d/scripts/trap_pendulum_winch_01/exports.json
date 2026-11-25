@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "engine/SK_Trap_PendulumWinch_01.glb",
+      "runtime_role": "default"
+    }
+  ]
+}

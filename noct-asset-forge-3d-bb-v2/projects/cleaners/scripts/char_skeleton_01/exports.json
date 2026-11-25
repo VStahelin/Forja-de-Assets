@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "char_skeleton_01/exports/char_skeleton_01.glb",
+      "runtime_role": "default"
+    }
+  ]
+}

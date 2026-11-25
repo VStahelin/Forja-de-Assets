@@ -1,0 +1,4907 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "env_column_round_2m",
+  "model_identifier": "",
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {
+    "model_as_code": {
+      "version": 3,
+      "uv_ready": true,
+      "modeling_mode": "free",
+      "orientation": {
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "validation_policy": {
+        "check_coplanar": true
+      },
+      "sockets": {},
+      "chains": {},
+      "armature_chains": {},
+      "binding_policies": {},
+      "uv_packing": {
+        "start_size": [
+          32,
+          32
+        ],
+        "allow_rectangular": true,
+        "uv_scale": 8,
+        "max_size": 1024,
+        "fixed_texture_size": false,
+        "island_padding": 1,
+        "require_integer_uvs": false,
+        "layout": "charts"
+      }
+    }
+  },
+  "elements": [
+    {
+      "name": "base",
+      "color": 0,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "b0": [
+          6.208470458475847,
+          0,
+          2.571632665493403
+        ],
+        "b1": [
+          2.5716326654934036,
+          0,
+          6.208470458475847
+        ],
+        "b2": [
+          -2.5716326654934027,
+          0,
+          6.208470458475847
+        ],
+        "b3": [
+          -6.208470458475847,
+          0,
+          2.571632665493404
+        ],
+        "b4": [
+          -6.208470458475848,
+          0,
+          -2.5716326654934023
+        ],
+        "b5": [
+          -2.571632665493407,
+          0,
+          -6.208470458475845
+        ],
+        "b6": [
+          2.5716326654934045,
+          0,
+          -6.208470458475846
+        ],
+        "b7": [
+          6.208470458475845,
+          0,
+          -2.571632665493407
+        ],
+        "bc": [
+          0,
+          0,
+          0
+        ],
+        "t0": [
+          6.208470458475847,
+          2.88,
+          2.571632665493403
+        ],
+        "t1": [
+          2.5716326654934036,
+          2.88,
+          6.208470458475847
+        ],
+        "t2": [
+          -2.5716326654934027,
+          2.88,
+          6.208470458475847
+        ],
+        "t3": [
+          -6.208470458475847,
+          2.88,
+          2.571632665493404
+        ],
+        "t4": [
+          -6.208470458475848,
+          2.88,
+          -2.5716326654934023
+        ],
+        "t5": [
+          -2.571632665493407,
+          2.88,
+          -6.208470458475845
+        ],
+        "t6": [
+          2.5716326654934045,
+          2.88,
+          -6.208470458475846
+        ],
+        "t7": [
+          6.208470458475845,
+          2.88,
+          -2.571632665493407
+        ],
+        "tc": [
+          0,
+          2.88,
+          0
+        ]
+      },
+      "faces": {
+        "side0": {
+          "vertices": [
+            "b0",
+            "t0",
+            "t1",
+            "b1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0",
+          "uv": {
+            "b0": [
+              355.8538818359375,
+              235.0
+            ],
+            "t0": [
+              355.8538818359375,
+              211.9600067138672
+            ],
+            "t1": [
+              397.0,
+              211.9600067138672
+            ],
+            "b1": [
+              397.0,
+              235.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#0"
+        },
+        "bot0": {
+          "vertices": [
+            "bc",
+            "b0",
+            "b1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot0",
+          "uv": {
+            "bc": [
+              60.0,
+              40.0
+            ],
+            "b0": [
+              98.01405334472656,
+              78.01405334472656
+            ],
+            "b1": [
+              60.0,
+              93.75999450683594
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#4"
+        },
+        "top0": {
+          "vertices": [
+            "tc",
+            "t1",
+            "t0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top0",
+          "uv": {
+            "tc": [
+              1.0,
+              436.0
+            ],
+            "t1": [
+              39.01405334472656,
+              397.98594665527344
+            ],
+            "t0": [
+              54.75999450683594,
+              436.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#2"
+        },
+        "side1": {
+          "vertices": [
+            "b1",
+            "t1",
+            "t2",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side1",
+          "uv": {
+            "b1": [
+              405.0,
+              218.0
+            ],
+            "t1": [
+              405.0,
+              194.9600067138672
+            ],
+            "t2": [
+              446.1461181640625,
+              194.9600067138672
+            ],
+            "b2": [
+              446.1461181640625,
+              218.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#6"
+        },
+        "bot1": {
+          "vertices": [
+            "bc",
+            "b1",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot1",
+          "uv": {
+            "bc": [
+              372.0,
+              139.0
+            ],
+            "b1": [
+              425.75999450683594,
+              139.0
+            ],
+            "b2": [
+              410.01405334472656,
+              177.01405334472656
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#9"
+        },
+        "top1": {
+          "vertices": [
+            "tc",
+            "t2",
+            "t1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top1",
+          "uv": {
+            "tc": [
+              116.0,
+              145.0
+            ],
+            "t2": [
+              169.75999450683594,
+              145.0
+            ],
+            "t1": [
+              154.01405334472656,
+              183.01405334472656
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#10"
+        },
+        "side2": {
+          "vertices": [
+            "t2",
+            "t3",
+            "b3",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side2",
+          "uv": {
+            "t2": [
+              273.0,
+              237.9600067138672
+            ],
+            "t3": [
+              314.1461181640625,
+              237.9600067138672
+            ],
+            "b3": [
+              314.1461181640625,
+              261.0
+            ],
+            "b2": [
+              273.0,
+              261.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#1",
+          "model_as_code_mirror": [
+            "base",
+            "side0"
+          ]
+        },
+        "bot2": {
+          "vertices": [
+            "bc",
+            "b2",
+            "b3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot2",
+          "uv": {
+            "bc": [
+              114.0,
+              135.0
+            ],
+            "b2": [
+              114.0,
+              188.75999450683594
+            ],
+            "b3": [
+              75.98594665527344,
+              173.01405334472656
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#5",
+          "model_as_code_mirror": [
+            "base",
+            "bot0"
+          ]
+        },
+        "top2": {
+          "vertices": [
+            "tc",
+            "t3",
+            "t2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top2",
+          "uv": {
+            "tc": [
+              111.0,
+              436.0
+            ],
+            "t3": [
+              57.24000549316406,
+              436.0
+            ],
+            "t2": [
+              72.98594665527344,
+              397.98594665527344
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#3",
+          "model_as_code_mirror": [
+            "base",
+            "top0"
+          ]
+        },
+        "side3": {
+          "vertices": [
+            "t3",
+            "t4",
+            "b4",
+            "b3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side3",
+          "uv": {
+            "t3": [
+              314.1461181640625,
+              237.9600067138672
+            ],
+            "t4": [
+              355.292236328125,
+              237.9600067138672
+            ],
+            "b4": [
+              355.292236328125,
+              261.0
+            ],
+            "b3": [
+              314.1461181640625,
+              261.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#1",
+          "model_as_code_mirror": [
+            "base",
+            "side7"
+          ]
+        },
+        "bot3": {
+          "vertices": [
+            "bc",
+            "b3",
+            "b4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot3",
+          "uv": {
+            "bc": [
+              114.0,
+              135.0
+            ],
+            "b3": [
+              75.98594665527344,
+              173.01405334472656
+            ],
+            "b4": [
+              60.24000549316406,
+              135.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#5",
+          "model_as_code_mirror": [
+            "base",
+            "bot7"
+          ]
+        },
+        "top3": {
+          "vertices": [
+            "tc",
+            "t4",
+            "t3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top3",
+          "uv": {
+            "tc": [
+              111.0,
+              436.0
+            ],
+            "t4": [
+              72.98594665527344,
+              474.01405334472656
+            ],
+            "t3": [
+              57.24000549316406,
+              436.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#3",
+          "model_as_code_mirror": [
+            "base",
+            "top7"
+          ]
+        },
+        "side4": {
+          "vertices": [
+            "t4",
+            "t5",
+            "b5",
+            "b4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side4",
+          "uv": {
+            "t4": [
+              355.292236328125,
+              237.9600067138672
+            ],
+            "t5": [
+              396.43836975097656,
+              237.9600067138672
+            ],
+            "b5": [
+              396.43836975097656,
+              261.0
+            ],
+            "b4": [
+              355.292236328125,
+              261.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#1",
+          "model_as_code_mirror": [
+            "base",
+            "side6"
+          ]
+        },
+        "bot4": {
+          "vertices": [
+            "bc",
+            "b4",
+            "b5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot4",
+          "uv": {
+            "bc": [
+              114.0,
+              135.0
+            ],
+            "b4": [
+              60.24000549316406,
+              135.0
+            ],
+            "b5": [
+              75.98594665527344,
+              96.98594665527344
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#5",
+          "model_as_code_mirror": [
+            "base",
+            "bot6"
+          ]
+        },
+        "top4": {
+          "vertices": [
+            "tc",
+            "t5",
+            "t4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top4",
+          "uv": {
+            "tc": [
+              111.0,
+              436.0
+            ],
+            "t5": [
+              111.0,
+              489.75999450683594
+            ],
+            "t4": [
+              72.98594665527344,
+              474.01405334472656
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#3",
+          "model_as_code_mirror": [
+            "base",
+            "top6"
+          ]
+        },
+        "side5": {
+          "vertices": [
+            "b5",
+            "t5",
+            "t6",
+            "b6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side5",
+          "uv": {
+            "b5": [
+              428.0,
+              192.0
+            ],
+            "t5": [
+              428.0,
+              168.9600067138672
+            ],
+            "t6": [
+              469.1461181640625,
+              168.9600067138672
+            ],
+            "b6": [
+              469.1461181640625,
+              192.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#11"
+        },
+        "bot5": {
+          "vertices": [
+            "bc",
+            "b5",
+            "b6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot5",
+          "uv": {
+            "bc": [
+              429.0,
+              127.0
+            ],
+            "b5": [
+              482.75999450683594,
+              127.0
+            ],
+            "b6": [
+              467.01405334472656,
+              165.01405334472656
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#7"
+        },
+        "top5": {
+          "vertices": [
+            "tc",
+            "t6",
+            "t5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top5",
+          "uv": {
+            "tc": [
+              316.0,
+              139.0
+            ],
+            "t6": [
+              369.75999450683594,
+              139.0
+            ],
+            "t5": [
+              354.01405334472656,
+              177.01405334472656
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#8"
+        },
+        "side6": {
+          "vertices": [
+            "b6",
+            "t6",
+            "t7",
+            "b7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side6",
+          "uv": {
+            "b6": [
+              273.56163024902344,
+              235.0
+            ],
+            "t6": [
+              273.56163024902344,
+              211.9600067138672
+            ],
+            "t7": [
+              314.707763671875,
+              211.9600067138672
+            ],
+            "b7": [
+              314.707763671875,
+              235.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#0"
+        },
+        "bot6": {
+          "vertices": [
+            "bc",
+            "b6",
+            "b7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot6",
+          "uv": {
+            "bc": [
+              60.0,
+              40.0
+            ],
+            "b6": [
+              98.01405334472656,
+              1.9859466552734375
+            ],
+            "b7": [
+              113.75999450683594,
+              40.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#4"
+        },
+        "top6": {
+          "vertices": [
+            "tc",
+            "t7",
+            "t6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top6",
+          "uv": {
+            "tc": [
+              1.0,
+              436.0
+            ],
+            "t7": [
+              39.01405334472656,
+              474.01405334472656
+            ],
+            "t6": [
+              1.0,
+              489.75999450683594
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#2"
+        },
+        "side7": {
+          "vertices": [
+            "b7",
+            "t7",
+            "t0",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side7",
+          "uv": {
+            "b7": [
+              314.707763671875,
+              235.0
+            ],
+            "t7": [
+              314.707763671875,
+              211.9600067138672
+            ],
+            "t0": [
+              355.8538818359375,
+              211.9600067138672
+            ],
+            "b0": [
+              355.8538818359375,
+              235.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#0"
+        },
+        "bot7": {
+          "vertices": [
+            "bc",
+            "b7",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot7",
+          "uv": {
+            "bc": [
+              60.0,
+              40.0
+            ],
+            "b7": [
+              113.75999450683594,
+              40.0
+            ],
+            "b0": [
+              98.01405334472656,
+              78.01405334472656
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#4"
+        },
+        "top7": {
+          "vertices": [
+            "tc",
+            "t0",
+            "t7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top7",
+          "uv": {
+            "tc": [
+              1.0,
+              436.0
+            ],
+            "t0": [
+              54.75999450683594,
+              436.0
+            ],
+            "t7": [
+              39.01405334472656,
+              474.01405334472656
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "base#2"
+        }
+      },
+      "type": "mesh",
+      "uuid": "6e208be8-e526-5581-b420-4f49a9821b1a",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "drum0",
+      "color": 0,
+      "origin": [
+        0,
+        2.88,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "b0": [
+          4.260733193002288,
+          0,
+          1.3843961347997644
+        ],
+        "b1": [
+          2.63327793027028,
+          0,
+          3.624396134799765
+        ],
+        "b2": [
+          2.7432088300900715e-16,
+          0,
+          4.48
+        ],
+        "b3": [
+          -2.6332779302702796,
+          0,
+          3.624396134799765
+        ],
+        "b4": [
+          -4.260733193002288,
+          0,
+          1.3843961347997649
+        ],
+        "b5": [
+          -4.260733193002289,
+          0,
+          -1.384396134799764
+        ],
+        "b6": [
+          -2.6332779302702805,
+          0,
+          -3.6243961347997646
+        ],
+        "b7": [
+          -8.229626490270214e-16,
+          0,
+          -4.48
+        ],
+        "b8": [
+          2.633277930270279,
+          0,
+          -3.6243961347997655
+        ],
+        "b9": [
+          4.260733193002288,
+          0,
+          -1.3843961347997658
+        ],
+        "bc": [
+          0,
+          0,
+          0
+        ],
+        "t0": [
+          4.260733193002288,
+          8.64,
+          1.3843961347997644
+        ],
+        "t1": [
+          2.63327793027028,
+          8.64,
+          3.624396134799765
+        ],
+        "t2": [
+          2.7432088300900715e-16,
+          8.64,
+          4.48
+        ],
+        "t3": [
+          -2.6332779302702796,
+          8.64,
+          3.624396134799765
+        ],
+        "t4": [
+          -4.260733193002288,
+          8.64,
+          1.3843961347997649
+        ],
+        "t5": [
+          -4.260733193002289,
+          8.64,
+          -1.384396134799764
+        ],
+        "t6": [
+          -2.6332779302702805,
+          8.64,
+          -3.6243961347997646
+        ],
+        "t7": [
+          -8.229626490270214e-16,
+          8.64,
+          -4.48
+        ],
+        "t8": [
+          2.633277930270279,
+          8.64,
+          -3.6243961347997655
+        ],
+        "t9": [
+          4.260733193002288,
+          8.64,
+          -1.3843961347997658
+        ],
+        "tc": [
+          0,
+          8.64,
+          0
+        ]
+      },
+      "faces": {
+        "side0": {
+          "vertices": [
+            "b0",
+            "t0",
+            "t1",
+            "b1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0",
+          "uv": {
+            "b0": [
+              126.69931030273438,
+              261.0
+            ],
+            "t0": [
+              126.69931030273438,
+              191.8800048828125
+            ],
+            "t1": [
+              148.8496551513672,
+              191.8800048828125
+            ],
+            "b1": [
+              148.8496551513672,
+              261.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#0"
+        },
+        "bot0": {
+          "vertices": [
+            "bc",
+            "b0",
+            "b1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot0",
+          "uv": {
+            "bc": [
+              178.0,
+              36.0
+            ],
+            "b0": [
+              206.9951629638672,
+              57.06622314453125
+            ],
+            "b1": [
+              189.07516479492188,
+              70.08586120605469
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#4"
+        },
+        "top0": {
+          "vertices": [
+            "tc",
+            "t1",
+            "t0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top0",
+          "uv": {
+            "tc": [
+              128.0,
+              36.0
+            ],
+            "t1": [
+              156.9951629638672,
+              14.93377685546875
+            ],
+            "t0": [
+              163.83999633789062,
+              36.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#2"
+        },
+        "side1": {
+          "vertices": [
+            "b1",
+            "t1",
+            "t2",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side1",
+          "uv": {
+            "b1": [
+              148.8496551513672,
+              261.0
+            ],
+            "t1": [
+              148.8496551513672,
+              191.8800048828125
+            ],
+            "t2": [
+              171.0,
+              191.8800048828125
+            ],
+            "b2": [
+              171.0,
+              261.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#0"
+        },
+        "bot1": {
+          "vertices": [
+            "bc",
+            "b1",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot1",
+          "uv": {
+            "bc": [
+              178.0,
+              36.0
+            ],
+            "b1": [
+              189.07516479492188,
+              70.08586120605469
+            ],
+            "b2": [
+              166.92483520507812,
+              70.08586120605469
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#4"
+        },
+        "top1": {
+          "vertices": [
+            "tc",
+            "t2",
+            "t1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top1",
+          "uv": {
+            "tc": [
+              128.0,
+              36.0
+            ],
+            "t2": [
+              139.07516479492188,
+              1.9141387939453125
+            ],
+            "t1": [
+              156.9951629638672,
+              14.93377685546875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#2"
+        },
+        "side2": {
+          "vertices": [
+            "t2",
+            "t3",
+            "b3",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side2",
+          "uv": {
+            "t2": [
+              60.0,
+              263.8800048828125
+            ],
+            "t3": [
+              82.15034484863281,
+              263.8800048828125
+            ],
+            "b3": [
+              82.15034484863281,
+              333.0
+            ],
+            "b2": [
+              60.0,
+              333.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#1",
+          "model_as_code_mirror": [
+            "drum0",
+            "side1"
+          ]
+        },
+        "bot2": {
+          "vertices": [
+            "bc",
+            "b2",
+            "b3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot2",
+          "uv": {
+            "bc": [
+              202.0,
+              108.0
+            ],
+            "b2": [
+              213.07516479492188,
+              142.0858612060547
+            ],
+            "b3": [
+              190.92483520507812,
+              142.0858612060547
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#5",
+          "model_as_code_mirror": [
+            "drum0",
+            "bot1"
+          ]
+        },
+        "top2": {
+          "vertices": [
+            "tc",
+            "t3",
+            "t2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top2",
+          "uv": {
+            "tc": [
+              152.0,
+              108.0
+            ],
+            "t3": [
+              123.00483703613281,
+              86.93377685546875
+            ],
+            "t2": [
+              140.92483520507812,
+              73.91413879394531
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#3",
+          "model_as_code_mirror": [
+            "drum0",
+            "top1"
+          ]
+        },
+        "side3": {
+          "vertices": [
+            "t3",
+            "t4",
+            "b4",
+            "b3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side3",
+          "uv": {
+            "t3": [
+              82.15034484863281,
+              263.8800048828125
+            ],
+            "t4": [
+              104.30068969726562,
+              263.8800048828125
+            ],
+            "b4": [
+              104.30068969726562,
+              333.0
+            ],
+            "b3": [
+              82.15034484863281,
+              333.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#1",
+          "model_as_code_mirror": [
+            "drum0",
+            "side0"
+          ]
+        },
+        "bot3": {
+          "vertices": [
+            "bc",
+            "b3",
+            "b4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot3",
+          "uv": {
+            "bc": [
+              202.0,
+              108.0
+            ],
+            "b3": [
+              190.92483520507812,
+              142.0858612060547
+            ],
+            "b4": [
+              173.0048370361328,
+              129.06622314453125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#5",
+          "model_as_code_mirror": [
+            "drum0",
+            "bot0"
+          ]
+        },
+        "top3": {
+          "vertices": [
+            "tc",
+            "t4",
+            "t3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top3",
+          "uv": {
+            "tc": [
+              152.0,
+              108.0
+            ],
+            "t4": [
+              116.16000366210938,
+              108.0
+            ],
+            "t3": [
+              123.00483703613281,
+              86.93377685546875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#3",
+          "model_as_code_mirror": [
+            "drum0",
+            "top0"
+          ]
+        },
+        "side4": {
+          "vertices": [
+            "t4",
+            "t5",
+            "b5",
+            "b4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side4",
+          "uv": {
+            "t4": [
+              104.30068969726562,
+              263.8800048828125
+            ],
+            "t5": [
+              126.45101928710938,
+              263.8800048828125
+            ],
+            "b5": [
+              126.45101928710938,
+              333.0
+            ],
+            "b4": [
+              104.30068969726562,
+              333.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#1",
+          "model_as_code_mirror": [
+            "drum0",
+            "side9"
+          ]
+        },
+        "bot4": {
+          "vertices": [
+            "bc",
+            "b4",
+            "b5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot4",
+          "uv": {
+            "bc": [
+              202.0,
+              108.0
+            ],
+            "b4": [
+              173.0048370361328,
+              129.06622314453125
+            ],
+            "b5": [
+              166.16000366210938,
+              108.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#5",
+          "model_as_code_mirror": [
+            "drum0",
+            "bot9"
+          ]
+        },
+        "top4": {
+          "vertices": [
+            "tc",
+            "t5",
+            "t4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top4",
+          "uv": {
+            "tc": [
+              152.0,
+              108.0
+            ],
+            "t5": [
+              123.00483703613281,
+              129.06622314453125
+            ],
+            "t4": [
+              116.16000366210938,
+              108.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#3",
+          "model_as_code_mirror": [
+            "drum0",
+            "top9"
+          ]
+        },
+        "side5": {
+          "vertices": [
+            "t5",
+            "t6",
+            "b6",
+            "b5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side5",
+          "uv": {
+            "t5": [
+              126.45101928710938,
+              263.8800048828125
+            ],
+            "t6": [
+              148.6013641357422,
+              263.8800048828125
+            ],
+            "b6": [
+              148.6013641357422,
+              333.0
+            ],
+            "b5": [
+              126.45101928710938,
+              333.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#1",
+          "model_as_code_mirror": [
+            "drum0",
+            "side8"
+          ]
+        },
+        "bot5": {
+          "vertices": [
+            "bc",
+            "b5",
+            "b6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot5",
+          "uv": {
+            "bc": [
+              202.0,
+              108.0
+            ],
+            "b5": [
+              166.16000366210938,
+              108.0
+            ],
+            "b6": [
+              173.0048370361328,
+              86.93377685546875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#5",
+          "model_as_code_mirror": [
+            "drum0",
+            "bot8"
+          ]
+        },
+        "top5": {
+          "vertices": [
+            "tc",
+            "t6",
+            "t5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top5",
+          "uv": {
+            "tc": [
+              152.0,
+              108.0
+            ],
+            "t6": [
+              140.92483520507812,
+              142.0858612060547
+            ],
+            "t5": [
+              123.00483703613281,
+              129.06622314453125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#3",
+          "model_as_code_mirror": [
+            "drum0",
+            "top8"
+          ]
+        },
+        "side6": {
+          "vertices": [
+            "t6",
+            "t7",
+            "b7",
+            "b6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side6",
+          "uv": {
+            "t6": [
+              148.6013641357422,
+              263.8800048828125
+            ],
+            "t7": [
+              170.75169372558594,
+              263.8800048828125
+            ],
+            "b7": [
+              170.75169372558594,
+              333.0
+            ],
+            "b6": [
+              148.6013641357422,
+              333.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#1",
+          "model_as_code_mirror": [
+            "drum0",
+            "side7"
+          ]
+        },
+        "bot6": {
+          "vertices": [
+            "bc",
+            "b6",
+            "b7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot6",
+          "uv": {
+            "bc": [
+              202.0,
+              108.0
+            ],
+            "b6": [
+              173.0048370361328,
+              86.93377685546875
+            ],
+            "b7": [
+              190.92483520507812,
+              73.91413879394531
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#5",
+          "model_as_code_mirror": [
+            "drum0",
+            "bot7"
+          ]
+        },
+        "top6": {
+          "vertices": [
+            "tc",
+            "t7",
+            "t6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top6",
+          "uv": {
+            "tc": [
+              152.0,
+              108.0
+            ],
+            "t7": [
+              163.07516479492188,
+              142.0858612060547
+            ],
+            "t6": [
+              140.92483520507812,
+              142.0858612060547
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#3",
+          "model_as_code_mirror": [
+            "drum0",
+            "top7"
+          ]
+        },
+        "side7": {
+          "vertices": [
+            "b7",
+            "t7",
+            "t8",
+            "b8"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side7",
+          "uv": {
+            "b7": [
+              60.24830627441406,
+              261.0
+            ],
+            "t7": [
+              60.24830627441406,
+              191.8800048828125
+            ],
+            "t8": [
+              82.39863586425781,
+              191.8800048828125
+            ],
+            "b8": [
+              82.39863586425781,
+              261.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#0"
+        },
+        "bot7": {
+          "vertices": [
+            "bc",
+            "b7",
+            "b8"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot7",
+          "uv": {
+            "bc": [
+              178.0,
+              36.0
+            ],
+            "b7": [
+              189.07516479492188,
+              1.9141387939453125
+            ],
+            "b8": [
+              206.9951629638672,
+              14.93377685546875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#4"
+        },
+        "top7": {
+          "vertices": [
+            "tc",
+            "t8",
+            "t7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top7",
+          "uv": {
+            "tc": [
+              128.0,
+              36.0
+            ],
+            "t8": [
+              139.07516479492188,
+              70.08586120605469
+            ],
+            "t7": [
+              116.92483520507812,
+              70.08586120605469
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#2"
+        },
+        "side8": {
+          "vertices": [
+            "b8",
+            "t8",
+            "t9",
+            "b9"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side8",
+          "uv": {
+            "b8": [
+              82.39863586425781,
+              261.0
+            ],
+            "t8": [
+              82.39863586425781,
+              191.8800048828125
+            ],
+            "t9": [
+              104.54898071289062,
+              191.8800048828125
+            ],
+            "b9": [
+              104.54898071289062,
+              261.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#0"
+        },
+        "bot8": {
+          "vertices": [
+            "bc",
+            "b8",
+            "b9"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot8",
+          "uv": {
+            "bc": [
+              178.0,
+              36.0
+            ],
+            "b8": [
+              206.9951629638672,
+              14.93377685546875
+            ],
+            "b9": [
+              213.83999633789062,
+              36.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#4"
+        },
+        "top8": {
+          "vertices": [
+            "tc",
+            "t9",
+            "t8"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top8",
+          "uv": {
+            "tc": [
+              128.0,
+              36.0
+            ],
+            "t9": [
+              156.9951629638672,
+              57.06622314453125
+            ],
+            "t8": [
+              139.07516479492188,
+              70.08586120605469
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#2"
+        },
+        "side9": {
+          "vertices": [
+            "b9",
+            "t9",
+            "t0",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side9",
+          "uv": {
+            "b9": [
+              104.54898071289062,
+              261.0
+            ],
+            "t9": [
+              104.54898071289062,
+              191.8800048828125
+            ],
+            "t0": [
+              126.69931030273438,
+              191.8800048828125
+            ],
+            "b0": [
+              126.69931030273438,
+              261.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#0"
+        },
+        "bot9": {
+          "vertices": [
+            "bc",
+            "b9",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot9",
+          "uv": {
+            "bc": [
+              178.0,
+              36.0
+            ],
+            "b9": [
+              213.83999633789062,
+              36.0
+            ],
+            "b0": [
+              206.9951629638672,
+              57.06622314453125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#4"
+        },
+        "top9": {
+          "vertices": [
+            "tc",
+            "t0",
+            "t9"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top9",
+          "uv": {
+            "tc": [
+              128.0,
+              36.0
+            ],
+            "t0": [
+              163.83999633789062,
+              36.0
+            ],
+            "t9": [
+              156.9951629638672,
+              57.06622314453125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum0#2"
+        }
+      },
+      "type": "mesh",
+      "uuid": "9c7726ad-e1b7-541e-b7a9-94aa6817389b",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "drum1",
+      "color": 0,
+      "origin": [
+        0,
+        11.52,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "b0": [
+          4.260733193002288,
+          0,
+          1.3843961347997644
+        ],
+        "b1": [
+          2.63327793027028,
+          0,
+          3.624396134799765
+        ],
+        "b2": [
+          2.7432088300900715e-16,
+          0,
+          4.48
+        ],
+        "b3": [
+          -2.6332779302702796,
+          0,
+          3.624396134799765
+        ],
+        "b4": [
+          -4.260733193002288,
+          0,
+          1.3843961347997649
+        ],
+        "b5": [
+          -4.260733193002289,
+          0,
+          -1.384396134799764
+        ],
+        "b6": [
+          -2.6332779302702805,
+          0,
+          -3.6243961347997646
+        ],
+        "b7": [
+          -8.229626490270214e-16,
+          0,
+          -4.48
+        ],
+        "b8": [
+          2.633277930270279,
+          0,
+          -3.6243961347997655
+        ],
+        "b9": [
+          4.260733193002288,
+          0,
+          -1.3843961347997658
+        ],
+        "bc": [
+          0,
+          0,
+          0
+        ],
+        "t0": [
+          4.260733193002288,
+          8.64,
+          1.3843961347997644
+        ],
+        "t1": [
+          2.63327793027028,
+          8.64,
+          3.624396134799765
+        ],
+        "t2": [
+          2.7432088300900715e-16,
+          8.64,
+          4.48
+        ],
+        "t3": [
+          -2.6332779302702796,
+          8.64,
+          3.624396134799765
+        ],
+        "t4": [
+          -4.260733193002288,
+          8.64,
+          1.3843961347997649
+        ],
+        "t5": [
+          -4.260733193002289,
+          8.64,
+          -1.384396134799764
+        ],
+        "t6": [
+          -2.6332779302702805,
+          8.64,
+          -3.6243961347997646
+        ],
+        "t7": [
+          -8.229626490270214e-16,
+          8.64,
+          -4.48
+        ],
+        "t8": [
+          2.633277930270279,
+          8.64,
+          -3.6243961347997655
+        ],
+        "t9": [
+          4.260733193002288,
+          8.64,
+          -1.3843961347997658
+        ],
+        "tc": [
+          0,
+          8.64,
+          0
+        ]
+      },
+      "faces": {
+        "side0": {
+          "vertices": [
+            "b0",
+            "t0",
+            "t1",
+            "b1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0",
+          "uv": {
+            "b0": [
+              179.69931030273438,
+              405.0
+            ],
+            "t0": [
+              179.69931030273438,
+              335.8800048828125
+            ],
+            "t1": [
+              201.8496551513672,
+              335.8800048828125
+            ],
+            "b1": [
+              201.8496551513672,
+              405.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#0"
+        },
+        "bot0": {
+          "vertices": [
+            "bc",
+            "b0",
+            "b1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot0",
+          "uv": {
+            "bc": [
+              228.0,
+              36.0
+            ],
+            "b0": [
+              256.9951629638672,
+              57.06622314453125
+            ],
+            "b1": [
+              239.07516479492188,
+              70.08586120605469
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#4"
+        },
+        "top0": {
+          "vertices": [
+            "tc",
+            "t1",
+            "t0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top0",
+          "uv": {
+            "tc": [
+              185.0,
+              180.0
+            ],
+            "t1": [
+              213.9951629638672,
+              158.93377685546875
+            ],
+            "t0": [
+              220.83999633789062,
+              180.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#2"
+        },
+        "side1": {
+          "vertices": [
+            "b1",
+            "t1",
+            "t2",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side1",
+          "uv": {
+            "b1": [
+              201.8496551513672,
+              405.0
+            ],
+            "t1": [
+              201.8496551513672,
+              335.8800048828125
+            ],
+            "t2": [
+              224.0,
+              335.8800048828125
+            ],
+            "b2": [
+              224.0,
+              405.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#0"
+        },
+        "bot1": {
+          "vertices": [
+            "bc",
+            "b1",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot1",
+          "uv": {
+            "bc": [
+              228.0,
+              36.0
+            ],
+            "b1": [
+              239.07516479492188,
+              70.08586120605469
+            ],
+            "b2": [
+              216.92483520507812,
+              70.08586120605469
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#4"
+        },
+        "top1": {
+          "vertices": [
+            "tc",
+            "t2",
+            "t1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top1",
+          "uv": {
+            "tc": [
+              185.0,
+              180.0
+            ],
+            "t2": [
+              196.07516479492188,
+              145.9141387939453
+            ],
+            "t1": [
+              213.9951629638672,
+              158.93377685546875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#2"
+        },
+        "side2": {
+          "vertices": [
+            "t2",
+            "t3",
+            "b3",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side2",
+          "uv": {
+            "t2": [
+              113.0,
+              407.8800048828125
+            ],
+            "t3": [
+              135.1503448486328,
+              407.8800048828125
+            ],
+            "b3": [
+              135.1503448486328,
+              477.0
+            ],
+            "b2": [
+              113.0,
+              477.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#1",
+          "model_as_code_mirror": [
+            "drum1",
+            "side1"
+          ]
+        },
+        "bot2": {
+          "vertices": [
+            "bc",
+            "b2",
+            "b3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot2",
+          "uv": {
+            "bc": [
+              252.0,
+              108.0
+            ],
+            "b2": [
+              263.0751647949219,
+              142.0858612060547
+            ],
+            "b3": [
+              240.92483520507812,
+              142.0858612060547
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#5",
+          "model_as_code_mirror": [
+            "drum1",
+            "bot1"
+          ]
+        },
+        "top2": {
+          "vertices": [
+            "tc",
+            "t3",
+            "t2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top2",
+          "uv": {
+            "tc": [
+              209.0,
+              252.0
+            ],
+            "t3": [
+              180.0048370361328,
+              230.93377685546875
+            ],
+            "t2": [
+              197.92483520507812,
+              217.9141387939453
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#3",
+          "model_as_code_mirror": [
+            "drum1",
+            "top1"
+          ]
+        },
+        "side3": {
+          "vertices": [
+            "t3",
+            "t4",
+            "b4",
+            "b3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side3",
+          "uv": {
+            "t3": [
+              135.1503448486328,
+              407.8800048828125
+            ],
+            "t4": [
+              157.30068969726562,
+              407.8800048828125
+            ],
+            "b4": [
+              157.30068969726562,
+              477.0
+            ],
+            "b3": [
+              135.1503448486328,
+              477.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#1",
+          "model_as_code_mirror": [
+            "drum1",
+            "side0"
+          ]
+        },
+        "bot3": {
+          "vertices": [
+            "bc",
+            "b3",
+            "b4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot3",
+          "uv": {
+            "bc": [
+              252.0,
+              108.0
+            ],
+            "b3": [
+              240.92483520507812,
+              142.0858612060547
+            ],
+            "b4": [
+              223.0048370361328,
+              129.06622314453125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#5",
+          "model_as_code_mirror": [
+            "drum1",
+            "bot0"
+          ]
+        },
+        "top3": {
+          "vertices": [
+            "tc",
+            "t4",
+            "t3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top3",
+          "uv": {
+            "tc": [
+              209.0,
+              252.0
+            ],
+            "t4": [
+              173.16000366210938,
+              252.0
+            ],
+            "t3": [
+              180.0048370361328,
+              230.93377685546875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#3",
+          "model_as_code_mirror": [
+            "drum1",
+            "top0"
+          ]
+        },
+        "side4": {
+          "vertices": [
+            "t4",
+            "t5",
+            "b5",
+            "b4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side4",
+          "uv": {
+            "t4": [
+              157.30068969726562,
+              407.8800048828125
+            ],
+            "t5": [
+              179.45101928710938,
+              407.8800048828125
+            ],
+            "b5": [
+              179.45101928710938,
+              477.0
+            ],
+            "b4": [
+              157.30068969726562,
+              477.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#1",
+          "model_as_code_mirror": [
+            "drum1",
+            "side9"
+          ]
+        },
+        "bot4": {
+          "vertices": [
+            "bc",
+            "b4",
+            "b5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot4",
+          "uv": {
+            "bc": [
+              252.0,
+              108.0
+            ],
+            "b4": [
+              223.0048370361328,
+              129.06622314453125
+            ],
+            "b5": [
+              216.16000366210938,
+              108.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#5",
+          "model_as_code_mirror": [
+            "drum1",
+            "bot9"
+          ]
+        },
+        "top4": {
+          "vertices": [
+            "tc",
+            "t5",
+            "t4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top4",
+          "uv": {
+            "tc": [
+              209.0,
+              252.0
+            ],
+            "t5": [
+              180.0048370361328,
+              273.06622314453125
+            ],
+            "t4": [
+              173.16000366210938,
+              252.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#3",
+          "model_as_code_mirror": [
+            "drum1",
+            "top9"
+          ]
+        },
+        "side5": {
+          "vertices": [
+            "t5",
+            "t6",
+            "b6",
+            "b5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side5",
+          "uv": {
+            "t5": [
+              179.45101928710938,
+              407.8800048828125
+            ],
+            "t6": [
+              201.6013641357422,
+              407.8800048828125
+            ],
+            "b6": [
+              201.6013641357422,
+              477.0
+            ],
+            "b5": [
+              179.45101928710938,
+              477.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#1",
+          "model_as_code_mirror": [
+            "drum1",
+            "side8"
+          ]
+        },
+        "bot5": {
+          "vertices": [
+            "bc",
+            "b5",
+            "b6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot5",
+          "uv": {
+            "bc": [
+              252.0,
+              108.0
+            ],
+            "b5": [
+              216.16000366210938,
+              108.0
+            ],
+            "b6": [
+              223.0048370361328,
+              86.93377685546875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#5",
+          "model_as_code_mirror": [
+            "drum1",
+            "bot8"
+          ]
+        },
+        "top5": {
+          "vertices": [
+            "tc",
+            "t6",
+            "t5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top5",
+          "uv": {
+            "tc": [
+              209.0,
+              252.0
+            ],
+            "t6": [
+              197.92483520507812,
+              286.0858612060547
+            ],
+            "t5": [
+              180.0048370361328,
+              273.06622314453125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#3",
+          "model_as_code_mirror": [
+            "drum1",
+            "top8"
+          ]
+        },
+        "side6": {
+          "vertices": [
+            "t6",
+            "t7",
+            "b7",
+            "b6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side6",
+          "uv": {
+            "t6": [
+              201.6013641357422,
+              407.8800048828125
+            ],
+            "t7": [
+              223.75169372558594,
+              407.8800048828125
+            ],
+            "b7": [
+              223.75169372558594,
+              477.0
+            ],
+            "b6": [
+              201.6013641357422,
+              477.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#1",
+          "model_as_code_mirror": [
+            "drum1",
+            "side7"
+          ]
+        },
+        "bot6": {
+          "vertices": [
+            "bc",
+            "b6",
+            "b7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot6",
+          "uv": {
+            "bc": [
+              252.0,
+              108.0
+            ],
+            "b6": [
+              223.0048370361328,
+              86.93377685546875
+            ],
+            "b7": [
+              240.92483520507812,
+              73.91413879394531
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#5",
+          "model_as_code_mirror": [
+            "drum1",
+            "bot7"
+          ]
+        },
+        "top6": {
+          "vertices": [
+            "tc",
+            "t7",
+            "t6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top6",
+          "uv": {
+            "tc": [
+              209.0,
+              252.0
+            ],
+            "t7": [
+              220.07516479492188,
+              286.0858612060547
+            ],
+            "t6": [
+              197.92483520507812,
+              286.0858612060547
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#3",
+          "model_as_code_mirror": [
+            "drum1",
+            "top7"
+          ]
+        },
+        "side7": {
+          "vertices": [
+            "b7",
+            "t7",
+            "t8",
+            "b8"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side7",
+          "uv": {
+            "b7": [
+              113.24830627441406,
+              405.0
+            ],
+            "t7": [
+              113.24830627441406,
+              335.8800048828125
+            ],
+            "t8": [
+              135.3986358642578,
+              335.8800048828125
+            ],
+            "b8": [
+              135.3986358642578,
+              405.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#0"
+        },
+        "bot7": {
+          "vertices": [
+            "bc",
+            "b7",
+            "b8"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot7",
+          "uv": {
+            "bc": [
+              228.0,
+              36.0
+            ],
+            "b7": [
+              239.07516479492188,
+              1.9141387939453125
+            ],
+            "b8": [
+              256.9951629638672,
+              14.93377685546875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#4"
+        },
+        "top7": {
+          "vertices": [
+            "tc",
+            "t8",
+            "t7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top7",
+          "uv": {
+            "tc": [
+              185.0,
+              180.0
+            ],
+            "t8": [
+              196.07516479492188,
+              214.0858612060547
+            ],
+            "t7": [
+              173.92483520507812,
+              214.0858612060547
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#2"
+        },
+        "side8": {
+          "vertices": [
+            "b8",
+            "t8",
+            "t9",
+            "b9"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side8",
+          "uv": {
+            "b8": [
+              135.3986358642578,
+              405.0
+            ],
+            "t8": [
+              135.3986358642578,
+              335.8800048828125
+            ],
+            "t9": [
+              157.54898071289062,
+              335.8800048828125
+            ],
+            "b9": [
+              157.54898071289062,
+              405.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#0"
+        },
+        "bot8": {
+          "vertices": [
+            "bc",
+            "b8",
+            "b9"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot8",
+          "uv": {
+            "bc": [
+              228.0,
+              36.0
+            ],
+            "b8": [
+              256.9951629638672,
+              14.93377685546875
+            ],
+            "b9": [
+              263.8399963378906,
+              36.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#4"
+        },
+        "top8": {
+          "vertices": [
+            "tc",
+            "t9",
+            "t8"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top8",
+          "uv": {
+            "tc": [
+              185.0,
+              180.0
+            ],
+            "t9": [
+              213.9951629638672,
+              201.06622314453125
+            ],
+            "t8": [
+              196.07516479492188,
+              214.0858612060547
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#2"
+        },
+        "side9": {
+          "vertices": [
+            "b9",
+            "t9",
+            "t0",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side9",
+          "uv": {
+            "b9": [
+              157.54898071289062,
+              405.0
+            ],
+            "t9": [
+              157.54898071289062,
+              335.8800048828125
+            ],
+            "t0": [
+              179.69931030273438,
+              335.8800048828125
+            ],
+            "b0": [
+              179.69931030273438,
+              405.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#0"
+        },
+        "bot9": {
+          "vertices": [
+            "bc",
+            "b9",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot9",
+          "uv": {
+            "bc": [
+              228.0,
+              36.0
+            ],
+            "b9": [
+              263.8399963378906,
+              36.0
+            ],
+            "b0": [
+              256.9951629638672,
+              57.06622314453125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#4"
+        },
+        "top9": {
+          "vertices": [
+            "tc",
+            "t0",
+            "t9"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top9",
+          "uv": {
+            "tc": [
+              185.0,
+              180.0
+            ],
+            "t0": [
+              220.83999633789062,
+              180.0
+            ],
+            "t9": [
+              213.9951629638672,
+              201.06622314453125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum1#2"
+        }
+      },
+      "type": "mesh",
+      "uuid": "9fc1cfe3-c3a7-5a8f-bab4-de28d6a806c5",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "drum2",
+      "color": 0,
+      "origin": [
+        0,
+        20.16,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "b0": [
+          4.260733193002288,
+          0,
+          1.3843961347997644
+        ],
+        "b1": [
+          2.63327793027028,
+          0,
+          3.624396134799765
+        ],
+        "b2": [
+          2.7432088300900715e-16,
+          0,
+          4.48
+        ],
+        "b3": [
+          -2.6332779302702796,
+          0,
+          3.624396134799765
+        ],
+        "b4": [
+          -4.260733193002288,
+          0,
+          1.3843961347997649
+        ],
+        "b5": [
+          -4.260733193002289,
+          0,
+          -1.384396134799764
+        ],
+        "b6": [
+          -2.6332779302702805,
+          0,
+          -3.6243961347997646
+        ],
+        "b7": [
+          -8.229626490270214e-16,
+          0,
+          -4.48
+        ],
+        "b8": [
+          2.633277930270279,
+          0,
+          -3.6243961347997655
+        ],
+        "b9": [
+          4.260733193002288,
+          0,
+          -1.3843961347997658
+        ],
+        "bc": [
+          0,
+          0,
+          0
+        ],
+        "t0": [
+          4.260733193002288,
+          8.32,
+          1.3843961347997644
+        ],
+        "t1": [
+          2.63327793027028,
+          8.32,
+          3.624396134799765
+        ],
+        "t2": [
+          2.7432088300900715e-16,
+          8.32,
+          4.48
+        ],
+        "t3": [
+          -2.6332779302702796,
+          8.32,
+          3.624396134799765
+        ],
+        "t4": [
+          -4.260733193002288,
+          8.32,
+          1.3843961347997649
+        ],
+        "t5": [
+          -4.260733193002289,
+          8.32,
+          -1.384396134799764
+        ],
+        "t6": [
+          -2.6332779302702805,
+          8.32,
+          -3.6243961347997646
+        ],
+        "t7": [
+          -8.229626490270214e-16,
+          8.32,
+          -4.48
+        ],
+        "t8": [
+          2.633277930270279,
+          8.32,
+          -3.6243961347997655
+        ],
+        "t9": [
+          4.260733193002288,
+          8.32,
+          -1.3843961347997658
+        ],
+        "tc": [
+          0,
+          8.32,
+          0
+        ]
+      },
+      "faces": {
+        "side0": {
+          "vertices": [
+            "b0",
+            "t0",
+            "t1",
+            "b1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0",
+          "uv": {
+            "b0": [
+              382.6993103027344,
+              68.0
+            ],
+            "t0": [
+              382.6993103027344,
+              1.44000244140625
+            ],
+            "t1": [
+              404.8496551513672,
+              1.44000244140625
+            ],
+            "b1": [
+              404.8496551513672,
+              68.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#0"
+        },
+        "bot0": {
+          "vertices": [
+            "bc",
+            "b0",
+            "b1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot0",
+          "uv": {
+            "bc": [
+              278.0,
+              36.0
+            ],
+            "b0": [
+              306.9951629638672,
+              57.06622314453125
+            ],
+            "b1": [
+              289.0751647949219,
+              70.08586120605469
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#4"
+        },
+        "top0": {
+          "vertices": [
+            "tc",
+            "t1",
+            "t0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top0",
+          "uv": {
+            "tc": [
+              235.0,
+              180.0
+            ],
+            "t1": [
+              263.9951629638672,
+              158.93377685546875
+            ],
+            "t0": [
+              270.8399963378906,
+              180.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#2"
+        },
+        "side1": {
+          "vertices": [
+            "b1",
+            "t1",
+            "t2",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side1",
+          "uv": {
+            "b1": [
+              404.8496551513672,
+              68.0
+            ],
+            "t1": [
+              404.8496551513672,
+              1.44000244140625
+            ],
+            "t2": [
+              427.0,
+              1.44000244140625
+            ],
+            "b2": [
+              427.0,
+              68.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#0"
+        },
+        "bot1": {
+          "vertices": [
+            "bc",
+            "b1",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot1",
+          "uv": {
+            "bc": [
+              278.0,
+              36.0
+            ],
+            "b1": [
+              289.0751647949219,
+              70.08586120605469
+            ],
+            "b2": [
+              266.9248352050781,
+              70.08586120605469
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#4"
+        },
+        "top1": {
+          "vertices": [
+            "tc",
+            "t2",
+            "t1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top1",
+          "uv": {
+            "tc": [
+              235.0,
+              180.0
+            ],
+            "t2": [
+              246.07516479492188,
+              145.9141387939453
+            ],
+            "t1": [
+              263.9951629638672,
+              158.93377685546875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#2"
+        },
+        "side2": {
+          "vertices": [
+            "t2",
+            "t3",
+            "b3",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side2",
+          "uv": {
+            "t2": [
+              316.0,
+              70.44000244140625
+            ],
+            "t3": [
+              338.1503448486328,
+              70.44000244140625
+            ],
+            "b3": [
+              338.1503448486328,
+              137.0
+            ],
+            "b2": [
+              316.0,
+              137.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#1",
+          "model_as_code_mirror": [
+            "drum2",
+            "side1"
+          ]
+        },
+        "bot2": {
+          "vertices": [
+            "bc",
+            "b2",
+            "b3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot2",
+          "uv": {
+            "bc": [
+              302.0,
+              108.0
+            ],
+            "b2": [
+              313.0751647949219,
+              142.0858612060547
+            ],
+            "b3": [
+              290.9248352050781,
+              142.0858612060547
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#5",
+          "model_as_code_mirror": [
+            "drum2",
+            "bot1"
+          ]
+        },
+        "top2": {
+          "vertices": [
+            "tc",
+            "t3",
+            "t2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top2",
+          "uv": {
+            "tc": [
+              259.0,
+              252.0
+            ],
+            "t3": [
+              230.0048370361328,
+              230.93377685546875
+            ],
+            "t2": [
+              247.92483520507812,
+              217.9141387939453
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#3",
+          "model_as_code_mirror": [
+            "drum2",
+            "top1"
+          ]
+        },
+        "side3": {
+          "vertices": [
+            "t3",
+            "t4",
+            "b4",
+            "b3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side3",
+          "uv": {
+            "t3": [
+              338.1503448486328,
+              70.44000244140625
+            ],
+            "t4": [
+              360.3006896972656,
+              70.44000244140625
+            ],
+            "b4": [
+              360.3006896972656,
+              137.0
+            ],
+            "b3": [
+              338.1503448486328,
+              137.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#1",
+          "model_as_code_mirror": [
+            "drum2",
+            "side0"
+          ]
+        },
+        "bot3": {
+          "vertices": [
+            "bc",
+            "b3",
+            "b4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot3",
+          "uv": {
+            "bc": [
+              302.0,
+              108.0
+            ],
+            "b3": [
+              290.9248352050781,
+              142.0858612060547
+            ],
+            "b4": [
+              273.0048370361328,
+              129.06622314453125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#5",
+          "model_as_code_mirror": [
+            "drum2",
+            "bot0"
+          ]
+        },
+        "top3": {
+          "vertices": [
+            "tc",
+            "t4",
+            "t3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top3",
+          "uv": {
+            "tc": [
+              259.0,
+              252.0
+            ],
+            "t4": [
+              223.16000366210938,
+              252.0
+            ],
+            "t3": [
+              230.0048370361328,
+              230.93377685546875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#3",
+          "model_as_code_mirror": [
+            "drum2",
+            "top0"
+          ]
+        },
+        "side4": {
+          "vertices": [
+            "t4",
+            "t5",
+            "b5",
+            "b4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side4",
+          "uv": {
+            "t4": [
+              360.3006896972656,
+              70.44000244140625
+            ],
+            "t5": [
+              382.4510192871094,
+              70.44000244140625
+            ],
+            "b5": [
+              382.4510192871094,
+              137.0
+            ],
+            "b4": [
+              360.3006896972656,
+              137.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#1",
+          "model_as_code_mirror": [
+            "drum2",
+            "side9"
+          ]
+        },
+        "bot4": {
+          "vertices": [
+            "bc",
+            "b4",
+            "b5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot4",
+          "uv": {
+            "bc": [
+              302.0,
+              108.0
+            ],
+            "b4": [
+              273.0048370361328,
+              129.06622314453125
+            ],
+            "b5": [
+              266.1600036621094,
+              108.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#5",
+          "model_as_code_mirror": [
+            "drum2",
+            "bot9"
+          ]
+        },
+        "top4": {
+          "vertices": [
+            "tc",
+            "t5",
+            "t4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top4",
+          "uv": {
+            "tc": [
+              259.0,
+              252.0
+            ],
+            "t5": [
+              230.0048370361328,
+              273.06622314453125
+            ],
+            "t4": [
+              223.16000366210938,
+              252.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#3",
+          "model_as_code_mirror": [
+            "drum2",
+            "top9"
+          ]
+        },
+        "side5": {
+          "vertices": [
+            "t5",
+            "t6",
+            "b6",
+            "b5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side5",
+          "uv": {
+            "t5": [
+              382.4510192871094,
+              70.44000244140625
+            ],
+            "t6": [
+              404.6013641357422,
+              70.44000244140625
+            ],
+            "b6": [
+              404.6013641357422,
+              137.0
+            ],
+            "b5": [
+              382.4510192871094,
+              137.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#1",
+          "model_as_code_mirror": [
+            "drum2",
+            "side8"
+          ]
+        },
+        "bot5": {
+          "vertices": [
+            "bc",
+            "b5",
+            "b6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot5",
+          "uv": {
+            "bc": [
+              302.0,
+              108.0
+            ],
+            "b5": [
+              266.1600036621094,
+              108.0
+            ],
+            "b6": [
+              273.0048370361328,
+              86.93377685546875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#5",
+          "model_as_code_mirror": [
+            "drum2",
+            "bot8"
+          ]
+        },
+        "top5": {
+          "vertices": [
+            "tc",
+            "t6",
+            "t5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top5",
+          "uv": {
+            "tc": [
+              259.0,
+              252.0
+            ],
+            "t6": [
+              247.92483520507812,
+              286.0858612060547
+            ],
+            "t5": [
+              230.0048370361328,
+              273.06622314453125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#3",
+          "model_as_code_mirror": [
+            "drum2",
+            "top8"
+          ]
+        },
+        "side6": {
+          "vertices": [
+            "t6",
+            "t7",
+            "b7",
+            "b6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side6",
+          "uv": {
+            "t6": [
+              404.6013641357422,
+              70.44000244140625
+            ],
+            "t7": [
+              426.75169372558594,
+              70.44000244140625
+            ],
+            "b7": [
+              426.75169372558594,
+              137.0
+            ],
+            "b6": [
+              404.6013641357422,
+              137.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#1",
+          "model_as_code_mirror": [
+            "drum2",
+            "side7"
+          ]
+        },
+        "bot6": {
+          "vertices": [
+            "bc",
+            "b6",
+            "b7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot6",
+          "uv": {
+            "bc": [
+              302.0,
+              108.0
+            ],
+            "b6": [
+              273.0048370361328,
+              86.93377685546875
+            ],
+            "b7": [
+              290.9248352050781,
+              73.91413879394531
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#5",
+          "model_as_code_mirror": [
+            "drum2",
+            "bot7"
+          ]
+        },
+        "top6": {
+          "vertices": [
+            "tc",
+            "t7",
+            "t6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top6",
+          "uv": {
+            "tc": [
+              259.0,
+              252.0
+            ],
+            "t7": [
+              270.0751647949219,
+              286.0858612060547
+            ],
+            "t6": [
+              247.92483520507812,
+              286.0858612060547
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#3",
+          "model_as_code_mirror": [
+            "drum2",
+            "top7"
+          ]
+        },
+        "side7": {
+          "vertices": [
+            "b7",
+            "t7",
+            "t8",
+            "b8"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side7",
+          "uv": {
+            "b7": [
+              316.24830627441406,
+              68.0
+            ],
+            "t7": [
+              316.24830627441406,
+              1.44000244140625
+            ],
+            "t8": [
+              338.3986358642578,
+              1.44000244140625
+            ],
+            "b8": [
+              338.3986358642578,
+              68.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#0"
+        },
+        "bot7": {
+          "vertices": [
+            "bc",
+            "b7",
+            "b8"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot7",
+          "uv": {
+            "bc": [
+              278.0,
+              36.0
+            ],
+            "b7": [
+              289.0751647949219,
+              1.9141387939453125
+            ],
+            "b8": [
+              306.9951629638672,
+              14.93377685546875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#4"
+        },
+        "top7": {
+          "vertices": [
+            "tc",
+            "t8",
+            "t7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top7",
+          "uv": {
+            "tc": [
+              235.0,
+              180.0
+            ],
+            "t8": [
+              246.07516479492188,
+              214.0858612060547
+            ],
+            "t7": [
+              223.92483520507812,
+              214.0858612060547
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#2"
+        },
+        "side8": {
+          "vertices": [
+            "b8",
+            "t8",
+            "t9",
+            "b9"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side8",
+          "uv": {
+            "b8": [
+              338.3986358642578,
+              68.0
+            ],
+            "t8": [
+              338.3986358642578,
+              1.44000244140625
+            ],
+            "t9": [
+              360.5489807128906,
+              1.44000244140625
+            ],
+            "b9": [
+              360.5489807128906,
+              68.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#0"
+        },
+        "bot8": {
+          "vertices": [
+            "bc",
+            "b8",
+            "b9"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot8",
+          "uv": {
+            "bc": [
+              278.0,
+              36.0
+            ],
+            "b8": [
+              306.9951629638672,
+              14.93377685546875
+            ],
+            "b9": [
+              313.8399963378906,
+              36.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#4"
+        },
+        "top8": {
+          "vertices": [
+            "tc",
+            "t9",
+            "t8"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top8",
+          "uv": {
+            "tc": [
+              235.0,
+              180.0
+            ],
+            "t9": [
+              263.9951629638672,
+              201.06622314453125
+            ],
+            "t8": [
+              246.07516479492188,
+              214.0858612060547
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#2"
+        },
+        "side9": {
+          "vertices": [
+            "b9",
+            "t9",
+            "t0",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side9",
+          "uv": {
+            "b9": [
+              360.5489807128906,
+              68.0
+            ],
+            "t9": [
+              360.5489807128906,
+              1.44000244140625
+            ],
+            "t0": [
+              382.6993103027344,
+              1.44000244140625
+            ],
+            "b0": [
+              382.6993103027344,
+              68.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#0"
+        },
+        "bot9": {
+          "vertices": [
+            "bc",
+            "b9",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot9",
+          "uv": {
+            "bc": [
+              278.0,
+              36.0
+            ],
+            "b9": [
+              313.8399963378906,
+              36.0
+            ],
+            "b0": [
+              306.9951629638672,
+              57.06622314453125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#4"
+        },
+        "top9": {
+          "vertices": [
+            "tc",
+            "t0",
+            "t9"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top9",
+          "uv": {
+            "tc": [
+              235.0,
+              180.0
+            ],
+            "t0": [
+              270.8399963378906,
+              180.0
+            ],
+            "t9": [
+              263.9951629638672,
+              201.06622314453125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "drum2#2"
+        }
+      },
+      "type": "mesh",
+      "uuid": "eb9fa437-665f-5b3f-8ac3-8d5596ce373d",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "capital",
+      "color": 0,
+      "origin": [
+        0,
+        28.48,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "b0": [
+          6.504111908879459,
+          0,
+          2.694091363850232
+        ],
+        "b1": [
+          2.6940913638502324,
+          0,
+          6.504111908879459
+        ],
+        "b2": [
+          -2.6940913638502315,
+          0,
+          6.504111908879459
+        ],
+        "b3": [
+          -6.504111908879459,
+          0,
+          2.694091363850233
+        ],
+        "b4": [
+          -6.50411190887946,
+          0,
+          -2.6940913638502315
+        ],
+        "b5": [
+          -2.694091363850236,
+          0,
+          -6.504111908879457
+        ],
+        "b6": [
+          2.6940913638502337,
+          0,
+          -6.504111908879458
+        ],
+        "b7": [
+          6.504111908879457,
+          0,
+          -2.6940913638502364
+        ],
+        "bc": [
+          0,
+          0,
+          0
+        ],
+        "t0": [
+          6.504111908879459,
+          3.5199999999999996,
+          2.694091363850232
+        ],
+        "t1": [
+          2.6940913638502324,
+          3.5199999999999996,
+          6.504111908879459
+        ],
+        "t2": [
+          -2.6940913638502315,
+          3.5199999999999996,
+          6.504111908879459
+        ],
+        "t3": [
+          -6.504111908879459,
+          3.5199999999999996,
+          2.694091363850233
+        ],
+        "t4": [
+          -6.50411190887946,
+          3.5199999999999996,
+          -2.6940913638502315
+        ],
+        "t5": [
+          -2.694091363850236,
+          3.5199999999999996,
+          -6.504111908879457
+        ],
+        "t6": [
+          2.6940913638502337,
+          3.5199999999999996,
+          -6.504111908879458
+        ],
+        "t7": [
+          6.504111908879457,
+          3.5199999999999996,
+          -2.6940913638502364
+        ],
+        "tc": [
+          0,
+          3.5199999999999996,
+          0
+        ]
+      },
+      "faces": {
+        "side0": {
+          "vertices": [
+            "b0",
+            "t0",
+            "t1",
+            "b1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0",
+          "uv": {
+            "b0": [
+              199.89453125,
+              508.0
+            ],
+            "t0": [
+              199.89453125,
+              479.8399963378906
+            ],
+            "t1": [
+              243.0,
+              479.8399963378906
+            ],
+            "b1": [
+              243.0,
+              508.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#0"
+        },
+        "bot0": {
+          "vertices": [
+            "bc",
+            "b0",
+            "b1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot0",
+          "uv": {
+            "bc": [
+              1.0,
+              41.0
+            ],
+            "b0": [
+              40.824249267578125,
+              80.82424926757812
+            ],
+            "b1": [
+              1.0,
+              97.32000732421875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#2"
+        },
+        "top0": {
+          "vertices": [
+            "tc",
+            "t1",
+            "t0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top0",
+          "uv": {
+            "tc": [
+              1.0,
+              239.0
+            ],
+            "t1": [
+              40.824249267578125,
+              199.17575073242188
+            ],
+            "t0": [
+              57.32000732421875,
+              239.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#4"
+        },
+        "side1": {
+          "vertices": [
+            "b1",
+            "t1",
+            "t2",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side1",
+          "uv": {
+            "b1": [
+              60.0,
+              395.0
+            ],
+            "t1": [
+              60.0,
+              366.8399963378906
+            ],
+            "t2": [
+              103.10546875,
+              366.8399963378906
+            ],
+            "b2": [
+              103.10546875,
+              395.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#6"
+        },
+        "bot1": {
+          "vertices": [
+            "bc",
+            "b1",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot1",
+          "uv": {
+            "bc": [
+              429.0,
+              85.0
+            ],
+            "b1": [
+              485.32000732421875,
+              85.0
+            ],
+            "b2": [
+              468.8242492675781,
+              124.82424926757812
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#9"
+        },
+        "top1": {
+          "vertices": [
+            "tc",
+            "t2",
+            "t1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top1",
+          "uv": {
+            "tc": [
+              173.0,
+              289.0
+            ],
+            "t2": [
+              229.32000732421875,
+              289.0
+            ],
+            "t1": [
+              212.82424926757812,
+              328.8242492675781
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#10"
+        },
+        "side2": {
+          "vertices": [
+            "t2",
+            "t3",
+            "b3",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side2",
+          "uv": {
+            "t2": [
+              273.0,
+              180.83999633789062
+            ],
+            "t3": [
+              316.10546875,
+              180.83999633789062
+            ],
+            "b3": [
+              316.10546875,
+              209.0
+            ],
+            "b2": [
+              273.0,
+              209.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#1",
+          "model_as_code_mirror": [
+            "capital",
+            "side0"
+          ]
+        },
+        "bot2": {
+          "vertices": [
+            "bc",
+            "b2",
+            "b3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot2",
+          "uv": {
+            "bc": [
+              58.0,
+              140.0
+            ],
+            "b2": [
+              58.0,
+              196.32000732421875
+            ],
+            "b3": [
+              18.175750732421875,
+              179.82424926757812
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#3",
+          "model_as_code_mirror": [
+            "capital",
+            "bot0"
+          ]
+        },
+        "top2": {
+          "vertices": [
+            "tc",
+            "t3",
+            "t2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top2",
+          "uv": {
+            "tc": [
+              58.0,
+              338.0
+            ],
+            "t3": [
+              1.67999267578125,
+              338.0
+            ],
+            "t2": [
+              18.175750732421875,
+              298.1757507324219
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#5",
+          "model_as_code_mirror": [
+            "capital",
+            "top0"
+          ]
+        },
+        "side3": {
+          "vertices": [
+            "t3",
+            "t4",
+            "b4",
+            "b3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side3",
+          "uv": {
+            "t3": [
+              316.10546875,
+              180.83999633789062
+            ],
+            "t4": [
+              359.2109375,
+              180.83999633789062
+            ],
+            "b4": [
+              359.2109375,
+              209.0
+            ],
+            "b3": [
+              316.10546875,
+              209.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#1",
+          "model_as_code_mirror": [
+            "capital",
+            "side7"
+          ]
+        },
+        "bot3": {
+          "vertices": [
+            "bc",
+            "b3",
+            "b4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot3",
+          "uv": {
+            "bc": [
+              58.0,
+              140.0
+            ],
+            "b3": [
+              18.175750732421875,
+              179.82424926757812
+            ],
+            "b4": [
+              1.67999267578125,
+              140.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#3",
+          "model_as_code_mirror": [
+            "capital",
+            "bot7"
+          ]
+        },
+        "top3": {
+          "vertices": [
+            "tc",
+            "t4",
+            "t3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top3",
+          "uv": {
+            "tc": [
+              58.0,
+              338.0
+            ],
+            "t4": [
+              18.175750732421875,
+              377.8242492675781
+            ],
+            "t3": [
+              1.67999267578125,
+              338.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#5",
+          "model_as_code_mirror": [
+            "capital",
+            "top7"
+          ]
+        },
+        "side4": {
+          "vertices": [
+            "t4",
+            "t5",
+            "b5",
+            "b4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side4",
+          "uv": {
+            "t4": [
+              359.2109375,
+              180.83999633789062
+            ],
+            "t5": [
+              402.31639099121094,
+              180.83999633789062
+            ],
+            "b5": [
+              402.31639099121094,
+              209.0
+            ],
+            "b4": [
+              359.2109375,
+              209.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#1",
+          "model_as_code_mirror": [
+            "capital",
+            "side6"
+          ]
+        },
+        "bot4": {
+          "vertices": [
+            "bc",
+            "b4",
+            "b5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot4",
+          "uv": {
+            "bc": [
+              58.0,
+              140.0
+            ],
+            "b4": [
+              1.67999267578125,
+              140.0
+            ],
+            "b5": [
+              18.175750732421875,
+              100.17575073242188
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#3",
+          "model_as_code_mirror": [
+            "capital",
+            "bot6"
+          ]
+        },
+        "top4": {
+          "vertices": [
+            "tc",
+            "t5",
+            "t4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top4",
+          "uv": {
+            "tc": [
+              58.0,
+              338.0
+            ],
+            "t5": [
+              58.0,
+              394.32000732421875
+            ],
+            "t4": [
+              18.175750732421875,
+              377.8242492675781
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#5",
+          "model_as_code_mirror": [
+            "capital",
+            "top6"
+          ]
+        },
+        "side5": {
+          "vertices": [
+            "b5",
+            "t5",
+            "t6",
+            "b6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side5",
+          "uv": {
+            "b5": [
+              60.0,
+              364.0
+            ],
+            "t5": [
+              60.0,
+              335.8399963378906
+            ],
+            "t6": [
+              103.10546875,
+              335.8399963378906
+            ],
+            "b6": [
+              103.10546875,
+              364.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#11"
+        },
+        "bot5": {
+          "vertices": [
+            "bc",
+            "b5",
+            "b6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot5",
+          "uv": {
+            "bc": [
+              429.0,
+              1.0
+            ],
+            "b5": [
+              485.32000732421875,
+              1.0
+            ],
+            "b6": [
+              468.8242492675781,
+              40.824249267578125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#7"
+        },
+        "top5": {
+          "vertices": [
+            "tc",
+            "t6",
+            "t5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top5",
+          "uv": {
+            "tc": [
+              429.0,
+              43.0
+            ],
+            "t6": [
+              485.32000732421875,
+              43.0
+            ],
+            "t5": [
+              468.8242492675781,
+              82.82424926757812
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#8"
+        },
+        "side6": {
+          "vertices": [
+            "b6",
+            "t6",
+            "t7",
+            "b7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side6",
+          "uv": {
+            "b6": [
+              113.68360900878906,
+              508.0
+            ],
+            "t6": [
+              113.68360900878906,
+              479.8399963378906
+            ],
+            "t7": [
+              156.7890625,
+              479.8399963378906
+            ],
+            "b7": [
+              156.7890625,
+              508.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#0"
+        },
+        "bot6": {
+          "vertices": [
+            "bc",
+            "b6",
+            "b7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot6",
+          "uv": {
+            "bc": [
+              1.0,
+              41.0
+            ],
+            "b6": [
+              40.824249267578125,
+              1.175750732421875
+            ],
+            "b7": [
+              57.32000732421875,
+              41.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#2"
+        },
+        "top6": {
+          "vertices": [
+            "tc",
+            "t7",
+            "t6"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top6",
+          "uv": {
+            "tc": [
+              1.0,
+              239.0
+            ],
+            "t7": [
+              40.824249267578125,
+              278.8242492675781
+            ],
+            "t6": [
+              1.0,
+              295.32000732421875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#4"
+        },
+        "side7": {
+          "vertices": [
+            "b7",
+            "t7",
+            "t0",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side7",
+          "uv": {
+            "b7": [
+              156.7890625,
+              508.0
+            ],
+            "t7": [
+              156.7890625,
+              479.8399963378906
+            ],
+            "t0": [
+              199.89453125,
+              479.8399963378906
+            ],
+            "b0": [
+              199.89453125,
+              508.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#0"
+        },
+        "bot7": {
+          "vertices": [
+            "bc",
+            "b7",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bot7",
+          "uv": {
+            "bc": [
+              1.0,
+              41.0
+            ],
+            "b7": [
+              57.32000732421875,
+              41.0
+            ],
+            "b0": [
+              40.824249267578125,
+              80.82424926757812
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#2"
+        },
+        "top7": {
+          "vertices": [
+            "tc",
+            "t0",
+            "t7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top7",
+          "uv": {
+            "tc": [
+              1.0,
+              239.0
+            ],
+            "t0": [
+              57.32000732421875,
+              239.0
+            ],
+            "t7": [
+              40.824249267578125,
+              278.8242492675781
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "capital#4"
+        }
+      },
+      "type": "mesh",
+      "uuid": "d8715dc6-bc9f-5f2b-87ca-317b1e5311d2",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "root",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "export": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "model_as_code_role": "folder"
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "isOpen": true,
+      "children": [
+        "6e208be8-e526-5581-b420-4f49a9821b1a",
+        "9c7726ad-e1b7-541e-b7a9-94aa6817389b",
+        "9fc1cfe3-c3a7-5a8f-bab4-de28d6a806c5",
+        "eb9fa437-665f-5b3f-8ac3-8d5596ce373d",
+        "d8715dc6-bc9f-5f2b-87ca-317b1e5311d2"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "598b57e6-d085-462c-ad02-301c3baa5ee2",
+      "id": "0",
+      "name": "texture.png",
+      "relative_path": "texture.png",
+      "width": 512,
+      "height": 512,
+      "uv_width": 512,
+      "uv_height": 512,
+      "mode": "link",
+      "internal": false,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false
+    }
+  ],
+  "animations": [],
+  "resolution": {
+    "width": 512,
+    "height": 512
+  }
+}

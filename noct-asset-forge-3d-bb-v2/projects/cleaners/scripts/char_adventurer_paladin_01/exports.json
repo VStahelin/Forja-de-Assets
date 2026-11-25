@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "char_adventurer_paladin_01/exports/char_adventurer_paladin_01.glb",
+      "runtime_role": "default"
+    }
+  ]
+}

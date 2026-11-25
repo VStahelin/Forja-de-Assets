@@ -1,0 +1,281 @@
+{
+  "meta": {
+    "project": "cleaners",
+    "mode": "strip",
+    "frameCount": 20,
+    "frameWidth": 64,
+    "frameHeight": 48,
+    "fps": 40,
+    "width": 1280,
+    "height": 48,
+    "scale": 1,
+    "format": "png",
+    "image": "vfx_latch_dust_01.png",
+    "animations": {
+      "fall": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  },
+  "frames": {
+    "frame_0": {
+      "x": 0,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 0,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_1": {
+      "x": 64,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 64,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_2": {
+      "x": 128,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 128,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_3": {
+      "x": 192,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 192,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_4": {
+      "x": 256,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 256,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_5": {
+      "x": 320,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 320,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_6": {
+      "x": 384,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 384,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_7": {
+      "x": 448,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 448,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_8": {
+      "x": 512,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 512,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_9": {
+      "x": 576,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 576,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_10": {
+      "x": 640,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 640,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_11": {
+      "x": 704,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 704,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_12": {
+      "x": 768,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 768,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_13": {
+      "x": 832,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 832,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_14": {
+      "x": 896,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 896,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_15": {
+      "x": 960,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 960,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_16": {
+      "x": 1024,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 1024,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_17": {
+      "x": 1088,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 1088,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_18": {
+      "x": 1152,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 1152,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    },
+    "frame_19": {
+      "x": 1216,
+      "y": 0,
+      "width": 64,
+      "height": 48,
+      "logical": {
+        "x": 1216,
+        "y": 0,
+        "width": 64,
+        "height": 48
+      }
+    }
+  }
+}

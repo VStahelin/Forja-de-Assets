@@ -1,0 +1,9 @@
+.runtime/
+**/__pycache__/
+**/.forge-project.lock
+**/*.bak
+node_modules/
+*.log
+.env
+.env.*
+.godot/

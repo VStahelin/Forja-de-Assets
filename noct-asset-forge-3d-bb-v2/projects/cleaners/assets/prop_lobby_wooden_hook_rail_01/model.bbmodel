@@ -1,0 +1,4248 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "prop_lobby_wooden_hook_rail_01",
+  "model_identifier": "",
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {
+    "model_as_code": {
+      "version": 3,
+      "uv_ready": true,
+      "modeling_mode": "free",
+      "orientation": {
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "validation_policy": {
+        "check_coplanar": true
+      },
+      "sockets": {},
+      "chains": {},
+      "armature_chains": {},
+      "binding_policies": {},
+      "uv_packing": {
+        "start_size": [
+          32,
+          32
+        ],
+        "allow_rectangular": true,
+        "uv_scale": 8,
+        "max_size": 2048,
+        "fixed_texture_size": false,
+        "island_padding": 1,
+        "require_integer_uvs": false,
+        "layout": "charts"
+      }
+    }
+  },
+  "elements": [
+    {
+      "name": "mount_board",
+      "color": 0,
+      "origin": [
+        0,
+        1.76,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -11.2,
+          -1.76,
+          -0.536
+        ],
+        "v1": [
+          11.2,
+          -1.76,
+          -0.536
+        ],
+        "v2": [
+          11.2,
+          1.76,
+          -0.536
+        ],
+        "v3": [
+          -11.2,
+          1.76,
+          -0.536
+        ],
+        "v4": [
+          -11.2,
+          -1.76,
+          0.536
+        ],
+        "v5": [
+          11.2,
+          -1.76,
+          0.536
+        ],
+        "v6": [
+          11.2,
+          1.76,
+          0.536
+        ],
+        "v7": [
+          -11.2,
+          1.76,
+          0.536
+        ]
+      },
+      "faces": {
+        "bottom": {
+          "vertices": [
+            "v0",
+            "v1",
+            "v5",
+            "v4"
+          ],
+          "texture": 0,
+          "model_as_code_group": "bottom",
+          "model_as_code_source_face": null,
+          "uv": {
+            "v0": [
+              1.0,
+              245.0
+            ],
+            "v1": [
+              180.1999969482422,
+              245.0
+            ],
+            "v5": [
+              180.1999969482422,
+              253.5760040283203
+            ],
+            "v4": [
+              1.0,
+              253.5760040283203
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "mount_board#3"
+        },
+        "top": {
+          "vertices": [
+            "v3",
+            "v7",
+            "v6",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": "top",
+          "model_as_code_source_face": null,
+          "uv": {
+            "v3": [
+              1.0,
+              1.0
+            ],
+            "v7": [
+              9.576004028320312,
+              1.0
+            ],
+            "v6": [
+              9.576004028320312,
+              180.1999969482422
+            ],
+            "v2": [
+              1.0,
+              180.1999969482422
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "mount_board#4"
+        },
+        "front": {
+          "vertices": [
+            "v4",
+            "v5",
+            "v6",
+            "v7"
+          ],
+          "texture": 0,
+          "model_as_code_group": "front",
+          "model_as_code_source_face": null,
+          "uv": {
+            "v4": [
+              181.0,
+              212.0
+            ],
+            "v5": [
+              1.8000030517578125,
+              212.0
+            ],
+            "v6": [
+              1.8000030517578125,
+              183.83999633789062
+            ],
+            "v7": [
+              181.0,
+              183.83999633789062
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "mount_board#2"
+        },
+        "back": {
+          "vertices": [
+            "v1",
+            "v0",
+            "v3",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": "back",
+          "model_as_code_source_face": null,
+          "uv": {
+            "v1": [
+              181.0,
+              243.0
+            ],
+            "v0": [
+              1.8000030517578125,
+              243.0
+            ],
+            "v3": [
+              1.8000030517578125,
+              214.83999633789062
+            ],
+            "v2": [
+              181.0,
+              214.83999633789062
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "mount_board#5"
+        },
+        "right": {
+          "vertices": [
+            "v1",
+            "v2",
+            "v6",
+            "v5"
+          ],
+          "texture": 0,
+          "model_as_code_group": "right",
+          "model_as_code_source_face": null,
+          "uv": {
+            "v1": [
+              183.0,
+              30.0
+            ],
+            "v2": [
+              183.0,
+              1.839996337890625
+            ],
+            "v6": [
+              191.5760040283203,
+              1.839996337890625
+            ],
+            "v5": [
+              191.5760040283203,
+              30.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "mount_board#0"
+        },
+        "left": {
+          "vertices": [
+            "v0",
+            "v4",
+            "v7",
+            "v3"
+          ],
+          "texture": 0,
+          "model_as_code_group": "left",
+          "model_as_code_source_face": null,
+          "uv": {
+            "v0": [
+              203.0,
+              30.0
+            ],
+            "v4": [
+              194.4239959716797,
+              30.0
+            ],
+            "v7": [
+              194.4239959716797,
+              1.839996337890625
+            ],
+            "v3": [
+              203.0,
+              1.839996337890625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "mount_board#1",
+          "model_as_code_mirror": [
+            "mount_board",
+            "right"
+          ]
+        }
+      },
+      "type": "mesh",
+      "uuid": "cdd738b7-306b-5fd7-87f4-290d8a81a9be",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "base": [
+            0,
+            -1.76,
+            0
+          ],
+          "top": [
+            0,
+            1.76,
+            0
+          ],
+          "left": [
+            -11.2,
+            0,
+            0
+          ],
+          "right": [
+            11.2,
+            0,
+            0
+          ],
+          "front": [
+            0,
+            0,
+            0.536
+          ],
+          "back": [
+            0,
+            0,
+            -0.536
+          ],
+          "-x": [
+            -11.2,
+            0,
+            0
+          ],
+          "+x": [
+            11.2,
+            0,
+            0
+          ],
+          "-y": [
+            0,
+            -1.76,
+            0
+          ],
+          "+y": [
+            0,
+            1.76,
+            0
+          ],
+          "-z": [
+            0,
+            0,
+            -0.536
+          ],
+          "+z": [
+            0,
+            0,
+            0.536
+          ],
+          "screen_left": [
+            -11.2,
+            0,
+            0
+          ],
+          "screen_right": [
+            11.2,
+            0,
+            0
+          ],
+          "anatomical_left": [
+            11.2,
+            0,
+            0
+          ],
+          "anatomical_right": [
+            -11.2,
+            0,
+            0
+          ]
+        },
+        "primitive": "box"
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "base": [
+            0,
+            -1.76,
+            0
+          ],
+          "top": [
+            0,
+            1.76,
+            0
+          ],
+          "left": [
+            -11.2,
+            0,
+            0
+          ],
+          "right": [
+            11.2,
+            0,
+            0
+          ],
+          "front": [
+            0,
+            0,
+            0.536
+          ],
+          "back": [
+            0,
+            0,
+            -0.536
+          ],
+          "-x": [
+            -11.2,
+            0,
+            0
+          ],
+          "+x": [
+            11.2,
+            0,
+            0
+          ],
+          "-y": [
+            0,
+            -1.76,
+            0
+          ],
+          "+y": [
+            0,
+            1.76,
+            0
+          ],
+          "-z": [
+            0,
+            0,
+            -0.536
+          ],
+          "+z": [
+            0,
+            0,
+            0.536
+          ],
+          "screen_left": [
+            -11.2,
+            0,
+            0
+          ],
+          "screen_right": [
+            11.2,
+            0,
+            0
+          ],
+          "anatomical_left": [
+            11.2,
+            0,
+            0
+          ],
+          "anatomical_right": [
+            -11.2,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "center": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              -1.76,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "top": {
+            "origin": [
+              0,
+              1.76,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "left": {
+            "origin": [
+              -11.2,
+              0,
+              0
+            ],
+            "forward": [
+              -1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "right": {
+            "origin": [
+              11.2,
+              0,
+              0
+            ],
+            "forward": [
+              1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "front": {
+            "origin": [
+              0,
+              0,
+              0.536
+            ],
+            "forward": [
+              0,
+              0,
+              1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "back": {
+            "origin": [
+              0,
+              0,
+              -0.536
+            ],
+            "forward": [
+              0,
+              0,
+              -1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "-x": {
+            "origin": [
+              -11.2,
+              0,
+              0
+            ],
+            "forward": [
+              -1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "+x": {
+            "origin": [
+              11.2,
+              0,
+              0
+            ],
+            "forward": [
+              1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "-y": {
+            "origin": [
+              0,
+              -1.76,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "+y": {
+            "origin": [
+              0,
+              1.76,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "-z": {
+            "origin": [
+              0,
+              0,
+              -0.536
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "+z": {
+            "origin": [
+              0,
+              0,
+              0.536
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "screen_left": {
+            "origin": [
+              -11.2,
+              0,
+              0
+            ],
+            "forward": [
+              -1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "screen_right": {
+            "origin": [
+              11.2,
+              0,
+              0
+            ],
+            "forward": [
+              1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "anatomical_left": {
+            "origin": [
+              11.2,
+              0,
+              0
+            ],
+            "forward": [
+              1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "anatomical_right": {
+            "origin": [
+              -11.2,
+              0,
+              0
+            ],
+            "forward": [
+              -1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "iron_hook_0",
+      "color": 0,
+      "origin": [
+        -7.84,
+        1.856,
+        0.704
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.2240000000000002,
+          0,
+          0
+        ],
+        "section_000_v001": [
+          0.1120000000000001,
+          0.14830944873564067,
+          0.12504522148299124
+        ],
+        "section_000_v002": [
+          -0.1120000000000001,
+          0.14830944873564067,
+          0.12504522148299135
+        ],
+        "section_000_v003": [
+          -0.2240000000000002,
+          0,
+          0
+        ],
+        "section_000_v004": [
+          -0.1120000000000001,
+          -0.14830944873564067,
+          -0.12504522148299124
+        ],
+        "section_000_v005": [
+          0.1120000000000001,
+          -0.14830944873564067,
+          -0.12504522148299124
+        ],
+        "section_001_v000": [
+          0.2240000000000002,
+          -0.6880000000000002,
+          0.8160000000000001
+        ],
+        "section_001_v001": [
+          0.1120000000000001,
+          -0.5057878927586068,
+          0.8825638638801185
+        ],
+        "section_001_v002": [
+          -0.1120000000000001,
+          -0.5057878927586068,
+          0.8825638638801185
+        ],
+        "section_001_v003": [
+          -0.2240000000000002,
+          -0.6880000000000002,
+          0.8160000000000001
+        ],
+        "section_001_v004": [
+          -0.1120000000000001,
+          -0.8702121072413935,
+          0.7494361361198816
+        ],
+        "section_001_v005": [
+          0.1120000000000001,
+          -0.8702121072413935,
+          0.7494361361198816
+        ],
+        "section_002_v000": [
+          0.2240000000000002,
+          -0.6880000000000002,
+          1.6159999999999999
+        ],
+        "section_002_v001": [
+          0.1120000000000001,
+          -0.5221453708067323,
+          1.5153807077387065
+        ],
+        "section_002_v002": [
+          -0.1120000000000001,
+          -0.5221453708067323,
+          1.5153807077387065
+        ],
+        "section_002_v003": [
+          -0.2240000000000002,
+          -0.6880000000000002,
+          1.6159999999999999
+        ],
+        "section_002_v004": [
+          -0.1120000000000001,
+          -0.853854629193268,
+          1.7166192922612933
+        ],
+        "section_002_v005": [
+          0.1120000000000001,
+          -0.853854629193268,
+          1.7166192922612933
+        ],
+        "section_003_v000": [
+          0.2240000000000002,
+          0.07999999999999985,
+          2.016
+        ],
+        "section_003_v001": [
+          0.1120000000000001,
+          0.16961051491732815,
+          1.8439478113587298
+        ],
+        "section_003_v002": [
+          -0.1120000000000001,
+          0.16961051491732815,
+          1.8439478113587298
+        ],
+        "section_003_v003": [
+          -0.2240000000000002,
+          0.07999999999999985,
+          2.016
+        ],
+        "section_003_v004": [
+          -0.1120000000000001,
+          -0.00961051491732845,
+          2.1880521886412705
+        ],
+        "section_003_v005": [
+          0.1120000000000001,
+          -0.00961051491732845,
+          2.1880521886412705
+        ],
+        "cap_start_center": [
+          0,
+          0,
+          1.1102230246251565e-16
+        ],
+        "cap_end_center": [
+          0,
+          0.07999999999999985,
+          2.016
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v000": [
+              200.82713317871094,
+              33.354644775390625
+            ],
+            "section_000_v001": [
+              202.0,
+              32.0
+            ],
+            "section_001_v001": [
+              207.99960327148438,
+              37.302032470703125
+            ],
+            "section_001_v000": [
+              207.2821807861328,
+              38.9439697265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#2"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v002": [
+              219.0,
+              1.0
+            ],
+            "section_001_v002": [
+              219.0,
+              9.0067138671875
+            ],
+            "section_001_v001": [
+              217.20799255371094,
+              9.0067138671875
+            ],
+            "section_000_v001": [
+              217.20799255371094,
+              1.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#9"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002",
+            "section_000_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v003": [
+              229.17286682128906,
+              35.354644775390625
+            ],
+            "section_001_v003": [
+              222.7178192138672,
+              40.9439697265625
+            ],
+            "section_001_v002": [
+              222.00039672851562,
+              39.302032470703125
+            ],
+            "section_000_v002": [
+              228.0,
+              34.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#3",
+          "model_as_code_mirror": [
+            "iron_hook_0",
+            "section_000__section_001_side_000"
+          ]
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v004",
+            "section_001_v004",
+            "section_001_v003",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v004": [
+              244.0,
+              14.0
+            ],
+            "section_001_v004": [
+              237.030517578125,
+              19.806930541992188
+            ],
+            "section_001_v003": [
+              236.32980346679688,
+              18.157913208007812
+            ],
+            "section_000_v003": [
+              242.84071350097656,
+              12.633712768554688
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#5",
+          "model_as_code_mirror": [
+            "iron_hook_0",
+            "section_000__section_001_side_005"
+          ]
+        },
+        "section_000__section_001_side_004": {
+          "vertices": [
+            "section_000_v004",
+            "section_000_v005",
+            "section_001_v005",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_004",
+          "uv": {
+            "section_000_v004": [
+              205.20799255371094,
+              1.9283294677734375
+            ],
+            "section_000_v005": [
+              207.0,
+              1.9283294677734375
+            ],
+            "section_001_v005": [
+              207.0,
+              11.0
+            ],
+            "section_001_v004": [
+              205.20799255371094,
+              11.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#11"
+        },
+        "section_000__section_001_side_005": {
+          "vertices": [
+            "section_000_v005",
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_005",
+          "uv": {
+            "section_000_v005": [
+              229.0,
+              3.0
+            ],
+            "section_000_v000": [
+              230.15928649902344,
+              1.6337127685546875
+            ],
+            "section_001_v000": [
+              236.67019653320312,
+              7.1579132080078125
+            ],
+            "section_001_v005": [
+              235.969482421875,
+              8.806930541992188
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#4"
+        },
+        "section_001__section_002_side_000": {
+          "vertices": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_002_v001",
+            "section_002_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_000",
+          "uv": {
+            "section_001_v000": [
+              207.2821807861328,
+              38.9439697265625
+            ],
+            "section_001_v001": [
+              207.99960327148438,
+              37.302032470703125
+            ],
+            "section_002_v001": [
+              213.01956176757812,
+              37.96868896484375
+            ],
+            "section_002_v000": [
+              213.6432342529297,
+              39.648193359375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#2"
+        },
+        "section_001__section_002_side_001": {
+          "vertices": [
+            "section_001_v002",
+            "section_002_v002",
+            "section_002_v001",
+            "section_001_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_001",
+          "uv": {
+            "section_001_v002": [
+              219.0,
+              9.0067138671875
+            ],
+            "section_002_v002": [
+              219.0,
+              14.070938110351562
+            ],
+            "section_002_v001": [
+              217.20799255371094,
+              14.070938110351562
+            ],
+            "section_001_v001": [
+              217.20799255371094,
+              9.0067138671875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#9"
+        },
+        "section_001__section_002_side_002": {
+          "vertices": [
+            "section_001_v003",
+            "section_002_v003",
+            "section_002_v002",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_002",
+          "uv": {
+            "section_001_v003": [
+              222.7178192138672,
+              40.9439697265625
+            ],
+            "section_002_v003": [
+              216.3567657470703,
+              41.648193359375
+            ],
+            "section_002_v002": [
+              216.98043823242188,
+              39.96868896484375
+            ],
+            "section_001_v002": [
+              222.00039672851562,
+              39.302032470703125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#3",
+          "model_as_code_mirror": [
+            "iron_hook_0",
+            "section_001__section_002_side_000"
+          ]
+        },
+        "section_001__section_002_side_003": {
+          "vertices": [
+            "section_001_v004",
+            "section_002_v004",
+            "section_002_v003",
+            "section_001_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_003",
+          "uv": {
+            "section_001_v004": [
+              237.030517578125,
+              19.806930541992188
+            ],
+            "section_002_v004": [
+              229.32041931152344,
+              20.469451904296875
+            ],
+            "section_002_v003": [
+              229.96182250976562,
+              18.796478271484375
+            ],
+            "section_001_v003": [
+              236.32980346679688,
+              18.157913208007812
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#5",
+          "model_as_code_mirror": [
+            "iron_hook_0",
+            "section_001__section_002_side_005"
+          ]
+        },
+        "section_001__section_002_side_004": {
+          "vertices": [
+            "section_001_v005",
+            "section_002_v005",
+            "section_002_v004",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_004",
+          "uv": {
+            "section_001_v005": [
+              207.0,
+              11.0
+            ],
+            "section_002_v005": [
+              207.0,
+              18.738571166992188
+            ],
+            "section_002_v004": [
+              205.20799255371094,
+              18.738571166992188
+            ],
+            "section_001_v004": [
+              205.20799255371094,
+              11.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#11"
+        },
+        "section_001__section_002_side_005": {
+          "vertices": [
+            "section_001_v005",
+            "section_001_v000",
+            "section_002_v000",
+            "section_002_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_005",
+          "uv": {
+            "section_001_v005": [
+              235.969482421875,
+              8.806930541992188
+            ],
+            "section_001_v000": [
+              236.67019653320312,
+              7.1579132080078125
+            ],
+            "section_002_v000": [
+              243.03817749023438,
+              7.796478271484375
+            ],
+            "section_002_v005": [
+              243.67958068847656,
+              9.469451904296875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#4"
+        },
+        "section_002__section_003_side_000": {
+          "vertices": [
+            "section_002_v001",
+            "section_003_v001",
+            "section_003_v000",
+            "section_002_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_000",
+          "uv": {
+            "section_002_v001": [
+              191.0,
+              59.0
+            ],
+            "section_003_v001": [
+              193.29165649414062,
+              53.31852722167969
+            ],
+            "section_003_v000": [
+              194.9306182861328,
+              54.040374755859375
+            ],
+            "section_002_v000": [
+              192.14053344726562,
+              60.3807373046875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#6"
+        },
+        "section_002__section_003_side_001": {
+          "vertices": [
+            "section_002_v001",
+            "section_002_v002",
+            "section_003_v002",
+            "section_003_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_001",
+          "uv": {
+            "section_002_v001": [
+              193.0,
+              70.0
+            ],
+            "section_002_v002": [
+              191.20799255371094,
+              70.0
+            ],
+            "section_003_v002": [
+              191.20799255371094,
+              63.87342834472656
+            ],
+            "section_003_v001": [
+              193.0,
+              63.87342834472656
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#13"
+        },
+        "section_002__section_003_side_002": {
+          "vertices": [
+            "section_002_v002",
+            "section_002_v003",
+            "section_003_v003",
+            "section_003_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_002",
+          "uv": {
+            "section_002_v002": [
+              236.0,
+              50.0
+            ],
+            "section_002_v003": [
+              234.85946655273438,
+              51.3807373046875
+            ],
+            "section_003_v003": [
+              232.0693817138672,
+              45.040374755859375
+            ],
+            "section_003_v002": [
+              233.70834350585938,
+              44.31852722167969
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#7",
+          "model_as_code_mirror": [
+            "iron_hook_0",
+            "section_002__section_003_side_000"
+          ]
+        },
+        "section_002__section_003_side_003": {
+          "vertices": [
+            "section_002_v003",
+            "section_002_v004",
+            "section_003_v004",
+            "section_003_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_003",
+          "uv": {
+            "section_002_v003": [
+              251.13613891601562,
+              7.615325927734375
+            ],
+            "section_002_v004": [
+              250.0,
+              9.0
+            ],
+            "section_003_v004": [
+              246.69119262695312,
+              2.007965087890625
+            ],
+            "section_003_v003": [
+              248.32882690429688,
+              1.282501220703125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#1",
+          "model_as_code_mirror": [
+            "iron_hook_0",
+            "section_002__section_003_side_005"
+          ]
+        },
+        "section_002__section_003_side_004": {
+          "vertices": [
+            "section_002_v005",
+            "section_003_v005",
+            "section_003_v004",
+            "section_002_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_004",
+          "uv": {
+            "section_002_v005": [
+              197.0,
+              70.0
+            ],
+            "section_003_v005": [
+              197.0,
+              62.264373779296875
+            ],
+            "section_003_v004": [
+              198.79200744628906,
+              62.264373779296875
+            ],
+            "section_002_v004": [
+              198.79200744628906,
+              70.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#8"
+        },
+        "section_002__section_003_side_005": {
+          "vertices": [
+            "section_002_v000",
+            "section_003_v000",
+            "section_003_v005",
+            "section_002_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_005",
+          "uv": {
+            "section_002_v000": [
+              248.86386108398438,
+              40.615325927734375
+            ],
+            "section_003_v000": [
+              251.67117309570312,
+              34.282501220703125
+            ],
+            "section_003_v005": [
+              253.30880737304688,
+              35.007965087890625
+            ],
+            "section_002_v005": [
+              250.0,
+              42.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#0"
+        },
+        "cap_start_000": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v005",
+            "section_000_v004",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_000",
+          "uv": {
+            "cap_start_center": [
+              211.0,
+              64.0
+            ],
+            "section_000_v005": [
+              211.89599609375,
+              65.55191040039062
+            ],
+            "section_000_v004": [
+              210.10400390625,
+              65.55191040039062
+            ],
+            "section_000_v003": [
+              209.20799255371094,
+              64.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#12"
+        },
+        "cap_start_001": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_001",
+          "uv": {
+            "cap_start_center": [
+              211.0,
+              64.0
+            ],
+            "section_000_v003": [
+              209.20799255371094,
+              64.0
+            ],
+            "section_000_v002": [
+              210.10400390625,
+              62.448089599609375
+            ],
+            "section_000_v001": [
+              211.89599609375,
+              62.448089599609375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#12"
+        },
+        "cap_start_002": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v001",
+            "section_000_v000",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_002",
+          "uv": {
+            "cap_start_center": [
+              211.0,
+              64.0
+            ],
+            "section_000_v001": [
+              211.89599609375,
+              62.448089599609375
+            ],
+            "section_000_v000": [
+              212.79200744628906,
+              64.0
+            ],
+            "section_000_v005": [
+              211.89599609375,
+              65.55191040039062
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#12"
+        },
+        "cap_end_000": {
+          "vertices": [
+            "cap_end_center",
+            "section_003_v000",
+            "section_003_v001",
+            "section_003_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_000",
+          "uv": {
+            "cap_end_center": [
+              224.0,
+              19.0
+            ],
+            "section_003_v000": [
+              222.20799255371094,
+              19.0
+            ],
+            "section_003_v001": [
+              223.10400390625,
+              17.448089599609375
+            ],
+            "section_003_v002": [
+              224.89599609375,
+              17.448089599609375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#10"
+        },
+        "cap_end_001": {
+          "vertices": [
+            "cap_end_center",
+            "section_003_v002",
+            "section_003_v003",
+            "section_003_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_001",
+          "uv": {
+            "cap_end_center": [
+              224.0,
+              19.0
+            ],
+            "section_003_v002": [
+              224.89599609375,
+              17.448089599609375
+            ],
+            "section_003_v003": [
+              225.79200744628906,
+              19.0
+            ],
+            "section_003_v004": [
+              224.89599609375,
+              20.551910400390625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#10"
+        },
+        "cap_end_002": {
+          "vertices": [
+            "cap_end_center",
+            "section_003_v004",
+            "section_003_v005",
+            "section_003_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_002",
+          "uv": {
+            "cap_end_center": [
+              224.0,
+              19.0
+            ],
+            "section_003_v004": [
+              224.89599609375,
+              20.551910400390625
+            ],
+            "section_003_v005": [
+              223.10400390625,
+              20.551910400390625
+            ],
+            "section_003_v000": [
+              222.20799255371094,
+              19.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_0#10"
+        }
+      },
+      "type": "mesh",
+      "uuid": "96a78305-73ce-58ec-904c-092b3f0acaa2",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            -0.6880000000000002,
+            0.8160000000000001
+          ],
+          "section_002": [
+            0,
+            -0.6880000000000002,
+            1.6159999999999999
+          ],
+          "section_003": [
+            0,
+            0.07999999999999985,
+            2.016
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.07999999999999985,
+            2.016
+          ],
+          "center": [
+            0,
+            -0.3503007961620328,
+            1.03150348357914
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003",
+            "section_000_v004",
+            "section_000_v005"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004",
+            "section_001_v005"
+          ],
+          "section_002": [
+            "section_002_v000",
+            "section_002_v001",
+            "section_002_v002",
+            "section_002_v003",
+            "section_002_v004",
+            "section_002_v005"
+          ],
+          "section_003": [
+            "section_003_v000",
+            "section_003_v001",
+            "section_003_v002",
+            "section_003_v003",
+            "section_003_v004",
+            "section_003_v005"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            -0.6880000000000002,
+            0.8160000000000001
+          ],
+          "section_002": [
+            0,
+            -0.6880000000000002,
+            1.6159999999999999
+          ],
+          "section_003": [
+            0,
+            0.07999999999999985,
+            2.016
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.07999999999999985,
+            2.016
+          ],
+          "center": [
+            0,
+            -0.3503007961620328,
+            1.03150348357914
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              -0.644597252536441,
+              0.7645223227757786
+            ],
+            "up": [
+              0,
+              -0.7645223227757786,
+              -0.644597252536441
+            ]
+          },
+          "section_001": {
+            "origin": [
+              0,
+              -0.6880000000000002,
+              0.8160000000000001
+            ],
+            "forward": [
+              0,
+              -0.34313093508471476,
+              0.9392875818341736
+            ],
+            "up": [
+              0,
+              -0.9392875818341736,
+              -0.34313093508471476
+            ]
+          },
+          "section_002": {
+            "origin": [
+              0,
+              -0.6880000000000002,
+              1.6159999999999999
+            ],
+            "forward": [
+              0,
+              0.5186837095779234,
+              0.8549662036703467
+            ],
+            "up": [
+              0,
+              -0.8549662036703465,
+              0.5186837095779233
+            ]
+          },
+          "section_003": {
+            "origin": [
+              0,
+              0.07999999999999985,
+              2.016
+            ],
+            "forward": [
+              0,
+              0.8869140841669796,
+              0.46193441883696895
+            ],
+            "up": [
+              0,
+              -0.46193441883696884,
+              0.8869140841669794
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              -0.644597252536441,
+              0.7645223227757786
+            ],
+            "up": [
+              0,
+              -0.7645223227757786,
+              -0.644597252536441
+            ]
+          },
+          "top": {
+            "origin": [
+              0,
+              0.07999999999999985,
+              2.016
+            ],
+            "forward": [
+              0,
+              0.8869140841669796,
+              0.46193441883696895
+            ],
+            "up": [
+              0,
+              -0.46193441883696884,
+              0.8869140841669794
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "iron_hook_1",
+      "color": 0,
+      "origin": [
+        0,
+        1.856,
+        0.704
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.224,
+          0,
+          0
+        ],
+        "section_000_v001": [
+          0.11200000000000003,
+          0.14830944873564067,
+          0.12504522148299124
+        ],
+        "section_000_v002": [
+          -0.11199999999999995,
+          0.14830944873564067,
+          0.12504522148299135
+        ],
+        "section_000_v003": [
+          -0.224,
+          0,
+          0
+        ],
+        "section_000_v004": [
+          -0.1120000000000001,
+          -0.14830944873564067,
+          -0.12504522148299124
+        ],
+        "section_000_v005": [
+          0.11200000000000003,
+          -0.14830944873564067,
+          -0.12504522148299124
+        ],
+        "section_001_v000": [
+          0.224,
+          -0.6880000000000002,
+          0.8160000000000001
+        ],
+        "section_001_v001": [
+          0.11200000000000003,
+          -0.5057878927586068,
+          0.8825638638801185
+        ],
+        "section_001_v002": [
+          -0.11199999999999995,
+          -0.5057878927586068,
+          0.8825638638801185
+        ],
+        "section_001_v003": [
+          -0.224,
+          -0.6880000000000002,
+          0.8160000000000001
+        ],
+        "section_001_v004": [
+          -0.1120000000000001,
+          -0.8702121072413935,
+          0.7494361361198816
+        ],
+        "section_001_v005": [
+          0.11200000000000003,
+          -0.8702121072413935,
+          0.7494361361198816
+        ],
+        "section_002_v000": [
+          0.224,
+          -0.6880000000000002,
+          1.6159999999999999
+        ],
+        "section_002_v001": [
+          0.11200000000000003,
+          -0.5221453708067323,
+          1.5153807077387065
+        ],
+        "section_002_v002": [
+          -0.11199999999999995,
+          -0.5221453708067323,
+          1.5153807077387065
+        ],
+        "section_002_v003": [
+          -0.224,
+          -0.6880000000000002,
+          1.6159999999999999
+        ],
+        "section_002_v004": [
+          -0.1120000000000001,
+          -0.853854629193268,
+          1.7166192922612933
+        ],
+        "section_002_v005": [
+          0.11200000000000003,
+          -0.853854629193268,
+          1.7166192922612933
+        ],
+        "section_003_v000": [
+          0.224,
+          0.07999999999999985,
+          2.016
+        ],
+        "section_003_v001": [
+          0.11200000000000003,
+          0.16961051491732815,
+          1.8439478113587298
+        ],
+        "section_003_v002": [
+          -0.11199999999999995,
+          0.16961051491732815,
+          1.8439478113587298
+        ],
+        "section_003_v003": [
+          -0.224,
+          0.07999999999999985,
+          2.016
+        ],
+        "section_003_v004": [
+          -0.1120000000000001,
+          -0.00961051491732845,
+          2.1880521886412705
+        ],
+        "section_003_v005": [
+          0.11200000000000003,
+          -0.00961051491732845,
+          2.1880521886412705
+        ],
+        "cap_start_center": [
+          2.3129646346357427e-18,
+          0,
+          1.1102230246251565e-16
+        ],
+        "cap_end_center": [
+          2.3129646346357427e-18,
+          0.07999999999999985,
+          2.016
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v000": [
+              200.82713317871094,
+              43.354644775390625
+            ],
+            "section_000_v001": [
+              202.0,
+              42.0
+            ],
+            "section_001_v001": [
+              207.99960327148438,
+              47.302032470703125
+            ],
+            "section_001_v000": [
+              207.2821807861328,
+              48.9439697265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#2"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v001",
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v001": [
+              221.0,
+              1.0
+            ],
+            "section_000_v002": [
+              222.79200744628906,
+              1.0
+            ],
+            "section_001_v002": [
+              222.79200744628906,
+              9.0067138671875
+            ],
+            "section_001_v001": [
+              221.0,
+              9.0067138671875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#9"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002",
+            "section_000_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v003": [
+              196.17286682128906,
+              44.354644775390625
+            ],
+            "section_001_v003": [
+              189.7178192138672,
+              49.9439697265625
+            ],
+            "section_001_v002": [
+              189.00039672851562,
+              48.302032470703125
+            ],
+            "section_000_v002": [
+              195.0,
+              43.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#3",
+          "model_as_code_mirror": [
+            "iron_hook_1",
+            "section_000__section_001_side_000"
+          ]
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v004",
+            "section_001_v004",
+            "section_001_v003",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v004": [
+              237.0,
+              25.0
+            ],
+            "section_001_v004": [
+              230.030517578125,
+              30.806930541992188
+            ],
+            "section_001_v003": [
+              229.32980346679688,
+              29.157913208007812
+            ],
+            "section_000_v003": [
+              235.84071350097656,
+              23.633712768554688
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#5",
+          "model_as_code_mirror": [
+            "iron_hook_1",
+            "section_000__section_001_side_005"
+          ]
+        },
+        "section_000__section_001_side_004": {
+          "vertices": [
+            "section_000_v004",
+            "section_000_v005",
+            "section_001_v005",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_004",
+          "uv": {
+            "section_000_v004": [
+              209.0,
+              1.9283294677734375
+            ],
+            "section_000_v005": [
+              210.79200744628906,
+              1.9283294677734375
+            ],
+            "section_001_v005": [
+              210.79200744628906,
+              11.0
+            ],
+            "section_001_v004": [
+              209.0,
+              11.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#11"
+        },
+        "section_000__section_001_side_005": {
+          "vertices": [
+            "section_000_v005",
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_005",
+          "uv": {
+            "section_000_v005": [
+              205.0,
+              23.0
+            ],
+            "section_000_v000": [
+              206.15928649902344,
+              21.633712768554688
+            ],
+            "section_001_v000": [
+              212.67019653320312,
+              27.157913208007812
+            ],
+            "section_001_v005": [
+              211.969482421875,
+              28.806930541992188
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#4"
+        },
+        "section_001__section_002_side_000": {
+          "vertices": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_002_v001",
+            "section_002_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_000",
+          "uv": {
+            "section_001_v000": [
+              207.2821807861328,
+              48.9439697265625
+            ],
+            "section_001_v001": [
+              207.99960327148438,
+              47.302032470703125
+            ],
+            "section_002_v001": [
+              213.01956176757812,
+              47.96868896484375
+            ],
+            "section_002_v000": [
+              213.6432342529297,
+              49.648193359375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#2"
+        },
+        "section_001__section_002_side_001": {
+          "vertices": [
+            "section_001_v001",
+            "section_001_v002",
+            "section_002_v002",
+            "section_002_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_001",
+          "uv": {
+            "section_001_v001": [
+              221.0,
+              9.0067138671875
+            ],
+            "section_001_v002": [
+              222.79200744628906,
+              9.0067138671875
+            ],
+            "section_002_v002": [
+              222.79200744628906,
+              14.070938110351562
+            ],
+            "section_002_v001": [
+              221.0,
+              14.070938110351562
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#9"
+        },
+        "section_001__section_002_side_002": {
+          "vertices": [
+            "section_001_v003",
+            "section_002_v003",
+            "section_002_v002",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_002",
+          "uv": {
+            "section_001_v003": [
+              189.7178192138672,
+              49.9439697265625
+            ],
+            "section_002_v003": [
+              183.3567657470703,
+              50.648193359375
+            ],
+            "section_002_v002": [
+              183.98043823242188,
+              48.96868896484375
+            ],
+            "section_001_v002": [
+              189.00039672851562,
+              48.302032470703125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#3",
+          "model_as_code_mirror": [
+            "iron_hook_1",
+            "section_001__section_002_side_000"
+          ]
+        },
+        "section_001__section_002_side_003": {
+          "vertices": [
+            "section_001_v004",
+            "section_002_v004",
+            "section_002_v003",
+            "section_001_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_003",
+          "uv": {
+            "section_001_v004": [
+              230.030517578125,
+              30.806930541992188
+            ],
+            "section_002_v004": [
+              222.32041931152344,
+              31.469451904296875
+            ],
+            "section_002_v003": [
+              222.96182250976562,
+              29.796478271484375
+            ],
+            "section_001_v003": [
+              229.32980346679688,
+              29.157913208007812
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#5",
+          "model_as_code_mirror": [
+            "iron_hook_1",
+            "section_001__section_002_side_005"
+          ]
+        },
+        "section_001__section_002_side_004": {
+          "vertices": [
+            "section_001_v004",
+            "section_001_v005",
+            "section_002_v005",
+            "section_002_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_004",
+          "uv": {
+            "section_001_v004": [
+              209.0,
+              11.0
+            ],
+            "section_001_v005": [
+              210.79200744628906,
+              11.0
+            ],
+            "section_002_v005": [
+              210.79200744628906,
+              18.738571166992188
+            ],
+            "section_002_v004": [
+              209.0,
+              18.738571166992188
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#11"
+        },
+        "section_001__section_002_side_005": {
+          "vertices": [
+            "section_001_v005",
+            "section_001_v000",
+            "section_002_v000",
+            "section_002_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_005",
+          "uv": {
+            "section_001_v005": [
+              211.969482421875,
+              28.806930541992188
+            ],
+            "section_001_v000": [
+              212.67019653320312,
+              27.157913208007812
+            ],
+            "section_002_v000": [
+              219.03817749023438,
+              27.796478271484375
+            ],
+            "section_002_v005": [
+              219.67958068847656,
+              29.469451904296875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#4"
+        },
+        "section_002__section_003_side_000": {
+          "vertices": [
+            "section_002_v001",
+            "section_003_v001",
+            "section_003_v000",
+            "section_002_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_000",
+          "uv": {
+            "section_002_v001": [
+              238.0,
+              50.0
+            ],
+            "section_003_v001": [
+              240.29165649414062,
+              44.31852722167969
+            ],
+            "section_003_v000": [
+              241.9306182861328,
+              45.040374755859375
+            ],
+            "section_002_v000": [
+              239.14053344726562,
+              51.3807373046875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#6"
+        },
+        "section_002__section_003_side_001": {
+          "vertices": [
+            "section_002_v001",
+            "section_002_v002",
+            "section_003_v002",
+            "section_003_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_001",
+          "uv": {
+            "section_002_v001": [
+              203.0,
+              69.0
+            ],
+            "section_002_v002": [
+              201.20799255371094,
+              69.0
+            ],
+            "section_003_v002": [
+              201.20799255371094,
+              62.87342834472656
+            ],
+            "section_003_v001": [
+              203.0,
+              62.87342834472656
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#13"
+        },
+        "section_002__section_003_side_002": {
+          "vertices": [
+            "section_002_v002",
+            "section_002_v003",
+            "section_003_v003",
+            "section_003_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_002",
+          "uv": {
+            "section_002_v002": [
+              248.0,
+              50.0
+            ],
+            "section_002_v003": [
+              246.85946655273438,
+              51.3807373046875
+            ],
+            "section_003_v003": [
+              244.0693817138672,
+              45.040374755859375
+            ],
+            "section_003_v002": [
+              245.70834350585938,
+              44.31852722167969
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#7",
+          "model_as_code_mirror": [
+            "iron_hook_1",
+            "section_002__section_003_side_000"
+          ]
+        },
+        "section_002__section_003_side_003": {
+          "vertices": [
+            "section_002_v003",
+            "section_002_v004",
+            "section_003_v004",
+            "section_003_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_003",
+          "uv": {
+            "section_002_v003": [
+              204.13613891601562,
+              58.615325927734375
+            ],
+            "section_002_v004": [
+              203.0,
+              60.0
+            ],
+            "section_003_v004": [
+              199.69119262695312,
+              53.007965087890625
+            ],
+            "section_003_v003": [
+              201.32882690429688,
+              52.282501220703125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#1",
+          "model_as_code_mirror": [
+            "iron_hook_1",
+            "section_002__section_003_side_005"
+          ]
+        },
+        "section_002__section_003_side_004": {
+          "vertices": [
+            "section_002_v004",
+            "section_002_v005",
+            "section_003_v005",
+            "section_003_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_004",
+          "uv": {
+            "section_002_v004": [
+              185.0,
+              71.0
+            ],
+            "section_002_v005": [
+              183.20799255371094,
+              71.0
+            ],
+            "section_003_v005": [
+              183.20799255371094,
+              63.264373779296875
+            ],
+            "section_003_v004": [
+              185.0,
+              63.264373779296875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#8"
+        },
+        "section_002__section_003_side_005": {
+          "vertices": [
+            "section_002_v000",
+            "section_003_v000",
+            "section_003_v005",
+            "section_002_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_005",
+          "uv": {
+            "section_002_v000": [
+              246.86386108398438,
+              17.615325927734375
+            ],
+            "section_003_v000": [
+              249.67117309570312,
+              11.282501220703125
+            ],
+            "section_003_v005": [
+              251.30880737304688,
+              12.007965087890625
+            ],
+            "section_002_v005": [
+              248.0,
+              19.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#0"
+        },
+        "cap_start_000": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v005",
+            "section_000_v004",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_000",
+          "uv": {
+            "cap_start_center": [
+              229.0,
+              56.0
+            ],
+            "section_000_v005": [
+              229.89599609375,
+              57.551910400390625
+            ],
+            "section_000_v004": [
+              228.10400390625,
+              57.551910400390625
+            ],
+            "section_000_v003": [
+              227.20799255371094,
+              56.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#12"
+        },
+        "cap_start_001": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_001",
+          "uv": {
+            "cap_start_center": [
+              229.0,
+              56.0
+            ],
+            "section_000_v003": [
+              227.20799255371094,
+              56.0
+            ],
+            "section_000_v002": [
+              228.10400390625,
+              54.448089599609375
+            ],
+            "section_000_v001": [
+              229.89599609375,
+              54.448089599609375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#12"
+        },
+        "cap_start_002": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v001",
+            "section_000_v000",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_002",
+          "uv": {
+            "cap_start_center": [
+              229.0,
+              56.0
+            ],
+            "section_000_v001": [
+              229.89599609375,
+              54.448089599609375
+            ],
+            "section_000_v000": [
+              230.79200744628906,
+              56.0
+            ],
+            "section_000_v005": [
+              229.89599609375,
+              57.551910400390625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#12"
+        },
+        "cap_end_000": {
+          "vertices": [
+            "cap_end_center",
+            "section_003_v000",
+            "section_003_v001",
+            "section_003_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_000",
+          "uv": {
+            "cap_end_center": [
+              223.0,
+              56.0
+            ],
+            "section_003_v000": [
+              221.20799255371094,
+              56.0
+            ],
+            "section_003_v001": [
+              222.10400390625,
+              54.448089599609375
+            ],
+            "section_003_v002": [
+              223.89599609375,
+              54.448089599609375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#10"
+        },
+        "cap_end_001": {
+          "vertices": [
+            "cap_end_center",
+            "section_003_v002",
+            "section_003_v003",
+            "section_003_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_001",
+          "uv": {
+            "cap_end_center": [
+              223.0,
+              56.0
+            ],
+            "section_003_v002": [
+              223.89599609375,
+              54.448089599609375
+            ],
+            "section_003_v003": [
+              224.79200744628906,
+              56.0
+            ],
+            "section_003_v004": [
+              223.89599609375,
+              57.551910400390625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#10"
+        },
+        "cap_end_002": {
+          "vertices": [
+            "cap_end_center",
+            "section_003_v004",
+            "section_003_v005",
+            "section_003_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_002",
+          "uv": {
+            "cap_end_center": [
+              223.0,
+              56.0
+            ],
+            "section_003_v004": [
+              223.89599609375,
+              57.551910400390625
+            ],
+            "section_003_v005": [
+              222.10400390625,
+              57.551910400390625
+            ],
+            "section_003_v000": [
+              221.20799255371094,
+              56.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_1#10"
+        }
+      },
+      "type": "mesh",
+      "uuid": "0af1d543-c0dd-5505-b5e0-bad10f4a5a17",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            -0.6880000000000002,
+            0.8160000000000001
+          ],
+          "section_002": [
+            0,
+            -0.6880000000000002,
+            1.6159999999999999
+          ],
+          "section_003": [
+            0,
+            0.07999999999999985,
+            2.016
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.07999999999999985,
+            2.016
+          ],
+          "center": [
+            0,
+            -0.3503007961620328,
+            1.03150348357914
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003",
+            "section_000_v004",
+            "section_000_v005"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004",
+            "section_001_v005"
+          ],
+          "section_002": [
+            "section_002_v000",
+            "section_002_v001",
+            "section_002_v002",
+            "section_002_v003",
+            "section_002_v004",
+            "section_002_v005"
+          ],
+          "section_003": [
+            "section_003_v000",
+            "section_003_v001",
+            "section_003_v002",
+            "section_003_v003",
+            "section_003_v004",
+            "section_003_v005"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            -0.6880000000000002,
+            0.8160000000000001
+          ],
+          "section_002": [
+            0,
+            -0.6880000000000002,
+            1.6159999999999999
+          ],
+          "section_003": [
+            0,
+            0.07999999999999985,
+            2.016
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.07999999999999985,
+            2.016
+          ],
+          "center": [
+            0,
+            -0.3503007961620328,
+            1.03150348357914
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              -0.644597252536441,
+              0.7645223227757786
+            ],
+            "up": [
+              0,
+              -0.7645223227757786,
+              -0.644597252536441
+            ]
+          },
+          "section_001": {
+            "origin": [
+              0,
+              -0.6880000000000002,
+              0.8160000000000001
+            ],
+            "forward": [
+              0,
+              -0.34313093508471476,
+              0.9392875818341736
+            ],
+            "up": [
+              0,
+              -0.9392875818341736,
+              -0.34313093508471476
+            ]
+          },
+          "section_002": {
+            "origin": [
+              0,
+              -0.6880000000000002,
+              1.6159999999999999
+            ],
+            "forward": [
+              0,
+              0.5186837095779234,
+              0.8549662036703467
+            ],
+            "up": [
+              0,
+              -0.8549662036703465,
+              0.5186837095779233
+            ]
+          },
+          "section_003": {
+            "origin": [
+              0,
+              0.07999999999999985,
+              2.016
+            ],
+            "forward": [
+              0,
+              0.8869140841669796,
+              0.46193441883696895
+            ],
+            "up": [
+              0,
+              -0.46193441883696884,
+              0.8869140841669794
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              -0.644597252536441,
+              0.7645223227757786
+            ],
+            "up": [
+              0,
+              -0.7645223227757786,
+              -0.644597252536441
+            ]
+          },
+          "top": {
+            "origin": [
+              0,
+              0.07999999999999985,
+              2.016
+            ],
+            "forward": [
+              0,
+              0.8869140841669796,
+              0.46193441883696895
+            ],
+            "up": [
+              0,
+              -0.46193441883696884,
+              0.8869140841669794
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "iron_hook_2",
+      "color": 0,
+      "origin": [
+        7.84,
+        1.856,
+        0.704
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.2240000000000002,
+          0,
+          0
+        ],
+        "section_000_v001": [
+          0.1120000000000001,
+          0.14830944873564067,
+          0.12504522148299124
+        ],
+        "section_000_v002": [
+          -0.1120000000000001,
+          0.14830944873564067,
+          0.12504522148299135
+        ],
+        "section_000_v003": [
+          -0.2240000000000002,
+          0,
+          0
+        ],
+        "section_000_v004": [
+          -0.1120000000000001,
+          -0.14830944873564067,
+          -0.12504522148299124
+        ],
+        "section_000_v005": [
+          0.1120000000000001,
+          -0.14830944873564067,
+          -0.12504522148299124
+        ],
+        "section_001_v000": [
+          0.2240000000000002,
+          -0.6880000000000002,
+          0.8160000000000001
+        ],
+        "section_001_v001": [
+          0.1120000000000001,
+          -0.5057878927586068,
+          0.8825638638801185
+        ],
+        "section_001_v002": [
+          -0.1120000000000001,
+          -0.5057878927586068,
+          0.8825638638801185
+        ],
+        "section_001_v003": [
+          -0.2240000000000002,
+          -0.6880000000000002,
+          0.8160000000000001
+        ],
+        "section_001_v004": [
+          -0.1120000000000001,
+          -0.8702121072413935,
+          0.7494361361198816
+        ],
+        "section_001_v005": [
+          0.1120000000000001,
+          -0.8702121072413935,
+          0.7494361361198816
+        ],
+        "section_002_v000": [
+          0.2240000000000002,
+          -0.6880000000000002,
+          1.6159999999999999
+        ],
+        "section_002_v001": [
+          0.1120000000000001,
+          -0.5221453708067323,
+          1.5153807077387065
+        ],
+        "section_002_v002": [
+          -0.1120000000000001,
+          -0.5221453708067323,
+          1.5153807077387065
+        ],
+        "section_002_v003": [
+          -0.2240000000000002,
+          -0.6880000000000002,
+          1.6159999999999999
+        ],
+        "section_002_v004": [
+          -0.1120000000000001,
+          -0.853854629193268,
+          1.7166192922612933
+        ],
+        "section_002_v005": [
+          0.1120000000000001,
+          -0.853854629193268,
+          1.7166192922612933
+        ],
+        "section_003_v000": [
+          0.2240000000000002,
+          0.07999999999999985,
+          2.016
+        ],
+        "section_003_v001": [
+          0.1120000000000001,
+          0.16961051491732815,
+          1.8439478113587298
+        ],
+        "section_003_v002": [
+          -0.1120000000000001,
+          0.16961051491732815,
+          1.8439478113587298
+        ],
+        "section_003_v003": [
+          -0.2240000000000002,
+          0.07999999999999985,
+          2.016
+        ],
+        "section_003_v004": [
+          -0.1120000000000001,
+          -0.00961051491732845,
+          2.1880521886412705
+        ],
+        "section_003_v005": [
+          0.1120000000000001,
+          -0.00961051491732845,
+          2.1880521886412705
+        ],
+        "cap_start_center": [
+          0,
+          0,
+          1.1102230246251565e-16
+        ],
+        "cap_end_center": [
+          0,
+          0.07999999999999985,
+          2.016
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v000": [
+              232.82713317871094,
+              35.354644775390625
+            ],
+            "section_000_v001": [
+              234.0,
+              34.0
+            ],
+            "section_001_v001": [
+              239.99960327148438,
+              39.302032470703125
+            ],
+            "section_001_v000": [
+              239.2821807861328,
+              40.9439697265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#2"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v001",
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v001": [
+              225.0,
+              1.0
+            ],
+            "section_000_v002": [
+              226.79200744628906,
+              1.0
+            ],
+            "section_001_v002": [
+              226.79200744628906,
+              9.0067138671875
+            ],
+            "section_001_v001": [
+              225.0,
+              9.0067138671875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#9"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002",
+            "section_000_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v003": [
+              229.17286682128906,
+              45.354644775390625
+            ],
+            "section_001_v003": [
+              222.7178192138672,
+              50.9439697265625
+            ],
+            "section_001_v002": [
+              222.00039672851562,
+              49.302032470703125
+            ],
+            "section_000_v002": [
+              228.0,
+              44.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#3",
+          "model_as_code_mirror": [
+            "iron_hook_2",
+            "section_000__section_001_side_000"
+          ]
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v004",
+            "section_001_v004",
+            "section_001_v003",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v004": [
+              198.0,
+              34.0
+            ],
+            "section_001_v004": [
+              191.030517578125,
+              39.80693054199219
+            ],
+            "section_001_v003": [
+              190.32980346679688,
+              38.15791320800781
+            ],
+            "section_000_v003": [
+              196.84071350097656,
+              32.63371276855469
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#5",
+          "model_as_code_mirror": [
+            "iron_hook_2",
+            "section_000__section_001_side_005"
+          ]
+        },
+        "section_000__section_001_side_004": {
+          "vertices": [
+            "section_000_v005",
+            "section_001_v005",
+            "section_001_v004",
+            "section_000_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_004",
+          "uv": {
+            "section_000_v005": [
+              214.79200744628906,
+              1.9283294677734375
+            ],
+            "section_001_v005": [
+              214.79200744628906,
+              11.0
+            ],
+            "section_001_v004": [
+              213.0,
+              11.0
+            ],
+            "section_000_v004": [
+              213.0,
+              1.9283294677734375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#11"
+        },
+        "section_000__section_001_side_005": {
+          "vertices": [
+            "section_000_v005",
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_005",
+          "uv": {
+            "section_000_v005": [
+              239.0,
+              25.0
+            ],
+            "section_000_v000": [
+              240.15928649902344,
+              23.633712768554688
+            ],
+            "section_001_v000": [
+              246.67019653320312,
+              29.157913208007812
+            ],
+            "section_001_v005": [
+              245.969482421875,
+              30.806930541992188
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#4"
+        },
+        "section_001__section_002_side_000": {
+          "vertices": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_002_v001",
+            "section_002_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_000",
+          "uv": {
+            "section_001_v000": [
+              239.2821807861328,
+              40.9439697265625
+            ],
+            "section_001_v001": [
+              239.99960327148438,
+              39.302032470703125
+            ],
+            "section_002_v001": [
+              245.01956176757812,
+              39.96868896484375
+            ],
+            "section_002_v000": [
+              245.6432342529297,
+              41.648193359375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#2"
+        },
+        "section_001__section_002_side_001": {
+          "vertices": [
+            "section_001_v001",
+            "section_001_v002",
+            "section_002_v002",
+            "section_002_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_001",
+          "uv": {
+            "section_001_v001": [
+              225.0,
+              9.0067138671875
+            ],
+            "section_001_v002": [
+              226.79200744628906,
+              9.0067138671875
+            ],
+            "section_002_v002": [
+              226.79200744628906,
+              14.070938110351562
+            ],
+            "section_002_v001": [
+              225.0,
+              14.070938110351562
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#9"
+        },
+        "section_001__section_002_side_002": {
+          "vertices": [
+            "section_001_v003",
+            "section_002_v003",
+            "section_002_v002",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_002",
+          "uv": {
+            "section_001_v003": [
+              222.7178192138672,
+              50.9439697265625
+            ],
+            "section_002_v003": [
+              216.3567657470703,
+              51.648193359375
+            ],
+            "section_002_v002": [
+              216.98043823242188,
+              49.96868896484375
+            ],
+            "section_001_v002": [
+              222.00039672851562,
+              49.302032470703125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#3",
+          "model_as_code_mirror": [
+            "iron_hook_2",
+            "section_001__section_002_side_000"
+          ]
+        },
+        "section_001__section_002_side_003": {
+          "vertices": [
+            "section_001_v004",
+            "section_002_v004",
+            "section_002_v003",
+            "section_001_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_003",
+          "uv": {
+            "section_001_v004": [
+              191.030517578125,
+              39.80693054199219
+            ],
+            "section_002_v004": [
+              183.32041931152344,
+              40.469451904296875
+            ],
+            "section_002_v003": [
+              183.96182250976562,
+              38.796478271484375
+            ],
+            "section_001_v003": [
+              190.32980346679688,
+              38.15791320800781
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#5",
+          "model_as_code_mirror": [
+            "iron_hook_2",
+            "section_001__section_002_side_005"
+          ]
+        },
+        "section_001__section_002_side_004": {
+          "vertices": [
+            "section_001_v004",
+            "section_001_v005",
+            "section_002_v005",
+            "section_002_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_004",
+          "uv": {
+            "section_001_v004": [
+              213.0,
+              11.0
+            ],
+            "section_001_v005": [
+              214.79200744628906,
+              11.0
+            ],
+            "section_002_v005": [
+              214.79200744628906,
+              18.738571166992188
+            ],
+            "section_002_v004": [
+              213.0,
+              18.738571166992188
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#11"
+        },
+        "section_001__section_002_side_005": {
+          "vertices": [
+            "section_001_v005",
+            "section_001_v000",
+            "section_002_v000",
+            "section_002_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_001__section_002_side_005",
+          "uv": {
+            "section_001_v005": [
+              245.969482421875,
+              30.806930541992188
+            ],
+            "section_001_v000": [
+              246.67019653320312,
+              29.157913208007812
+            ],
+            "section_002_v000": [
+              253.03817749023438,
+              29.796478271484375
+            ],
+            "section_002_v005": [
+              253.67958068847656,
+              31.469451904296875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#4"
+        },
+        "section_002__section_003_side_000": {
+          "vertices": [
+            "section_002_v001",
+            "section_003_v001",
+            "section_003_v000",
+            "section_002_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_000",
+          "uv": {
+            "section_002_v001": [
+              250.0,
+              50.0
+            ],
+            "section_003_v001": [
+              252.29165649414062,
+              44.31852722167969
+            ],
+            "section_003_v000": [
+              253.9306182861328,
+              45.040374755859375
+            ],
+            "section_002_v000": [
+              251.14053344726562,
+              51.3807373046875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#6"
+        },
+        "section_002__section_003_side_001": {
+          "vertices": [
+            "section_002_v002",
+            "section_003_v002",
+            "section_003_v001",
+            "section_002_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_001",
+          "uv": {
+            "section_002_v002": [
+              205.0,
+              69.0
+            ],
+            "section_003_v002": [
+              205.0,
+              62.87342834472656
+            ],
+            "section_003_v001": [
+              206.79200744628906,
+              62.87342834472656
+            ],
+            "section_002_v001": [
+              206.79200744628906,
+              69.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#13"
+        },
+        "section_002__section_003_side_002": {
+          "vertices": [
+            "section_002_v002",
+            "section_002_v003",
+            "section_003_v003",
+            "section_003_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_002",
+          "uv": {
+            "section_002_v002": [
+              219.0,
+              60.0
+            ],
+            "section_002_v003": [
+              217.85946655273438,
+              61.3807373046875
+            ],
+            "section_003_v003": [
+              215.0693817138672,
+              55.040374755859375
+            ],
+            "section_003_v002": [
+              216.70834350585938,
+              54.31852722167969
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#7",
+          "model_as_code_mirror": [
+            "iron_hook_2",
+            "section_002__section_003_side_000"
+          ]
+        },
+        "section_002__section_003_side_003": {
+          "vertices": [
+            "section_002_v003",
+            "section_002_v004",
+            "section_003_v004",
+            "section_003_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_003",
+          "uv": {
+            "section_002_v003": [
+              188.13613891601562,
+              59.615325927734375
+            ],
+            "section_002_v004": [
+              187.0,
+              61.0
+            ],
+            "section_003_v004": [
+              183.69119262695312,
+              54.007965087890625
+            ],
+            "section_003_v003": [
+              185.32882690429688,
+              53.282501220703125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#1",
+          "model_as_code_mirror": [
+            "iron_hook_2",
+            "section_002__section_003_side_005"
+          ]
+        },
+        "section_002__section_003_side_004": {
+          "vertices": [
+            "section_002_v004",
+            "section_002_v005",
+            "section_003_v005",
+            "section_003_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_004",
+          "uv": {
+            "section_002_v004": [
+              189.0,
+              71.0
+            ],
+            "section_002_v005": [
+              187.20799255371094,
+              71.0
+            ],
+            "section_003_v005": [
+              187.20799255371094,
+              63.264373779296875
+            ],
+            "section_003_v004": [
+              189.0,
+              63.264373779296875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#8"
+        },
+        "section_002__section_003_side_005": {
+          "vertices": [
+            "section_002_v000",
+            "section_003_v000",
+            "section_003_v005",
+            "section_002_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_002__section_003_side_005",
+          "uv": {
+            "section_002_v000": [
+              207.86386108398438,
+              58.615325927734375
+            ],
+            "section_003_v000": [
+              210.67117309570312,
+              52.282501220703125
+            ],
+            "section_003_v005": [
+              212.30880737304688,
+              53.007965087890625
+            ],
+            "section_002_v005": [
+              209.0,
+              60.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#0"
+        },
+        "cap_start_000": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v005",
+            "section_000_v004",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_000",
+          "uv": {
+            "cap_start_center": [
+              241.0,
+              56.0
+            ],
+            "section_000_v005": [
+              241.89599609375,
+              57.551910400390625
+            ],
+            "section_000_v004": [
+              240.10400390625,
+              57.551910400390625
+            ],
+            "section_000_v003": [
+              239.20799255371094,
+              56.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#12"
+        },
+        "cap_start_001": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_001",
+          "uv": {
+            "cap_start_center": [
+              241.0,
+              56.0
+            ],
+            "section_000_v003": [
+              239.20799255371094,
+              56.0
+            ],
+            "section_000_v002": [
+              240.10400390625,
+              54.448089599609375
+            ],
+            "section_000_v001": [
+              241.89599609375,
+              54.448089599609375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#12"
+        },
+        "cap_start_002": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v001",
+            "section_000_v000",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_002",
+          "uv": {
+            "cap_start_center": [
+              241.0,
+              56.0
+            ],
+            "section_000_v001": [
+              241.89599609375,
+              54.448089599609375
+            ],
+            "section_000_v000": [
+              242.79200744628906,
+              56.0
+            ],
+            "section_000_v005": [
+              241.89599609375,
+              57.551910400390625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#12"
+        },
+        "cap_end_000": {
+          "vertices": [
+            "cap_end_center",
+            "section_003_v000",
+            "section_003_v001",
+            "section_003_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_000",
+          "uv": {
+            "cap_end_center": [
+              235.0,
+              56.0
+            ],
+            "section_003_v000": [
+              233.20799255371094,
+              56.0
+            ],
+            "section_003_v001": [
+              234.10400390625,
+              54.448089599609375
+            ],
+            "section_003_v002": [
+              235.89599609375,
+              54.448089599609375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#10"
+        },
+        "cap_end_001": {
+          "vertices": [
+            "cap_end_center",
+            "section_003_v002",
+            "section_003_v003",
+            "section_003_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_001",
+          "uv": {
+            "cap_end_center": [
+              235.0,
+              56.0
+            ],
+            "section_003_v002": [
+              235.89599609375,
+              54.448089599609375
+            ],
+            "section_003_v003": [
+              236.79200744628906,
+              56.0
+            ],
+            "section_003_v004": [
+              235.89599609375,
+              57.551910400390625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#10"
+        },
+        "cap_end_002": {
+          "vertices": [
+            "cap_end_center",
+            "section_003_v004",
+            "section_003_v005",
+            "section_003_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_002",
+          "uv": {
+            "cap_end_center": [
+              235.0,
+              56.0
+            ],
+            "section_003_v004": [
+              235.89599609375,
+              57.551910400390625
+            ],
+            "section_003_v005": [
+              234.10400390625,
+              57.551910400390625
+            ],
+            "section_003_v000": [
+              233.20799255371094,
+              56.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_hook_2#10"
+        }
+      },
+      "type": "mesh",
+      "uuid": "e469e50d-f00f-5d31-9d2e-f32bd2cc53a9",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            -0.6880000000000002,
+            0.8160000000000001
+          ],
+          "section_002": [
+            0,
+            -0.6880000000000002,
+            1.6159999999999999
+          ],
+          "section_003": [
+            0,
+            0.07999999999999985,
+            2.016
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.07999999999999985,
+            2.016
+          ],
+          "center": [
+            0,
+            -0.3503007961620328,
+            1.03150348357914
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003",
+            "section_000_v004",
+            "section_000_v005"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004",
+            "section_001_v005"
+          ],
+          "section_002": [
+            "section_002_v000",
+            "section_002_v001",
+            "section_002_v002",
+            "section_002_v003",
+            "section_002_v004",
+            "section_002_v005"
+          ],
+          "section_003": [
+            "section_003_v000",
+            "section_003_v001",
+            "section_003_v002",
+            "section_003_v003",
+            "section_003_v004",
+            "section_003_v005"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            -0.6880000000000002,
+            0.8160000000000001
+          ],
+          "section_002": [
+            0,
+            -0.6880000000000002,
+            1.6159999999999999
+          ],
+          "section_003": [
+            0,
+            0.07999999999999985,
+            2.016
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.07999999999999985,
+            2.016
+          ],
+          "center": [
+            0,
+            -0.3503007961620328,
+            1.03150348357914
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              -0.644597252536441,
+              0.7645223227757786
+            ],
+            "up": [
+              0,
+              -0.7645223227757786,
+              -0.644597252536441
+            ]
+          },
+          "section_001": {
+            "origin": [
+              0,
+              -0.6880000000000002,
+              0.8160000000000001
+            ],
+            "forward": [
+              0,
+              -0.34313093508471476,
+              0.9392875818341736
+            ],
+            "up": [
+              0,
+              -0.9392875818341736,
+              -0.34313093508471476
+            ]
+          },
+          "section_002": {
+            "origin": [
+              0,
+              -0.6880000000000002,
+              1.6159999999999999
+            ],
+            "forward": [
+              0,
+              0.5186837095779234,
+              0.8549662036703467
+            ],
+            "up": [
+              0,
+              -0.8549662036703465,
+              0.5186837095779233
+            ]
+          },
+          "section_003": {
+            "origin": [
+              0,
+              0.07999999999999985,
+              2.016
+            ],
+            "forward": [
+              0,
+              0.8869140841669796,
+              0.46193441883696895
+            ],
+            "up": [
+              0,
+              -0.46193441883696884,
+              0.8869140841669794
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              -0.644597252536441,
+              0.7645223227757786
+            ],
+            "up": [
+              0,
+              -0.7645223227757786,
+              -0.644597252536441
+            ]
+          },
+          "top": {
+            "origin": [
+              0,
+              0.07999999999999985,
+              2.016
+            ],
+            "forward": [
+              0,
+              0.8869140841669796,
+              0.46193441883696895
+            ],
+            "up": [
+              0,
+              -0.46193441883696884,
+              0.8869140841669794
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "root",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "export": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "model_as_code_role": "folder"
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "isOpen": true,
+      "children": [
+        "cdd738b7-306b-5fd7-87f4-290d8a81a9be",
+        "96a78305-73ce-58ec-904c-092b3f0acaa2",
+        "0af1d543-c0dd-5505-b5e0-bad10f4a5a17",
+        "e469e50d-f00f-5d31-9d2e-f32bd2cc53a9"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "bd5e80c0-e449-4345-95a7-6c6bb614fc3a",
+      "id": "0",
+      "name": "texture.png",
+      "relative_path": "texture.png",
+      "width": 256,
+      "height": 256,
+      "uv_width": 256,
+      "uv_height": 256,
+      "mode": "link",
+      "internal": false,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false
+    }
+  ],
+  "animations": [],
+  "resolution": {
+    "width": 256,
+    "height": 256
+  }
+}

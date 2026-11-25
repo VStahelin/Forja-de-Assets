@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "dark-fantasy",
+  "name": "dark-fantasy",
+  "assets": {
+    "sword_of_omens": {
+      "name": "sword_of_omens",
+      "model": "assets/sword_of_omens/model.bbmodel",
+      "scripts": "scripts/sword_of_omens",
+      "texture_filter": "linear",
+      "variants": {
+        "default": {
+          "path": "assets/sword_of_omens/texture.png"
+        }
+      },
+      "default_variant": "default"
+    }
+  }
+}

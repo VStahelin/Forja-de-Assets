@@ -1,0 +1,14 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "engine/SK_Trap_DartMagazine_01.glb",
+      "runtime_role": "default",
+      "animations": [
+        "pose_closed",
+        "pose_open"
+      ]
+    }
+  ]
+}

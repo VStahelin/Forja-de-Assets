@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "light_wall_torch_01/exports/light_wall_torch_01.glb",
+      "runtime_role": "default"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "sword_of_omens/exports/sword_of_omens.glb",
+      "runtime_role": "default"
+    }
+  ]
+}

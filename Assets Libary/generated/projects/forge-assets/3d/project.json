@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "id": "forge-assets",
+  "name": "forge-assets",
+  "assets": {
+    "forge-mark": {
+      "name": "forge-mark",
+      "model": "assets/forge-mark/model.bbmodel",
+      "scripts": "scripts/forge-mark",
+      "variants": {
+        "default": {
+          "path": "assets/forge-mark/texture.png"
+        }
+      },
+      "default_variant": "default"
+    }
+  }
+}

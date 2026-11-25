@@ -1,0 +1,2481 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "prop_dart_broken_01",
+  "model_identifier": "",
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {
+    "model_as_code": {
+      "version": 3,
+      "uv_ready": true,
+      "modeling_mode": "free",
+      "orientation": {
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "validation_policy": {
+        "check_coplanar": true
+      },
+      "sockets": {},
+      "chains": {},
+      "armature_chains": {},
+      "binding_policies": {},
+      "uv_packing": {
+        "start_size": [
+          32,
+          32
+        ],
+        "allow_rectangular": true,
+        "uv_scale": 8,
+        "max_size": 2048,
+        "fixed_texture_size": false,
+        "island_padding": 1,
+        "require_integer_uvs": false,
+        "layout": "charts"
+      }
+    }
+  },
+  "elements": [
+    {
+      "name": "wood_shaft_front",
+      "color": 0,
+      "origin": [
+        0,
+        0.368,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.096,
+          0,
+          0
+        ],
+        "section_000_v001": [
+          5.8783046359072955e-18,
+          0,
+          -0.096
+        ],
+        "section_000_v002": [
+          -0.096,
+          0,
+          -1.1756609271814591e-17
+        ],
+        "section_000_v003": [
+          -1.7634913907721884e-17,
+          0,
+          0.096
+        ],
+        "section_001_v000": [
+          0.096,
+          0.896,
+          0
+        ],
+        "section_001_v001": [
+          5.8783046359072955e-18,
+          0.896,
+          -0.096
+        ],
+        "section_001_v002": [
+          -0.096,
+          0.896,
+          -1.1756609271814591e-17
+        ],
+        "section_001_v003": [
+          -1.7634913907721884e-17,
+          0.896,
+          0.096
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v001": [
+              12.0,
+              29.0
+            ],
+            "section_001_v001": [
+              12.0,
+              21.832000732421875
+            ],
+            "section_001_v000": [
+              13.08612060546875,
+              21.832000732421875
+            ],
+            "section_000_v000": [
+              13.08612060546875,
+              29.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_shaft_front#2"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v001",
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v001": [
+              18.0,
+              9.0
+            ],
+            "section_000_v002": [
+              16.91387939453125,
+              9.0
+            ],
+            "section_001_v002": [
+              16.91387939453125,
+              1.832000732421875
+            ],
+            "section_001_v001": [
+              18.0,
+              1.832000732421875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_shaft_front#3",
+          "model_as_code_mirror": [
+            "wood_shaft_front",
+            "section_000__section_001_side_000"
+          ]
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v002",
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v002": [
+              13.08612060546875,
+              19.0
+            ],
+            "section_000_v003": [
+              12.0,
+              19.0
+            ],
+            "section_001_v003": [
+              12.0,
+              11.832000732421875
+            ],
+            "section_001_v002": [
+              13.08612060546875,
+              11.832000732421875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_shaft_front#1",
+          "model_as_code_mirror": [
+            "wood_shaft_front",
+            "section_000__section_001_side_003"
+          ]
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v003",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v000": [
+              12.91387939453125,
+              9.0
+            ],
+            "section_001_v000": [
+              12.91387939453125,
+              1.832000732421875
+            ],
+            "section_001_v003": [
+              14.0,
+              1.832000732421875
+            ],
+            "section_000_v003": [
+              14.0,
+              9.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_shaft_front#0"
+        },
+        "cap_start": {
+          "vertices": [
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start",
+          "uv": {
+            "section_000_v003": [
+              34.0,
+              20.0
+            ],
+            "section_000_v002": [
+              35.08612060546875,
+              20.0
+            ],
+            "section_000_v001": [
+              35.08612060546875,
+              21.08612060546875
+            ],
+            "section_000_v000": [
+              34.0,
+              21.08612060546875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_shaft_front#4"
+        },
+        "cap_end": {
+          "vertices": [
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end",
+          "uv": {
+            "section_001_v001": [
+              34.0,
+              24.0
+            ],
+            "section_001_v002": [
+              35.08612060546875,
+              24.0
+            ],
+            "section_001_v003": [
+              35.08612060546875,
+              25.08612060546875
+            ],
+            "section_001_v000": [
+              34.0,
+              25.08612060546875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_shaft_front#5"
+        }
+      },
+      "type": "mesh",
+      "uuid": "32191eff-0820-5a00-a48c-47a11ef4c75e",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            0.896,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.896,
+            0
+          ],
+          "center": [
+            0,
+            0.44800000000000006,
+            0
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            0.896,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.896,
+            0
+          ],
+          "center": [
+            0,
+            0.44800000000000006,
+            0
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "section_001": {
+            "origin": [
+              0,
+              0.896,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "top": {
+            "origin": [
+              0,
+              0.896,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "wood_shaft_tail",
+      "color": 0,
+      "origin": [
+        0.56,
+        1.696,
+        0.24
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.09546284269522687,
+          0.010126968980195716,
+          -0.0005386685627763732
+        ],
+        "section_000_v001": [
+          0,
+          -0.005099174438780718,
+          -0.09586447944907897
+        ],
+        "section_000_v002": [
+          -0.09546284269522687,
+          -0.010126968980195716,
+          0.0005386685627763454
+        ],
+        "section_000_v003": [
+          0,
+          0.005099174438780718,
+          0.09586447944907894
+        ],
+        "section_001_v000": [
+          -0.06453715730477316,
+          1.514126968980196,
+          -0.08053866856277636
+        ],
+        "section_001_v001": [
+          -0.16000000000000003,
+          1.4989008255612195,
+          -0.17586447944907896
+        ],
+        "section_001_v002": [
+          -0.2554628426952269,
+          1.4938730310198045,
+          -0.07946133143722364
+        ],
+        "section_001_v003": [
+          -0.16000000000000003,
+          1.509099174438781,
+          0.015864479449078983
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v001": [
+              3.0,
+              29.0
+            ],
+            "section_001_v001": [
+              1.6401519775390625,
+              16.959747314453125
+            ],
+            "section_001_v000": [
+              2.7194061279296875,
+              16.837844848632812
+            ],
+            "section_000_v000": [
+              4.079254150390625,
+              28.87811279296875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_shaft_tail#5"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v002": [
+              8.0,
+              29.0
+            ],
+            "section_001_v002": [
+              7.548431396484375,
+              16.891616821289062
+            ],
+            "section_001_v001": [
+              8.6337890625,
+              16.85113525390625
+            ],
+            "section_000_v001": [
+              9.085357666015625,
+              28.959518432617188
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_shaft_tail#4"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v002",
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v002": [
+              3.0,
+              14.0
+            ],
+            "section_000_v003": [
+              1.920745849609375,
+              13.87811279296875
+            ],
+            "section_001_v003": [
+              3.2805938720703125,
+              1.8378448486328125
+            ],
+            "section_001_v002": [
+              4.3598480224609375,
+              1.959747314453125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_shaft_tail#0"
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v003",
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v003": [
+              9.0,
+              14.0
+            ],
+            "section_000_v000": [
+              7.914642333984375,
+              13.959518432617188
+            ],
+            "section_001_v000": [
+              8.3662109375,
+              1.85113525390625
+            ],
+            "section_001_v003": [
+              9.451568603515625,
+              1.8916168212890625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_shaft_tail#1"
+        },
+        "cap_start": {
+          "vertices": [
+            "section_000_v002",
+            "section_000_v001",
+            "section_000_v000",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start",
+          "uv": {
+            "section_000_v002": [
+              23.0,
+              31.0
+            ],
+            "section_000_v001": [
+              21.968658447265625,
+              30.659439086914062
+            ],
+            "section_000_v000": [
+              22.309219360351562,
+              29.628097534179688
+            ],
+            "section_000_v003": [
+              23.340560913085938,
+              29.968658447265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_shaft_tail#2"
+        },
+        "cap_end": {
+          "vertices": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end",
+          "uv": {
+            "section_001_v000": [
+              28.0,
+              29.0
+            ],
+            "section_001_v001": [
+              28.340560913085938,
+              30.031341552734375
+            ],
+            "section_001_v002": [
+              27.309219360351562,
+              30.371902465820312
+            ],
+            "section_001_v003": [
+              26.968658447265625,
+              29.340560913085938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_shaft_tail#3"
+        }
+      },
+      "type": "mesh",
+      "uuid": "8b419aed-0074-5d85-9a49-493878c7788d",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            -0.16000000000000003,
+            1.5040000000000002,
+            -0.07999999999999999
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            -0.16000000000000003,
+            1.5040000000000002,
+            -0.07999999999999999
+          ],
+          "center": [
+            -0.08000000000000002,
+            0.752,
+            -0.04000000000000001
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            -0.16000000000000003,
+            1.5040000000000002,
+            -0.07999999999999999
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            -0.16000000000000003,
+            1.5040000000000002,
+            -0.07999999999999999
+          ],
+          "center": [
+            -0.08000000000000002,
+            0.752,
+            -0.04000000000000001
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              -0.1056383870062615,
+              0.9930008378588581,
+              -0.05281919350313073
+            ],
+            "up": [
+              -8.673617379884035e-19,
+              0.05311640040396661,
+              0.9985883275945726
+            ]
+          },
+          "section_001": {
+            "origin": [
+              -0.16000000000000003,
+              1.5040000000000002,
+              -0.07999999999999999
+            ],
+            "forward": [
+              -0.1056383870062615,
+              0.9930008378588581,
+              -0.05281919350313073
+            ],
+            "up": [
+              -8.673617379884035e-19,
+              0.05311640040396661,
+              0.9985883275945726
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              -0.1056383870062615,
+              0.9930008378588581,
+              -0.05281919350313073
+            ],
+            "up": [
+              -8.673617379884035e-19,
+              0.05311640040396661,
+              0.9985883275945726
+            ]
+          },
+          "top": {
+            "origin": [
+              -0.16000000000000003,
+              1.5040000000000002,
+              -0.07999999999999999
+            ],
+            "forward": [
+              -0.1056383870062615,
+              0.9930008378588581,
+              -0.05281919350313073
+            ],
+            "up": [
+              -8.673617379884035e-19,
+              0.05311640040396661,
+              0.9985883275945726
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "iron_point",
+      "color": 0,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.128,
+          0,
+          0
+        ],
+        "section_000_v001": [
+          7.83773951454306e-18,
+          0,
+          -0.128
+        ],
+        "section_000_v002": [
+          -0.128,
+          0,
+          -1.567547902908612e-17
+        ],
+        "section_000_v003": [
+          -2.3513218543629182e-17,
+          0,
+          0.128
+        ],
+        "section_001_v000": [
+          0.128,
+          0.544,
+          0
+        ],
+        "section_001_v001": [
+          7.83773951454306e-18,
+          0.544,
+          -0.128
+        ],
+        "section_001_v002": [
+          -0.128,
+          0.544,
+          -1.567547902908612e-17
+        ],
+        "section_001_v003": [
+          -2.3513218543629182e-17,
+          0.544,
+          0.128
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v001": [
+              26.0,
+              27.0
+            ],
+            "section_001_v001": [
+              26.0,
+              22.647994995117188
+            ],
+            "section_001_v000": [
+              27.448150634765625,
+              22.647994995117188
+            ],
+            "section_000_v000": [
+              27.448150634765625,
+              27.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_point#2"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v001",
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v001": [
+              32.0,
+              6.0
+            ],
+            "section_000_v002": [
+              30.551849365234375,
+              6.0
+            ],
+            "section_001_v002": [
+              30.551849365234375,
+              1.6479949951171875
+            ],
+            "section_001_v001": [
+              32.0,
+              1.6479949951171875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_point#3",
+          "model_as_code_mirror": [
+            "iron_point",
+            "section_000__section_001_side_000"
+          ]
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v002",
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v002": [
+              27.448150634765625,
+              20.0
+            ],
+            "section_000_v003": [
+              26.0,
+              20.0
+            ],
+            "section_001_v003": [
+              26.0,
+              15.647994995117188
+            ],
+            "section_001_v002": [
+              27.448150634765625,
+              15.647994995117188
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_point#1",
+          "model_as_code_mirror": [
+            "iron_point",
+            "section_000__section_001_side_003"
+          ]
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v003",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v000": [
+              26.551849365234375,
+              13.0
+            ],
+            "section_001_v000": [
+              26.551849365234375,
+              8.647994995117188
+            ],
+            "section_001_v003": [
+              28.0,
+              8.647994995117188
+            ],
+            "section_000_v003": [
+              28.0,
+              13.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_point#0"
+        },
+        "cap_start": {
+          "vertices": [
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start",
+          "uv": {
+            "section_000_v003": [
+              31.0,
+              29.0
+            ],
+            "section_000_v002": [
+              32.448150634765625,
+              29.0
+            ],
+            "section_000_v001": [
+              32.448150634765625,
+              30.448150634765625
+            ],
+            "section_000_v000": [
+              31.0,
+              30.448150634765625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_point#4"
+        },
+        "cap_end": {
+          "vertices": [
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end",
+          "uv": {
+            "section_001_v001": [
+              34.0,
+              8.0
+            ],
+            "section_001_v002": [
+              35.448150634765625,
+              8.0
+            ],
+            "section_001_v003": [
+              35.448150634765625,
+              9.448150634765625
+            ],
+            "section_001_v000": [
+              34.0,
+              9.448150634765625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_point#5"
+        }
+      },
+      "type": "mesh",
+      "uuid": "fda92073-4550-52ea-83dd-47ac538a07c7",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            0.544,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.544,
+            0
+          ],
+          "center": [
+            0,
+            0.272,
+            0
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            0.544,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.544,
+            0
+          ],
+          "center": [
+            0,
+            0.272,
+            0
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "section_001": {
+            "origin": [
+              0,
+              0.544,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "top": {
+            "origin": [
+              0,
+              0.544,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "wood_fletch_0",
+      "color": 0,
+      "origin": [
+        0.448,
+        2.528,
+        0.176
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.05761019209059287,
+          -0.027875899398674076,
+          0
+        ],
+        "section_000_v001": [
+          0,
+          0,
+          -0.064
+        ],
+        "section_000_v002": [
+          -0.05761019209059287,
+          0.027875899398674076,
+          0
+        ],
+        "section_000_v003": [
+          0,
+          0,
+          0.064
+        ],
+        "section_001_v000": [
+          0.29761019209059286,
+          0.4681241006013259,
+          0
+        ],
+        "section_001_v001": [
+          0.23999999999999994,
+          0.496,
+          -0.06400000000000002
+        ],
+        "section_001_v002": [
+          0.182389807909407,
+          0.5238758993986741,
+          0
+        ],
+        "section_001_v003": [
+          0.23999999999999994,
+          0.496,
+          0.064
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v000": [
+              17.0,
+              23.0
+            ],
+            "section_000_v001": [
+              16.314910888671875,
+              22.765594482421875
+            ],
+            "section_001_v001": [
+              17.741928100585938,
+              18.594863891601562
+            ],
+            "section_001_v000": [
+              18.427017211914062,
+              18.829254150390625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_0#4"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v001",
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v001": [
+              17.0,
+              30.0
+            ],
+            "section_000_v002": [
+              16.314910888671875,
+              29.765594482421875
+            ],
+            "section_001_v002": [
+              17.741928100585938,
+              25.594863891601562
+            ],
+            "section_001_v001": [
+              18.427017211914062,
+              25.829254150390625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_0#5"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002",
+            "section_000_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v003": [
+              18.0,
+              16.0
+            ],
+            "section_001_v003": [
+              16.572982788085938,
+              11.829254150390625
+            ],
+            "section_001_v002": [
+              17.258071899414062,
+              11.594863891601562
+            ],
+            "section_000_v002": [
+              18.685089111328125,
+              15.765594482421875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_0#0"
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v003",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v000": [
+              22.0,
+              6.0
+            ],
+            "section_001_v000": [
+              20.572982788085938,
+              1.829254150390625
+            ],
+            "section_001_v003": [
+              21.258071899414062,
+              1.5948638916015625
+            ],
+            "section_000_v003": [
+              22.685089111328125,
+              5.765594482421875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_0#1"
+        },
+        "cap_start": {
+          "vertices": [
+            "section_000_v002",
+            "section_000_v001",
+            "section_000_v000",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start",
+          "uv": {
+            "section_000_v002": [
+              35.0,
+              16.0
+            ],
+            "section_000_v001": [
+              35.511993408203125,
+              16.511993408203125
+            ],
+            "section_000_v000": [
+              35.0,
+              17.024002075195312
+            ],
+            "section_000_v003": [
+              34.488006591796875,
+              16.511993408203125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_0#3"
+        },
+        "cap_end": {
+          "vertices": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end",
+          "uv": {
+            "section_001_v000": [
+              35.0,
+              14.0
+            ],
+            "section_001_v001": [
+              34.488006591796875,
+              13.488006591796875
+            ],
+            "section_001_v002": [
+              35.0,
+              12.975997924804688
+            ],
+            "section_001_v003": [
+              35.511993408203125,
+              13.488006591796875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_0#2"
+        }
+      },
+      "type": "mesh",
+      "uuid": "917b003e-118e-5f3b-8969-0dc01064918b",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0.23999999999999994,
+            0.496,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0.23999999999999994,
+            0.496,
+            0
+          ],
+          "center": [
+            0.12000000000000005,
+            0.24799999999999978,
+            0
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0.23999999999999994,
+            0.496,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0.23999999999999994,
+            0.496,
+            0
+          ],
+          "center": [
+            0.12000000000000005,
+            0.24799999999999978,
+            0
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0.4355609281042807,
+              0.9001592514155137,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "section_001": {
+            "origin": [
+              0.23999999999999994,
+              0.496,
+              0
+            ],
+            "forward": [
+              0.4355609281042807,
+              0.9001592514155137,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0.4355609281042807,
+              0.9001592514155137,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "top": {
+            "origin": [
+              0.23999999999999994,
+              0.496,
+              0
+            ],
+            "forward": [
+              0.4355609281042807,
+              0.9001592514155137,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "wood_fletch_1",
+      "color": 0,
+      "origin": [
+        0.448,
+        2.528,
+        0.176
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.06246385801548565,
+          0.012854920990130747,
+          0.005386784584400894
+        ],
+        "section_000_v001": [
+          0,
+          0.02473493023282014,
+          -0.059026970330328804
+        ],
+        "section_000_v002": [
+          -0.06246385801548565,
+          -0.012854920990130747,
+          -0.005386784584400894
+        ],
+        "section_000_v003": [
+          0,
+          -0.02473493023282014,
+          0.059026970330328804
+        ],
+        "section_001_v000": [
+          -0.05753614198451429,
+          0.5088549209901307,
+          0.21323288149266617
+        ],
+        "section_001_v001": [
+          -0.11999999999999994,
+          0.5207349302328201,
+          0.14881912657793644
+        ],
+        "section_001_v002": [
+          -0.1824638580154856,
+          0.48314507900986925,
+          0.20245931232386438
+        ],
+        "section_001_v003": [
+          -0.11999999999999994,
+          0.47126506976717986,
+          0.2668730672385941
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v000": [
+              31.0,
+              20.0
+            ],
+            "section_000_v001": [
+              30.283493041992188,
+              19.895523071289062
+            ],
+            "section_001_v001": [
+              30.919540405273438,
+              15.533538818359375
+            ],
+            "section_001_v000": [
+              31.63604736328125,
+              15.638015747070312
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_1#4"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v002": [
+              27.0,
+              6.0
+            ],
+            "section_001_v002": [
+              25.153274536132812,
+              1.99737548828125
+            ],
+            "section_001_v001": [
+              25.810745239257812,
+              1.69403076171875
+            ],
+            "section_000_v001": [
+              27.657470703125,
+              5.6966552734375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_1#5"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002",
+            "section_000_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v003": [
+              31.0,
+              13.0
+            ],
+            "section_001_v003": [
+              30.36395263671875,
+              8.638015747070312
+            ],
+            "section_001_v002": [
+              31.080459594726562,
+              8.533538818359375
+            ],
+            "section_000_v002": [
+              31.716506958007812,
+              12.895523071289062
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_1#1"
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v003",
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v003": [
+              22.0,
+              13.0
+            ],
+            "section_000_v000": [
+              21.342529296875,
+              12.6966552734375
+            ],
+            "section_001_v000": [
+              23.189254760742188,
+              8.69403076171875
+            ],
+            "section_001_v003": [
+              23.846725463867188,
+              8.99737548828125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_1#0"
+        },
+        "cap_start": {
+          "vertices": [
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start",
+          "uv": {
+            "section_000_v003": [
+              40.0,
+              2.0
+            ],
+            "section_000_v002": [
+              39.30958557128906,
+              1.78179931640625
+            ],
+            "section_000_v001": [
+              39.52778625488281,
+              1.0913848876953125
+            ],
+            "section_000_v000": [
+              40.21820068359375,
+              1.3095855712890625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_1#3"
+        },
+        "cap_end": {
+          "vertices": [
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end",
+          "uv": {
+            "section_001_v001": [
+              36.0,
+              28.0
+            ],
+            "section_001_v002": [
+              36.21820068359375,
+              28.690414428710938
+            ],
+            "section_001_v003": [
+              35.52778625488281,
+              28.908615112304688
+            ],
+            "section_001_v000": [
+              35.30958557128906,
+              28.21820068359375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_1#2"
+        }
+      },
+      "type": "mesh",
+      "uuid": "3e22623d-1d9b-599c-a68b-20733697fa2e",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            -0.11999999999999994,
+            0.496,
+            0.20784609690826528
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            -0.11999999999999994,
+            0.496,
+            0.20784609690826528
+          ],
+          "center": [
+            -0.06,
+            0.24799999999999978,
+            0.10392304845413264
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            -0.11999999999999994,
+            0.496,
+            0.20784609690826528
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            -0.11999999999999994,
+            0.496,
+            0.20784609690826528
+          ],
+          "center": [
+            -0.06,
+            0.24799999999999978,
+            0.10392304845413264
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              -0.21778046405214024,
+              0.9001592514155135,
+              0.37720682863423455
+            ],
+            "up": [
+              -1.3877787807814457e-17,
+              -0.3864832848878157,
+              0.9222964114113876
+            ]
+          },
+          "section_001": {
+            "origin": [
+              -0.11999999999999994,
+              0.496,
+              0.20784609690826528
+            ],
+            "forward": [
+              -0.21778046405214024,
+              0.9001592514155135,
+              0.37720682863423455
+            ],
+            "up": [
+              -1.3877787807814457e-17,
+              -0.3864832848878157,
+              0.9222964114113876
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              -0.21778046405214024,
+              0.9001592514155135,
+              0.37720682863423455
+            ],
+            "up": [
+              -1.3877787807814457e-17,
+              -0.3864832848878157,
+              0.9222964114113876
+            ]
+          },
+          "top": {
+            "origin": [
+              -0.11999999999999994,
+              0.496,
+              0.20784609690826528
+            ],
+            "forward": [
+              -0.21778046405214024,
+              0.9001592514155135,
+              0.37720682863423455
+            ],
+            "up": [
+              -1.3877787807814457e-17,
+              -0.3864832848878157,
+              0.9222964114113876
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "wood_fletch_2",
+      "color": 0,
+      "origin": [
+        0.448,
+        2.528,
+        0.176
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.06246385801548565,
+          0.012854920990130747,
+          -0.005386784584400894
+        ],
+        "section_000_v001": [
+          0,
+          -0.02473493023282014,
+          -0.059026970330328804
+        ],
+        "section_000_v002": [
+          -0.06246385801548565,
+          -0.012854920990130747,
+          0.005386784584400894
+        ],
+        "section_000_v003": [
+          0,
+          0.02473493023282014,
+          0.059026970330328804
+        ],
+        "section_001_v000": [
+          -0.057536141984514455,
+          0.5088549209901307,
+          -0.21323288149266612
+        ],
+        "section_001_v001": [
+          -0.1200000000000001,
+          0.47126506976717986,
+          -0.26687306723859405
+        ],
+        "section_001_v002": [
+          -0.18246385801548576,
+          0.48314507900986925,
+          -0.20245931232386433
+        ],
+        "section_001_v003": [
+          -0.1200000000000001,
+          0.5207349302328201,
+          -0.14881912657793642
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v001": [
+              23.0,
+              27.0
+            ],
+            "section_001_v001": [
+              21.153274536132812,
+              22.99737548828125
+            ],
+            "section_001_v000": [
+              21.810745239257812,
+              22.69403076171875
+            ],
+            "section_000_v000": [
+              23.657470703125,
+              26.6966552734375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_2#5"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v001",
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v001": [
+              35.0,
+              6.0
+            ],
+            "section_000_v002": [
+              34.28349304199219,
+              5.8955230712890625
+            ],
+            "section_001_v002": [
+              34.91954040527344,
+              1.533538818359375
+            ],
+            "section_001_v001": [
+              35.63604736328125,
+              1.6380157470703125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_2#4"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v002",
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v002": [
+              22.0,
+              20.0
+            ],
+            "section_000_v003": [
+              21.342529296875,
+              19.6966552734375
+            ],
+            "section_001_v003": [
+              23.189254760742188,
+              15.69403076171875
+            ],
+            "section_001_v002": [
+              23.846725463867188,
+              15.99737548828125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_2#0"
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v003",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v000": [
+              31.0,
+              27.0
+            ],
+            "section_001_v000": [
+              30.36395263671875,
+              22.638015747070312
+            ],
+            "section_001_v003": [
+              31.080459594726562,
+              22.533538818359375
+            ],
+            "section_000_v003": [
+              31.716506958007812,
+              26.895523071289062
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_2#1"
+        },
+        "cap_start": {
+          "vertices": [
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start",
+          "uv": {
+            "section_000_v003": [
+              44.0,
+              1.0
+            ],
+            "section_000_v002": [
+              44.21820068359375,
+              1.6904144287109375
+            ],
+            "section_000_v001": [
+              43.52778625488281,
+              1.9086151123046875
+            ],
+            "section_000_v000": [
+              43.30958557128906,
+              1.21820068359375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_2#2"
+        },
+        "cap_end": {
+          "vertices": [
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end",
+          "uv": {
+            "section_001_v001": [
+              48.0,
+              2.0
+            ],
+            "section_001_v002": [
+              47.30958557128906,
+              1.78179931640625
+            ],
+            "section_001_v003": [
+              47.52778625488281,
+              1.0913848876953125
+            ],
+            "section_001_v000": [
+              48.21820068359375,
+              1.3095855712890625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_fletch_2#3"
+        }
+      },
+      "type": "mesh",
+      "uuid": "4b0d1046-abb8-5b35-94cc-5f912cce3977",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            -0.1200000000000001,
+            0.496,
+            -0.20784609690826522
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            -0.1200000000000001,
+            0.496,
+            -0.20784609690826522
+          ],
+          "center": [
+            -0.06000000000000005,
+            0.24799999999999978,
+            -0.10392304845413261
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            -0.1200000000000001,
+            0.496,
+            -0.20784609690826522
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            -0.1200000000000001,
+            0.496,
+            -0.20784609690826522
+          ],
+          "center": [
+            -0.06000000000000005,
+            0.24799999999999978,
+            -0.10392304845413261
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              -0.21778046405214055,
+              0.9001592514155135,
+              -0.3772068286342345
+            ],
+            "up": [
+              4.163336342344337e-17,
+              0.38648328488781564,
+              0.9222964114113876
+            ]
+          },
+          "section_001": {
+            "origin": [
+              -0.1200000000000001,
+              0.496,
+              -0.20784609690826522
+            ],
+            "forward": [
+              -0.21778046405214055,
+              0.9001592514155135,
+              -0.3772068286342345
+            ],
+            "up": [
+              4.163336342344337e-17,
+              0.38648328488781564,
+              0.9222964114113876
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              -0.21778046405214055,
+              0.9001592514155135,
+              -0.3772068286342345
+            ],
+            "up": [
+              4.163336342344337e-17,
+              0.38648328488781564,
+              0.9222964114113876
+            ]
+          },
+          "top": {
+            "origin": [
+              -0.1200000000000001,
+              0.496,
+              -0.20784609690826522
+            ],
+            "forward": [
+              -0.21778046405214055,
+              0.9001592514155135,
+              -0.3772068286342345
+            ],
+            "up": [
+              4.163336342344337e-17,
+              0.38648328488781564,
+              0.9222964114113876
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "root",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "export": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "model_as_code_role": "folder"
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "isOpen": true,
+      "children": [
+        "32191eff-0820-5a00-a48c-47a11ef4c75e",
+        "8b419aed-0074-5d85-9a49-493878c7788d",
+        "fda92073-4550-52ea-83dd-47ac538a07c7",
+        "917b003e-118e-5f3b-8969-0dc01064918b",
+        "3e22623d-1d9b-599c-a68b-20733697fa2e",
+        "4b0d1046-abb8-5b35-94cc-5f912cce3977"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "09403158-9a8a-4826-a9e2-80789cb56325",
+      "id": "0",
+      "name": "texture.png",
+      "relative_path": "texture.png",
+      "width": 64,
+      "height": 32,
+      "uv_width": 64,
+      "uv_height": 32,
+      "mode": "link",
+      "internal": false,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false
+    }
+  ],
+  "animations": [],
+  "resolution": {
+    "width": 64,
+    "height": 32
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "engine/SM_Env_WallDoorway_2x4.glb",
+      "runtime_role": "default"
+    }
+  ]
+}

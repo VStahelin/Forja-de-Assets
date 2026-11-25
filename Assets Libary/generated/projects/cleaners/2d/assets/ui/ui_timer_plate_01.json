@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "project": "cleaners",
+    "mode": "strip",
+    "frameCount": 2,
+    "frameWidth": 70,
+    "frameHeight": 26,
+    "fps": 5,
+    "width": 140,
+    "height": 26,
+    "scale": 1,
+    "format": "png",
+    "image": "ui_timer_plate_01.png",
+    "animations": {
+      "normal": [
+        0
+      ],
+      "alert": [
+        1
+      ]
+    }
+  },
+  "frames": {
+    "frame_0": {
+      "x": 0,
+      "y": 0,
+      "width": 70,
+      "height": 26,
+      "logical": {
+        "x": 0,
+        "y": 0,
+        "width": 70,
+        "height": 26
+      }
+    },
+    "frame_1": {
+      "x": 70,
+      "y": 0,
+      "width": 70,
+      "height": 26,
+      "logical": {
+        "x": 70,
+        "y": 0,
+        "width": 70,
+        "height": 26
+      }
+    }
+  }
+}

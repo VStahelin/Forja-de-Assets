@@ -1,0 +1,1410 @@
+{
+  "schema": 1,
+  "id": "cleaners",
+  "name": "cleaners",
+  "assets": {
+    "prop_lobby_elevator_gate_panel_01": {
+      "name": "prop_lobby_elevator_gate_panel_01",
+      "model": "assets/prop_lobby_elevator_gate_panel_01/model.bbmodel",
+      "scripts": "scripts/prop_lobby_elevator_gate_panel_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_lobby_elevator_gate_panel_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_lobby_corner_counter_01": {
+      "name": "prop_lobby_corner_counter_01",
+      "model": "assets/prop_lobby_corner_counter_01/model.bbmodel",
+      "scripts": "scripts/prop_lobby_corner_counter_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_lobby_corner_counter_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_lobby_bookshelf_01": {
+      "name": "prop_lobby_bookshelf_01",
+      "model": "assets/prop_lobby_bookshelf_01/model.bbmodel",
+      "scripts": "scripts/prop_lobby_bookshelf_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_lobby_bookshelf_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_lobby_chair_01": {
+      "name": "prop_lobby_chair_01",
+      "model": "assets/prop_lobby_chair_01/model.bbmodel",
+      "scripts": "scripts/prop_lobby_chair_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_lobby_chair_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_lobby_clipboard_01": {
+      "name": "prop_lobby_clipboard_01",
+      "model": "assets/prop_lobby_clipboard_01/model.bbmodel",
+      "scripts": "scripts/prop_lobby_clipboard_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_lobby_clipboard_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_pocket_clipboard_01": {
+      "name": "prop_pocket_clipboard_01",
+      "model": "assets/prop_pocket_clipboard_01/model.bbmodel",
+      "scripts": "scripts/prop_pocket_clipboard_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_pocket_clipboard_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_lobby_wooden_hook_rail_01": {
+      "name": "prop_lobby_wooden_hook_rail_01",
+      "model": "assets/prop_lobby_wooden_hook_rail_01/model.bbmodel",
+      "scripts": "scripts/prop_lobby_wooden_hook_rail_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_lobby_wooden_hook_rail_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_lobby_broom_01": {
+      "name": "prop_lobby_broom_01",
+      "model": "assets/prop_lobby_broom_01/model.bbmodel",
+      "scripts": "scripts/prop_lobby_broom_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_lobby_broom_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_lobby_shovel_01": {
+      "name": "prop_lobby_shovel_01",
+      "model": "assets/prop_lobby_shovel_01/model.bbmodel",
+      "scripts": "scripts/prop_lobby_shovel_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_lobby_shovel_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_lobby_rope_coil_01": {
+      "name": "prop_lobby_rope_coil_01",
+      "model": "assets/prop_lobby_rope_coil_01/model.bbmodel",
+      "scripts": "scripts/prop_lobby_rope_coil_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_lobby_rope_coil_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "light_lobby_wall_lantern_01": {
+      "name": "light_lobby_wall_lantern_01",
+      "model": "assets/light_lobby_wall_lantern_01/model.bbmodel",
+      "scripts": "scripts/light_lobby_wall_lantern_01",
+      "variants": {
+        "default": {
+          "path": "assets/light_lobby_wall_lantern_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_lobby_book_leather_01": {
+      "name": "prop_lobby_book_leather_01",
+      "model": "assets/prop_lobby_book_leather_01/model.bbmodel",
+      "scripts": "scripts/prop_lobby_book_leather_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_lobby_book_leather_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_lobby_book_cloth_01": {
+      "name": "prop_lobby_book_cloth_01",
+      "model": "assets/prop_lobby_book_cloth_01/model.bbmodel",
+      "scripts": "scripts/prop_lobby_book_cloth_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_lobby_book_cloth_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_lobby_book_register_01": {
+      "name": "prop_lobby_book_register_01",
+      "model": "assets/prop_lobby_book_register_01/model.bbmodel",
+      "scripts": "scripts/prop_lobby_book_register_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_lobby_book_register_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x0z0": {
+      "name": "env_floor_stone_2x2_x0z0",
+      "model": "assets/env_floor_stone_2x2_x0z0/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x0z0",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x0z0/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x1z0": {
+      "name": "env_floor_stone_2x2_x1z0",
+      "model": "assets/env_floor_stone_2x2_x1z0/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x1z0",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x1z0/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x0z1": {
+      "name": "env_floor_stone_2x2_x0z1",
+      "model": "assets/env_floor_stone_2x2_x0z1/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x0z1",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x0z1/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x1z1": {
+      "name": "env_floor_stone_2x2_x1z1",
+      "model": "assets/env_floor_stone_2x2_x1z1/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x1z1",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x1z1/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x0z2": {
+      "name": "env_floor_stone_2x2_x0z2",
+      "model": "assets/env_floor_stone_2x2_x0z2/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x0z2",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x0z2/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x1z2": {
+      "name": "env_floor_stone_2x2_x1z2",
+      "model": "assets/env_floor_stone_2x2_x1z2/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x1z2",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x1z2/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x0z3": {
+      "name": "env_floor_stone_2x2_x0z3",
+      "model": "assets/env_floor_stone_2x2_x0z3/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x0z3",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x0z3/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x1z3": {
+      "name": "env_floor_stone_2x2_x1z3",
+      "model": "assets/env_floor_stone_2x2_x1z3/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x1z3",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x1z3/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x2z0": {
+      "name": "env_floor_stone_2x2_x2z0",
+      "model": "assets/env_floor_stone_2x2_x2z0/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x2z0",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x2z0/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x2z1": {
+      "name": "env_floor_stone_2x2_x2z1",
+      "model": "assets/env_floor_stone_2x2_x2z1/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x2z1",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x2z1/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x2z2": {
+      "name": "env_floor_stone_2x2_x2z2",
+      "model": "assets/env_floor_stone_2x2_x2z2/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x2z2",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x2z2/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x2z3": {
+      "name": "env_floor_stone_2x2_x2z3",
+      "model": "assets/env_floor_stone_2x2_x2z3/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x2z3",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x2z3/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x3z0": {
+      "name": "env_floor_stone_2x2_x3z0",
+      "model": "assets/env_floor_stone_2x2_x3z0/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x3z0",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x3z0/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x3z1": {
+      "name": "env_floor_stone_2x2_x3z1",
+      "model": "assets/env_floor_stone_2x2_x3z1/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x3z1",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x3z1/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x3z2": {
+      "name": "env_floor_stone_2x2_x3z2",
+      "model": "assets/env_floor_stone_2x2_x3z2/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x3z2",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x3z2/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_x3z3": {
+      "name": "env_floor_stone_2x2_x3z3",
+      "model": "assets/env_floor_stone_2x2_x3z3/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_x3z3",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_x3z3/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_wall_stone_2x4_x0": {
+      "name": "env_wall_stone_2x4_x0",
+      "model": "assets/env_wall_stone_2x4_x0/model.bbmodel",
+      "scripts": "scripts/env_wall_stone_2x4_x0",
+      "variants": {
+        "default": {
+          "path": "assets/env_wall_stone_2x4_x0/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_wall_stone_2x4_x1": {
+      "name": "env_wall_stone_2x4_x1",
+      "model": "assets/env_wall_stone_2x4_x1/model.bbmodel",
+      "scripts": "scripts/env_wall_stone_2x4_x1",
+      "variants": {
+        "default": {
+          "path": "assets/env_wall_stone_2x4_x1/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_wall_stone_2x4_x2": {
+      "name": "env_wall_stone_2x4_x2",
+      "model": "assets/env_wall_stone_2x4_x2/model.bbmodel",
+      "scripts": "scripts/env_wall_stone_2x4_x2",
+      "variants": {
+        "default": {
+          "path": "assets/env_wall_stone_2x4_x2/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_wall_stone_2x4_x3": {
+      "name": "env_wall_stone_2x4_x3",
+      "model": "assets/env_wall_stone_2x4_x3/model.bbmodel",
+      "scripts": "scripts/env_wall_stone_2x4_x3",
+      "variants": {
+        "default": {
+          "path": "assets/env_wall_stone_2x4_x3/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_pilaster_2m": {
+      "name": "env_pilaster_2m",
+      "model": "assets/env_pilaster_2m/model.bbmodel",
+      "scripts": "scripts/env_pilaster_2m",
+      "variants": {
+        "default": {
+          "path": "assets/env_pilaster_2m/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_arch_4m": {
+      "name": "env_arch_4m",
+      "model": "assets/env_arch_4m/model.bbmodel",
+      "scripts": "scripts/env_arch_4m",
+      "variants": {
+        "default": {
+          "path": "assets/env_arch_4m/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_vault_groin_4x4": {
+      "name": "env_vault_groin_4x4",
+      "model": "assets/env_vault_groin_4x4/model.bbmodel",
+      "scripts": "scripts/env_vault_groin_4x4",
+      "variants": {
+        "default": {
+          "path": "assets/env_vault_groin_4x4/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_column_round_2m": {
+      "name": "env_column_round_2m",
+      "model": "assets/env_column_round_2m/model.bbmodel",
+      "scripts": "scripts/env_column_round_2m",
+      "variants": {
+        "default": {
+          "path": "assets/env_column_round_2m/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "char_skeleton_01": {
+      "name": "char_skeleton_01",
+      "model": "assets/char_skeleton_01/model.bbmodel",
+      "scripts": "scripts/char_skeleton_01",
+      "variants": {
+        "default": {
+          "path": "assets/char_skeleton_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "light_wall_torch_01": {
+      "name": "light_wall_torch_01",
+      "model": "assets/light_wall_torch_01/model.bbmodel",
+      "scripts": "scripts/light_wall_torch_01",
+      "variants": {
+        "default": {
+          "path": "assets/light_wall_torch_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_wall_tympanum_4m": {
+      "name": "env_wall_tympanum_4m",
+      "model": "assets/env_wall_tympanum_4m/model.bbmodel",
+      "scripts": "scripts/env_wall_tympanum_4m",
+      "variants": {
+        "default": {
+          "path": "assets/env_wall_tympanum_4m/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "char_adventurer_paladin_01": {
+      "name": "char_adventurer_paladin_01",
+      "model": "assets/char_adventurer_paladin_01/model.bbmodel",
+      "scripts": "scripts/char_adventurer_paladin_01",
+      "variants": {
+        "default": {
+          "path": "assets/char_adventurer_paladin_01/texture.png"
+        },
+        "rusty": {
+          "path": "assets/char_adventurer_paladin_01/textures/rusty.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_barrel_01": {
+      "name": "prop_barrel_01",
+      "model": "assets/prop_barrel_01/model.bbmodel",
+      "scripts": "scripts/prop_barrel_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_barrel_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_elevator_cab_01": {
+      "name": "prop_elevator_cab_01",
+      "model": "assets/prop_elevator_cab_01/model.bbmodel",
+      "scripts": "scripts/prop_elevator_cab_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_elevator_cab_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_elevator_gate_panel_01": {
+      "name": "prop_elevator_gate_panel_01",
+      "model": "assets/prop_elevator_gate_panel_01/model.bbmodel",
+      "scripts": "scripts/prop_elevator_gate_panel_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_elevator_gate_panel_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_paladin_arm_01": {
+      "name": "prop_paladin_arm_01",
+      "model": "assets/prop_paladin_arm_01/model.bbmodel",
+      "scripts": "scripts/prop_paladin_arm_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_paladin_arm_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_skull_01": {
+      "name": "prop_skull_01",
+      "model": "assets/prop_skull_01/model.bbmodel",
+      "scripts": "scripts/prop_skull_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_skull_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_long_bone_01": {
+      "name": "prop_long_bone_01",
+      "model": "assets/prop_long_bone_01/model.bbmodel",
+      "scripts": "scripts/prop_long_bone_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_long_bone_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_dented_helm_01": {
+      "name": "prop_dented_helm_01",
+      "model": "assets/prop_dented_helm_01/model.bbmodel",
+      "scripts": "scripts/prop_dented_helm_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_dented_helm_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_cracked_shield_01": {
+      "name": "prop_cracked_shield_01",
+      "model": "assets/prop_cracked_shield_01/model.bbmodel",
+      "scripts": "scripts/prop_cracked_shield_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_cracked_shield_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_wooden_bench_01": {
+      "name": "prop_wooden_bench_01",
+      "model": "assets/prop_wooden_bench_01/model.bbmodel",
+      "scripts": "scripts/prop_wooden_bench_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_wooden_bench_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_broken_plank_01": {
+      "name": "prop_broken_plank_01",
+      "model": "assets/prop_broken_plank_01/model.bbmodel",
+      "scripts": "scripts/prop_broken_plank_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_broken_plank_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_broken_crate_01": {
+      "name": "prop_broken_crate_01",
+      "model": "assets/prop_broken_crate_01/model.bbmodel",
+      "scripts": "scripts/prop_broken_crate_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_broken_crate_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_tin_mug_01": {
+      "name": "prop_tin_mug_01",
+      "model": "assets/prop_tin_mug_01/model.bbmodel",
+      "scripts": "scripts/prop_tin_mug_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_tin_mug_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_bucket_01": {
+      "name": "prop_bucket_01",
+      "model": "assets/prop_bucket_01/model.bbmodel",
+      "scripts": "scripts/prop_bucket_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_bucket_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_chest_01": {
+      "name": "prop_chest_01",
+      "model": "assets/prop_chest_01/model.bbmodel",
+      "scripts": "scripts/prop_chest_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_chest_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_supply_pouch_01": {
+      "name": "prop_supply_pouch_01",
+      "model": "assets/prop_supply_pouch_01/model.bbmodel",
+      "scripts": "scripts/prop_supply_pouch_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_supply_pouch_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "dirt_slime_puddle_small_01": {
+      "name": "dirt_slime_puddle_small_01",
+      "model": "assets/dirt_slime_puddle_small_01/model.bbmodel",
+      "scripts": "scripts/dirt_slime_puddle_small_01",
+      "variants": {
+        "default": {
+          "path": "assets/dirt_slime_puddle_small_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "dirt_slime_puddle_wall_01": {
+      "name": "dirt_slime_puddle_wall_01",
+      "model": "assets/dirt_slime_puddle_wall_01/model.bbmodel",
+      "scripts": "scripts/dirt_slime_puddle_wall_01",
+      "variants": {
+        "default": {
+          "path": "assets/dirt_slime_puddle_wall_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "dirt_slime_bucket_fill_01": {
+      "name": "dirt_slime_bucket_fill_01",
+      "model": "assets/dirt_slime_bucket_fill_01/model.bbmodel",
+      "scripts": "scripts/dirt_slime_bucket_fill_01",
+      "variants": {
+        "default": {
+          "path": "assets/dirt_slime_bucket_fill_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_gallery_chipped_block_01": {
+      "name": "prop_gallery_chipped_block_01",
+      "model": "assets/prop_gallery_chipped_block_01/model.bbmodel",
+      "scripts": "scripts/prop_gallery_chipped_block_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_gallery_chipped_block_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_gallery_arch_fragment_01": {
+      "name": "prop_gallery_arch_fragment_01",
+      "model": "assets/prop_gallery_arch_fragment_01/model.bbmodel",
+      "scripts": "scripts/prop_gallery_arch_fragment_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_gallery_arch_fragment_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_gallery_low_rubble_01": {
+      "name": "prop_gallery_low_rubble_01",
+      "model": "assets/prop_gallery_low_rubble_01/model.bbmodel",
+      "scripts": "scripts/prop_gallery_low_rubble_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_gallery_low_rubble_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_creature_jaw_01": {
+      "name": "prop_creature_jaw_01",
+      "model": "assets/prop_creature_jaw_01/model.bbmodel",
+      "scripts": "scripts/prop_creature_jaw_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_creature_jaw_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_creature_cracked_claw_01": {
+      "name": "prop_creature_cracked_claw_01",
+      "model": "assets/prop_creature_cracked_claw_01/model.bbmodel",
+      "scripts": "scripts/prop_creature_cracked_claw_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_creature_cracked_claw_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_creature_carapace_plate_01": {
+      "name": "prop_creature_carapace_plate_01",
+      "model": "assets/prop_creature_carapace_plate_01/model.bbmodel",
+      "scripts": "scripts/prop_creature_carapace_plate_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_creature_carapace_plate_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_gallery_torn_sack_01": {
+      "name": "prop_gallery_torn_sack_01",
+      "model": "assets/prop_gallery_torn_sack_01/model.bbmodel",
+      "scripts": "scripts/prop_gallery_torn_sack_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_gallery_torn_sack_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_gallery_jug_shards_01": {
+      "name": "prop_gallery_jug_shards_01",
+      "model": "assets/prop_gallery_jug_shards_01/model.bbmodel",
+      "scripts": "scripts/prop_gallery_jug_shards_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_gallery_jug_shards_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_gallery_bracer_01": {
+      "name": "prop_gallery_bracer_01",
+      "model": "assets/prop_gallery_bracer_01/model.bbmodel",
+      "scripts": "scripts/prop_gallery_bracer_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_gallery_bracer_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_gallery_warped_tray_01": {
+      "name": "prop_gallery_warped_tray_01",
+      "model": "assets/prop_gallery_warped_tray_01/model.bbmodel",
+      "scripts": "scripts/prop_gallery_warped_tray_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_gallery_warped_tray_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_gallery_broken_column_01": {
+      "name": "prop_gallery_broken_column_01",
+      "model": "assets/prop_gallery_broken_column_01/model.bbmodel",
+      "scripts": "scripts/prop_gallery_broken_column_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_gallery_broken_column_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "light_wall_torch_crooked_01": {
+      "name": "light_wall_torch_crooked_01",
+      "model": "assets/light_wall_torch_crooked_01/model.bbmodel",
+      "scripts": "scripts/light_wall_torch_crooked_01",
+      "variants": {
+        "default": {
+          "path": "assets/light_wall_torch_crooked_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "light_wall_torch_caged_01": {
+      "name": "light_wall_torch_caged_01",
+      "model": "assets/light_wall_torch_caged_01/model.bbmodel",
+      "scripts": "scripts/light_wall_torch_caged_01",
+      "variants": {
+        "default": {
+          "path": "assets/light_wall_torch_caged_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_wall_torch_burned_01": {
+      "name": "prop_wall_torch_burned_01",
+      "model": "assets/prop_wall_torch_burned_01/model.bbmodel",
+      "scripts": "scripts/prop_wall_torch_burned_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_wall_torch_burned_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_dungeon_wall_hooks_01": {
+      "name": "prop_dungeon_wall_hooks_01",
+      "model": "assets/prop_dungeon_wall_hooks_01/model.bbmodel",
+      "scripts": "scripts/prop_dungeon_wall_hooks_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_dungeon_wall_hooks_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_dungeon_chain_broken_01": {
+      "name": "prop_dungeon_chain_broken_01",
+      "model": "assets/prop_dungeon_chain_broken_01/model.bbmodel",
+      "scripts": "scripts/prop_dungeon_chain_broken_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_dungeon_chain_broken_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_dungeon_banner_torn_01": {
+      "name": "prop_dungeon_banner_torn_01",
+      "model": "assets/prop_dungeon_banner_torn_01/model.bbmodel",
+      "scripts": "scripts/prop_dungeon_banner_torn_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_dungeon_banner_torn_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "light_floor_torch_stand_01": {
+      "name": "light_floor_torch_stand_01",
+      "model": "assets/light_floor_torch_stand_01/model.bbmodel",
+      "scripts": "scripts/light_floor_torch_stand_01",
+      "variants": {
+        "default": {
+          "path": "assets/light_floor_torch_stand_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "dirt_slime_puddle_01": {
+      "name": "dirt_slime_puddle_01",
+      "model": "assets/dirt_slime_puddle_01/model.bbmodel",
+      "scripts": "scripts/dirt_slime_puddle_01",
+      "variants": {
+        "default": {
+          "path": "assets/dirt_slime_puddle_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_disposal_bin_01": {
+      "name": "prop_disposal_bin_01",
+      "model": "assets/prop_disposal_bin_01/model.bbmodel",
+      "scripts": "scripts/prop_disposal_bin_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_disposal_bin_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_paladin_leg_01": {
+      "name": "prop_paladin_leg_01",
+      "model": "assets/prop_paladin_leg_01/model.bbmodel",
+      "scripts": "scripts/prop_paladin_leg_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_paladin_leg_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_wall_stone_2x2_x0": {
+      "name": "env_wall_stone_2x2_x0",
+      "model": "assets/env_wall_stone_2x2_x0/model.bbmodel",
+      "scripts": "scripts/env_wall_stone_2x2_x0",
+      "variants": {
+        "default": {
+          "path": "assets/env_wall_stone_2x2_x0/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_wall_stone_2x2_x1": {
+      "name": "env_wall_stone_2x2_x1",
+      "model": "assets/env_wall_stone_2x2_x1/model.bbmodel",
+      "scripts": "scripts/env_wall_stone_2x2_x1",
+      "variants": {
+        "default": {
+          "path": "assets/env_wall_stone_2x2_x1/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_wall_breach_2x4_l": {
+      "name": "env_wall_breach_2x4_l",
+      "model": "assets/env_wall_breach_2x4_l/model.bbmodel",
+      "scripts": "scripts/env_wall_breach_2x4_l",
+      "variants": {
+        "default": {
+          "path": "assets/env_wall_breach_2x4_l/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_wall_breach_2x4_r": {
+      "name": "env_wall_breach_2x4_r",
+      "model": "assets/env_wall_breach_2x4_r/model.bbmodel",
+      "scripts": "scripts/env_wall_breach_2x4_r",
+      "variants": {
+        "default": {
+          "path": "assets/env_wall_breach_2x4_r/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_wall_doorway_2x4": {
+      "name": "env_wall_doorway_2x4",
+      "model": "assets/env_wall_doorway_2x4/model.bbmodel",
+      "scripts": "scripts/env_wall_doorway_2x4",
+      "variants": {
+        "default": {
+          "path": "assets/env_wall_doorway_2x4/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_gate_pier_2x6": {
+      "name": "env_gate_pier_2x6",
+      "model": "assets/env_gate_pier_2x6/model.bbmodel",
+      "scripts": "scripts/env_gate_pier_2x6",
+      "variants": {
+        "default": {
+          "path": "assets/env_gate_pier_2x6/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_wall_pendulum_recess_4x4": {
+      "name": "env_wall_pendulum_recess_4x4",
+      "model": "assets/env_wall_pendulum_recess_4x4/model.bbmodel",
+      "scripts": "scripts/env_wall_pendulum_recess_4x4",
+      "variants": {
+        "default": {
+          "path": "assets/env_wall_pendulum_recess_4x4/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_ceiling_pendulum_slot_4x4": {
+      "name": "env_ceiling_pendulum_slot_4x4",
+      "model": "assets/env_ceiling_pendulum_slot_4x4/model.bbmodel",
+      "scripts": "scripts/env_ceiling_pendulum_slot_4x4",
+      "variants": {
+        "default": {
+          "path": "assets/env_ceiling_pendulum_slot_4x4/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_vault_groin_4x4_collapsed": {
+      "name": "env_vault_groin_4x4_collapsed",
+      "model": "assets/env_vault_groin_4x4_collapsed/model.bbmodel",
+      "scripts": "scripts/env_vault_groin_4x4_collapsed",
+      "variants": {
+        "default": {
+          "path": "assets/env_vault_groin_4x4_collapsed/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_rubble_pile_large_01": {
+      "name": "env_rubble_pile_large_01",
+      "model": "assets/env_rubble_pile_large_01/model.bbmodel",
+      "scripts": "scripts/env_rubble_pile_large_01",
+      "variants": {
+        "default": {
+          "path": "assets/env_rubble_pile_large_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_rubble_pile_small_01": {
+      "name": "env_rubble_pile_small_01",
+      "model": "assets/env_rubble_pile_small_01/model.bbmodel",
+      "scripts": "scripts/env_rubble_pile_small_01",
+      "variants": {
+        "default": {
+          "path": "assets/env_rubble_pile_small_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_rubble_pile_small_02": {
+      "name": "env_rubble_pile_small_02",
+      "model": "assets/env_rubble_pile_small_02/model.bbmodel",
+      "scripts": "scripts/env_rubble_pile_small_02",
+      "variants": {
+        "default": {
+          "path": "assets/env_rubble_pile_small_02/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_rubble_stone_01": {
+      "name": "prop_rubble_stone_01",
+      "model": "assets/prop_rubble_stone_01/model.bbmodel",
+      "scripts": "scripts/prop_rubble_stone_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_rubble_stone_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_rubble_stone_02": {
+      "name": "prop_rubble_stone_02",
+      "model": "assets/prop_rubble_stone_02/model.bbmodel",
+      "scripts": "scripts/prop_rubble_stone_02",
+      "variants": {
+        "default": {
+          "path": "assets/prop_rubble_stone_02/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_rubble_stone_03": {
+      "name": "prop_rubble_stone_03",
+      "model": "assets/prop_rubble_stone_03/model.bbmodel",
+      "scripts": "scripts/prop_rubble_stone_03",
+      "variants": {
+        "default": {
+          "path": "assets/prop_rubble_stone_03/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_wooden_table_01": {
+      "name": "prop_wooden_table_01",
+      "model": "assets/prop_wooden_table_01/model.bbmodel",
+      "scripts": "scripts/prop_wooden_table_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_wooden_table_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_altar_broken_01": {
+      "name": "prop_altar_broken_01",
+      "model": "assets/prop_altar_broken_01/model.bbmodel",
+      "scripts": "scripts/prop_altar_broken_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_altar_broken_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "trap_pendulum_axe_01": {
+      "name": "trap_pendulum_axe_01",
+      "model": "assets/trap_pendulum_axe_01/model.bbmodel",
+      "scripts": "scripts/trap_pendulum_axe_01",
+      "variants": {
+        "default": {
+          "path": "assets/trap_pendulum_axe_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "dirt_blood_blade_01": {
+      "name": "dirt_blood_blade_01",
+      "model": "assets/dirt_blood_blade_01/model.bbmodel",
+      "scripts": "scripts/dirt_blood_blade_01",
+      "variants": {
+        "default": {
+          "path": "assets/dirt_blood_blade_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "trap_pendulum_catch_01": {
+      "name": "trap_pendulum_catch_01",
+      "model": "assets/trap_pendulum_catch_01/model.bbmodel",
+      "scripts": "scripts/trap_pendulum_catch_01",
+      "variants": {
+        "default": {
+          "path": "assets/trap_pendulum_catch_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "trap_pendulum_winch_01": {
+      "name": "trap_pendulum_winch_01",
+      "model": "assets/trap_pendulum_winch_01/model.bbmodel",
+      "scripts": "scripts/trap_pendulum_winch_01",
+      "variants": {
+        "default": {
+          "path": "assets/trap_pendulum_winch_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_pulley_01": {
+      "name": "env_pulley_01",
+      "model": "assets/env_pulley_01/model.bbmodel",
+      "scripts": "scripts/env_pulley_01",
+      "variants": {
+        "default": {
+          "path": "assets/env_pulley_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_chain_segment_01": {
+      "name": "env_chain_segment_01",
+      "model": "assets/env_chain_segment_01/model.bbmodel",
+      "scripts": "scripts/env_chain_segment_01",
+      "variants": {
+        "default": {
+          "path": "assets/env_chain_segment_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "trap_tripwire_01": {
+      "name": "trap_tripwire_01",
+      "model": "assets/trap_tripwire_01/model.bbmodel",
+      "scripts": "scripts/trap_tripwire_01",
+      "variants": {
+        "default": {
+          "path": "assets/trap_tripwire_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "trap_tripwire_01_snapped": {
+      "name": "trap_tripwire_01_snapped",
+      "model": "assets/trap_tripwire_01_snapped/model.bbmodel",
+      "scripts": "scripts/trap_tripwire_01_snapped",
+      "variants": {
+        "default": {
+          "path": "assets/trap_tripwire_01_snapped/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "trap_pressure_plate_01": {
+      "name": "trap_pressure_plate_01",
+      "model": "assets/trap_pressure_plate_01/model.bbmodel",
+      "scripts": "scripts/trap_pressure_plate_01",
+      "variants": {
+        "default": {
+          "path": "assets/trap_pressure_plate_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "trap_dart_launcher_01": {
+      "name": "trap_dart_launcher_01",
+      "model": "assets/trap_dart_launcher_01/model.bbmodel",
+      "scripts": "scripts/trap_dart_launcher_01",
+      "variants": {
+        "default": {
+          "path": "assets/trap_dart_launcher_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_dart_01": {
+      "name": "prop_dart_01",
+      "model": "assets/prop_dart_01/model.bbmodel",
+      "scripts": "scripts/prop_dart_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_dart_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_dart_broken_01": {
+      "name": "prop_dart_broken_01",
+      "model": "assets/prop_dart_broken_01/model.bbmodel",
+      "scripts": "scripts/prop_dart_broken_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_dart_broken_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "trap_dart_magazine_01": {
+      "name": "trap_dart_magazine_01",
+      "model": "assets/trap_dart_magazine_01/model.bbmodel",
+      "scripts": "scripts/trap_dart_magazine_01",
+      "variants": {
+        "default": {
+          "path": "assets/trap_dart_magazine_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_cell_bars_torn_4m": {
+      "name": "env_cell_bars_torn_4m",
+      "model": "assets/env_cell_bars_torn_4m/model.bbmodel",
+      "scripts": "scripts/env_cell_bars_torn_4m",
+      "variants": {
+        "default": {
+          "path": "assets/env_cell_bars_torn_4m/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_cell_gate_fallen_01": {
+      "name": "prop_cell_gate_fallen_01",
+      "model": "assets/prop_cell_gate_fallen_01/model.bbmodel",
+      "scripts": "scripts/prop_cell_gate_fallen_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_cell_gate_fallen_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_weapon_rack_01": {
+      "name": "prop_weapon_rack_01",
+      "model": "assets/prop_weapon_rack_01/model.bbmodel",
+      "scripts": "scripts/prop_weapon_rack_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_weapon_rack_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_spear_01": {
+      "name": "prop_spear_01",
+      "model": "assets/prop_spear_01/model.bbmodel",
+      "scripts": "scripts/prop_spear_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_spear_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "light_candle_cluster_01": {
+      "name": "light_candle_cluster_01",
+      "model": "assets/light_candle_cluster_01/model.bbmodel",
+      "scripts": "scripts/light_candle_cluster_01",
+      "variants": {
+        "default": {
+          "path": "assets/light_candle_cluster_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_wall_shackles_01": {
+      "name": "prop_wall_shackles_01",
+      "model": "assets/prop_wall_shackles_01/model.bbmodel",
+      "scripts": "scripts/prop_wall_shackles_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_wall_shackles_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_torch_dropped_01": {
+      "name": "prop_torch_dropped_01",
+      "model": "assets/prop_torch_dropped_01/model.bbmodel",
+      "scripts": "scripts/prop_torch_dropped_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_torch_dropped_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "env_floor_stone_2x2_plate_socket": {
+      "name": "env_floor_stone_2x2_plate_socket",
+      "model": "assets/env_floor_stone_2x2_plate_socket/model.bbmodel",
+      "scripts": "scripts/env_floor_stone_2x2_plate_socket",
+      "variants": {
+        "default": {
+          "path": "assets/env_floor_stone_2x2_plate_socket/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "char_adventurer_paladin_01_slain": {
+      "name": "char_adventurer_paladin_01_slain",
+      "model": "assets/char_adventurer_paladin_01_slain/model.bbmodel",
+      "scripts": "scripts/char_adventurer_paladin_01_slain",
+      "variants": {
+        "default": {
+          "path": "assets/char_adventurer_paladin_01_slain/texture.png"
+        },
+        "rusty": {
+          "path": "assets/char_adventurer_paladin_01_slain/textures/rusty.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_skull_01_charred": {
+      "name": "prop_skull_01_charred",
+      "model": "assets/prop_skull_01_charred/model.bbmodel",
+      "scripts": "scripts/prop_skull_01_charred",
+      "variants": {
+        "default": {
+          "path": "assets/prop_skull_01_charred/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_long_bone_01_charred": {
+      "name": "prop_long_bone_01_charred",
+      "model": "assets/prop_long_bone_01_charred/model.bbmodel",
+      "scripts": "scripts/prop_long_bone_01_charred",
+      "variants": {
+        "default": {
+          "path": "assets/prop_long_bone_01_charred/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "tool_mop_01": {
+      "name": "tool_mop_01",
+      "model": "assets/tool_mop_01/model.bbmodel",
+      "scripts": "scripts/tool_mop_01",
+      "variants": {
+        "default": {
+          "path": "assets/tool_mop_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "char_slime_janitor_01": {
+      "name": "char_slime_janitor_01",
+      "model": "assets/char_slime_janitor_01/model.bbmodel",
+      "scripts": "scripts/char_slime_janitor_01",
+      "variants": {
+        "default": {
+          "path": "assets/char_slime_janitor_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "char_manager_goblin_01": {
+      "name": "char_manager_goblin_01",
+      "model": "assets/char_manager_goblin_01/model.bbmodel",
+      "scripts": "scripts/char_manager_goblin_01",
+      "variants": {
+        "default": {
+          "path": "assets/char_manager_goblin_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_disposal_counter_01": {
+      "name": "prop_disposal_counter_01",
+      "model": "assets/prop_disposal_counter_01/model.bbmodel",
+      "scripts": "scripts/prop_disposal_counter_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_disposal_counter_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    },
+    "prop_lobby_tool_stand_01": {
+      "name": "prop_lobby_tool_stand_01",
+      "model": "assets/prop_lobby_tool_stand_01/model.bbmodel",
+      "scripts": "scripts/prop_lobby_tool_stand_01",
+      "variants": {
+        "default": {
+          "path": "assets/prop_lobby_tool_stand_01/texture.png"
+        }
+      },
+      "default_variant": "default"
+    }
+  }
+}

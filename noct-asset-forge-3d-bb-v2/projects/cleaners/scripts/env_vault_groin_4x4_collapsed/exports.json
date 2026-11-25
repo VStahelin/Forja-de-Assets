@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "engine/SM_Env_VaultGroin_4x4_Collapsed.glb",
+      "runtime_role": "default"
+    }
+  ]
+}

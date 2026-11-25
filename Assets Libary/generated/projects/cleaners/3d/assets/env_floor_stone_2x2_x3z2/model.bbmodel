@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "env_floor_stone_2x2_x3z2",
+  "model_identifier": "",
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {
+    "model_as_code": {
+      "version": 3,
+      "uv_ready": true,
+      "modeling_mode": "free",
+      "orientation": {
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "validation_policy": {
+        "check_coplanar": true
+      },
+      "sockets": {},
+      "chains": {},
+      "armature_chains": {},
+      "binding_policies": {},
+      "uv_sharing": [],
+      "uv_packing": {
+        "start_size": [
+          32,
+          32
+        ],
+        "allow_rectangular": true,
+        "uv_scale": 8,
+        "max_size": 1024,
+        "fixed_texture_size": false,
+        "island_padding": 0,
+        "require_integer_uvs": true,
+        "layout": "faces"
+      }
+    }
+  },
+  "elements": [
+    {
+      "name": "floor",
+      "color": 0,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -16,
+          0,
+          -16
+        ],
+        "v1": [
+          16,
+          0,
+          -16
+        ],
+        "v2": [
+          16,
+          0,
+          16
+        ],
+        "v3": [
+          -16,
+          0,
+          16
+        ]
+      },
+      "faces": {
+        "top": {
+          "vertices": [
+            "v0",
+            "v3",
+            "v2",
+            "v1"
+          ],
+          "texture": 0,
+          "model_as_code_group": "floor",
+          "model_as_code_source_face": "top",
+          "uv": {
+            "v0": [
+              0,
+              0
+            ],
+            "v3": [
+              0,
+              256
+            ],
+            "v2": [
+              256,
+              256
+            ],
+            "v1": [
+              256,
+              0
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "2cc7293f-8011-554b-9fd8-fa47e7d5cf9c",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": false,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "root",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "export": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "model_as_code_role": "folder"
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "isOpen": true,
+      "children": [
+        "2cc7293f-8011-554b-9fd8-fa47e7d5cf9c"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "c4d9a722-ce0b-472d-bf9c-e25f3f96954e",
+      "id": "0",
+      "name": "texture.png",
+      "relative_path": "texture.png",
+      "width": 256,
+      "height": 256,
+      "uv_width": 256,
+      "uv_height": 256,
+      "mode": "link",
+      "internal": false,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false
+    }
+  ],
+  "animations": [],
+  "resolution": {
+    "width": 256,
+    "height": 256
+  }
+}

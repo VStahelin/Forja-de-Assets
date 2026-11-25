@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "engine/SK_Char_SlimeJanitor_01.glb",
+      "animations": ["walk_slime"],
+      "runtime_role": "default"
+    },
+    {
+      "id": "first_person_arms",
+      "format": "glb",
+      "output": "engine/SK_Char_SlimeJanitor_Arms_01.glb",
+      "include": ["rig/arm_L", "rig/arm_R", "rig/hand_L", "rig/hand_R"],
+      "animations": []
+    }
+  ]
+}

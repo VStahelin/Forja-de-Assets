@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "project": "cleaners",
+    "mode": "strip",
+    "frameCount": 3,
+    "frameWidth": 28,
+    "frameHeight": 28,
+    "fps": 5,
+    "width": 84,
+    "height": 28,
+    "scale": 1,
+    "format": "png",
+    "image": "ui_paper_marks_01.png",
+    "animations": {
+      "ring": [
+        0
+      ],
+      "grease": [
+        1
+      ],
+      "fingerprint": [
+        2
+      ]
+    }
+  },
+  "frames": {
+    "frame_0": {
+      "x": 0,
+      "y": 0,
+      "width": 28,
+      "height": 28,
+      "logical": {
+        "x": 0,
+        "y": 0,
+        "width": 28,
+        "height": 28
+      }
+    },
+    "frame_1": {
+      "x": 28,
+      "y": 0,
+      "width": 28,
+      "height": 28,
+      "logical": {
+        "x": 28,
+        "y": 0,
+        "width": 28,
+        "height": 28
+      }
+    },
+    "frame_2": {
+      "x": 56,
+      "y": 0,
+      "width": 28,
+      "height": 28,
+      "logical": {
+        "x": 56,
+        "y": 0,
+        "width": 28,
+        "height": 28
+      }
+    }
+  }
+}

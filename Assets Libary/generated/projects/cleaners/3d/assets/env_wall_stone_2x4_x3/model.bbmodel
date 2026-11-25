@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "env_wall_stone_2x4_x3",
+  "model_identifier": "",
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {
+    "model_as_code": {
+      "version": 3,
+      "uv_ready": true,
+      "modeling_mode": "free",
+      "orientation": {
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "validation_policy": {
+        "check_coplanar": true
+      },
+      "sockets": {},
+      "chains": {},
+      "armature_chains": {},
+      "binding_policies": {},
+      "uv_sharing": [],
+      "uv_packing": {
+        "start_size": [
+          32,
+          32
+        ],
+        "allow_rectangular": true,
+        "uv_scale": 8,
+        "max_size": 1024,
+        "fixed_texture_size": false,
+        "island_padding": 0,
+        "require_integer_uvs": true,
+        "layout": "faces"
+      }
+    }
+  },
+  "elements": [
+    {
+      "name": "wall",
+      "color": 0,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -16,
+          0,
+          0.64
+        ],
+        "v1": [
+          16,
+          0,
+          0.64
+        ],
+        "v2": [
+          16,
+          64,
+          0.64
+        ],
+        "v3": [
+          -16,
+          64,
+          0.64
+        ]
+      },
+      "faces": {
+        "front": {
+          "vertices": [
+            "v0",
+            "v1",
+            "v2",
+            "v3"
+          ],
+          "texture": 0,
+          "model_as_code_group": "wall",
+          "model_as_code_source_face": "front",
+          "uv": {
+            "v0": [
+              0,
+              512
+            ],
+            "v1": [
+              256,
+              512
+            ],
+            "v2": [
+              256,
+              0
+            ],
+            "v3": [
+              0,
+              0
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "1b4a7c4a-bac8-5679-9ece-b42c8ec6cad7",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": false,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "root",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "export": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "model_as_code_role": "folder"
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "isOpen": true,
+      "children": [
+        "1b4a7c4a-bac8-5679-9ece-b42c8ec6cad7"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "77d90e51-f13e-4207-b97a-b6b4f966dd8a",
+      "id": "0",
+      "name": "texture.png",
+      "relative_path": "texture.png",
+      "width": 256,
+      "height": 512,
+      "uv_width": 256,
+      "uv_height": 512,
+      "mode": "link",
+      "internal": false,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false
+    }
+  ],
+  "animations": [],
+  "resolution": {
+    "width": 256,
+    "height": 512
+  }
+}

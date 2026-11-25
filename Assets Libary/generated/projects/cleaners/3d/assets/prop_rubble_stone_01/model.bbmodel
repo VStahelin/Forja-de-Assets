@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "prop_rubble_stone_01",
+  "model_identifier": "",
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {
+    "model_as_code": {
+      "version": 3,
+      "uv_ready": true,
+      "modeling_mode": "free",
+      "orientation": {
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "validation_policy": {
+        "check_coplanar": true
+      },
+      "sockets": {},
+      "chains": {},
+      "armature_chains": {},
+      "binding_policies": {},
+      "uv_packing": {
+        "start_size": [
+          32,
+          32
+        ],
+        "allow_rectangular": true,
+        "uv_scale": 8,
+        "max_size": 2048,
+        "fixed_texture_size": false,
+        "island_padding": 1,
+        "require_integer_uvs": false,
+        "layout": "charts"
+      }
+    }
+  },
+  "elements": [
+    {
+      "name": "fracture_loose",
+      "color": 0,
+      "origin": [
+        0,
+        1.68,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -2.3157528334548942,
+          -1.8131351988914752,
+          -1.8269919533390273
+        ],
+        "v1": [
+          2.713768195089008,
+          -1.6021906966900779,
+          -1.7107173306405812
+        ],
+        "v2": [
+          2.4302618340218993,
+          1.6666937899629468,
+          -2.0456930123489885
+        ],
+        "v3": [
+          -2.5829982680826835,
+          1.3795478708777706,
+          -1.8961560953815928
+        ],
+        "v4": [
+          -2.3264152385530887,
+          -1.6040715074654355,
+          1.7379076122104253
+        ],
+        "v5": [
+          2.519751850976358,
+          -1.5902395485545948,
+          2.278613495272499
+        ],
+        "v6": [
+          2.4263658691496772,
+          1.5667753943502503,
+          1.6927607302047818
+        ],
+        "v7": [
+          -2.7172632441739113,
+          1.872944373509586,
+          2.3149075767561476
+        ]
+      },
+      "faces": {
+        "back": {
+          "vertices": [
+            "v0",
+            "v3",
+            "v2",
+            "v1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "v0": [
+              4.0,
+              112.0
+            ],
+            "v3": [
+              1.888580322265625,
+              86.47160339355469
+            ],
+            "v2": [
+              41.99732971191406,
+              84.14625549316406
+            ],
+            "v1": [
+              44.237640380859375,
+              110.41600036621094
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "fracture_loose#5"
+        },
+        "front": {
+          "vertices": [
+            "v4",
+            "v5",
+            "v6",
+            "v7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "v4": [
+              40.0,
+              81.0
+            ],
+            "v5": [
+              1.2740631103515625,
+              81.72177124023438
+            ],
+            "v6": [
+              1.44537353515625,
+              56.44728088378906
+            ],
+            "v7": [
+              42.57269287109375,
+              53.131805419921875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "fracture_loose#0"
+        },
+        "bottom": {
+          "vertices": [
+            "v1",
+            "v5",
+            "v4",
+            "v0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bottom",
+          "uv": {
+            "v1": [
+              1.0,
+              27.0
+            ],
+            "v5": [
+              20.52459716796875,
+              1.720062255859375
+            ],
+            "v4": [
+              49.85479736328125,
+              27.427001953125
+            ],
+            "v0": [
+              33.47526550292969,
+              50.81892395019531
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "fracture_loose#2"
+        },
+        "top": {
+          "vertices": [
+            "v3",
+            "v7",
+            "v6",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top",
+          "uv": {
+            "v3": [
+              55.0,
+              35.0
+            ],
+            "v7": [
+              52.77644348144531,
+              1.213653564453125
+            ],
+            "v6": [
+              94.07099914550781,
+              4.899505615234375
+            ],
+            "v2": [
+              95.12399291992188,
+              34.71241760253906
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "fracture_loose#1"
+        },
+        "left": {
+          "vertices": [
+            "v4",
+            "v7",
+            "v3",
+            "v0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "left",
+          "uv": {
+            "v4": [
+              57.0,
+              65.0
+            ],
+            "v7": [
+              52.35917663574219,
+              37.01506042480469
+            ],
+            "v3": [
+              86.05580139160156,
+              41.022674560546875
+            ],
+            "v0": [
+              85.51834106445312,
+              66.65133666992188
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "fracture_loose#3"
+        },
+        "right": {
+          "vertices": [
+            "v1",
+            "v2",
+            "v6",
+            "v5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "right",
+          "uv": {
+            "v1": [
+              92.0,
+              64.0
+            ],
+            "v2": [
+              89.39750671386719,
+              37.75242614746094
+            ],
+            "v6": [
+              119.2950439453125,
+              38.61631774902344
+            ],
+            "v5": [
+              123.94451904296875,
+              63.88056945800781
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "fracture_loose#4"
+        }
+      },
+      "type": "mesh",
+      "uuid": "e5088257-5403-5bd4-a79c-2aba6156d951",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "root",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "export": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "model_as_code_role": "folder"
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "isOpen": true,
+      "children": [
+        "e5088257-5403-5bd4-a79c-2aba6156d951"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "4a0147cd-e525-4c28-90f2-3b1717d8ae10",
+      "id": "0",
+      "name": "texture.png",
+      "relative_path": "texture.png",
+      "width": 128,
+      "height": 128,
+      "uv_width": 128,
+      "uv_height": 128,
+      "mode": "link",
+      "internal": false,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false
+    }
+  ],
+  "animations": [],
+  "resolution": {
+    "width": 128,
+    "height": 128
+  }
+}

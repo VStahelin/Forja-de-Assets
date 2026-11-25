@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "project": "cleaners",
+    "mode": "strip",
+    "frameCount": 2,
+    "frameWidth": 13,
+    "frameHeight": 13,
+    "fps": 5,
+    "width": 26,
+    "height": 13,
+    "scale": 1,
+    "format": "png",
+    "image": "ui_crosshair_01.png",
+    "animations": {
+      "dot": [
+        0
+      ],
+      "ring": [
+        1
+      ]
+    }
+  },
+  "frames": {
+    "frame_0": {
+      "x": 0,
+      "y": 0,
+      "width": 13,
+      "height": 13,
+      "logical": {
+        "x": 0,
+        "y": 0,
+        "width": 13,
+        "height": 13
+      }
+    },
+    "frame_1": {
+      "x": 13,
+      "y": 0,
+      "width": 13,
+      "height": 13,
+      "logical": {
+        "x": 13,
+        "y": 0,
+        "width": 13,
+        "height": 13
+      }
+    }
+  }
+}

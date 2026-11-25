@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "project": "cleaners",
+    "mode": "strip",
+    "frameCount": 16,
+    "frameWidth": 8,
+    "frameHeight": 16,
+    "fps": 24,
+    "width": 128,
+    "height": 16,
+    "scale": 1,
+    "format": "png",
+    "image": "vfx_blood_drip_01.png"
+  },
+  "frames": {
+    "frame_0": {
+      "x": 0,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_1": {
+      "x": 8,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 8,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_2": {
+      "x": 16,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 16,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_3": {
+      "x": 24,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 24,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_4": {
+      "x": 32,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 32,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_5": {
+      "x": 40,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 40,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_6": {
+      "x": 48,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 48,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_7": {
+      "x": 56,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 56,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_8": {
+      "x": 64,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 64,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_9": {
+      "x": 72,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 72,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_10": {
+      "x": 80,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 80,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_11": {
+      "x": 88,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 88,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_12": {
+      "x": 96,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 96,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_13": {
+      "x": 104,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 104,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_14": {
+      "x": 112,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 112,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    },
+    "frame_15": {
+      "x": 120,
+      "y": 0,
+      "width": 8,
+      "height": 16,
+      "logical": {
+        "x": 120,
+        "y": 0,
+        "width": 8,
+        "height": 16
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "engine/SK_Char_ManagerGoblin_01.glb",
+      "animations": ["idle", "talk", "drum_fingers", "nod"],
+      "runtime_role": "default"
+    }
+  ]
+}

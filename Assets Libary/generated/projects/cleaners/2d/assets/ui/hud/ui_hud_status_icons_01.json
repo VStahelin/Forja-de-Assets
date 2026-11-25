@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "project": "cleaners",
+    "mode": "strip",
+    "frameCount": 9,
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "fps": 5,
+    "width": 216,
+    "height": 24,
+    "scale": 1,
+    "format": "png",
+    "image": "ui_hud_status_icons_01.png",
+    "animations": {
+      "star_full": [
+        0
+      ],
+      "star_empty": [
+        1
+      ],
+      "area": [
+        2
+      ],
+      "points": [
+        3
+      ],
+      "manager_note": [
+        4
+      ],
+      "carrying": [
+        5
+      ],
+      "scrubbing": [
+        6
+      ],
+      "down": [
+        7
+      ],
+      "disconnected": [
+        8
+      ]
+    }
+  },
+  "frames": {
+    "frame_0": {
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "logical": {
+        "x": 0,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    },
+    "frame_1": {
+      "x": 24,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "logical": {
+        "x": 24,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    },
+    "frame_2": {
+      "x": 48,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "logical": {
+        "x": 48,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    },
+    "frame_3": {
+      "x": 72,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "logical": {
+        "x": 72,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    },
+    "frame_4": {
+      "x": 96,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "logical": {
+        "x": 96,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    },
+    "frame_5": {
+      "x": 120,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "logical": {
+        "x": 120,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    },
+    "frame_6": {
+      "x": 144,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "logical": {
+        "x": 144,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    },
+    "frame_7": {
+      "x": 168,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "logical": {
+        "x": 168,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    },
+    "frame_8": {
+      "x": 192,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "logical": {
+        "x": 192,
+        "y": 0,
+        "width": 24,
+        "height": 24
+      }
+    }
+  }
+}

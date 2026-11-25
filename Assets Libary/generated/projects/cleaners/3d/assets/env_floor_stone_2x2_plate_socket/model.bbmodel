@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "env_floor_stone_2x2_plate_socket",
+  "model_identifier": "",
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {
+    "model_as_code": {
+      "version": 3,
+      "uv_ready": true,
+      "modeling_mode": "free",
+      "orientation": {
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "validation_policy": {
+        "check_coplanar": true
+      },
+      "sockets": {},
+      "chains": {},
+      "armature_chains": {},
+      "binding_policies": {},
+      "uv_sharing": [],
+      "uv_packing": {
+        "start_size": [
+          32,
+          32
+        ],
+        "allow_rectangular": true,
+        "uv_scale": 8,
+        "max_size": 1024,
+        "fixed_texture_size": false,
+        "island_padding": 1,
+        "require_integer_uvs": true,
+        "layout": "faces"
+      }
+    }
+  },
+  "elements": [
+    {
+      "name": "floor",
+      "color": 0,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "g0_0": [
+          -16,
+          0,
+          -16
+        ],
+        "g0_1": [
+          -16,
+          0,
+          16
+        ],
+        "g0_2": [
+          -4,
+          0,
+          16
+        ],
+        "g0_3": [
+          -4,
+          0,
+          -16
+        ],
+        "g1_0": [
+          4,
+          0,
+          -16
+        ],
+        "g1_1": [
+          4,
+          0,
+          16
+        ],
+        "g1_2": [
+          16,
+          0,
+          16
+        ],
+        "g1_3": [
+          16,
+          0,
+          -16
+        ],
+        "g2_0": [
+          -4,
+          0,
+          -16
+        ],
+        "g2_1": [
+          -4,
+          0,
+          -4
+        ],
+        "g2_2": [
+          4,
+          0,
+          -4
+        ],
+        "g2_3": [
+          4,
+          0,
+          -16
+        ],
+        "g3_0": [
+          -4,
+          0,
+          4
+        ],
+        "g3_1": [
+          -4,
+          0,
+          16
+        ],
+        "g3_2": [
+          4,
+          0,
+          16
+        ],
+        "g3_3": [
+          4,
+          0,
+          4
+        ]
+      },
+      "faces": {
+        "g0": {
+          "vertices": [
+            "g0_0",
+            "g0_1",
+            "g0_2",
+            "g0_3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "g0",
+          "uv": {
+            "g0_0": [
+              1,
+              1
+            ],
+            "g0_1": [
+              1,
+              257
+            ],
+            "g0_2": [
+              97,
+              257
+            ],
+            "g0_3": [
+              97,
+              1
+            ]
+          },
+          "rotation": 0
+        },
+        "g1": {
+          "vertices": [
+            "g1_0",
+            "g1_1",
+            "g1_2",
+            "g1_3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "g1",
+          "uv": {
+            "g1_0": [
+              99,
+              1
+            ],
+            "g1_1": [
+              99,
+              257
+            ],
+            "g1_2": [
+              195,
+              257
+            ],
+            "g1_3": [
+              195,
+              1
+            ]
+          },
+          "rotation": 0
+        },
+        "g2": {
+          "vertices": [
+            "g2_0",
+            "g2_1",
+            "g2_2",
+            "g2_3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "g2",
+          "uv": {
+            "g2_0": [
+              1,
+              259
+            ],
+            "g2_1": [
+              1,
+              355
+            ],
+            "g2_2": [
+              65,
+              355
+            ],
+            "g2_3": [
+              65,
+              259
+            ]
+          },
+          "rotation": 0
+        },
+        "g3": {
+          "vertices": [
+            "g3_0",
+            "g3_1",
+            "g3_2",
+            "g3_3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "g3",
+          "uv": {
+            "g3_0": [
+              1,
+              357
+            ],
+            "g3_1": [
+              1,
+              453
+            ],
+            "g3_2": [
+              65,
+              453
+            ],
+            "g3_3": [
+              65,
+              357
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "2cc7293f-8011-554b-9fd8-fa47e7d5cf9c",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": false,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "root",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "export": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "model_as_code_role": "folder"
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "isOpen": true,
+      "children": [
+        "2cc7293f-8011-554b-9fd8-fa47e7d5cf9c"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "2bdc9745-f509-420a-943d-721d0702f454",
+      "id": "0",
+      "name": "texture.png",
+      "relative_path": "texture.png",
+      "width": 256,
+      "height": 512,
+      "uv_width": 256,
+      "uv_height": 512,
+      "mode": "link",
+      "internal": false,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false
+    }
+  ],
+  "animations": [],
+  "resolution": {
+    "width": 256,
+    "height": 512
+  }
+}

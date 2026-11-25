@@ -1,0 +1,3666 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "prop_supply_pouch_01",
+  "model_identifier": "",
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {
+    "model_as_code": {
+      "version": 3,
+      "uv_ready": true,
+      "modeling_mode": "free",
+      "orientation": {
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "validation_policy": {
+        "check_coplanar": true
+      },
+      "sockets": {},
+      "chains": {},
+      "armature_chains": {},
+      "binding_policies": {},
+      "uv_packing": {
+        "start_size": [
+          32,
+          32
+        ],
+        "allow_rectangular": true,
+        "uv_scale": 8,
+        "max_size": 2048,
+        "fixed_texture_size": false,
+        "island_padding": 1,
+        "require_integer_uvs": false,
+        "layout": "charts"
+      }
+    }
+  },
+  "elements": [
+    {
+      "name": "leather",
+      "color": 0,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.832,
+          0,
+          0
+        ],
+        "section_000_v001": [
+          0.5883128419472076,
+          0,
+          0.5883128419472076
+        ],
+        "section_000_v002": [
+          5.094530684452989e-17,
+          0,
+          0.832
+        ],
+        "section_000_v003": [
+          -0.5883128419472075,
+          0,
+          0.5883128419472076
+        ],
+        "section_000_v004": [
+          -0.832,
+          0,
+          1.0189061368905978e-16
+        ],
+        "section_000_v005": [
+          -0.5883128419472077,
+          0,
+          -0.5883128419472075
+        ],
+        "section_000_v006": [
+          -1.5283592053358966e-16,
+          0,
+          -0.832
+        ],
+        "section_000_v007": [
+          0.5883128419472073,
+          0,
+          -0.5883128419472077
+        ],
+        "section_001_v000": [
+          1.2,
+          0.416,
+          0
+        ],
+        "section_001_v001": [
+          0.848528137423857,
+          0.416,
+          0.848528137423857
+        ],
+        "section_001_v002": [
+          7.347880794884119e-17,
+          0.416,
+          1.2
+        ],
+        "section_001_v003": [
+          -0.8485281374238569,
+          0.416,
+          0.848528137423857
+        ],
+        "section_001_v004": [
+          -1.2,
+          0.416,
+          1.4695761589768238e-16
+        ],
+        "section_001_v005": [
+          -0.8485281374238572,
+          0.416,
+          -0.8485281374238569
+        ],
+        "section_001_v006": [
+          -2.2043642384652356e-16,
+          0.416,
+          -1.2
+        ],
+        "section_001_v007": [
+          0.8485281374238568,
+          0.416,
+          -0.8485281374238572
+        ],
+        "section_002_v000": [
+          1.44,
+          1.456,
+          0
+        ],
+        "section_002_v001": [
+          1.0182337649086284,
+          1.456,
+          1.0182337649086284
+        ],
+        "section_002_v002": [
+          8.817456953860943e-17,
+          1.456,
+          1.44
+        ],
+        "section_002_v003": [
+          -1.0182337649086284,
+          1.456,
+          1.0182337649086284
+        ],
+        "section_002_v004": [
+          -1.44,
+          1.456,
+          1.7634913907721887e-16
+        ],
+        "section_002_v005": [
+          -1.0182337649086286,
+          1.456,
+          -1.0182337649086284
+        ],
+        "section_002_v006": [
+          -2.6452370861582825e-16,
+          1.456,
+          -1.44
+        ],
+        "section_002_v007": [
+          1.0182337649086282,
+          1.456,
+          -1.0182337649086286
+        ],
+        "section_003_v000": [
+          1.024,
+          2.64,
+          0
+        ],
+        "section_003_v001": [
+          0.7240773439350248,
+          2.64,
+          0.7240773439350248
+        ],
+        "section_003_v002": [
+          6.270191611634448e-17,
+          2.64,
+          1.024
+        ],
+        "section_003_v003": [
+          -0.7240773439350247,
+          2.64,
+          0.7240773439350248
+        ],
+        "section_003_v004": [
+          -1.024,
+          2.64,
+          1.2540383223268896e-16
+        ],
+        "section_003_v005": [
+          -0.7240773439350249,
+          2.64,
+          -0.7240773439350247
+        ],
+        "section_003_v006": [
+          -1.8810574834903346e-16,
+          2.64,
+          -1.024
+        ],
+        "section_003_v007": [
+          0.7240773439350245,
+          2.64,
+          -0.7240773439350249
+        ],
+        "section_004_v000": [
+          0.736,
+          2.912,
+          0
+        ],
+        "section_004_v001": [
+          0.520430590953299,
+          2.912,
+          0.520430590953299
+        ],
+        "section_004_v002": [
+          4.5067002208622597e-17,
+          2.912,
+          0.736
+        ],
+        "section_004_v003": [
+          -0.5204305909532989,
+          2.912,
+          0.520430590953299
+        ],
+        "section_004_v004": [
+          -0.736,
+          2.912,
+          9.013400441724519e-17
+        ],
+        "section_004_v005": [
+          -0.5204305909532991,
+          2.912,
+          -0.5204305909532989
+        ],
+        "section_004_v006": [
+          -1.352010066258678e-16,
+          2.912,
+          -0.736
+        ],
+        "section_004_v007": [
+          0.5204305909532988,
+          2.912,
+          -0.5204305909532991
+        ],
+        "section_005_v000": [
+          0.656,
+          3.184,
+          0
+        ],
+        "section_005_v001": [
+          0.46386204845837525,
+          3.184,
+          0.46386204845837525
+        ],
+        "section_005_v002": [
+          4.016841501203319e-17,
+          3.184,
+          0.656
+        ],
+        "section_005_v003": [
+          -0.46386204845837514,
+          3.184,
+          0.46386204845837525
+        ],
+        "section_005_v004": [
+          -0.656,
+          3.184,
+          8.033683002406638e-17
+        ],
+        "section_005_v005": [
+          -0.4638620484583753,
+          3.184,
+          -0.46386204845837514
+        ],
+        "section_005_v006": [
+          -1.2050524503609956e-16,
+          3.184,
+          -0.656
+        ],
+        "section_005_v007": [
+          0.4638620484583751,
+          3.184,
+          -0.4638620484583753
+        ],
+        "section_006_v000": [
+          0.976,
+          3.456,
+          0
+        ],
+        "section_006_v001": [
+          0.6901362184380704,
+          3.456,
+          0.6901362184380704
+        ],
+        "section_006_v002": [
+          5.976276379839084e-17,
+          3.456,
+          0.976
+        ],
+        "section_006_v003": [
+          -0.6901362184380703,
+          3.456,
+          0.6901362184380704
+        ],
+        "section_006_v004": [
+          -0.976,
+          3.456,
+          1.1952552759678168e-16
+        ],
+        "section_006_v005": [
+          -0.6901362184380705,
+          3.456,
+          -0.6901362184380703
+        ],
+        "section_006_v006": [
+          -1.7928829139517248e-16,
+          3.456,
+          -0.976
+        ],
+        "section_006_v007": [
+          0.6901362184380702,
+          3.456,
+          -0.6901362184380705
+        ],
+        "section_007_v000": [
+          0.704,
+          3.68,
+          0
+        ],
+        "section_007_v001": [
+          0.49780317395532947,
+          3.68,
+          0.49780317395532947
+        ],
+        "section_007_v002": [
+          4.310756732998683e-17,
+          3.68,
+          0.704
+        ],
+        "section_007_v003": [
+          -0.49780317395532936,
+          3.68,
+          0.49780317395532947
+        ],
+        "section_007_v004": [
+          -0.704,
+          3.68,
+          8.621513465997366e-17
+        ],
+        "section_007_v005": [
+          -0.4978031739553295,
+          3.68,
+          -0.49780317395532936
+        ],
+        "section_007_v006": [
+          -1.2932270198996048e-16,
+          3.68,
+          -0.704
+        ],
+        "section_007_v007": [
+          0.4978031739553293,
+          3.68,
+          -0.4978031739553295
+        ],
+        "cap_start_center": [
+          -4.0491902326761383e-17,
+          0,
+          1.2736326711132473e-17
+        ],
+        "cap_end_center": [
+          -2.4654679640311163e-17,
+          3.68,
+          1.7715785736403937e-17
+        ]
+      },
+      "faces": {
+        "band_000_000": {
+          "vertices": [
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v001",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_000_000",
+          "uv": {
+            "section_000_v000": [
+              63.90571594238281,
+              32.0
+            ],
+            "section_001_v000": [
+              62.77909851074219,
+              27.701919555664062
+            ],
+            "section_001_v001": [
+              70.12661743164062,
+              27.701919555664062
+            ],
+            "section_000_v001": [
+              69.0,
+              32.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#8"
+        },
+        "band_000_001": {
+          "vertices": [
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v002",
+            "section_000_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_000_001",
+          "uv": {
+            "section_000_v001": [
+              11.139114379882812,
+              29.819183349609375
+            ],
+            "section_001_v001": [
+              10.214431762695312,
+              25.473190307617188
+            ],
+            "section_001_v002": [
+              17.553924560546875,
+              25.8162841796875
+            ],
+            "section_000_v002": [
+              16.22784423828125,
+              30.05706787109375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#0"
+        },
+        "band_000_002": {
+          "vertices": [
+            "section_001_v002",
+            "section_001_v003",
+            "section_000_v003",
+            "section_000_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_000_002",
+          "uv": {
+            "section_001_v002": [
+              2.446075439453125,
+              57.8162841796875
+            ],
+            "section_001_v003": [
+              9.785568237304688,
+              57.47319030761719
+            ],
+            "section_000_v003": [
+              8.860885620117188,
+              61.819183349609375
+            ],
+            "section_000_v002": [
+              3.77215576171875,
+              62.05706787109375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#1",
+          "model_as_code_mirror": [
+            "leather",
+            "band_000_001"
+          ]
+        },
+        "band_000_003": {
+          "vertices": [
+            "section_001_v003",
+            "section_001_v004",
+            "section_000_v004",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_000_003",
+          "uv": {
+            "section_001_v003": [
+              70.87338256835938,
+              16.701919555664062
+            ],
+            "section_001_v004": [
+              78.22090148925781,
+              16.701919555664062
+            ],
+            "section_000_v004": [
+              77.09428405761719,
+              21.0
+            ],
+            "section_000_v003": [
+              72.0,
+              21.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#9",
+          "model_as_code_mirror": [
+            "leather",
+            "band_000_000"
+          ]
+        },
+        "band_000_004": {
+          "vertices": [
+            "section_001_v004",
+            "section_001_v005",
+            "section_000_v005",
+            "section_000_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_000_004",
+          "uv": {
+            "section_001_v004": [
+              22.370864868164062,
+              56.42266845703125
+            ],
+            "section_001_v005": [
+              29.710357666015625,
+              56.07957458496094
+            ],
+            "section_000_v005": [
+              28.785675048828125,
+              60.425567626953125
+            ],
+            "section_000_v004": [
+              23.696945190429688,
+              60.6634521484375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#17",
+          "model_as_code_mirror": [
+            "leather",
+            "band_000_007"
+          ]
+        },
+        "band_000_005": {
+          "vertices": [
+            "section_001_v005",
+            "section_001_v006",
+            "section_000_v006",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_000_005",
+          "uv": {
+            "section_001_v005": [
+              73.77909851074219,
+              1.7019195556640625
+            ],
+            "section_001_v006": [
+              81.12661743164062,
+              1.7019195556640625
+            ],
+            "section_000_v006": [
+              80.0,
+              6.0
+            ],
+            "section_000_v005": [
+              74.90571594238281,
+              6.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#27",
+          "model_as_code_mirror": [
+            "leather",
+            "band_000_006"
+          ]
+        },
+        "band_000_006": {
+          "vertices": [
+            "section_000_v006",
+            "section_001_v006",
+            "section_001_v007",
+            "section_000_v007"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_000_006",
+          "uv": {
+            "section_000_v006": [
+              67.0,
+              14.0
+            ],
+            "section_001_v006": [
+              65.87338256835938,
+              9.701919555664062
+            ],
+            "section_001_v007": [
+              73.22090148925781,
+              9.701919555664062
+            ],
+            "section_000_v007": [
+              72.09428405761719,
+              14.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#26"
+        },
+        "band_000_007": {
+          "vertices": [
+            "section_000_v007",
+            "section_001_v007",
+            "section_001_v000",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_000_007",
+          "uv": {
+            "section_000_v007": [
+              31.214324951171875,
+              29.425567626953125
+            ],
+            "section_001_v007": [
+              30.289642333984375,
+              25.079574584960938
+            ],
+            "section_001_v000": [
+              37.62913513183594,
+              25.42266845703125
+            ],
+            "section_000_v000": [
+              36.30305480957031,
+              29.6634521484375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#16"
+        },
+        "band_001_000": {
+          "vertices": [
+            "section_001_v000",
+            "section_002_v000",
+            "section_002_v001",
+            "section_001_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_001_000",
+          "uv": {
+            "section_001_v000": [
+              2.924774169921875,
+              26.39361572265625
+            ],
+            "section_002_v000": [
+              1.1301422119140625,
+              18.045669555664062
+            ],
+            "section_002_v001": [
+              9.877716064453125,
+              16.941162109375
+            ],
+            "section_001_v001": [
+              10.214431762695312,
+              25.473190307617188
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#0"
+        },
+        "band_001_001": {
+          "vertices": [
+            "section_001_v001",
+            "section_002_v001",
+            "section_002_v002",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_001_001",
+          "uv": {
+            "section_001_v001": [
+              10.214431762695312,
+              25.473190307617188
+            ],
+            "section_002_v001": [
+              9.877716064453125,
+              16.941162109375
+            ],
+            "section_002_v002": [
+              18.68511962890625,
+              17.352874755859375
+            ],
+            "section_001_v002": [
+              17.553924560546875,
+              25.8162841796875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#0"
+        },
+        "band_001_002": {
+          "vertices": [
+            "section_002_v002",
+            "section_002_v003",
+            "section_001_v003",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_001_002",
+          "uv": {
+            "section_002_v002": [
+              1.31488037109375,
+              49.352874755859375
+            ],
+            "section_002_v003": [
+              10.122283935546875,
+              48.941162109375
+            ],
+            "section_001_v003": [
+              9.785568237304688,
+              57.47319030761719
+            ],
+            "section_001_v002": [
+              2.446075439453125,
+              57.8162841796875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#1",
+          "model_as_code_mirror": [
+            "leather",
+            "band_001_001"
+          ]
+        },
+        "band_001_003": {
+          "vertices": [
+            "section_002_v003",
+            "section_002_v004",
+            "section_001_v004",
+            "section_001_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_001_003",
+          "uv": {
+            "section_002_v003": [
+              10.122283935546875,
+              48.941162109375
+            ],
+            "section_002_v004": [
+              18.869857788085938,
+              50.04566955566406
+            ],
+            "section_001_v004": [
+              17.075225830078125,
+              58.39361572265625
+            ],
+            "section_001_v003": [
+              9.785568237304688,
+              57.47319030761719
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#1",
+          "model_as_code_mirror": [
+            "leather",
+            "band_001_000"
+          ]
+        },
+        "band_001_004": {
+          "vertices": [
+            "section_002_v004",
+            "section_002_v005",
+            "section_001_v005",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_001_004",
+          "uv": {
+            "section_002_v004": [
+              21.239669799804688,
+              47.959259033203125
+            ],
+            "section_002_v005": [
+              30.047073364257812,
+              47.54754638671875
+            ],
+            "section_001_v005": [
+              29.710357666015625,
+              56.07957458496094
+            ],
+            "section_001_v004": [
+              22.370864868164062,
+              56.42266845703125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#17",
+          "model_as_code_mirror": [
+            "leather",
+            "band_001_007"
+          ]
+        },
+        "band_001_005": {
+          "vertices": [
+            "section_002_v005",
+            "section_002_v006",
+            "section_001_v006",
+            "section_001_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_001_005",
+          "uv": {
+            "section_002_v005": [
+              30.047073364257812,
+              47.54754638671875
+            ],
+            "section_002_v006": [
+              38.794647216796875,
+              48.652069091796875
+            ],
+            "section_001_v006": [
+              37.0,
+              57.0
+            ],
+            "section_001_v005": [
+              29.710357666015625,
+              56.07957458496094
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#17",
+          "model_as_code_mirror": [
+            "leather",
+            "band_001_006"
+          ]
+        },
+        "band_001_006": {
+          "vertices": [
+            "section_001_v006",
+            "section_002_v006",
+            "section_002_v007",
+            "section_001_v007"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_001_006",
+          "uv": {
+            "section_001_v006": [
+              23.0,
+              26.0
+            ],
+            "section_002_v006": [
+              21.205352783203125,
+              17.652069091796875
+            ],
+            "section_002_v007": [
+              29.952926635742188,
+              16.54754638671875
+            ],
+            "section_001_v007": [
+              30.289642333984375,
+              25.079574584960938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#16"
+        },
+        "band_001_007": {
+          "vertices": [
+            "section_001_v007",
+            "section_002_v007",
+            "section_002_v000",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_001_007",
+          "uv": {
+            "section_001_v007": [
+              30.289642333984375,
+              25.079574584960938
+            ],
+            "section_002_v007": [
+              29.952926635742188,
+              16.54754638671875
+            ],
+            "section_002_v000": [
+              38.76033020019531,
+              16.959259033203125
+            ],
+            "section_001_v000": [
+              37.62913513183594,
+              25.42266845703125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#16"
+        },
+        "band_002_000": {
+          "vertices": [
+            "section_003_v000",
+            "section_003_v001",
+            "section_002_v001",
+            "section_002_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_002_000",
+          "uv": {
+            "section_003_v000": [
+              42.85673522949219,
+              42.298919677734375
+            ],
+            "section_003_v001": [
+              49.126617431640625,
+              42.298919677734375
+            ],
+            "section_002_v001": [
+              50.40019226074219,
+              52.2574462890625
+            ],
+            "section_002_v000": [
+              41.583160400390625,
+              52.2574462890625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#6"
+        },
+        "band_002_001": {
+          "vertices": [
+            "section_003_v001",
+            "section_003_v002",
+            "section_002_v002",
+            "section_002_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_002_001",
+          "uv": {
+            "section_003_v001": [
+              11.614913940429688,
+              7.0529632568359375
+            ],
+            "section_003_v002": [
+              17.877960205078125,
+              7.345733642578125
+            ],
+            "section_002_v002": [
+              18.68511962890625,
+              17.352874755859375
+            ],
+            "section_002_v001": [
+              9.877716064453125,
+              16.941162109375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#0"
+        },
+        "band_002_002": {
+          "vertices": [
+            "section_002_v002",
+            "section_003_v002",
+            "section_003_v003",
+            "section_002_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_002_002",
+          "uv": {
+            "section_002_v002": [
+              1.31488037109375,
+              49.352874755859375
+            ],
+            "section_003_v002": [
+              2.122039794921875,
+              39.345733642578125
+            ],
+            "section_003_v003": [
+              8.385086059570312,
+              39.05296325683594
+            ],
+            "section_002_v003": [
+              10.122283935546875,
+              48.941162109375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#1",
+          "model_as_code_mirror": [
+            "leather",
+            "band_002_001"
+          ]
+        },
+        "band_002_003": {
+          "vertices": [
+            "section_002_v003",
+            "section_003_v003",
+            "section_003_v004",
+            "section_002_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_002_003",
+          "uv": {
+            "section_002_v003": [
+              53.59980773925781,
+              16.2574462890625
+            ],
+            "section_003_v003": [
+              54.873382568359375,
+              6.298919677734375
+            ],
+            "section_003_v004": [
+              61.14326477050781,
+              6.298919677734375
+            ],
+            "section_002_v004": [
+              62.416839599609375,
+              16.2574462890625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#7",
+          "model_as_code_mirror": [
+            "leather",
+            "band_002_000"
+          ]
+        },
+        "band_002_004": {
+          "vertices": [
+            "section_002_v004",
+            "section_003_v004",
+            "section_003_v005",
+            "section_002_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_002_004",
+          "uv": {
+            "section_002_v004": [
+              21.239669799804688,
+              47.959259033203125
+            ],
+            "section_003_v004": [
+              22.046829223632812,
+              37.95213317871094
+            ],
+            "section_003_v005": [
+              28.30987548828125,
+              37.65934753417969
+            ],
+            "section_002_v005": [
+              30.047073364257812,
+              47.54754638671875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#17",
+          "model_as_code_mirror": [
+            "leather",
+            "band_002_007"
+          ]
+        },
+        "band_002_005": {
+          "vertices": [
+            "section_002_v005",
+            "section_003_v005",
+            "section_003_v006",
+            "section_002_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_002_005",
+          "uv": {
+            "section_002_v005": [
+              41.583160400390625,
+              34.2574462890625
+            ],
+            "section_003_v005": [
+              42.85673522949219,
+              24.298904418945312
+            ],
+            "section_003_v006": [
+              49.126617431640625,
+              24.298904418945312
+            ],
+            "section_002_v006": [
+              50.40019226074219,
+              34.2574462890625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#29",
+          "model_as_code_mirror": [
+            "leather",
+            "band_002_006"
+          ]
+        },
+        "band_002_006": {
+          "vertices": [
+            "section_003_v006",
+            "section_003_v007",
+            "section_002_v007",
+            "section_002_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_002_006",
+          "uv": {
+            "section_003_v006": [
+              42.873382568359375,
+              6.2989044189453125
+            ],
+            "section_003_v007": [
+              49.14326477050781,
+              6.2989044189453125
+            ],
+            "section_002_v007": [
+              50.416839599609375,
+              16.2574462890625
+            ],
+            "section_002_v006": [
+              41.59980773925781,
+              16.2574462890625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#28"
+        },
+        "band_002_007": {
+          "vertices": [
+            "section_003_v007",
+            "section_003_v000",
+            "section_002_v000",
+            "section_002_v007"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_002_007",
+          "uv": {
+            "section_003_v007": [
+              31.69012451171875,
+              6.6593475341796875
+            ],
+            "section_003_v000": [
+              37.95317077636719,
+              6.9521331787109375
+            ],
+            "section_002_v000": [
+              38.76033020019531,
+              16.959259033203125
+            ],
+            "section_002_v007": [
+              29.952926635742188,
+              16.54754638671875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#16"
+        },
+        "band_003_000": {
+          "vertices": [
+            "section_004_v000",
+            "section_004_v001",
+            "section_003_v001",
+            "section_003_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_003_000",
+          "uv": {
+            "section_004_v000": [
+              43.738433837890625,
+              39.254913330078125
+            ],
+            "section_004_v001": [
+              48.24491882324219,
+              39.254913330078125
+            ],
+            "section_003_v001": [
+              49.126617431640625,
+              42.298919677734375
+            ],
+            "section_003_v000": [
+              42.85673522949219,
+              42.298919677734375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#6"
+        },
+        "band_003_001": {
+          "vertices": [
+            "section_004_v001",
+            "section_004_v002",
+            "section_003_v002",
+            "section_003_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_003_001",
+          "uv": {
+            "section_004_v001": [
+              12.637802124023438,
+              4.0534515380859375
+            ],
+            "section_004_v002": [
+              17.139358520507812,
+              4.263885498046875
+            ],
+            "section_003_v002": [
+              17.877960205078125,
+              7.345733642578125
+            ],
+            "section_003_v001": [
+              11.614913940429688,
+              7.0529632568359375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#0"
+        },
+        "band_003_002": {
+          "vertices": [
+            "section_003_v002",
+            "section_004_v002",
+            "section_004_v003",
+            "section_003_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_003_002",
+          "uv": {
+            "section_003_v002": [
+              2.122039794921875,
+              39.345733642578125
+            ],
+            "section_004_v002": [
+              2.8606414794921875,
+              36.263885498046875
+            ],
+            "section_004_v003": [
+              7.3621978759765625,
+              36.05345153808594
+            ],
+            "section_003_v003": [
+              8.385086059570312,
+              39.05296325683594
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#1",
+          "model_as_code_mirror": [
+            "leather",
+            "band_003_001"
+          ]
+        },
+        "band_003_003": {
+          "vertices": [
+            "section_003_v003",
+            "section_004_v003",
+            "section_004_v004",
+            "section_003_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_003_003",
+          "uv": {
+            "section_003_v003": [
+              54.873382568359375,
+              6.298919677734375
+            ],
+            "section_004_v003": [
+              55.75508117675781,
+              3.254913330078125
+            ],
+            "section_004_v004": [
+              60.261566162109375,
+              3.254913330078125
+            ],
+            "section_003_v004": [
+              61.14326477050781,
+              6.298919677734375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#7",
+          "model_as_code_mirror": [
+            "leather",
+            "band_003_000"
+          ]
+        },
+        "band_003_004": {
+          "vertices": [
+            "section_003_v004",
+            "section_004_v004",
+            "section_004_v005",
+            "section_003_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_003_004",
+          "uv": {
+            "section_003_v004": [
+              22.046829223632812,
+              37.95213317871094
+            ],
+            "section_004_v004": [
+              22.785430908203125,
+              34.870269775390625
+            ],
+            "section_004_v005": [
+              27.2869873046875,
+              34.65983581542969
+            ],
+            "section_003_v005": [
+              28.30987548828125,
+              37.65934753417969
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#17",
+          "model_as_code_mirror": [
+            "leather",
+            "band_003_007"
+          ]
+        },
+        "band_003_005": {
+          "vertices": [
+            "section_003_v005",
+            "section_004_v005",
+            "section_004_v006",
+            "section_003_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_003_005",
+          "uv": {
+            "section_003_v005": [
+              42.85673522949219,
+              24.298904418945312
+            ],
+            "section_004_v005": [
+              43.738433837890625,
+              21.254898071289062
+            ],
+            "section_004_v006": [
+              48.24491882324219,
+              21.254898071289062
+            ],
+            "section_003_v006": [
+              49.126617431640625,
+              24.298904418945312
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#29",
+          "model_as_code_mirror": [
+            "leather",
+            "band_003_006"
+          ]
+        },
+        "band_003_006": {
+          "vertices": [
+            "section_004_v006",
+            "section_004_v007",
+            "section_003_v007",
+            "section_003_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_003_006",
+          "uv": {
+            "section_004_v006": [
+              43.75508117675781,
+              3.2548980712890625
+            ],
+            "section_004_v007": [
+              48.261566162109375,
+              3.2548980712890625
+            ],
+            "section_003_v007": [
+              49.14326477050781,
+              6.2989044189453125
+            ],
+            "section_003_v006": [
+              42.873382568359375,
+              6.2989044189453125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#28"
+        },
+        "band_003_007": {
+          "vertices": [
+            "section_004_v007",
+            "section_004_v000",
+            "section_003_v000",
+            "section_003_v007"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_003_007",
+          "uv": {
+            "section_004_v007": [
+              32.7130126953125,
+              3.6598358154296875
+            ],
+            "section_004_v000": [
+              37.214569091796875,
+              3.870269775390625
+            ],
+            "section_003_v000": [
+              37.95317077636719,
+              6.9521331787109375
+            ],
+            "section_003_v007": [
+              31.69012451171875,
+              6.6593475341796875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#16"
+        },
+        "band_004_000": {
+          "vertices": [
+            "section_005_v000",
+            "section_005_v001",
+            "section_004_v001",
+            "section_004_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_004_000",
+          "uv": {
+            "section_005_v000": [
+              43.98335266113281,
+              37.0
+            ],
+            "section_005_v001": [
+              48.0,
+              37.0
+            ],
+            "section_004_v001": [
+              48.24491882324219,
+              39.254913330078125
+            ],
+            "section_004_v000": [
+              43.738433837890625,
+              39.254913330078125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#6"
+        },
+        "band_004_001": {
+          "vertices": [
+            "section_005_v001",
+            "section_005_v002",
+            "section_004_v002",
+            "section_004_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_004_001",
+          "uv": {
+            "section_005_v001": [
+              12.987747192382812,
+              1.81243896484375
+            ],
+            "section_005_v002": [
+              17.0,
+              2.0
+            ],
+            "section_004_v002": [
+              17.139358520507812,
+              4.263885498046875
+            ],
+            "section_004_v001": [
+              12.637802124023438,
+              4.0534515380859375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#0"
+        },
+        "band_004_002": {
+          "vertices": [
+            "section_004_v002",
+            "section_005_v002",
+            "section_005_v003",
+            "section_004_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_004_002",
+          "uv": {
+            "section_004_v002": [
+              2.8606414794921875,
+              36.263885498046875
+            ],
+            "section_005_v002": [
+              3.0,
+              34.0
+            ],
+            "section_005_v003": [
+              7.0122528076171875,
+              33.81243896484375
+            ],
+            "section_004_v003": [
+              7.3621978759765625,
+              36.05345153808594
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#1",
+          "model_as_code_mirror": [
+            "leather",
+            "band_004_001"
+          ]
+        },
+        "band_004_003": {
+          "vertices": [
+            "section_004_v003",
+            "section_005_v003",
+            "section_005_v004",
+            "section_004_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_004_003",
+          "uv": {
+            "section_004_v003": [
+              55.75508117675781,
+              3.254913330078125
+            ],
+            "section_005_v003": [
+              56.0,
+              1.0
+            ],
+            "section_005_v004": [
+              60.01664733886719,
+              1.0
+            ],
+            "section_004_v004": [
+              60.261566162109375,
+              3.254913330078125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#7",
+          "model_as_code_mirror": [
+            "leather",
+            "band_004_000"
+          ]
+        },
+        "band_004_004": {
+          "vertices": [
+            "section_004_v004",
+            "section_005_v004",
+            "section_005_v005",
+            "section_004_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_004_004",
+          "uv": {
+            "section_004_v004": [
+              22.785430908203125,
+              34.870269775390625
+            ],
+            "section_005_v004": [
+              22.924789428710938,
+              32.60638427734375
+            ],
+            "section_005_v005": [
+              26.937042236328125,
+              32.4188232421875
+            ],
+            "section_004_v005": [
+              27.2869873046875,
+              34.65983581542969
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#17",
+          "model_as_code_mirror": [
+            "leather",
+            "band_004_007"
+          ]
+        },
+        "band_004_005": {
+          "vertices": [
+            "section_004_v005",
+            "section_005_v005",
+            "section_005_v006",
+            "section_004_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_004_005",
+          "uv": {
+            "section_004_v005": [
+              43.738433837890625,
+              21.254898071289062
+            ],
+            "section_005_v005": [
+              43.98335266113281,
+              19.0
+            ],
+            "section_005_v006": [
+              48.0,
+              19.0
+            ],
+            "section_004_v006": [
+              48.24491882324219,
+              21.254898071289062
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#29",
+          "model_as_code_mirror": [
+            "leather",
+            "band_004_006"
+          ]
+        },
+        "band_004_006": {
+          "vertices": [
+            "section_005_v006",
+            "section_005_v007",
+            "section_004_v007",
+            "section_004_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_004_006",
+          "uv": {
+            "section_005_v006": [
+              44.0,
+              1.0
+            ],
+            "section_005_v007": [
+              48.01664733886719,
+              1.0
+            ],
+            "section_004_v007": [
+              48.261566162109375,
+              3.2548980712890625
+            ],
+            "section_004_v006": [
+              43.75508117675781,
+              3.2548980712890625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#28"
+        },
+        "band_004_007": {
+          "vertices": [
+            "section_005_v007",
+            "section_005_v000",
+            "section_004_v000",
+            "section_004_v007"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_004_007",
+          "uv": {
+            "section_005_v007": [
+              33.062957763671875,
+              1.4188232421875
+            ],
+            "section_005_v000": [
+              37.07521057128906,
+              1.60638427734375
+            ],
+            "section_004_v000": [
+              37.214569091796875,
+              3.870269775390625
+            ],
+            "section_004_v007": [
+              32.7130126953125,
+              3.6598358154296875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#16"
+        },
+        "band_005_000": {
+          "vertices": [
+            "section_005_v000",
+            "section_006_v000",
+            "section_006_v001",
+            "section_005_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_005_000",
+          "uv": {
+            "section_005_v000": [
+              62.98335266113281,
+              38.0
+            ],
+            "section_006_v000": [
+              62.00367736816406,
+              34.78614807128906
+            ],
+            "section_006_v001": [
+              67.97966003417969,
+              34.78614807128906
+            ],
+            "section_005_v001": [
+              67.0,
+              38.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#10"
+        },
+        "band_005_001": {
+          "vertices": [
+            "section_005_v001",
+            "section_006_v001",
+            "section_006_v002",
+            "section_005_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_005_001",
+          "uv": {
+            "section_005_v001": [
+              63.98335266113281,
+              62.0
+            ],
+            "section_006_v001": [
+              63.00367736816406,
+              58.78614807128906
+            ],
+            "section_006_v002": [
+              68.97966003417969,
+              58.78614807128906
+            ],
+            "section_005_v002": [
+              68.0,
+              62.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#2"
+        },
+        "band_005_002": {
+          "vertices": [
+            "section_006_v002",
+            "section_006_v003",
+            "section_005_v003",
+            "section_005_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_005_002",
+          "uv": {
+            "section_006_v002": [
+              70.02033996582031,
+              40.78614807128906
+            ],
+            "section_006_v003": [
+              75.99632263183594,
+              40.78614807128906
+            ],
+            "section_005_v003": [
+              75.01664733886719,
+              44.0
+            ],
+            "section_005_v002": [
+              71.0,
+              44.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#3",
+          "model_as_code_mirror": [
+            "leather",
+            "band_005_001"
+          ]
+        },
+        "band_005_003": {
+          "vertices": [
+            "section_006_v003",
+            "section_006_v004",
+            "section_005_v004",
+            "section_005_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_005_003",
+          "uv": {
+            "section_006_v003": [
+              62.02033996582031,
+              40.78614807128906
+            ],
+            "section_006_v004": [
+              67.99632263183594,
+              40.78614807128906
+            ],
+            "section_005_v004": [
+              67.01664733886719,
+              44.0
+            ],
+            "section_005_v003": [
+              63.0,
+              44.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#11",
+          "model_as_code_mirror": [
+            "leather",
+            "band_005_000"
+          ]
+        },
+        "band_005_004": {
+          "vertices": [
+            "section_006_v004",
+            "section_006_v005",
+            "section_005_v005",
+            "section_005_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_005_004",
+          "uv": {
+            "section_006_v004": [
+              63.003692626953125,
+              52.78614807128906
+            ],
+            "section_006_v005": [
+              68.97967529296875,
+              52.78614807128906
+            ],
+            "section_005_v005": [
+              68.0,
+              56.0
+            ],
+            "section_005_v004": [
+              63.98335266113281,
+              56.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#19",
+          "model_as_code_mirror": [
+            "leather",
+            "band_005_007"
+          ]
+        },
+        "band_005_005": {
+          "vertices": [
+            "section_006_v005",
+            "section_006_v006",
+            "section_005_v006",
+            "section_005_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_005_005",
+          "uv": {
+            "section_006_v005": [
+              73.00369262695312,
+              23.786148071289062
+            ],
+            "section_006_v006": [
+              78.97967529296875,
+              23.786148071289062
+            ],
+            "section_005_v006": [
+              78.0,
+              27.0
+            ],
+            "section_005_v005": [
+              73.98335266113281,
+              27.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#23",
+          "model_as_code_mirror": [
+            "leather",
+            "band_005_006"
+          ]
+        },
+        "band_005_006": {
+          "vertices": [
+            "section_005_v006",
+            "section_006_v006",
+            "section_006_v007",
+            "section_005_v007"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_005_006",
+          "uv": {
+            "section_005_v006": [
+              71.0,
+              38.0
+            ],
+            "section_006_v006": [
+              70.02032470703125,
+              34.78614807128906
+            ],
+            "section_006_v007": [
+              75.99630737304688,
+              34.78614807128906
+            ],
+            "section_005_v007": [
+              75.01664733886719,
+              38.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#22"
+        },
+        "band_005_007": {
+          "vertices": [
+            "section_005_v007",
+            "section_006_v007",
+            "section_006_v000",
+            "section_005_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_005_007",
+          "uv": {
+            "section_005_v007": [
+              63.0,
+              50.0
+            ],
+            "section_006_v007": [
+              62.02032470703125,
+              46.78614807128906
+            ],
+            "section_006_v000": [
+              67.99630737304688,
+              46.78614807128906
+            ],
+            "section_005_v000": [
+              67.01664733886719,
+              50.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#18"
+        },
+        "band_006_000": {
+          "vertices": [
+            "section_007_v000",
+            "section_007_v001",
+            "section_006_v001",
+            "section_006_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_006_000",
+          "uv": {
+            "section_007_v000": [
+              44.8447265625,
+              60.20329284667969
+            ],
+            "section_007_v001": [
+              49.1552734375,
+              60.20329284667969
+            ],
+            "section_006_v001": [
+              49.98799133300781,
+              62.896392822265625
+            ],
+            "section_006_v000": [
+              44.01200866699219,
+              62.896392822265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#12"
+        },
+        "band_006_001": {
+          "vertices": [
+            "section_007_v001",
+            "section_007_v002",
+            "section_006_v002",
+            "section_006_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_006_001",
+          "uv": {
+            "section_007_v001": [
+              79.689453125,
+              39.0
+            ],
+            "section_007_v002": [
+              84.0,
+              39.0
+            ],
+            "section_006_v002": [
+              84.83271789550781,
+              41.69309997558594
+            ],
+            "section_006_v001": [
+              78.85673522949219,
+              41.69309997558594
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#4"
+        },
+        "band_006_002": {
+          "vertices": [
+            "section_006_v002",
+            "section_007_v002",
+            "section_007_v003",
+            "section_006_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_006_002",
+          "uv": {
+            "section_006_v002": [
+              84.16728210449219,
+              46.69309997558594
+            ],
+            "section_007_v002": [
+              85.0,
+              44.0
+            ],
+            "section_007_v003": [
+              89.310546875,
+              44.0
+            ],
+            "section_006_v003": [
+              90.14326477050781,
+              46.69309997558594
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#5",
+          "model_as_code_mirror": [
+            "leather",
+            "band_006_001"
+          ]
+        },
+        "band_006_003": {
+          "vertices": [
+            "section_006_v003",
+            "section_007_v003",
+            "section_007_v004",
+            "section_006_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_006_003",
+          "uv": {
+            "section_006_v003": [
+              52.01200866699219,
+              62.896392822265625
+            ],
+            "section_007_v003": [
+              52.8447265625,
+              60.20329284667969
+            ],
+            "section_007_v004": [
+              57.1552734375,
+              60.20329284667969
+            ],
+            "section_006_v004": [
+              57.98799133300781,
+              62.896392822265625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#13",
+          "model_as_code_mirror": [
+            "leather",
+            "band_006_000"
+          ]
+        },
+        "band_006_004": {
+          "vertices": [
+            "section_006_v004",
+            "section_007_v004",
+            "section_007_v005",
+            "section_006_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_006_004",
+          "uv": {
+            "section_006_v004": [
+              78.85673522949219,
+              54.69309997558594
+            ],
+            "section_007_v004": [
+              79.689453125,
+              52.0
+            ],
+            "section_007_v005": [
+              84.0,
+              52.0
+            ],
+            "section_006_v005": [
+              84.83271789550781,
+              54.69309997558594
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#21",
+          "model_as_code_mirror": [
+            "leather",
+            "band_006_007"
+          ]
+        },
+        "band_006_005": {
+          "vertices": [
+            "section_006_v005",
+            "section_007_v005",
+            "section_007_v006",
+            "section_006_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_006_005",
+          "uv": {
+            "section_006_v005": [
+              78.85673522949219,
+              36.69309997558594
+            ],
+            "section_007_v005": [
+              79.689453125,
+              34.0
+            ],
+            "section_007_v006": [
+              84.0,
+              34.0
+            ],
+            "section_006_v006": [
+              84.83271789550781,
+              36.69309997558594
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#25",
+          "model_as_code_mirror": [
+            "leather",
+            "band_006_006"
+          ]
+        },
+        "band_006_006": {
+          "vertices": [
+            "section_007_v006",
+            "section_007_v007",
+            "section_006_v007",
+            "section_006_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_006_006",
+          "uv": {
+            "section_007_v006": [
+              84.0,
+              57.0
+            ],
+            "section_007_v007": [
+              88.310546875,
+              57.0
+            ],
+            "section_006_v007": [
+              89.14326477050781,
+              59.69309997558594
+            ],
+            "section_006_v006": [
+              83.16728210449219,
+              59.69309997558594
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#24"
+        },
+        "band_006_007": {
+          "vertices": [
+            "section_007_v007",
+            "section_007_v000",
+            "section_006_v000",
+            "section_006_v007"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "band_006_007",
+          "uv": {
+            "section_007_v007": [
+              74.0,
+              29.0
+            ],
+            "section_007_v000": [
+              78.310546875,
+              29.0
+            ],
+            "section_006_v000": [
+              79.14326477050781,
+              31.693099975585938
+            ],
+            "section_006_v007": [
+              73.16728210449219,
+              31.693099975585938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#20"
+        },
+        "cap_start_000": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap",
+          "model_as_code_source_face": "cap_start_000",
+          "uv": {
+            "cap_start_center": [
+              53.0,
+              26.0
+            ],
+            "section_000_v000": [
+              59.656005859375,
+              26.0
+            ],
+            "section_000_v001": [
+              57.70649719238281,
+              30.706497192382812
+            ],
+            "section_000_v002": [
+              53.0,
+              32.656005859375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#14"
+        },
+        "cap_start_001": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v002",
+            "section_000_v003",
+            "section_000_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap",
+          "model_as_code_source_face": "cap_start_001",
+          "uv": {
+            "cap_start_center": [
+              60.0,
+              42.0
+            ],
+            "section_000_v002": [
+              60.0,
+              48.656005859375
+            ],
+            "section_000_v003": [
+              55.29350280761719,
+              46.70649719238281
+            ],
+            "section_000_v004": [
+              53.343994140625,
+              42.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#15",
+          "model_as_code_mirror": [
+            "leather",
+            "cap_start_000"
+          ]
+        },
+        "cap_start_002": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v004",
+            "section_000_v005",
+            "section_000_v006"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap",
+          "model_as_code_source_face": "cap_start_002",
+          "uv": {
+            "cap_start_center": [
+              60.0,
+              42.0
+            ],
+            "section_000_v004": [
+              53.343994140625,
+              42.0
+            ],
+            "section_000_v005": [
+              55.29350280761719,
+              37.29350280761719
+            ],
+            "section_000_v006": [
+              60.0,
+              35.343994140625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#15",
+          "model_as_code_mirror": [
+            "leather",
+            "cap_start_003"
+          ]
+        },
+        "cap_start_003": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v006",
+            "section_000_v007",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap",
+          "model_as_code_source_face": "cap_start_003",
+          "uv": {
+            "cap_start_center": [
+              53.0,
+              26.0
+            ],
+            "section_000_v006": [
+              53.0,
+              19.343994140625
+            ],
+            "section_000_v007": [
+              57.70649719238281,
+              21.293502807617188
+            ],
+            "section_000_v000": [
+              59.656005859375,
+              26.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#14"
+        },
+        "cap_end_000": {
+          "vertices": [
+            "cap_end_center",
+            "section_007_v007",
+            "section_007_v006",
+            "section_007_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap",
+          "model_as_code_source_face": "cap_end_000",
+          "uv": {
+            "cap_end_center": [
+              62.0,
+              19.0
+            ],
+            "section_007_v007": [
+              67.63200378417969,
+              19.0
+            ],
+            "section_007_v006": [
+              65.982421875,
+              22.982421875
+            ],
+            "section_007_v005": [
+              62.0,
+              24.632003784179688
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#30"
+        },
+        "cap_end_001": {
+          "vertices": [
+            "cap_end_center",
+            "section_007_v005",
+            "section_007_v004",
+            "section_007_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap",
+          "model_as_code_source_face": "cap_end_001",
+          "uv": {
+            "cap_end_center": [
+              55.0,
+              55.0
+            ],
+            "section_007_v005": [
+              60.20329284667969,
+              57.1552734375
+            ],
+            "section_007_v004": [
+              57.1552734375,
+              60.20329284667969
+            ],
+            "section_007_v003": [
+              52.8447265625,
+              60.20329284667969
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#13",
+          "model_as_code_mirror": [
+            "leather",
+            "cap_end_003"
+          ]
+        },
+        "cap_end_002": {
+          "vertices": [
+            "cap_end_center",
+            "section_007_v003",
+            "section_007_v002",
+            "section_007_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap",
+          "model_as_code_source_face": "cap_end_002",
+          "uv": {
+            "cap_end_center": [
+              65.0,
+              1.0
+            ],
+            "section_007_v003": [
+              70.63200378417969,
+              1.0
+            ],
+            "section_007_v002": [
+              68.982421875,
+              4.982421875
+            ],
+            "section_007_v001": [
+              65.0,
+              6.6320037841796875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#31"
+        },
+        "cap_end_003": {
+          "vertices": [
+            "cap_end_center",
+            "section_007_v001",
+            "section_007_v000",
+            "section_007_v007"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap",
+          "model_as_code_source_face": "cap_end_003",
+          "uv": {
+            "cap_end_center": [
+              47.0,
+              55.0
+            ],
+            "section_007_v001": [
+              49.1552734375,
+              60.20329284667969
+            ],
+            "section_007_v000": [
+              44.8447265625,
+              60.20329284667969
+            ],
+            "section_007_v007": [
+              41.79670715332031,
+              57.1552734375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "leather#12"
+        }
+      },
+      "type": "mesh",
+      "uuid": "c41dbb2a-19f8-5616-862a-f81816f4828f",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            0.416,
+            0
+          ],
+          "section_002": [
+            0,
+            1.456,
+            0
+          ],
+          "section_003": [
+            0,
+            2.64,
+            0
+          ],
+          "section_004": [
+            0,
+            2.912,
+            0
+          ],
+          "section_005": [
+            0,
+            3.184,
+            0
+          ],
+          "section_006": [
+            0,
+            3.456,
+            0
+          ],
+          "section_007": [
+            0,
+            3.68,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            3.68,
+            0
+          ],
+          "center": [
+            0,
+            1.84,
+            0
+          ]
+        },
+        "primitive": "revolve",
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003",
+            "section_000_v004",
+            "section_000_v005",
+            "section_000_v006",
+            "section_000_v007"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004",
+            "section_001_v005",
+            "section_001_v006",
+            "section_001_v007"
+          ],
+          "section_002": [
+            "section_002_v000",
+            "section_002_v001",
+            "section_002_v002",
+            "section_002_v003",
+            "section_002_v004",
+            "section_002_v005",
+            "section_002_v006",
+            "section_002_v007"
+          ],
+          "section_003": [
+            "section_003_v000",
+            "section_003_v001",
+            "section_003_v002",
+            "section_003_v003",
+            "section_003_v004",
+            "section_003_v005",
+            "section_003_v006",
+            "section_003_v007"
+          ],
+          "section_004": [
+            "section_004_v000",
+            "section_004_v001",
+            "section_004_v002",
+            "section_004_v003",
+            "section_004_v004",
+            "section_004_v005",
+            "section_004_v006",
+            "section_004_v007"
+          ],
+          "section_005": [
+            "section_005_v000",
+            "section_005_v001",
+            "section_005_v002",
+            "section_005_v003",
+            "section_005_v004",
+            "section_005_v005",
+            "section_005_v006",
+            "section_005_v007"
+          ],
+          "section_006": [
+            "section_006_v000",
+            "section_006_v001",
+            "section_006_v002",
+            "section_006_v003",
+            "section_006_v004",
+            "section_006_v005",
+            "section_006_v006",
+            "section_006_v007"
+          ],
+          "section_007": [
+            "section_007_v000",
+            "section_007_v001",
+            "section_007_v002",
+            "section_007_v003",
+            "section_007_v004",
+            "section_007_v005",
+            "section_007_v006",
+            "section_007_v007"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            0.416,
+            0
+          ],
+          "section_002": [
+            0,
+            1.456,
+            0
+          ],
+          "section_003": [
+            0,
+            2.64,
+            0
+          ],
+          "section_004": [
+            0,
+            2.912,
+            0
+          ],
+          "section_005": [
+            0,
+            3.184,
+            0
+          ],
+          "section_006": [
+            0,
+            3.456,
+            0
+          ],
+          "section_007": [
+            0,
+            3.68,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            3.68,
+            0
+          ],
+          "center": [
+            0,
+            1.84,
+            0
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "section_001": {
+            "origin": [
+              0,
+              0.416,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "section_002": {
+            "origin": [
+              0,
+              1.456,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "section_003": {
+            "origin": [
+              0,
+              2.64,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "section_004": {
+            "origin": [
+              0,
+              2.912,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "section_005": {
+            "origin": [
+              0,
+              3.184,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "section_006": {
+            "origin": [
+              0,
+              3.456,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "section_007": {
+            "origin": [
+              0,
+              3.68,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "top": {
+            "origin": [
+              0,
+              3.68,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "iron_clasp",
+      "color": 0,
+      "origin": [
+        0,
+        3.024,
+        0.896
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -0.296,
+          -0.224,
+          -0.208
+        ],
+        "v1": [
+          0.296,
+          -0.224,
+          -0.208
+        ],
+        "v2": [
+          0.296,
+          0.224,
+          -0.208
+        ],
+        "v3": [
+          -0.296,
+          0.224,
+          -0.208
+        ],
+        "v4": [
+          -0.296,
+          -0.224,
+          0.208
+        ],
+        "v5": [
+          0.296,
+          -0.224,
+          0.208
+        ],
+        "v6": [
+          0.296,
+          0.224,
+          0.208
+        ],
+        "v7": [
+          -0.296,
+          0.224,
+          0.208
+        ]
+      },
+      "faces": {
+        "bottom": {
+          "vertices": [
+            "v0",
+            "v1",
+            "v5",
+            "v4"
+          ],
+          "texture": 0,
+          "model_as_code_group": "bottom",
+          "model_as_code_source_face": null,
+          "uv": {
+            "v0": [
+              71.0,
+              52.0
+            ],
+            "v1": [
+              75.73599243164062,
+              52.0
+            ],
+            "v5": [
+              75.73599243164062,
+              55.3280029296875
+            ],
+            "v4": [
+              71.0,
+              55.3280029296875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_clasp#3"
+        },
+        "top": {
+          "vertices": [
+            "v3",
+            "v7",
+            "v6",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": "top",
+          "model_as_code_source_face": null,
+          "uv": {
+            "v3": [
+              76.0,
+              8.0
+            ],
+            "v7": [
+              79.3280029296875,
+              8.0
+            ],
+            "v6": [
+              79.3280029296875,
+              12.735992431640625
+            ],
+            "v2": [
+              76.0,
+              12.735992431640625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_clasp#4"
+        },
+        "front": {
+          "vertices": [
+            "v4",
+            "v5",
+            "v6",
+            "v7"
+          ],
+          "texture": 0,
+          "model_as_code_group": "front",
+          "model_as_code_source_face": null,
+          "uv": {
+            "v4": [
+              75.0,
+              50.0
+            ],
+            "v5": [
+              70.26400756835938,
+              50.0
+            ],
+            "v6": [
+              70.26400756835938,
+              46.41600036621094
+            ],
+            "v7": [
+              75.0,
+              46.41600036621094
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_clasp#2"
+        },
+        "back": {
+          "vertices": [
+            "v1",
+            "v0",
+            "v3",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": "back",
+          "model_as_code_source_face": null,
+          "uv": {
+            "v1": [
+              82.0,
+              50.0
+            ],
+            "v0": [
+              77.26400756835938,
+              50.0
+            ],
+            "v3": [
+              77.26400756835938,
+              46.41600036621094
+            ],
+            "v2": [
+              82.0,
+              46.41600036621094
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_clasp#5"
+        },
+        "right": {
+          "vertices": [
+            "v1",
+            "v2",
+            "v6",
+            "v5"
+          ],
+          "texture": 0,
+          "model_as_code_group": "right",
+          "model_as_code_source_face": null,
+          "uv": {
+            "v1": [
+              71.0,
+              62.0
+            ],
+            "v2": [
+              71.0,
+              58.41600036621094
+            ],
+            "v6": [
+              74.3280029296875,
+              58.41600036621094
+            ],
+            "v5": [
+              74.3280029296875,
+              62.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_clasp#0"
+        },
+        "left": {
+          "vertices": [
+            "v0",
+            "v4",
+            "v7",
+            "v3"
+          ],
+          "texture": 0,
+          "model_as_code_group": "left",
+          "model_as_code_source_face": null,
+          "uv": {
+            "v0": [
+              81.0,
+              62.0
+            ],
+            "v4": [
+              77.6719970703125,
+              62.0
+            ],
+            "v7": [
+              77.6719970703125,
+              58.41600036621094
+            ],
+            "v3": [
+              81.0,
+              58.41600036621094
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_clasp#1",
+          "model_as_code_mirror": [
+            "iron_clasp",
+            "right"
+          ]
+        }
+      },
+      "type": "mesh",
+      "uuid": "ab344a6d-1dd8-5998-b1e3-33838d0b31b5",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "base": [
+            0,
+            -0.224,
+            0
+          ],
+          "top": [
+            0,
+            0.224,
+            0
+          ],
+          "left": [
+            -0.296,
+            0,
+            0
+          ],
+          "right": [
+            0.296,
+            0,
+            0
+          ],
+          "front": [
+            0,
+            0,
+            0.208
+          ],
+          "back": [
+            0,
+            0,
+            -0.208
+          ],
+          "-x": [
+            -0.296,
+            0,
+            0
+          ],
+          "+x": [
+            0.296,
+            0,
+            0
+          ],
+          "-y": [
+            0,
+            -0.224,
+            0
+          ],
+          "+y": [
+            0,
+            0.224,
+            0
+          ],
+          "-z": [
+            0,
+            0,
+            -0.208
+          ],
+          "+z": [
+            0,
+            0,
+            0.208
+          ],
+          "screen_left": [
+            -0.296,
+            0,
+            0
+          ],
+          "screen_right": [
+            0.296,
+            0,
+            0
+          ],
+          "anatomical_left": [
+            0.296,
+            0,
+            0
+          ],
+          "anatomical_right": [
+            -0.296,
+            0,
+            0
+          ]
+        },
+        "primitive": "box"
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "center": [
+            0,
+            0,
+            0
+          ],
+          "base": [
+            0,
+            -0.224,
+            0
+          ],
+          "top": [
+            0,
+            0.224,
+            0
+          ],
+          "left": [
+            -0.296,
+            0,
+            0
+          ],
+          "right": [
+            0.296,
+            0,
+            0
+          ],
+          "front": [
+            0,
+            0,
+            0.208
+          ],
+          "back": [
+            0,
+            0,
+            -0.208
+          ],
+          "-x": [
+            -0.296,
+            0,
+            0
+          ],
+          "+x": [
+            0.296,
+            0,
+            0
+          ],
+          "-y": [
+            0,
+            -0.224,
+            0
+          ],
+          "+y": [
+            0,
+            0.224,
+            0
+          ],
+          "-z": [
+            0,
+            0,
+            -0.208
+          ],
+          "+z": [
+            0,
+            0,
+            0.208
+          ],
+          "screen_left": [
+            -0.296,
+            0,
+            0
+          ],
+          "screen_right": [
+            0.296,
+            0,
+            0
+          ],
+          "anatomical_left": [
+            0.296,
+            0,
+            0
+          ],
+          "anatomical_right": [
+            -0.296,
+            0,
+            0
+          ]
+        },
+        "frames": {
+          "center": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              -0.224,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "top": {
+            "origin": [
+              0,
+              0.224,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "left": {
+            "origin": [
+              -0.296,
+              0,
+              0
+            ],
+            "forward": [
+              -1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "right": {
+            "origin": [
+              0.296,
+              0,
+              0
+            ],
+            "forward": [
+              1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "front": {
+            "origin": [
+              0,
+              0,
+              0.208
+            ],
+            "forward": [
+              0,
+              0,
+              1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "back": {
+            "origin": [
+              0,
+              0,
+              -0.208
+            ],
+            "forward": [
+              0,
+              0,
+              -1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "-x": {
+            "origin": [
+              -0.296,
+              0,
+              0
+            ],
+            "forward": [
+              -1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "+x": {
+            "origin": [
+              0.296,
+              0,
+              0
+            ],
+            "forward": [
+              1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "-y": {
+            "origin": [
+              0,
+              -0.224,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "+y": {
+            "origin": [
+              0,
+              0.224,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "-z": {
+            "origin": [
+              0,
+              0,
+              -0.208
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "+z": {
+            "origin": [
+              0,
+              0,
+              0.208
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "screen_left": {
+            "origin": [
+              -0.296,
+              0,
+              0
+            ],
+            "forward": [
+              -1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "screen_right": {
+            "origin": [
+              0.296,
+              0,
+              0
+            ],
+            "forward": [
+              1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "anatomical_left": {
+            "origin": [
+              0.296,
+              0,
+              0
+            ],
+            "forward": [
+              1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          },
+          "anatomical_right": {
+            "origin": [
+              -0.296,
+              0,
+              0
+            ],
+            "forward": [
+              -1,
+              0,
+              0
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "root",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "export": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "model_as_code_role": "folder"
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "isOpen": true,
+      "children": [
+        "c41dbb2a-19f8-5616-862a-f81816f4828f",
+        "ab344a6d-1dd8-5998-b1e3-33838d0b31b5"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "3e0f0966-e21a-4740-9d51-c930c07fa097",
+      "id": "0",
+      "name": "texture.png",
+      "relative_path": "texture.png",
+      "width": 128,
+      "height": 64,
+      "uv_width": 128,
+      "uv_height": 64,
+      "mode": "link",
+      "internal": false,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false
+    }
+  ],
+  "animations": [],
+  "resolution": {
+    "width": 128,
+    "height": 64
+  }
+}

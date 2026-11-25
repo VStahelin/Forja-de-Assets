@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "forge-mark/exports/forge-mark.glb",
+      "runtime_role": "default"
+    }
+  ]
+}

@@ -1,0 +1,3804 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "env_wall_doorway_2x4",
+  "model_identifier": "",
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {
+    "model_as_code": {
+      "version": 3,
+      "uv_ready": true,
+      "modeling_mode": "free",
+      "orientation": {
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "validation_policy": {
+        "check_coplanar": true
+      },
+      "sockets": {},
+      "chains": {},
+      "armature_chains": {},
+      "binding_policies": {},
+      "uv_sharing": [],
+      "uv_packing": {
+        "start_size": [
+          32,
+          32
+        ],
+        "allow_rectangular": true,
+        "uv_scale": 8,
+        "max_size": 1024,
+        "fixed_texture_size": false,
+        "island_padding": 1,
+        "require_integer_uvs": true,
+        "layout": "faces"
+      }
+    }
+  },
+  "elements": [
+    {
+      "name": "joint_0",
+      "color": 0,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "f0": [
+          -16,
+          0,
+          0.64
+        ],
+        "b0": [
+          -16,
+          0,
+          -6.72
+        ],
+        "f1": [
+          -10,
+          0,
+          0.64
+        ],
+        "b1": [
+          -10,
+          0,
+          -6.72
+        ],
+        "f2": [
+          -10,
+          36,
+          0.64
+        ],
+        "b2": [
+          -10,
+          36,
+          -6.72
+        ],
+        "f3": [
+          -16,
+          36,
+          0.64
+        ],
+        "b3": [
+          -16,
+          36,
+          -6.72
+        ]
+      },
+      "faces": {
+        "front": {
+          "vertices": [
+            "f0",
+            "f1",
+            "f2",
+            "f3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "f0": [
+              295,
+              289
+            ],
+            "f1": [
+              343,
+              289
+            ],
+            "f2": [
+              343,
+              1
+            ],
+            "f3": [
+              295,
+              1
+            ]
+          },
+          "rotation": 0
+        },
+        "back": {
+          "vertices": [
+            "b3",
+            "b2",
+            "b1",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "b3": [
+              245,
+              1
+            ],
+            "b2": [
+              293,
+              1
+            ],
+            "b1": [
+              293,
+              289
+            ],
+            "b0": [
+              245,
+              289
+            ]
+          },
+          "rotation": 0
+        },
+        "edge0": {
+          "vertices": [
+            "f1",
+            "f0",
+            "b0",
+            "b1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "edge0",
+          "uv": {
+            "f1": [
+              49,
+              350
+            ],
+            "f0": [
+              1,
+              350
+            ],
+            "b0": [
+              1,
+              291
+            ],
+            "b1": [
+              49,
+              291
+            ]
+          },
+          "rotation": 0
+        },
+        "edge1": {
+          "vertices": [
+            "f2",
+            "f1",
+            "b1",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "edge1",
+          "uv": {
+            "f2": [
+              60,
+              1
+            ],
+            "f1": [
+              60,
+              289
+            ],
+            "b1": [
+              1,
+              289
+            ],
+            "b2": [
+              1,
+              1
+            ]
+          },
+          "rotation": 0
+        },
+        "edge2": {
+          "vertices": [
+            "f3",
+            "f2",
+            "b2",
+            "b3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "edge2",
+          "uv": {
+            "f3": [
+              1,
+              411
+            ],
+            "f2": [
+              49,
+              411
+            ],
+            "b2": [
+              49,
+              352
+            ],
+            "b3": [
+              1,
+              352
+            ]
+          },
+          "rotation": 0
+        },
+        "edge3": {
+          "vertices": [
+            "f0",
+            "f3",
+            "b3",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "edge3",
+          "uv": {
+            "f0": [
+              121,
+              289
+            ],
+            "f3": [
+              121,
+              1
+            ],
+            "b3": [
+              62,
+              1
+            ],
+            "b0": [
+              62,
+              289
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "952b9c2f-8540-5e7d-8329-60ed22c09261",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "joint_1",
+      "color": 0,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "f0": [
+          10,
+          0,
+          0.64
+        ],
+        "b0": [
+          10,
+          0,
+          -6.72
+        ],
+        "f1": [
+          16,
+          0,
+          0.64
+        ],
+        "b1": [
+          16,
+          0,
+          -6.72
+        ],
+        "f2": [
+          16,
+          36,
+          0.64
+        ],
+        "b2": [
+          16,
+          36,
+          -6.72
+        ],
+        "f3": [
+          10,
+          36,
+          0.64
+        ],
+        "b3": [
+          10,
+          36,
+          -6.72
+        ]
+      },
+      "faces": {
+        "front": {
+          "vertices": [
+            "f0",
+            "f1",
+            "f2",
+            "f3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "f0": [
+              395,
+              289
+            ],
+            "f1": [
+              443,
+              289
+            ],
+            "f2": [
+              443,
+              1
+            ],
+            "f3": [
+              395,
+              1
+            ]
+          },
+          "rotation": 0
+        },
+        "back": {
+          "vertices": [
+            "b3",
+            "b2",
+            "b1",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "b3": [
+              345,
+              1
+            ],
+            "b2": [
+              393,
+              1
+            ],
+            "b1": [
+              393,
+              289
+            ],
+            "b0": [
+              345,
+              289
+            ]
+          },
+          "rotation": 0
+        },
+        "edge0": {
+          "vertices": [
+            "f1",
+            "f0",
+            "b0",
+            "b1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "edge0",
+          "uv": {
+            "f1": [
+              49,
+              472
+            ],
+            "f0": [
+              1,
+              472
+            ],
+            "b0": [
+              1,
+              413
+            ],
+            "b1": [
+              49,
+              413
+            ]
+          },
+          "rotation": 0
+        },
+        "edge1": {
+          "vertices": [
+            "f2",
+            "f1",
+            "b1",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "edge1",
+          "uv": {
+            "f2": [
+              182,
+              1
+            ],
+            "f1": [
+              182,
+              289
+            ],
+            "b1": [
+              123,
+              289
+            ],
+            "b2": [
+              123,
+              1
+            ]
+          },
+          "rotation": 0
+        },
+        "edge2": {
+          "vertices": [
+            "f3",
+            "f2",
+            "b2",
+            "b3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "edge2",
+          "uv": {
+            "f3": [
+              51,
+              350
+            ],
+            "f2": [
+              99,
+              350
+            ],
+            "b2": [
+              99,
+              291
+            ],
+            "b3": [
+              51,
+              291
+            ]
+          },
+          "rotation": 0
+        },
+        "edge3": {
+          "vertices": [
+            "f0",
+            "f3",
+            "b3",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "edge3",
+          "uv": {
+            "f0": [
+              243,
+              289
+            ],
+            "f3": [
+              243,
+              1
+            ],
+            "b3": [
+              184,
+              1
+            ],
+            "b0": [
+              184,
+              289
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "5b3c4ac9-da24-5532-9ded-879054e296a3",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "joint_2",
+      "color": 0,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "f0": [
+          -16,
+          36,
+          0.64
+        ],
+        "b0": [
+          -16,
+          36,
+          -6.72
+        ],
+        "f1": [
+          16,
+          36,
+          0.64
+        ],
+        "b1": [
+          16,
+          36,
+          -6.72
+        ],
+        "f2": [
+          16,
+          64,
+          0.64
+        ],
+        "b2": [
+          16,
+          64,
+          -6.72
+        ],
+        "f3": [
+          -16,
+          64,
+          0.64
+        ],
+        "b3": [
+          -16,
+          64,
+          -6.72
+        ]
+      },
+      "faces": {
+        "front": {
+          "vertices": [
+            "f0",
+            "f1",
+            "f2",
+            "f3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "f0": [
+              445,
+              451
+            ],
+            "f1": [
+              701,
+              451
+            ],
+            "f2": [
+              701,
+              227
+            ],
+            "f3": [
+              445,
+              227
+            ]
+          },
+          "rotation": 0
+        },
+        "back": {
+          "vertices": [
+            "b3",
+            "b2",
+            "b1",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "b3": [
+              445,
+              1
+            ],
+            "b2": [
+              701,
+              1
+            ],
+            "b1": [
+              701,
+              225
+            ],
+            "b0": [
+              445,
+              225
+            ]
+          },
+          "rotation": 0
+        },
+        "edge0": {
+          "vertices": [
+            "f1",
+            "f0",
+            "b0",
+            "b1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "edge0",
+          "uv": {
+            "f1": [
+              1020,
+              60
+            ],
+            "f0": [
+              764,
+              60
+            ],
+            "b0": [
+              764,
+              1
+            ],
+            "b1": [
+              1020,
+              1
+            ]
+          },
+          "rotation": 0
+        },
+        "edge1": {
+          "vertices": [
+            "f2",
+            "f1",
+            "b1",
+            "b2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "edge1",
+          "uv": {
+            "f2": [
+              762,
+              1
+            ],
+            "f1": [
+              762,
+              225
+            ],
+            "b1": [
+              703,
+              225
+            ],
+            "b2": [
+              703,
+              1
+            ]
+          },
+          "rotation": 0
+        },
+        "edge2": {
+          "vertices": [
+            "f3",
+            "f2",
+            "b2",
+            "b3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "edge2",
+          "uv": {
+            "f3": [
+              764,
+              121
+            ],
+            "f2": [
+              1020,
+              121
+            ],
+            "b2": [
+              1020,
+              62
+            ],
+            "b3": [
+              764,
+              62
+            ]
+          },
+          "rotation": 0
+        },
+        "edge3": {
+          "vertices": [
+            "f0",
+            "f3",
+            "b3",
+            "b0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "edge3",
+          "uv": {
+            "f0": [
+              762,
+              451
+            ],
+            "f3": [
+              762,
+              227
+            ],
+            "b3": [
+              703,
+              227
+            ],
+            "b0": [
+              703,
+              451
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "7e9ad09e-d4a5-5cb4-9a4c-300578781fd9",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "lintel",
+      "color": 0,
+      "origin": [
+        0,
+        38.56,
+        -0.64
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -11.68,
+          -2.479999999999997,
+          -2.656
+        ],
+        "v1": [
+          11.68,
+          -2.479999999999997,
+          -2.656
+        ],
+        "v2": [
+          11.68,
+          2.479999999999997,
+          -2.656
+        ],
+        "v3": [
+          -11.68,
+          2.479999999999997,
+          -2.656
+        ],
+        "v4": [
+          -11.68,
+          -2.479999999999997,
+          2.656
+        ],
+        "v5": [
+          11.68,
+          -2.479999999999997,
+          2.656
+        ],
+        "v6": [
+          11.68,
+          2.479999999999997,
+          2.656
+        ],
+        "v7": [
+          -11.68,
+          2.479999999999997,
+          2.656
+        ]
+      },
+      "faces": {
+        "back": {
+          "vertices": [
+            "v0",
+            "v3",
+            "v2",
+            "v1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "v0": [
+              238,
+              375
+            ],
+            "v3": [
+              238,
+              335
+            ],
+            "v2": [
+              425,
+              335
+            ],
+            "v1": [
+              425,
+              375
+            ]
+          },
+          "rotation": 0
+        },
+        "front": {
+          "vertices": [
+            "v4",
+            "v5",
+            "v6",
+            "v7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "v4": [
+              768,
+              163
+            ],
+            "v5": [
+              955,
+              163
+            ],
+            "v6": [
+              955,
+              123
+            ],
+            "v7": [
+              768,
+              123
+            ]
+          },
+          "rotation": 0
+        },
+        "bottom": {
+          "vertices": [
+            "v0",
+            "v1",
+            "v5",
+            "v4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bottom",
+          "uv": {
+            "v0": [
+              102,
+              407
+            ],
+            "v1": [
+              289,
+              407
+            ],
+            "v5": [
+              289,
+              449
+            ],
+            "v4": [
+              102,
+              449
+            ]
+          },
+          "rotation": 0
+        },
+        "top": {
+          "vertices": [
+            "v3",
+            "v7",
+            "v6",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top",
+          "uv": {
+            "v3": [
+              237,
+              291
+            ],
+            "v7": [
+              237,
+              333
+            ],
+            "v6": [
+              424,
+              333
+            ],
+            "v2": [
+              424,
+              291
+            ]
+          },
+          "rotation": 0
+        },
+        "left": {
+          "vertices": [
+            "v0",
+            "v4",
+            "v7",
+            "v3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "left",
+          "uv": {
+            "v0": [
+              51,
+              450
+            ],
+            "v4": [
+              93,
+              450
+            ],
+            "v7": [
+              93,
+              410
+            ],
+            "v3": [
+              51,
+              410
+            ]
+          },
+          "rotation": 0
+        },
+        "right": {
+          "vertices": [
+            "v1",
+            "v2",
+            "v6",
+            "v5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "right",
+          "uv": {
+            "v1": [
+              957,
+              163
+            ],
+            "v2": [
+              957,
+              123
+            ],
+            "v6": [
+              999,
+              123
+            ],
+            "v5": [
+              999,
+              163
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "e0c4b8e7-caa0-5b51-b64b-25fd87ff2907",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "jamb_-1_0",
+      "color": 0,
+      "origin": [
+        -10.96,
+        3.584,
+        -0.128
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -0.9439999999999991,
+          -3.504,
+          -2.032
+        ],
+        "v1": [
+          0.9439999999999991,
+          -3.504,
+          -2.032
+        ],
+        "v2": [
+          0.9439999999999991,
+          3.504,
+          -2.032
+        ],
+        "v3": [
+          -0.9439999999999991,
+          3.504,
+          -2.032
+        ],
+        "v4": [
+          -0.9439999999999991,
+          -3.504,
+          2.032
+        ],
+        "v5": [
+          0.9439999999999991,
+          -3.504,
+          2.032
+        ],
+        "v6": [
+          0.9439999999999991,
+          3.504,
+          2.032
+        ],
+        "v7": [
+          -0.9439999999999991,
+          3.504,
+          2.032
+        ]
+      },
+      "faces": {
+        "back": {
+          "vertices": [
+            "v0",
+            "v3",
+            "v2",
+            "v1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "v0": [
+              751,
+              509
+            ],
+            "v3": [
+              751,
+              453
+            ],
+            "v2": [
+              766,
+              453
+            ],
+            "v1": [
+              766,
+              509
+            ]
+          },
+          "rotation": 0
+        },
+        "front": {
+          "vertices": [
+            "v4",
+            "v5",
+            "v6",
+            "v7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "v4": [
+              51,
+              408
+            ],
+            "v5": [
+              66,
+              408
+            ],
+            "v6": [
+              66,
+              352
+            ],
+            "v7": [
+              51,
+              352
+            ]
+          },
+          "rotation": 0
+        },
+        "bottom": {
+          "vertices": [
+            "v0",
+            "v1",
+            "v5",
+            "v4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bottom",
+          "uv": {
+            "v0": [
+              427,
+              291
+            ],
+            "v1": [
+              442,
+              291
+            ],
+            "v5": [
+              442,
+              324
+            ],
+            "v4": [
+              427,
+              324
+            ]
+          },
+          "rotation": 0
+        },
+        "top": {
+          "vertices": [
+            "v3",
+            "v7",
+            "v6",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top",
+          "uv": {
+            "v3": [
+              427,
+              326
+            ],
+            "v7": [
+              427,
+              359
+            ],
+            "v6": [
+              442,
+              359
+            ],
+            "v2": [
+              442,
+              326
+            ]
+          },
+          "rotation": 0
+        },
+        "left": {
+          "vertices": [
+            "v0",
+            "v4",
+            "v7",
+            "v3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "left",
+          "uv": {
+            "v0": [
+              51,
+              509
+            ],
+            "v4": [
+              84,
+              509
+            ],
+            "v7": [
+              84,
+              453
+            ],
+            "v3": [
+              51,
+              453
+            ]
+          },
+          "rotation": 0
+        },
+        "right": {
+          "vertices": [
+            "v1",
+            "v2",
+            "v6",
+            "v5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "right",
+          "uv": {
+            "v1": [
+              86,
+              509
+            ],
+            "v2": [
+              86,
+              453
+            ],
+            "v6": [
+              119,
+              453
+            ],
+            "v5": [
+              119,
+              509
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "3ebb40a0-4b33-5d21-a23a-b8130e0602e0",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "jamb_-1_1",
+      "color": 0,
+      "origin": [
+        -10.96,
+        10.784,
+        -0.128
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -0.9439999999999991,
+          -3.5039999999999996,
+          -2.032
+        ],
+        "v1": [
+          0.9439999999999991,
+          -3.5039999999999996,
+          -2.032
+        ],
+        "v2": [
+          0.9439999999999991,
+          3.5039999999999996,
+          -2.032
+        ],
+        "v3": [
+          -0.9439999999999991,
+          3.5039999999999996,
+          -2.032
+        ],
+        "v4": [
+          -0.9439999999999991,
+          -3.5039999999999996,
+          2.032
+        ],
+        "v5": [
+          0.9439999999999991,
+          -3.5039999999999996,
+          2.032
+        ],
+        "v6": [
+          0.9439999999999991,
+          3.5039999999999996,
+          2.032
+        ],
+        "v7": [
+          -0.9439999999999991,
+          3.5039999999999996,
+          2.032
+        ]
+      },
+      "faces": {
+        "back": {
+          "vertices": [
+            "v0",
+            "v3",
+            "v2",
+            "v1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "v0": [
+              68,
+              408
+            ],
+            "v3": [
+              68,
+              352
+            ],
+            "v2": [
+              83,
+              352
+            ],
+            "v1": [
+              83,
+              408
+            ]
+          },
+          "rotation": 0
+        },
+        "front": {
+          "vertices": [
+            "v4",
+            "v5",
+            "v6",
+            "v7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "v4": [
+              85,
+              408
+            ],
+            "v5": [
+              100,
+              408
+            ],
+            "v6": [
+              100,
+              352
+            ],
+            "v7": [
+              85,
+              352
+            ]
+          },
+          "rotation": 0
+        },
+        "bottom": {
+          "vertices": [
+            "v0",
+            "v1",
+            "v5",
+            "v4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bottom",
+          "uv": {
+            "v0": [
+              427,
+              361
+            ],
+            "v1": [
+              442,
+              361
+            ],
+            "v5": [
+              442,
+              394
+            ],
+            "v4": [
+              427,
+              394
+            ]
+          },
+          "rotation": 0
+        },
+        "top": {
+          "vertices": [
+            "v3",
+            "v7",
+            "v6",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top",
+          "uv": {
+            "v3": [
+              1,
+              474
+            ],
+            "v7": [
+              1,
+              507
+            ],
+            "v6": [
+              16,
+              507
+            ],
+            "v2": [
+              16,
+              474
+            ]
+          },
+          "rotation": 0
+        },
+        "left": {
+          "vertices": [
+            "v0",
+            "v4",
+            "v7",
+            "v3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "left",
+          "uv": {
+            "v0": [
+              121,
+              509
+            ],
+            "v4": [
+              154,
+              509
+            ],
+            "v7": [
+              154,
+              453
+            ],
+            "v3": [
+              121,
+              453
+            ]
+          },
+          "rotation": 0
+        },
+        "right": {
+          "vertices": [
+            "v1",
+            "v2",
+            "v6",
+            "v5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "right",
+          "uv": {
+            "v1": [
+              156,
+              509
+            ],
+            "v2": [
+              156,
+              453
+            ],
+            "v6": [
+              189,
+              453
+            ],
+            "v5": [
+              189,
+              509
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "8a3ede8f-e966-5e08-9f41-e65f39afb823",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "jamb_-1_2",
+      "color": 0,
+      "origin": [
+        -10.96,
+        17.984,
+        -0.128
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -0.9439999999999991,
+          -3.5039999999999996,
+          -2.032
+        ],
+        "v1": [
+          0.9439999999999991,
+          -3.5039999999999996,
+          -2.032
+        ],
+        "v2": [
+          0.9439999999999991,
+          3.5040000000000013,
+          -2.032
+        ],
+        "v3": [
+          -0.9439999999999991,
+          3.5040000000000013,
+          -2.032
+        ],
+        "v4": [
+          -0.9439999999999991,
+          -3.5039999999999996,
+          2.032
+        ],
+        "v5": [
+          0.9439999999999991,
+          -3.5039999999999996,
+          2.032
+        ],
+        "v6": [
+          0.9439999999999991,
+          3.5040000000000013,
+          2.032
+        ],
+        "v7": [
+          -0.9439999999999991,
+          3.5040000000000013,
+          2.032
+        ]
+      },
+      "faces": {
+        "back": {
+          "vertices": [
+            "v0",
+            "v3",
+            "v2",
+            "v1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "v0": [
+              101,
+              347
+            ],
+            "v3": [
+              101,
+              291
+            ],
+            "v2": [
+              116,
+              291
+            ],
+            "v1": [
+              116,
+              347
+            ]
+          },
+          "rotation": 0
+        },
+        "front": {
+          "vertices": [
+            "v4",
+            "v5",
+            "v6",
+            "v7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "v4": [
+              102,
+              405
+            ],
+            "v5": [
+              117,
+              405
+            ],
+            "v6": [
+              117,
+              349
+            ],
+            "v7": [
+              102,
+              349
+            ]
+          },
+          "rotation": 0
+        },
+        "bottom": {
+          "vertices": [
+            "v0",
+            "v1",
+            "v5",
+            "v4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bottom",
+          "uv": {
+            "v0": [
+              18,
+              474
+            ],
+            "v1": [
+              33,
+              474
+            ],
+            "v5": [
+              33,
+              507
+            ],
+            "v4": [
+              18,
+              507
+            ]
+          },
+          "rotation": 0
+        },
+        "top": {
+          "vertices": [
+            "v3",
+            "v7",
+            "v6",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top",
+          "uv": {
+            "v3": [
+              1001,
+              123
+            ],
+            "v7": [
+              1001,
+              156
+            ],
+            "v6": [
+              1016,
+              156
+            ],
+            "v2": [
+              1016,
+              123
+            ]
+          },
+          "rotation": 0
+        },
+        "left": {
+          "vertices": [
+            "v0",
+            "v4",
+            "v7",
+            "v3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "left",
+          "uv": {
+            "v0": [
+              191,
+              509
+            ],
+            "v4": [
+              224,
+              509
+            ],
+            "v7": [
+              224,
+              453
+            ],
+            "v3": [
+              191,
+              453
+            ]
+          },
+          "rotation": 0
+        },
+        "right": {
+          "vertices": [
+            "v1",
+            "v2",
+            "v6",
+            "v5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "right",
+          "uv": {
+            "v1": [
+              226,
+              509
+            ],
+            "v2": [
+              226,
+              453
+            ],
+            "v6": [
+              259,
+              453
+            ],
+            "v5": [
+              259,
+              509
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "6c443197-3736-548f-9bd9-21e57921ab00",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "jamb_-1_3",
+      "color": 0,
+      "origin": [
+        -10.96,
+        25.184,
+        -0.128
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -0.9439999999999991,
+          -3.5040000000000013,
+          -2.032
+        ],
+        "v1": [
+          0.9439999999999991,
+          -3.5040000000000013,
+          -2.032
+        ],
+        "v2": [
+          0.9439999999999991,
+          3.5040000000000013,
+          -2.032
+        ],
+        "v3": [
+          -0.9439999999999991,
+          3.5040000000000013,
+          -2.032
+        ],
+        "v4": [
+          -0.9439999999999991,
+          -3.5040000000000013,
+          2.032
+        ],
+        "v5": [
+          0.9439999999999991,
+          -3.5040000000000013,
+          2.032
+        ],
+        "v6": [
+          0.9439999999999991,
+          3.5040000000000013,
+          2.032
+        ],
+        "v7": [
+          -0.9439999999999991,
+          3.5040000000000013,
+          2.032
+        ]
+      },
+      "faces": {
+        "back": {
+          "vertices": [
+            "v0",
+            "v3",
+            "v2",
+            "v1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "v0": [
+              118,
+              347
+            ],
+            "v3": [
+              118,
+              291
+            ],
+            "v2": [
+              133,
+              291
+            ],
+            "v1": [
+              133,
+              347
+            ]
+          },
+          "rotation": 0
+        },
+        "front": {
+          "vertices": [
+            "v4",
+            "v5",
+            "v6",
+            "v7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "v4": [
+              119,
+              405
+            ],
+            "v5": [
+              134,
+              405
+            ],
+            "v6": [
+              134,
+              349
+            ],
+            "v7": [
+              119,
+              349
+            ]
+          },
+          "rotation": 0
+        },
+        "bottom": {
+          "vertices": [
+            "v0",
+            "v1",
+            "v5",
+            "v4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bottom",
+          "uv": {
+            "v0": [
+              1001,
+              158
+            ],
+            "v1": [
+              1016,
+              158
+            ],
+            "v5": [
+              1016,
+              191
+            ],
+            "v4": [
+              1001,
+              191
+            ]
+          },
+          "rotation": 0
+        },
+        "top": {
+          "vertices": [
+            "v3",
+            "v7",
+            "v6",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top",
+          "uv": {
+            "v3": [
+              291,
+              396
+            ],
+            "v7": [
+              291,
+              429
+            ],
+            "v6": [
+              306,
+              429
+            ],
+            "v2": [
+              306,
+              396
+            ]
+          },
+          "rotation": 0
+        },
+        "left": {
+          "vertices": [
+            "v0",
+            "v4",
+            "v7",
+            "v3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "left",
+          "uv": {
+            "v0": [
+              261,
+              509
+            ],
+            "v4": [
+              294,
+              509
+            ],
+            "v7": [
+              294,
+              453
+            ],
+            "v3": [
+              261,
+              453
+            ]
+          },
+          "rotation": 0
+        },
+        "right": {
+          "vertices": [
+            "v1",
+            "v2",
+            "v6",
+            "v5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "right",
+          "uv": {
+            "v1": [
+              296,
+              509
+            ],
+            "v2": [
+              296,
+              453
+            ],
+            "v6": [
+              329,
+              453
+            ],
+            "v5": [
+              329,
+              509
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "22928042-c38a-5187-ae3c-9a3eb86600c3",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "jamb_-1_4",
+      "color": 0,
+      "origin": [
+        -10.96,
+        32.384,
+        -0.128
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -0.9439999999999991,
+          -3.5040000000000013,
+          -2.032
+        ],
+        "v1": [
+          0.9439999999999991,
+          -3.5040000000000013,
+          -2.032
+        ],
+        "v2": [
+          0.9439999999999991,
+          3.503999999999998,
+          -2.032
+        ],
+        "v3": [
+          -0.9439999999999991,
+          3.503999999999998,
+          -2.032
+        ],
+        "v4": [
+          -0.9439999999999991,
+          -3.5040000000000013,
+          2.032
+        ],
+        "v5": [
+          0.9439999999999991,
+          -3.5040000000000013,
+          2.032
+        ],
+        "v6": [
+          0.9439999999999991,
+          3.503999999999998,
+          2.032
+        ],
+        "v7": [
+          -0.9439999999999991,
+          3.503999999999998,
+          2.032
+        ]
+      },
+      "faces": {
+        "back": {
+          "vertices": [
+            "v0",
+            "v3",
+            "v2",
+            "v1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "v0": [
+              135,
+              347
+            ],
+            "v3": [
+              135,
+              291
+            ],
+            "v2": [
+              150,
+              291
+            ],
+            "v1": [
+              150,
+              347
+            ]
+          },
+          "rotation": 0
+        },
+        "front": {
+          "vertices": [
+            "v4",
+            "v5",
+            "v6",
+            "v7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "v4": [
+              136,
+              405
+            ],
+            "v5": [
+              151,
+              405
+            ],
+            "v6": [
+              151,
+              349
+            ],
+            "v7": [
+              136,
+              349
+            ]
+          },
+          "rotation": 0
+        },
+        "bottom": {
+          "vertices": [
+            "v0",
+            "v1",
+            "v5",
+            "v4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bottom",
+          "uv": {
+            "v0": [
+              308,
+              396
+            ],
+            "v1": [
+              323,
+              396
+            ],
+            "v5": [
+              323,
+              429
+            ],
+            "v4": [
+              308,
+              429
+            ]
+          },
+          "rotation": 0
+        },
+        "top": {
+          "vertices": [
+            "v3",
+            "v7",
+            "v6",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top",
+          "uv": {
+            "v3": [
+              325,
+              396
+            ],
+            "v7": [
+              325,
+              429
+            ],
+            "v6": [
+              340,
+              429
+            ],
+            "v2": [
+              340,
+              396
+            ]
+          },
+          "rotation": 0
+        },
+        "left": {
+          "vertices": [
+            "v0",
+            "v4",
+            "v7",
+            "v3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "left",
+          "uv": {
+            "v0": [
+              331,
+              509
+            ],
+            "v4": [
+              364,
+              509
+            ],
+            "v7": [
+              364,
+              453
+            ],
+            "v3": [
+              331,
+              453
+            ]
+          },
+          "rotation": 0
+        },
+        "right": {
+          "vertices": [
+            "v1",
+            "v2",
+            "v6",
+            "v5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "right",
+          "uv": {
+            "v1": [
+              366,
+              509
+            ],
+            "v2": [
+              366,
+              453
+            ],
+            "v6": [
+              399,
+              453
+            ],
+            "v5": [
+              399,
+              509
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "bfe88304-bf00-58ff-adf5-686bf44b2cab",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "jamb_1_0",
+      "color": 0,
+      "origin": [
+        10.96,
+        3.584,
+        -0.128
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -0.9439999999999991,
+          -3.504,
+          -2.032
+        ],
+        "v1": [
+          0.9439999999999991,
+          -3.504,
+          -2.032
+        ],
+        "v2": [
+          0.9439999999999991,
+          3.504,
+          -2.032
+        ],
+        "v3": [
+          -0.9439999999999991,
+          3.504,
+          -2.032
+        ],
+        "v4": [
+          -0.9439999999999991,
+          -3.504,
+          2.032
+        ],
+        "v5": [
+          0.9439999999999991,
+          -3.504,
+          2.032
+        ],
+        "v6": [
+          0.9439999999999991,
+          3.504,
+          2.032
+        ],
+        "v7": [
+          -0.9439999999999991,
+          3.504,
+          2.032
+        ]
+      },
+      "faces": {
+        "back": {
+          "vertices": [
+            "v0",
+            "v3",
+            "v2",
+            "v1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "v0": [
+              152,
+              347
+            ],
+            "v3": [
+              152,
+              291
+            ],
+            "v2": [
+              167,
+              291
+            ],
+            "v1": [
+              167,
+              347
+            ]
+          },
+          "rotation": 0
+        },
+        "front": {
+          "vertices": [
+            "v4",
+            "v5",
+            "v6",
+            "v7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "v4": [
+              153,
+              405
+            ],
+            "v5": [
+              168,
+              405
+            ],
+            "v6": [
+              168,
+              349
+            ],
+            "v7": [
+              153,
+              349
+            ]
+          },
+          "rotation": 0
+        },
+        "bottom": {
+          "vertices": [
+            "v0",
+            "v1",
+            "v5",
+            "v4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bottom",
+          "uv": {
+            "v0": [
+              342,
+              396
+            ],
+            "v1": [
+              357,
+              396
+            ],
+            "v5": [
+              357,
+              429
+            ],
+            "v4": [
+              342,
+              429
+            ]
+          },
+          "rotation": 0
+        },
+        "top": {
+          "vertices": [
+            "v3",
+            "v7",
+            "v6",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top",
+          "uv": {
+            "v3": [
+              359,
+              396
+            ],
+            "v7": [
+              359,
+              429
+            ],
+            "v6": [
+              374,
+              429
+            ],
+            "v2": [
+              374,
+              396
+            ]
+          },
+          "rotation": 0
+        },
+        "left": {
+          "vertices": [
+            "v0",
+            "v4",
+            "v7",
+            "v3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "left",
+          "uv": {
+            "v0": [
+              401,
+              509
+            ],
+            "v4": [
+              434,
+              509
+            ],
+            "v7": [
+              434,
+              453
+            ],
+            "v3": [
+              401,
+              453
+            ]
+          },
+          "rotation": 0
+        },
+        "right": {
+          "vertices": [
+            "v1",
+            "v2",
+            "v6",
+            "v5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "right",
+          "uv": {
+            "v1": [
+              436,
+              509
+            ],
+            "v2": [
+              436,
+              453
+            ],
+            "v6": [
+              469,
+              453
+            ],
+            "v5": [
+              469,
+              509
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "bddf5a48-f801-5c6a-826c-2dd43d3ed5e5",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "jamb_1_1",
+      "color": 0,
+      "origin": [
+        10.96,
+        10.784,
+        -0.128
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -0.9439999999999991,
+          -3.5039999999999996,
+          -2.032
+        ],
+        "v1": [
+          0.9439999999999991,
+          -3.5039999999999996,
+          -2.032
+        ],
+        "v2": [
+          0.9439999999999991,
+          3.5039999999999996,
+          -2.032
+        ],
+        "v3": [
+          -0.9439999999999991,
+          3.5039999999999996,
+          -2.032
+        ],
+        "v4": [
+          -0.9439999999999991,
+          -3.5039999999999996,
+          2.032
+        ],
+        "v5": [
+          0.9439999999999991,
+          -3.5039999999999996,
+          2.032
+        ],
+        "v6": [
+          0.9439999999999991,
+          3.5039999999999996,
+          2.032
+        ],
+        "v7": [
+          -0.9439999999999991,
+          3.5039999999999996,
+          2.032
+        ]
+      },
+      "faces": {
+        "back": {
+          "vertices": [
+            "v0",
+            "v3",
+            "v2",
+            "v1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "v0": [
+              169,
+              347
+            ],
+            "v3": [
+              169,
+              291
+            ],
+            "v2": [
+              184,
+              291
+            ],
+            "v1": [
+              184,
+              347
+            ]
+          },
+          "rotation": 0
+        },
+        "front": {
+          "vertices": [
+            "v4",
+            "v5",
+            "v6",
+            "v7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "v4": [
+              170,
+              405
+            ],
+            "v5": [
+              185,
+              405
+            ],
+            "v6": [
+              185,
+              349
+            ],
+            "v7": [
+              170,
+              349
+            ]
+          },
+          "rotation": 0
+        },
+        "bottom": {
+          "vertices": [
+            "v0",
+            "v1",
+            "v5",
+            "v4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bottom",
+          "uv": {
+            "v0": [
+              376,
+              396
+            ],
+            "v1": [
+              391,
+              396
+            ],
+            "v5": [
+              391,
+              429
+            ],
+            "v4": [
+              376,
+              429
+            ]
+          },
+          "rotation": 0
+        },
+        "top": {
+          "vertices": [
+            "v3",
+            "v7",
+            "v6",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top",
+          "uv": {
+            "v3": [
+              393,
+              377
+            ],
+            "v7": [
+              393,
+              410
+            ],
+            "v6": [
+              408,
+              410
+            ],
+            "v2": [
+              408,
+              377
+            ]
+          },
+          "rotation": 0
+        },
+        "left": {
+          "vertices": [
+            "v0",
+            "v4",
+            "v7",
+            "v3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "left",
+          "uv": {
+            "v0": [
+              471,
+              509
+            ],
+            "v4": [
+              504,
+              509
+            ],
+            "v7": [
+              504,
+              453
+            ],
+            "v3": [
+              471,
+              453
+            ]
+          },
+          "rotation": 0
+        },
+        "right": {
+          "vertices": [
+            "v1",
+            "v2",
+            "v6",
+            "v5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "right",
+          "uv": {
+            "v1": [
+              506,
+              509
+            ],
+            "v2": [
+              506,
+              453
+            ],
+            "v6": [
+              539,
+              453
+            ],
+            "v5": [
+              539,
+              509
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "12a0c545-48d6-521d-ab44-d40de11c1e74",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "jamb_1_2",
+      "color": 0,
+      "origin": [
+        10.96,
+        17.984,
+        -0.128
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -0.9439999999999991,
+          -3.5039999999999996,
+          -2.032
+        ],
+        "v1": [
+          0.9439999999999991,
+          -3.5039999999999996,
+          -2.032
+        ],
+        "v2": [
+          0.9439999999999991,
+          3.5040000000000013,
+          -2.032
+        ],
+        "v3": [
+          -0.9439999999999991,
+          3.5040000000000013,
+          -2.032
+        ],
+        "v4": [
+          -0.9439999999999991,
+          -3.5039999999999996,
+          2.032
+        ],
+        "v5": [
+          0.9439999999999991,
+          -3.5039999999999996,
+          2.032
+        ],
+        "v6": [
+          0.9439999999999991,
+          3.5040000000000013,
+          2.032
+        ],
+        "v7": [
+          -0.9439999999999991,
+          3.5040000000000013,
+          2.032
+        ]
+      },
+      "faces": {
+        "back": {
+          "vertices": [
+            "v0",
+            "v3",
+            "v2",
+            "v1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "v0": [
+              186,
+              347
+            ],
+            "v3": [
+              186,
+              291
+            ],
+            "v2": [
+              201,
+              291
+            ],
+            "v1": [
+              201,
+              347
+            ]
+          },
+          "rotation": 0
+        },
+        "front": {
+          "vertices": [
+            "v4",
+            "v5",
+            "v6",
+            "v7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "v4": [
+              187,
+              405
+            ],
+            "v5": [
+              202,
+              405
+            ],
+            "v6": [
+              202,
+              349
+            ],
+            "v7": [
+              187,
+              349
+            ]
+          },
+          "rotation": 0
+        },
+        "bottom": {
+          "vertices": [
+            "v0",
+            "v1",
+            "v5",
+            "v4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bottom",
+          "uv": {
+            "v0": [
+              410,
+              377
+            ],
+            "v1": [
+              425,
+              377
+            ],
+            "v5": [
+              425,
+              410
+            ],
+            "v4": [
+              410,
+              410
+            ]
+          },
+          "rotation": 0
+        },
+        "top": {
+          "vertices": [
+            "v3",
+            "v7",
+            "v6",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top",
+          "uv": {
+            "v3": [
+              427,
+              396
+            ],
+            "v7": [
+              427,
+              429
+            ],
+            "v6": [
+              442,
+              429
+            ],
+            "v2": [
+              442,
+              396
+            ]
+          },
+          "rotation": 0
+        },
+        "left": {
+          "vertices": [
+            "v0",
+            "v4",
+            "v7",
+            "v3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "left",
+          "uv": {
+            "v0": [
+              541,
+              509
+            ],
+            "v4": [
+              574,
+              509
+            ],
+            "v7": [
+              574,
+              453
+            ],
+            "v3": [
+              541,
+              453
+            ]
+          },
+          "rotation": 0
+        },
+        "right": {
+          "vertices": [
+            "v1",
+            "v2",
+            "v6",
+            "v5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "right",
+          "uv": {
+            "v1": [
+              576,
+              509
+            ],
+            "v2": [
+              576,
+              453
+            ],
+            "v6": [
+              609,
+              453
+            ],
+            "v5": [
+              609,
+              509
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "58525460-f85e-51e5-b568-5de11fd6ad36",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "jamb_1_3",
+      "color": 0,
+      "origin": [
+        10.96,
+        25.184,
+        -0.128
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -0.9439999999999991,
+          -3.5040000000000013,
+          -2.032
+        ],
+        "v1": [
+          0.9439999999999991,
+          -3.5040000000000013,
+          -2.032
+        ],
+        "v2": [
+          0.9439999999999991,
+          3.5040000000000013,
+          -2.032
+        ],
+        "v3": [
+          -0.9439999999999991,
+          3.5040000000000013,
+          -2.032
+        ],
+        "v4": [
+          -0.9439999999999991,
+          -3.5040000000000013,
+          2.032
+        ],
+        "v5": [
+          0.9439999999999991,
+          -3.5040000000000013,
+          2.032
+        ],
+        "v6": [
+          0.9439999999999991,
+          3.5040000000000013,
+          2.032
+        ],
+        "v7": [
+          -0.9439999999999991,
+          3.5040000000000013,
+          2.032
+        ]
+      },
+      "faces": {
+        "back": {
+          "vertices": [
+            "v0",
+            "v3",
+            "v2",
+            "v1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "v0": [
+              203,
+              347
+            ],
+            "v3": [
+              203,
+              291
+            ],
+            "v2": [
+              218,
+              291
+            ],
+            "v1": [
+              218,
+              347
+            ]
+          },
+          "rotation": 0
+        },
+        "front": {
+          "vertices": [
+            "v4",
+            "v5",
+            "v6",
+            "v7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "v4": [
+              204,
+              405
+            ],
+            "v5": [
+              219,
+              405
+            ],
+            "v6": [
+              219,
+              349
+            ],
+            "v7": [
+              204,
+              349
+            ]
+          },
+          "rotation": 0
+        },
+        "bottom": {
+          "vertices": [
+            "v0",
+            "v1",
+            "v5",
+            "v4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bottom",
+          "uv": {
+            "v0": [
+              393,
+              412
+            ],
+            "v1": [
+              408,
+              412
+            ],
+            "v5": [
+              408,
+              445
+            ],
+            "v4": [
+              393,
+              445
+            ]
+          },
+          "rotation": 0
+        },
+        "top": {
+          "vertices": [
+            "v3",
+            "v7",
+            "v6",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top",
+          "uv": {
+            "v3": [
+              410,
+              412
+            ],
+            "v7": [
+              410,
+              445
+            ],
+            "v6": [
+              425,
+              445
+            ],
+            "v2": [
+              425,
+              412
+            ]
+          },
+          "rotation": 0
+        },
+        "left": {
+          "vertices": [
+            "v0",
+            "v4",
+            "v7",
+            "v3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "left",
+          "uv": {
+            "v0": [
+              611,
+              509
+            ],
+            "v4": [
+              644,
+              509
+            ],
+            "v7": [
+              644,
+              453
+            ],
+            "v3": [
+              611,
+              453
+            ]
+          },
+          "rotation": 0
+        },
+        "right": {
+          "vertices": [
+            "v1",
+            "v2",
+            "v6",
+            "v5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "right",
+          "uv": {
+            "v1": [
+              646,
+              509
+            ],
+            "v2": [
+              646,
+              453
+            ],
+            "v6": [
+              679,
+              453
+            ],
+            "v5": [
+              679,
+              509
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "cf80fa19-bacf-5a26-9ff9-5bbef80bd71c",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "jamb_1_4",
+      "color": 0,
+      "origin": [
+        10.96,
+        32.384,
+        -0.128
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0": [
+          -0.9439999999999991,
+          -3.5040000000000013,
+          -2.032
+        ],
+        "v1": [
+          0.9439999999999991,
+          -3.5040000000000013,
+          -2.032
+        ],
+        "v2": [
+          0.9439999999999991,
+          3.503999999999998,
+          -2.032
+        ],
+        "v3": [
+          -0.9439999999999991,
+          3.503999999999998,
+          -2.032
+        ],
+        "v4": [
+          -0.9439999999999991,
+          -3.5040000000000013,
+          2.032
+        ],
+        "v5": [
+          0.9439999999999991,
+          -3.5040000000000013,
+          2.032
+        ],
+        "v6": [
+          0.9439999999999991,
+          3.503999999999998,
+          2.032
+        ],
+        "v7": [
+          -0.9439999999999991,
+          3.503999999999998,
+          2.032
+        ]
+      },
+      "faces": {
+        "back": {
+          "vertices": [
+            "v0",
+            "v3",
+            "v2",
+            "v1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "back",
+          "uv": {
+            "v0": [
+              220,
+              347
+            ],
+            "v3": [
+              220,
+              291
+            ],
+            "v2": [
+              235,
+              291
+            ],
+            "v1": [
+              235,
+              347
+            ]
+          },
+          "rotation": 0
+        },
+        "front": {
+          "vertices": [
+            "v4",
+            "v5",
+            "v6",
+            "v7"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "front",
+          "uv": {
+            "v4": [
+              221,
+              405
+            ],
+            "v5": [
+              236,
+              405
+            ],
+            "v6": [
+              236,
+              349
+            ],
+            "v7": [
+              221,
+              349
+            ]
+          },
+          "rotation": 0
+        },
+        "bottom": {
+          "vertices": [
+            "v0",
+            "v1",
+            "v5",
+            "v4"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "bottom",
+          "uv": {
+            "v0": [
+              768,
+              165
+            ],
+            "v1": [
+              783,
+              165
+            ],
+            "v5": [
+              783,
+              198
+            ],
+            "v4": [
+              768,
+              198
+            ]
+          },
+          "rotation": 0
+        },
+        "top": {
+          "vertices": [
+            "v3",
+            "v7",
+            "v6",
+            "v2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "top",
+          "uv": {
+            "v3": [
+              785,
+              165
+            ],
+            "v7": [
+              785,
+              198
+            ],
+            "v6": [
+              800,
+              198
+            ],
+            "v2": [
+              800,
+              165
+            ]
+          },
+          "rotation": 0
+        },
+        "left": {
+          "vertices": [
+            "v0",
+            "v4",
+            "v7",
+            "v3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "left",
+          "uv": {
+            "v0": [
+              681,
+              509
+            ],
+            "v4": [
+              714,
+              509
+            ],
+            "v7": [
+              714,
+              453
+            ],
+            "v3": [
+              681,
+              453
+            ]
+          },
+          "rotation": 0
+        },
+        "right": {
+          "vertices": [
+            "v1",
+            "v2",
+            "v6",
+            "v5"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "right",
+          "uv": {
+            "v1": [
+              716,
+              509
+            ],
+            "v2": [
+              716,
+              453
+            ],
+            "v6": [
+              749,
+              453
+            ],
+            "v5": [
+              749,
+              509
+            ]
+          },
+          "rotation": 0
+        }
+      },
+      "type": "mesh",
+      "uuid": "eae6bfd2-253b-534c-a5d3-d15dc4566dfa",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "root",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "export": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "model_as_code_role": "folder"
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "isOpen": true,
+      "children": [
+        "952b9c2f-8540-5e7d-8329-60ed22c09261",
+        "5b3c4ac9-da24-5532-9ded-879054e296a3",
+        "7e9ad09e-d4a5-5cb4-9a4c-300578781fd9",
+        "e0c4b8e7-caa0-5b51-b64b-25fd87ff2907",
+        "3ebb40a0-4b33-5d21-a23a-b8130e0602e0",
+        "8a3ede8f-e966-5e08-9f41-e65f39afb823",
+        "6c443197-3736-548f-9bd9-21e57921ab00",
+        "22928042-c38a-5187-ae3c-9a3eb86600c3",
+        "bfe88304-bf00-58ff-adf5-686bf44b2cab",
+        "bddf5a48-f801-5c6a-826c-2dd43d3ed5e5",
+        "12a0c545-48d6-521d-ab44-d40de11c1e74",
+        "58525460-f85e-51e5-b568-5de11fd6ad36",
+        "cf80fa19-bacf-5a26-9ff9-5bbef80bd71c",
+        "eae6bfd2-253b-534c-a5d3-d15dc4566dfa"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "86df8b35-1fbc-4b18-a6d9-36669296bf4f",
+      "id": "0",
+      "name": "texture.png",
+      "relative_path": "texture.png",
+      "width": 1024,
+      "height": 512,
+      "uv_width": 1024,
+      "uv_height": 512,
+      "mode": "link",
+      "internal": false,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false
+    }
+  ],
+  "animations": [],
+  "resolution": {
+    "width": 1024,
+    "height": 512
+  }
+}

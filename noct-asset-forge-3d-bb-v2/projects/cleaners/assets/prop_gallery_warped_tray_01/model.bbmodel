@@ -1,0 +1,6321 @@
+{
+  "meta": {
+    "format_version": "5.0",
+    "model_format": "free",
+    "box_uv": false
+  },
+  "name": "prop_gallery_warped_tray_01",
+  "model_identifier": "",
+  "visible_box": [
+    1,
+    1,
+    0
+  ],
+  "variable_placeholders": "",
+  "variable_placeholder_buttons": [],
+  "timeline_setups": [],
+  "unhandled_root_fields": {
+    "model_as_code": {
+      "version": 3,
+      "uv_ready": true,
+      "modeling_mode": "free",
+      "orientation": {
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "validation_policy": {
+        "check_coplanar": true
+      },
+      "sockets": {},
+      "chains": {},
+      "armature_chains": {},
+      "binding_policies": {},
+      "uv_packing": {
+        "start_size": [
+          32,
+          32
+        ],
+        "allow_rectangular": true,
+        "uv_scale": 8,
+        "max_size": 1024,
+        "fixed_texture_size": false,
+        "island_padding": 1,
+        "require_integer_uvs": false,
+        "layout": "charts"
+      }
+    }
+  },
+  "elements": [
+    {
+      "name": "wood_board_0",
+      "color": 0,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0_0": [
+          -4.864,
+          0.176,
+          -2.7199999999999998
+        ],
+        "v0_1": [
+          5.024,
+          0.768,
+          -2.7199999999999998
+        ],
+        "v0_2": [
+          4.528,
+          0.96,
+          -1.056
+        ],
+        "v0_3": [
+          -4.896,
+          0.384,
+          -1.056
+        ],
+        "v1_0": [
+          -4.864,
+          0.688,
+          -2.7199999999999998
+        ],
+        "v1_1": [
+          5.024,
+          1.2799999999999998,
+          -2.7199999999999998
+        ],
+        "v1_2": [
+          4.528,
+          1.472,
+          -1.056
+        ],
+        "v1_3": [
+          -4.896,
+          0.8959999999999999,
+          -1.056
+        ],
+        "center0": [
+          -0.052000000000000046,
+          0.572,
+          -1.888
+        ],
+        "center1": [
+          -0.052000000000000046,
+          1.0839999999999999,
+          -1.888
+        ]
+      },
+      "faces": {
+        "side0_0": {
+          "vertices": [
+            "v1_0",
+            "v1_1",
+            "v0_1",
+            "v0_0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0_0",
+          "uv": {
+            "v1_0": [
+              99.0,
+              89.0
+            ],
+            "v1_1": [
+              178.10400390625,
+              84.26400756835938
+            ],
+            "v0_1": [
+              178.10400390625,
+              88.36000061035156
+            ],
+            "v0_0": [
+              99.0,
+              93.09599304199219
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_0#5"
+        },
+        "side0_1": {
+          "vertices": [
+            "v1_1",
+            "v1_2",
+            "v0_2",
+            "v0_1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0_1",
+          "uv": {
+            "v1_1": [
+              1.0,
+              250.0
+            ],
+            "v1_2": [
+              14.89080810546875,
+              248.46400451660156
+            ],
+            "v0_2": [
+              14.89080810546875,
+              252.55999755859375
+            ],
+            "v0_1": [
+              1.0,
+              254.0959930419922
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_0#1"
+        },
+        "side0_2": {
+          "vertices": [
+            "v0_2",
+            "v1_2",
+            "v1_3",
+            "v0_3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0_2",
+          "uv": {
+            "v0_2": [
+              179.0,
+              125.0
+            ],
+            "v1_2": [
+              179.0,
+              120.90400695800781
+            ],
+            "v1_3": [
+              254.39199829101562,
+              125.51199340820312
+            ],
+            "v0_3": [
+              254.39199829101562,
+              129.60800170898438
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_0#0"
+        },
+        "side0_3": {
+          "vertices": [
+            "v0_3",
+            "v1_3",
+            "v1_0",
+            "v0_0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0_3",
+          "uv": {
+            "v0_3": [
+              17.0,
+              253.0
+            ],
+            "v1_3": [
+              17.0,
+              248.9040069580078
+            ],
+            "v1_0": [
+              30.314468383789062,
+              250.5679931640625
+            ],
+            "v0_0": [
+              30.314468383789062,
+              254.66400146484375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_0#3"
+        },
+        "cap0_0": {
+          "vertices": [
+            "center0",
+            "v0_0",
+            "v0_1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap0_0",
+          "uv": {
+            "center0": [
+              49.0,
+              23.0
+            ],
+            "v0_0": [
+              81.08200073242188,
+              45.51722717285156
+            ],
+            "v0_1": [
+              9.380844116210938,
+              11.7708740234375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_0#2"
+        },
+        "cap0_1": {
+          "vertices": [
+            "center0",
+            "v0_1",
+            "v0_2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap0_1",
+          "uv": {
+            "center0": [
+              49.0,
+              23.0
+            ],
+            "v0_1": [
+              9.380844116210938,
+              11.7708740234375
+            ],
+            "v0_2": [
+              18.600357055664062,
+              1.2678070068359375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_0#2"
+        },
+        "cap0_2": {
+          "vertices": [
+            "center0",
+            "v0_2",
+            "v0_3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap0_2",
+          "uv": {
+            "center0": [
+              49.0,
+              23.0
+            ],
+            "v0_2": [
+              18.600357055664062,
+              1.2678070068359375
+            ],
+            "v0_3": [
+              86.93687438964844,
+              33.443939208984375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_0#2"
+        },
+        "cap0_3": {
+          "vertices": [
+            "center0",
+            "v0_3",
+            "v0_0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap0_3",
+          "uv": {
+            "center0": [
+              49.0,
+              23.0
+            ],
+            "v0_3": [
+              86.93687438964844,
+              33.443939208984375
+            ],
+            "v0_0": [
+              81.08200073242188,
+              45.51722717285156
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_0#2"
+        },
+        "cap1_0": {
+          "vertices": [
+            "center1",
+            "v1_1",
+            "v1_0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap1_0",
+          "uv": {
+            "center1": [
+              47.0,
+              70.0
+            ],
+            "v1_1": [
+              86.61915588378906,
+              58.7708740234375
+            ],
+            "v1_0": [
+              14.917999267578125,
+              92.51722717285156
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_0#4"
+        },
+        "cap1_1": {
+          "vertices": [
+            "center1",
+            "v1_2",
+            "v1_1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap1_1",
+          "uv": {
+            "center1": [
+              47.0,
+              70.0
+            ],
+            "v1_2": [
+              77.39964294433594,
+              48.26780700683594
+            ],
+            "v1_1": [
+              86.61915588378906,
+              58.7708740234375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_0#4"
+        },
+        "cap1_2": {
+          "vertices": [
+            "center1",
+            "v1_3",
+            "v1_2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap1_2",
+          "uv": {
+            "center1": [
+              47.0,
+              70.0
+            ],
+            "v1_3": [
+              9.063125610351562,
+              80.44393920898438
+            ],
+            "v1_2": [
+              77.39964294433594,
+              48.26780700683594
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_0#4"
+        },
+        "cap1_3": {
+          "vertices": [
+            "center1",
+            "v1_0",
+            "v1_3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap1_3",
+          "uv": {
+            "center1": [
+              47.0,
+              70.0
+            ],
+            "v1_0": [
+              14.917999267578125,
+              92.51722717285156
+            ],
+            "v1_3": [
+              9.063125610351562,
+              80.44393920898438
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_0#4"
+        }
+      },
+      "type": "mesh",
+      "uuid": "a4008470-91b9-5eff-ada3-31dbff2fc8bb",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "wood_board_1",
+      "color": 0,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0_0": [
+          -4.864,
+          0.176,
+          -0.864
+        ],
+        "v0_1": [
+          5.024,
+          0.768,
+          -0.864
+        ],
+        "v0_2": [
+          4.528,
+          0.96,
+          0.7999999999999999
+        ],
+        "v0_3": [
+          -4.896,
+          0.384,
+          0.7999999999999999
+        ],
+        "v1_0": [
+          -4.864,
+          0.688,
+          -0.864
+        ],
+        "v1_1": [
+          5.024,
+          1.2799999999999998,
+          -0.864
+        ],
+        "v1_2": [
+          4.528,
+          1.472,
+          0.7999999999999999
+        ],
+        "v1_3": [
+          -4.896,
+          0.8959999999999999,
+          0.7999999999999999
+        ],
+        "center0": [
+          -0.052000000000000046,
+          0.572,
+          -0.03200000000000003
+        ],
+        "center1": [
+          -0.052000000000000046,
+          1.0839999999999999,
+          -0.03200000000000003
+        ]
+      },
+      "faces": {
+        "side0_0": {
+          "vertices": [
+            "v1_0",
+            "v1_1",
+            "v0_1",
+            "v0_0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0_0",
+          "uv": {
+            "v1_0": [
+              99.0,
+              101.0
+            ],
+            "v1_1": [
+              178.10400390625,
+              96.26400756835938
+            ],
+            "v0_1": [
+              178.10400390625,
+              100.36000061035156
+            ],
+            "v0_0": [
+              99.0,
+              105.09599304199219
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_1#5"
+        },
+        "side0_1": {
+          "vertices": [
+            "v1_1",
+            "v1_2",
+            "v0_2",
+            "v0_1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0_1",
+          "uv": {
+            "v1_1": [
+              33.0,
+              250.0
+            ],
+            "v1_2": [
+              46.89080810546875,
+              248.46400451660156
+            ],
+            "v0_2": [
+              46.89080810546875,
+              252.55999755859375
+            ],
+            "v0_1": [
+              33.0,
+              254.0959930419922
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_1#1"
+        },
+        "side0_2": {
+          "vertices": [
+            "v0_2",
+            "v1_2",
+            "v1_3",
+            "v0_3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0_2",
+          "uv": {
+            "v0_2": [
+              179.0,
+              137.0
+            ],
+            "v1_2": [
+              179.0,
+              132.9040069580078
+            ],
+            "v1_3": [
+              254.39199829101562,
+              137.51199340820312
+            ],
+            "v0_3": [
+              254.39199829101562,
+              141.60800170898438
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_1#0"
+        },
+        "side0_3": {
+          "vertices": [
+            "v0_3",
+            "v1_3",
+            "v1_0",
+            "v0_0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0_3",
+          "uv": {
+            "v0_3": [
+              49.0,
+              253.0
+            ],
+            "v1_3": [
+              49.0,
+              248.9040069580078
+            ],
+            "v1_0": [
+              62.31446838378906,
+              250.5679931640625
+            ],
+            "v0_0": [
+              62.31446838378906,
+              254.66400146484375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_1#3"
+        },
+        "cap0_0": {
+          "vertices": [
+            "center0",
+            "v0_0",
+            "v0_1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap0_0",
+          "uv": {
+            "center0": [
+              49.0,
+              117.0
+            ],
+            "v0_0": [
+              81.08200073242188,
+              139.51722717285156
+            ],
+            "v0_1": [
+              9.380844116210938,
+              105.7708740234375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_1#2"
+        },
+        "cap0_1": {
+          "vertices": [
+            "center0",
+            "v0_1",
+            "v0_2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap0_1",
+          "uv": {
+            "center0": [
+              49.0,
+              117.0
+            ],
+            "v0_1": [
+              9.380844116210938,
+              105.7708740234375
+            ],
+            "v0_2": [
+              18.600357055664062,
+              95.26780700683594
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_1#2"
+        },
+        "cap0_2": {
+          "vertices": [
+            "center0",
+            "v0_2",
+            "v0_3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap0_2",
+          "uv": {
+            "center0": [
+              49.0,
+              117.0
+            ],
+            "v0_2": [
+              18.600357055664062,
+              95.26780700683594
+            ],
+            "v0_3": [
+              86.93687438964844,
+              127.44393920898438
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_1#2"
+        },
+        "cap0_3": {
+          "vertices": [
+            "center0",
+            "v0_3",
+            "v0_0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap0_3",
+          "uv": {
+            "center0": [
+              49.0,
+              117.0
+            ],
+            "v0_3": [
+              86.93687438964844,
+              127.44393920898438
+            ],
+            "v0_0": [
+              81.08200073242188,
+              139.51722717285156
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_1#2"
+        },
+        "cap1_0": {
+          "vertices": [
+            "center1",
+            "v1_1",
+            "v1_0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap1_0",
+          "uv": {
+            "center1": [
+              53.0,
+              164.0
+            ],
+            "v1_1": [
+              92.61915588378906,
+              152.7708740234375
+            ],
+            "v1_0": [
+              20.917999267578125,
+              186.51722717285156
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_1#4"
+        },
+        "cap1_1": {
+          "vertices": [
+            "center1",
+            "v1_2",
+            "v1_1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap1_1",
+          "uv": {
+            "center1": [
+              53.0,
+              164.0
+            ],
+            "v1_2": [
+              83.39964294433594,
+              142.26780700683594
+            ],
+            "v1_1": [
+              92.61915588378906,
+              152.7708740234375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_1#4"
+        },
+        "cap1_2": {
+          "vertices": [
+            "center1",
+            "v1_3",
+            "v1_2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap1_2",
+          "uv": {
+            "center1": [
+              53.0,
+              164.0
+            ],
+            "v1_3": [
+              15.063125610351562,
+              174.44393920898438
+            ],
+            "v1_2": [
+              83.39964294433594,
+              142.26780700683594
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_1#4"
+        },
+        "cap1_3": {
+          "vertices": [
+            "center1",
+            "v1_0",
+            "v1_3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap1_3",
+          "uv": {
+            "center1": [
+              53.0,
+              164.0
+            ],
+            "v1_0": [
+              20.917999267578125,
+              186.51722717285156
+            ],
+            "v1_3": [
+              15.063125610351562,
+              174.44393920898438
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_1#4"
+        }
+      },
+      "type": "mesh",
+      "uuid": "ecd398e8-b7db-5bae-ba3c-63bef7742a51",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "wood_board_2",
+      "color": 0,
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "v0_0": [
+          -4.864,
+          0.176,
+          0.9600000000000001
+        ],
+        "v0_1": [
+          5.024,
+          0.768,
+          0.9600000000000001
+        ],
+        "v0_2": [
+          4.528,
+          0.96,
+          2.624
+        ],
+        "v0_3": [
+          -4.896,
+          0.384,
+          2.624
+        ],
+        "v1_0": [
+          -4.864,
+          0.688,
+          0.9600000000000001
+        ],
+        "v1_1": [
+          5.024,
+          1.2799999999999998,
+          0.9600000000000001
+        ],
+        "v1_2": [
+          4.528,
+          1.472,
+          2.624
+        ],
+        "v1_3": [
+          -4.896,
+          0.8959999999999999,
+          2.624
+        ],
+        "center0": [
+          -0.052000000000000046,
+          0.572,
+          1.7920000000000003
+        ],
+        "center1": [
+          -0.052000000000000046,
+          1.0839999999999999,
+          1.7920000000000003
+        ]
+      },
+      "faces": {
+        "side0_0": {
+          "vertices": [
+            "v1_0",
+            "v1_1",
+            "v0_1",
+            "v0_0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0_0",
+          "uv": {
+            "v1_0": [
+              99.0,
+              113.0
+            ],
+            "v1_1": [
+              178.10400390625,
+              108.26400756835938
+            ],
+            "v0_1": [
+              178.10400390625,
+              112.36000061035156
+            ],
+            "v0_0": [
+              99.0,
+              117.09599304199219
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_2#5"
+        },
+        "side0_1": {
+          "vertices": [
+            "v1_1",
+            "v1_2",
+            "v0_2",
+            "v0_1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0_1",
+          "uv": {
+            "v1_1": [
+              65.0,
+              250.0
+            ],
+            "v1_2": [
+              78.89080810546875,
+              248.46400451660156
+            ],
+            "v0_2": [
+              78.89080810546875,
+              252.55999755859375
+            ],
+            "v0_1": [
+              65.0,
+              254.0959930419922
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_2#1"
+        },
+        "side0_2": {
+          "vertices": [
+            "v0_2",
+            "v1_2",
+            "v1_3",
+            "v0_3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0_2",
+          "uv": {
+            "v0_2": [
+              179.0,
+              149.0
+            ],
+            "v1_2": [
+              179.0,
+              144.9040069580078
+            ],
+            "v1_3": [
+              254.39199829101562,
+              149.51199340820312
+            ],
+            "v0_3": [
+              254.39199829101562,
+              153.60800170898438
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_2#0"
+        },
+        "side0_3": {
+          "vertices": [
+            "v0_3",
+            "v1_3",
+            "v1_0",
+            "v0_0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "side0_3",
+          "uv": {
+            "v0_3": [
+              81.0,
+              253.0
+            ],
+            "v1_3": [
+              81.0,
+              248.9040069580078
+            ],
+            "v1_0": [
+              94.31446838378906,
+              250.5679931640625
+            ],
+            "v0_0": [
+              94.31446838378906,
+              254.66400146484375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_2#3"
+        },
+        "cap0_0": {
+          "vertices": [
+            "center0",
+            "v0_0",
+            "v0_1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap0_0",
+          "uv": {
+            "center0": [
+              55.0,
+              211.0
+            ],
+            "v0_0": [
+              87.08200073242188,
+              233.51722717285156
+            ],
+            "v0_1": [
+              15.380844116210938,
+              199.7708740234375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_2#2"
+        },
+        "cap0_1": {
+          "vertices": [
+            "center0",
+            "v0_1",
+            "v0_2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap0_1",
+          "uv": {
+            "center0": [
+              55.0,
+              211.0
+            ],
+            "v0_1": [
+              15.380844116210938,
+              199.7708740234375
+            ],
+            "v0_2": [
+              24.600357055664062,
+              189.26780700683594
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_2#2"
+        },
+        "cap0_2": {
+          "vertices": [
+            "center0",
+            "v0_2",
+            "v0_3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap0_2",
+          "uv": {
+            "center0": [
+              55.0,
+              211.0
+            ],
+            "v0_2": [
+              24.600357055664062,
+              189.26780700683594
+            ],
+            "v0_3": [
+              92.93687438964844,
+              221.44393920898438
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_2#2"
+        },
+        "cap0_3": {
+          "vertices": [
+            "center0",
+            "v0_3",
+            "v0_0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap0_3",
+          "uv": {
+            "center0": [
+              55.0,
+              211.0
+            ],
+            "v0_3": [
+              92.93687438964844,
+              221.44393920898438
+            ],
+            "v0_0": [
+              87.08200073242188,
+              233.51722717285156
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_2#2"
+        },
+        "cap1_0": {
+          "vertices": [
+            "center1",
+            "v1_1",
+            "v1_0"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap1_0",
+          "uv": {
+            "center1": [
+              133.0,
+              23.0
+            ],
+            "v1_1": [
+              172.61915588378906,
+              11.7708740234375
+            ],
+            "v1_0": [
+              100.91799926757812,
+              45.51722717285156
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_2#4"
+        },
+        "cap1_1": {
+          "vertices": [
+            "center1",
+            "v1_2",
+            "v1_1"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap1_1",
+          "uv": {
+            "center1": [
+              133.0,
+              23.0
+            ],
+            "v1_2": [
+              163.39964294433594,
+              1.2678070068359375
+            ],
+            "v1_1": [
+              172.61915588378906,
+              11.7708740234375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_2#4"
+        },
+        "cap1_2": {
+          "vertices": [
+            "center1",
+            "v1_3",
+            "v1_2"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap1_2",
+          "uv": {
+            "center1": [
+              133.0,
+              23.0
+            ],
+            "v1_3": [
+              95.06312561035156,
+              33.443939208984375
+            ],
+            "v1_2": [
+              163.39964294433594,
+              1.2678070068359375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_2#4"
+        },
+        "cap1_3": {
+          "vertices": [
+            "center1",
+            "v1_0",
+            "v1_3"
+          ],
+          "texture": 0,
+          "model_as_code_group": null,
+          "model_as_code_source_face": "cap1_3",
+          "uv": {
+            "center1": [
+              133.0,
+              23.0
+            ],
+            "v1_0": [
+              100.91799926757812,
+              45.51722717285156
+            ],
+            "v1_3": [
+              95.06312561035156,
+              33.443939208984375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_board_2#4"
+        }
+      },
+      "type": "mesh",
+      "uuid": "34a3beac-cdac-541f-89c0-4a5f36a1fc51",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "primitive": null
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "frames": {}
+      }
+    },
+    {
+      "name": "wood_border_0",
+      "color": 0,
+      "origin": [
+        -4.96,
+        1.152,
+        -2.848
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          -0.006087929059013675,
+          -0.0003974603366554419,
+          0.38395153228637247
+        ],
+        "section_000_v001": [
+          0.01862122436376623,
+          -0.3320460137043222,
+          0.191975766143186
+        ],
+        "section_000_v002": [
+          0.024709153422780794,
+          -0.33164855336766697,
+          -0.191975766143186
+        ],
+        "section_000_v003": [
+          0.006087929059013675,
+          0.0003974603366554419,
+          -0.38395153228637247
+        ],
+        "section_000_v004": [
+          -0.01862122436376623,
+          0.3320460137043222,
+          -0.19197576614318645
+        ],
+        "section_000_v005": [
+          -0.024709153422780794,
+          0.33164855336766697,
+          0.191975766143186
+        ],
+        "section_001_v000": [
+          10.041912070940986,
+          0.6556025396633447,
+          0.5439515322863722
+        ],
+        "section_001_v001": [
+          10.066621224363766,
+          0.32395398629567773,
+          0.3519757661431857
+        ],
+        "section_001_v002": [
+          10.072709153422782,
+          0.3243514466323332,
+          -0.03197576614318631
+        ],
+        "section_001_v003": [
+          10.054087929059014,
+          0.6563974603366556,
+          -0.22395153228637277
+        ],
+        "section_001_v004": [
+          10.029378775636234,
+          0.9880460137043225,
+          -0.03197576614318676
+        ],
+        "section_001_v005": [
+          10.023290846577218,
+          0.9876485533676671,
+          0.3519757661431857
+        ],
+        "cap_start_center": [
+          0,
+          0,
+          -4.440892098500626e-16
+        ],
+        "cap_end_center": [
+          10.048,
+          0.6560000000000001,
+          0.1599999999999997
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v001": [
+              180.0,
+              58.0
+            ],
+            "section_001_v001": [
+              99.66287231445312,
+              51.9407958984375
+            ],
+            "section_001_v000": [
+              99.8939208984375,
+              48.87750244140625
+            ],
+            "section_000_v000": [
+              180.2310333251953,
+              54.93670654296875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_0#1"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v001",
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v001": [
+              5.0,
+              165.0
+            ],
+            "section_000_v002": [
+              1.9283905029296875,
+              164.95118713378906
+            ],
+            "section_001_v002": [
+              3.2083892822265625,
+              84.39605712890625
+            ],
+            "section_001_v001": [
+              6.279998779296875,
+              84.44486999511719
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_0#3"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v002",
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v002": [
+              100.0,
+              70.0
+            ],
+            "section_000_v003": [
+              99.76924133300781,
+              66.93667602539062
+            ],
+            "section_001_v003": [
+              180.10690307617188,
+              60.88468933105469
+            ],
+            "section_001_v002": [
+              180.33766174316406,
+              63.94801330566406
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_0#6"
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v003",
+            "section_000_v004",
+            "section_001_v004",
+            "section_001_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v003": [
+              100.0,
+              82.0
+            ],
+            "section_000_v004": [
+              99.76896667480469,
+              78.93670654296875
+            ],
+            "section_001_v004": [
+              180.1060791015625,
+              72.87750244140625
+            ],
+            "section_001_v003": [
+              180.33712768554688,
+              75.9407958984375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_0#7"
+        },
+        "section_000__section_001_side_004": {
+          "vertices": [
+            "section_000_v005",
+            "section_001_v005",
+            "section_001_v004",
+            "section_000_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_004",
+          "uv": {
+            "section_000_v005": [
+              3.0,
+              82.0
+            ],
+            "section_001_v005": [
+              1.720001220703125,
+              1.4448699951171875
+            ],
+            "section_001_v004": [
+              4.7916107177734375,
+              1.39605712890625
+            ],
+            "section_000_v004": [
+              6.0716094970703125,
+              81.95118713378906
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_0#2"
+        },
+        "section_000__section_001_side_005": {
+          "vertices": [
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v005",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_005",
+          "uv": {
+            "section_000_v000": [
+              96.0,
+              246.0
+            ],
+            "section_001_v000": [
+              15.662338256835938,
+              239.94801330566406
+            ],
+            "section_001_v005": [
+              15.893096923828125,
+              236.8846893310547
+            ],
+            "section_000_v005": [
+              96.23075866699219,
+              242.93667602539062
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_0#0"
+        },
+        "cap_start_000": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v005",
+            "section_000_v004",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_000",
+          "uv": {
+            "cap_start_center": [
+              101.0,
+              251.0
+            ],
+            "section_000_v005": [
+              99.46124267578125,
+              248.34117126464844
+            ],
+            "section_000_v004": [
+              102.53323364257812,
+              248.33798217773438
+            ],
+            "section_000_v003": [
+              104.07199096679688,
+              250.99681091308594
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_0#4"
+        },
+        "cap_start_001": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_001",
+          "uv": {
+            "cap_start_center": [
+              101.0,
+              251.0
+            ],
+            "section_000_v003": [
+              104.07199096679688,
+              250.99681091308594
+            ],
+            "section_000_v002": [
+              102.53875732421875,
+              253.65882873535156
+            ],
+            "section_000_v001": [
+              99.46676635742188,
+              253.66201782226562
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_0#4"
+        },
+        "cap_start_002": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v001",
+            "section_000_v000",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_002",
+          "uv": {
+            "cap_start_center": [
+              101.0,
+              251.0
+            ],
+            "section_000_v001": [
+              99.46676635742188,
+              253.66201782226562
+            ],
+            "section_000_v000": [
+              97.92800903320312,
+              251.00318908691406
+            ],
+            "section_000_v005": [
+              99.46124267578125,
+              248.34117126464844
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_0#4"
+        },
+        "cap_end_000": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_000",
+          "uv": {
+            "cap_end_center": [
+              185.0,
+              87.0
+            ],
+            "section_001_v000": [
+              188.07199096679688,
+              87.00318908691406
+            ],
+            "section_001_v001": [
+              186.53323364257812,
+              89.66201782226562
+            ],
+            "section_001_v002": [
+              183.46124267578125,
+              89.65882873535156
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_0#5"
+        },
+        "cap_end_001": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_001",
+          "uv": {
+            "cap_end_center": [
+              185.0,
+              87.0
+            ],
+            "section_001_v002": [
+              183.46124267578125,
+              89.65882873535156
+            ],
+            "section_001_v003": [
+              181.92800903320312,
+              86.99681091308594
+            ],
+            "section_001_v004": [
+              183.46676635742188,
+              84.33798217773438
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_0#5"
+        },
+        "cap_end_002": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v004",
+            "section_001_v005",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_002",
+          "uv": {
+            "cap_end_center": [
+              185.0,
+              87.0
+            ],
+            "section_001_v004": [
+              183.46676635742188,
+              84.33798217773438
+            ],
+            "section_001_v005": [
+              186.53875732421875,
+              84.34117126464844
+            ],
+            "section_001_v000": [
+              188.07199096679688,
+              87.00318908691406
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_0#5"
+        }
+      },
+      "type": "mesh",
+      "uuid": "9381f835-7799-5591-885d-5ccfecbc0212",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            10.048,
+            0.6560000000000001,
+            0.1599999999999997
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            10.048,
+            0.6560000000000001,
+            0.1599999999999997
+          ],
+          "center": [
+            5.024,
+            0.32800000000000007,
+            0.08000000000000007
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003",
+            "section_000_v004",
+            "section_000_v005"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004",
+            "section_001_v005"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            10.048,
+            0.6560000000000001,
+            0.1599999999999997
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            10.048,
+            0.6560000000000001,
+            0.1599999999999997
+          ],
+          "center": [
+            5.024,
+            0.32800000000000007,
+            0.08000000000000007
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0.9977496672110947,
+              0.06513970757269887,
+              0.015887733554316764
+            ],
+            "up": [
+              -0.06514793041445606,
+              0.9978756170799611,
+              -1.0842021724855042e-18
+            ]
+          },
+          "section_001": {
+            "origin": [
+              10.048,
+              0.6560000000000001,
+              0.1599999999999997
+            ],
+            "forward": [
+              0.9977496672110947,
+              0.06513970757269887,
+              0.015887733554316764
+            ],
+            "up": [
+              -0.06514793041445607,
+              0.9978756170799613,
+              -1.0842021724855046e-18
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0.9977496672110947,
+              0.06513970757269887,
+              0.015887733554316764
+            ],
+            "up": [
+              -0.06514793041445606,
+              0.9978756170799611,
+              -1.0842021724855042e-18
+            ]
+          },
+          "top": {
+            "origin": [
+              10.048,
+              0.6560000000000001,
+              0.1599999999999997
+            ],
+            "forward": [
+              0.9977496672110947,
+              0.06513970757269887,
+              0.015887733554316764
+            ],
+            "up": [
+              -0.06514793041445607,
+              0.9978756170799613,
+              -1.0842021724855046e-18
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "wood_border_1",
+      "color": 0,
+      "origin": [
+        -4.96,
+        1.136,
+        2.784
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.0025438452429780156,
+          0.00017354019128479337,
+          0.3839915347181262
+        ],
+        "section_000_v001": [
+          0.023906010594525462,
+          -0.331695836533501,
+          0.19199576735906287
+        ],
+        "section_000_v002": [
+          0.021362165351547446,
+          -0.3318693767247858,
+          -0.19199576735906287
+        ],
+        "section_000_v003": [
+          -0.0025438452429780156,
+          -0.00017354019128479337,
+          -0.3839915347181262
+        ],
+        "section_000_v004": [
+          -0.023906010594525462,
+          0.331695836533501,
+          -0.19199576735906332
+        ],
+        "section_000_v005": [
+          -0.021362165351547446,
+          0.33186937672478556,
+          0.19199576735906287
+        ],
+        "section_001_v000": [
+          9.618543845242979,
+          0.6561735401912849,
+          0.3199915347181266
+        ],
+        "section_001_v001": [
+          9.639906010594526,
+          0.32430416346649915,
+          0.12799576735906326
+        ],
+        "section_001_v002": [
+          9.637362165351547,
+          0.32413062327521436,
+          -0.2559957673590625
+        ],
+        "section_001_v003": [
+          9.61345615475702,
+          0.6558264598087153,
+          -0.4479915347181258
+        ],
+        "section_001_v004": [
+          9.592093989405473,
+          0.9876958365335009,
+          -0.25599576735906293
+        ],
+        "section_001_v005": [
+          9.594637834648452,
+          0.9878693767247857,
+          0.12799576735906326
+        ],
+        "cap_start_center": [
+          0,
+          0,
+          -4.440892098500626e-16
+        ],
+        "cap_end_center": [
+          9.616,
+          0.6559999999999999,
+          -0.06399999999999961
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v001": [
+              176.0,
+              130.0
+            ],
+            "section_001_v001": [
+              99.12950134277344,
+              123.94638061523438
+            ],
+            "section_001_v000": [
+              99.37066650390625,
+              120.88386535644531
+            ],
+            "section_000_v000": [
+              176.24118041992188,
+              126.93748474121094
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_1#0"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v002": [
+              9.0,
+              245.0
+            ],
+            "section_001_v002": [
+              8.488006591796875,
+              167.89320373535156
+            ],
+            "section_001_v001": [
+              11.5599365234375,
+              167.872802734375
+            ],
+            "section_000_v001": [
+              12.071929931640625,
+              244.97959899902344
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_1#3"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v002",
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v002": [
+              100.0,
+              154.0
+            ],
+            "section_000_v003": [
+              99.75869750976562,
+              150.93748474121094
+            ],
+            "section_001_v003": [
+              176.6289520263672,
+              144.88072204589844
+            ],
+            "section_001_v002": [
+              176.87025451660156,
+              147.9432373046875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_1#6"
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v003",
+            "section_000_v004",
+            "section_001_v004",
+            "section_001_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v003": [
+              96.0,
+              166.0
+            ],
+            "section_000_v004": [
+              95.75881958007812,
+              162.93748474121094
+            ],
+            "section_001_v004": [
+              172.62933349609375,
+              156.8838653564453
+            ],
+            "section_001_v003": [
+              172.87049865722656,
+              159.94638061523438
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_1#7"
+        },
+        "section_000__section_001_side_004": {
+          "vertices": [
+            "section_000_v004",
+            "section_000_v005",
+            "section_001_v005",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_004",
+          "uv": {
+            "section_000_v004": [
+              5.0,
+              245.0
+            ],
+            "section_000_v005": [
+              1.928070068359375,
+              244.97959899902344
+            ],
+            "section_001_v005": [
+              2.4400634765625,
+              167.872802734375
+            ],
+            "section_001_v004": [
+              5.511993408203125,
+              167.89320373535156
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_1#2"
+        },
+        "section_000__section_001_side_005": {
+          "vertices": [
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v005",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_005",
+          "uv": {
+            "section_000_v000": [
+              176.0,
+              142.0
+            ],
+            "section_001_v000": [
+              99.12974548339844,
+              135.9432373046875
+            ],
+            "section_001_v005": [
+              99.37104797363281,
+              132.88072204589844
+            ],
+            "section_000_v005": [
+              176.24130249023438,
+              138.93748474121094
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_1#1"
+        },
+        "cap_start_000": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v005",
+            "section_000_v004",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_000",
+          "uv": {
+            "cap_start_center": [
+              185.0,
+              95.0
+            ],
+            "section_000_v005": [
+              183.4652099609375,
+              92.3388671875
+            ],
+            "section_000_v004": [
+              186.53720092773438,
+              92.34027099609375
+            ],
+            "section_000_v003": [
+              188.07200622558594,
+              95.00138854980469
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_1#4"
+        },
+        "cap_start_001": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_001",
+          "uv": {
+            "cap_start_center": [
+              185.0,
+              95.0
+            ],
+            "section_000_v003": [
+              188.07200622558594,
+              95.00138854980469
+            ],
+            "section_000_v002": [
+              186.5347900390625,
+              97.6611328125
+            ],
+            "section_000_v001": [
+              183.46279907226562,
+              97.65972900390625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_1#4"
+        },
+        "cap_start_002": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v001",
+            "section_000_v000",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_002",
+          "uv": {
+            "cap_start_center": [
+              185.0,
+              95.0
+            ],
+            "section_000_v001": [
+              183.46279907226562,
+              97.65972900390625
+            ],
+            "section_000_v000": [
+              181.92799377441406,
+              94.99861145019531
+            ],
+            "section_000_v005": [
+              183.4652099609375,
+              92.3388671875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_1#4"
+        },
+        "cap_end_000": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_000",
+          "uv": {
+            "cap_end_center": [
+              185.0,
+              103.0
+            ],
+            "section_001_v000": [
+              188.07200622558594,
+              102.99861145019531
+            ],
+            "section_001_v001": [
+              186.53720092773438,
+              105.65972900390625
+            ],
+            "section_001_v002": [
+              183.4652099609375,
+              105.6611328125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_1#5"
+        },
+        "cap_end_001": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_001",
+          "uv": {
+            "cap_end_center": [
+              185.0,
+              103.0
+            ],
+            "section_001_v002": [
+              183.4652099609375,
+              105.6611328125
+            ],
+            "section_001_v003": [
+              181.92799377441406,
+              103.00138854980469
+            ],
+            "section_001_v004": [
+              183.46279907226562,
+              100.34027099609375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_1#5"
+        },
+        "cap_end_002": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v004",
+            "section_001_v005",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_002",
+          "uv": {
+            "cap_end_center": [
+              185.0,
+              103.0
+            ],
+            "section_001_v004": [
+              183.46279907226562,
+              100.34027099609375
+            ],
+            "section_001_v005": [
+              186.5347900390625,
+              100.3388671875
+            ],
+            "section_001_v000": [
+              188.07200622558594,
+              102.99861145019531
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_1#5"
+        }
+      },
+      "type": "mesh",
+      "uuid": "66a846ae-0cc5-5c89-a9fe-3768750fe12d",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            9.616,
+            0.6560000000000001,
+            -0.06399999999999961
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            9.616,
+            0.6560000000000001,
+            -0.06399999999999961
+          ],
+          "center": [
+            4.808,
+            0.32800000000000007,
+            -0.03200000000000003
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003",
+            "section_000_v004",
+            "section_000_v005"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004",
+            "section_001_v005"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            9.616,
+            0.6560000000000001,
+            -0.06399999999999961
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            9.616,
+            0.6560000000000001,
+            -0.06399999999999961
+          ],
+          "center": [
+            4.808,
+            0.32800000000000007,
+            -0.03200000000000003
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0.9976591376238142,
+              0.0680599411690123,
+              -0.006639994260391402
+            ],
+            "up": [
+              -0.06806144158382417,
+              0.9976811315092271,
+              5.421010862427522e-20
+            ]
+          },
+          "section_001": {
+            "origin": [
+              9.616,
+              0.6560000000000001,
+              -0.06399999999999961
+            ],
+            "forward": [
+              0.9976591376238142,
+              0.0680599411690123,
+              -0.006639994260391402
+            ],
+            "up": [
+              -0.06806144158382417,
+              0.9976811315092271,
+              5.421010862427522e-20
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0.9976591376238142,
+              0.0680599411690123,
+              -0.006639994260391402
+            ],
+            "up": [
+              -0.06806144158382417,
+              0.9976811315092271,
+              5.421010862427522e-20
+            ]
+          },
+          "top": {
+            "origin": [
+              9.616,
+              0.6560000000000001,
+              -0.06399999999999961
+            ],
+            "forward": [
+              0.9976591376238142,
+              0.0680599411690123,
+              -0.006639994260391402
+            ],
+            "up": [
+              -0.06806144158382417,
+              0.9976811315092271,
+              5.421010862427522e-20
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "wood_border_2",
+      "color": 0,
+      "origin": [
+        -4.896,
+        1.04,
+        -2.672
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.3839982698143425,
+          3.114341198817705e-05,
+          0.001152306243562773
+        ],
+        "section_000_v001": [
+          0.1919991349071717,
+          0.33244793461972844,
+          -0.00840850533534665
+        ],
+        "section_000_v002": [
+          -0.1919991349071717,
+          0.33241679120774026,
+          -0.009560811578909423
+        ],
+        "section_000_v003": [
+          -0.3839982698143425,
+          -3.114341198817705e-05,
+          -0.001152306243562773
+        ],
+        "section_000_v004": [
+          -0.1919991349071717,
+          -0.3324479346197283,
+          0.00840850533534665
+        ],
+        "section_000_v005": [
+          0.1919991349071717,
+          -0.33241679120774026,
+          0.009560811578909423
+        ],
+        "section_001_v000": [
+          0.36799826981434336,
+          0.14403114341198808,
+          5.329152306243563
+        ],
+        "section_001_v001": [
+          0.17599913490717167,
+          0.47644793461972834,
+          5.319591494664653
+        ],
+        "section_001_v002": [
+          -0.2079991349071717,
+          0.47641679120774016,
+          5.318439188421091
+        ],
+        "section_001_v003": [
+          -0.3999982698143434,
+          0.14396885658801173,
+          5.326847693756438
+        ],
+        "section_001_v004": [
+          -0.2079991349071717,
+          -0.18844793461972853,
+          5.336408505335347
+        ],
+        "section_001_v005": [
+          0.17599913490717167,
+          -0.18841679120774035,
+          5.33756081157891
+        ],
+        "cap_start_center": [
+          0,
+          0,
+          0
+        ],
+        "cap_end_center": [
+          -0.016000000000000014,
+          0.1439999999999999,
+          5.328
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v000": [
+              194.0,
+              6.0
+            ],
+            "section_000_v001": [
+              193.9041748046875,
+              2.9294891357421875
+            ],
+            "section_001_v001": [
+              236.52317810058594,
+              1.5993804931640625
+            ],
+            "section_001_v000": [
+              236.61900329589844,
+              4.669891357421875
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_2#5"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v002": [
+              90.0,
+              136.0
+            ],
+            "section_001_v002": [
+              89.87199401855469,
+              93.36042785644531
+            ],
+            "section_001_v001": [
+              92.94398498535156,
+              93.35121154785156
+            ],
+            "section_000_v001": [
+              93.07199096679688,
+              135.99078369140625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_2#2"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002",
+            "section_000_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v003": [
+              226.0,
+              74.0
+            ],
+            "section_001_v003": [
+              183.38099670410156,
+              72.67001342773438
+            ],
+            "section_001_v002": [
+              183.476806640625,
+              69.59950256347656
+            ],
+            "section_000_v002": [
+              226.0958251953125,
+              70.92948913574219
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_2#3"
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v004",
+            "section_001_v004",
+            "section_001_v003",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v004": [
+              226.0,
+              81.0
+            ],
+            "section_001_v004": [
+              183.38099670410156,
+              79.66989135742188
+            ],
+            "section_001_v003": [
+              183.47682189941406,
+              76.59938049316406
+            ],
+            "section_000_v003": [
+              226.0958251953125,
+              77.92948913574219
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_2#4"
+        },
+        "section_000__section_001_side_004": {
+          "vertices": [
+            "section_000_v004",
+            "section_000_v005",
+            "section_001_v005",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_004",
+          "uv": {
+            "section_000_v004": [
+              93.0,
+              91.0
+            ],
+            "section_000_v005": [
+              89.92800903320312,
+              90.99078369140625
+            ],
+            "section_001_v005": [
+              90.05601501464844,
+              48.35121154785156
+            ],
+            "section_001_v004": [
+              93.12800598144531,
+              48.36042785644531
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_2#1"
+        },
+        "section_000__section_001_side_005": {
+          "vertices": [
+            "section_000_v005",
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_005",
+          "uv": {
+            "section_000_v005": [
+              194.0,
+              13.0
+            ],
+            "section_000_v000": [
+              193.9041748046875,
+              9.929489135742188
+            ],
+            "section_001_v000": [
+              236.523193359375,
+              8.599502563476562
+            ],
+            "section_001_v005": [
+              236.61900329589844,
+              11.670013427734375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_2#6"
+        },
+        "cap_start_000": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v005",
+            "section_000_v004",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_000",
+          "uv": {
+            "cap_start_center": [
+              187.0,
+              48.0
+            ],
+            "section_000_v005": [
+              188.5362091064453,
+              50.660308837890625
+            ],
+            "section_000_v004": [
+              185.46421813964844,
+              50.660552978515625
+            ],
+            "section_000_v003": [
+              183.92799377441406,
+              48.000244140625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_2#7"
+        },
+        "cap_start_001": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_001",
+          "uv": {
+            "cap_start_center": [
+              187.0,
+              48.0
+            ],
+            "section_000_v003": [
+              183.92799377441406,
+              48.000244140625
+            ],
+            "section_000_v002": [
+              185.4637908935547,
+              45.339691162109375
+            ],
+            "section_000_v001": [
+              188.53578186035156,
+              45.339447021484375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_2#7"
+        },
+        "cap_start_002": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v001",
+            "section_000_v000",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_002",
+          "uv": {
+            "cap_start_center": [
+              187.0,
+              48.0
+            ],
+            "section_000_v001": [
+              188.53578186035156,
+              45.339447021484375
+            ],
+            "section_000_v000": [
+              190.07200622558594,
+              47.999755859375
+            ],
+            "section_000_v005": [
+              188.5362091064453,
+              50.660308837890625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_2#7"
+        },
+        "cap_end_000": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_000",
+          "uv": {
+            "cap_end_center": [
+              185.0,
+              111.0
+            ],
+            "section_001_v000": [
+              181.92799377441406,
+              110.999755859375
+            ],
+            "section_001_v001": [
+              183.46421813964844,
+              108.33944702148438
+            ],
+            "section_001_v002": [
+              186.5362091064453,
+              108.33969116210938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_2#0"
+        },
+        "cap_end_001": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_001",
+          "uv": {
+            "cap_end_center": [
+              185.0,
+              111.0
+            ],
+            "section_001_v002": [
+              186.5362091064453,
+              108.33969116210938
+            ],
+            "section_001_v003": [
+              188.07200622558594,
+              111.000244140625
+            ],
+            "section_001_v004": [
+              186.53578186035156,
+              113.66055297851562
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_2#0"
+        },
+        "cap_end_002": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v004",
+            "section_001_v005",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_002",
+          "uv": {
+            "cap_end_center": [
+              185.0,
+              111.0
+            ],
+            "section_001_v004": [
+              186.53578186035156,
+              113.66055297851562
+            ],
+            "section_001_v005": [
+              183.4637908935547,
+              113.66030883789062
+            ],
+            "section_001_v000": [
+              181.92799377441406,
+              110.999755859375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_2#0"
+        }
+      },
+      "type": "mesh",
+      "uuid": "3daafc4f-6e4e-5b91-89f6-1739528fd1c5",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            -0.016000000000000014,
+            0.1439999999999999,
+            5.328
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            -0.016000000000000014,
+            0.1439999999999999,
+            5.328
+          ],
+          "center": [
+            -0.008000000000000007,
+            0.07200000000000006,
+            2.664
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003",
+            "section_000_v004",
+            "section_000_v005"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004",
+            "section_001_v005"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            -0.016000000000000014,
+            0.1439999999999999,
+            5.328
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            -0.016000000000000014,
+            0.1439999999999999,
+            5.328
+          ],
+          "center": [
+            -0.008000000000000007,
+            0.07200000000000006,
+            2.664
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              -0.0030018932907680254,
+              0.027017039616912188,
+              0.9996304658257517
+            ],
+            "up": [
+              -4.0657581468206404e-20,
+              -0.9996349698728535,
+              0.02701716134791494
+            ]
+          },
+          "section_001": {
+            "origin": [
+              -0.016000000000000014,
+              0.1439999999999999,
+              5.328
+            ],
+            "forward": [
+              -0.0030018932907680254,
+              0.027017039616912188,
+              0.9996304658257517
+            ],
+            "up": [
+              -4.0657581468206404e-20,
+              -0.9996349698728535,
+              0.02701716134791494
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              -0.0030018932907680254,
+              0.027017039616912188,
+              0.9996304658257517
+            ],
+            "up": [
+              -4.0657581468206404e-20,
+              -0.9996349698728535,
+              0.02701716134791494
+            ]
+          },
+          "top": {
+            "origin": [
+              -0.016000000000000014,
+              0.1439999999999999,
+              5.328
+            ],
+            "forward": [
+              -0.0030018932907680254,
+              0.027017039616912188,
+              0.9996304658257517
+            ],
+            "up": [
+              -4.0657581468206404e-20,
+              -0.9996349698728535,
+              0.02701716134791494
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "wood_border_3",
+      "color": 0,
+      "origin": [
+        4.944,
+        1.648,
+        -2.56
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.38310217839746485,
+          0.0008171578639672994,
+          0.026230767433347513
+        ],
+        "section_000_v001": [
+          0.19155108919873243,
+          0.33280108171853473,
+          0.0027604770878091323
+        ],
+        "section_000_v002": [
+          -0.19155108919873243,
+          0.33198392385456765,
+          -0.02347029034553838
+        ],
+        "section_000_v003": [
+          -0.38310217839746485,
+          -0.0008171578639670773,
+          -0.026230767433347513
+        ],
+        "section_000_v004": [
+          -0.19155108919873243,
+          -0.33280108171853473,
+          -0.0027604770878091323
+        ],
+        "section_000_v005": [
+          0.19155108919873243,
+          -0.33198392385456765,
+          0.02347029034553838
+        ],
+        "section_001_v000": [
+          0.03110217839746454,
+          0.16081715786396744,
+          5.162230767433348
+        ],
+        "section_001_v001": [
+          -0.16044891080126789,
+          0.4928010817185349,
+          5.138760477087809
+        ],
+        "section_001_v002": [
+          -0.5435510891987327,
+          0.491983923854568,
+          5.112529709654462
+        ],
+        "section_001_v003": [
+          -0.7351021783974652,
+          0.15918284213603306,
+          5.109769232566652
+        ],
+        "section_001_v004": [
+          -0.5435510891987327,
+          -0.1728010817185346,
+          5.133239522912191
+        ],
+        "section_001_v005": [
+          -0.16044891080126789,
+          -0.1719839238545675,
+          5.1594702903455385
+        ],
+        "cap_start_center": [
+          0,
+          0,
+          0
+        ],
+        "cap_end_center": [
+          -0.3520000000000003,
+          0.16000000000000014,
+          5.136
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v000": [
+              194.0,
+              34.0
+            ],
+            "section_000_v001": [
+              193.8896942138672,
+              30.929977416992188
+            ],
+            "section_001_v001": [
+              235.0673828125,
+              29.45037841796875
+            ],
+            "section_001_v000": [
+              235.17770385742188,
+              32.52040100097656
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_3#5"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v002": [
+              187.0,
+              43.0
+            ],
+            "section_001_v002": [
+              184.1840057373047,
+              1.8920745849609375
+            ],
+            "section_001_v001": [
+              187.24880981445312,
+              1.6821136474609375
+            ],
+            "section_000_v001": [
+              190.0648193359375,
+              42.79005432128906
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_3#3"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002",
+            "section_000_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v003": [
+              235.0,
+              41.0
+            ],
+            "section_001_v003": [
+              193.82217407226562,
+              39.52403259277344
+            ],
+            "section_001_v002": [
+              193.93222045898438,
+              36.45399475097656
+            ],
+            "section_000_v002": [
+              235.11004638671875,
+              37.92997741699219
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_3#6"
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v004",
+            "section_001_v004",
+            "section_001_v003",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v004": [
+              235.0,
+              27.0
+            ],
+            "section_001_v004": [
+              193.82229614257812,
+              25.520401000976562
+            ],
+            "section_001_v003": [
+              193.9326171875,
+              22.45037841796875
+            ],
+            "section_000_v003": [
+              235.1103057861328,
+              23.929977416992188
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_3#4"
+        },
+        "section_000__section_001_side_004": {
+          "vertices": [
+            "section_000_v004",
+            "section_000_v005",
+            "section_001_v005",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_004",
+          "uv": {
+            "section_000_v004": [
+              179.0,
+              43.0
+            ],
+            "section_000_v005": [
+              175.9351806640625,
+              42.79005432128906
+            ],
+            "section_001_v005": [
+              178.75119018554688,
+              1.6821136474609375
+            ],
+            "section_001_v004": [
+              181.8159942626953,
+              1.8920745849609375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_3#2"
+        },
+        "section_000__section_001_side_005": {
+          "vertices": [
+            "section_000_v005",
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_005",
+          "uv": {
+            "section_000_v005": [
+              194.0,
+              20.0
+            ],
+            "section_000_v000": [
+              193.88995361328125,
+              16.929977416992188
+            ],
+            "section_001_v000": [
+              235.06777954101562,
+              15.453994750976562
+            ],
+            "section_001_v005": [
+              235.17782592773438,
+              18.524032592773438
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_3#1"
+        },
+        "cap_start_000": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v005",
+            "section_000_v004",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_000",
+          "uv": {
+            "cap_start_center": [
+              187.0,
+              64.0
+            ],
+            "section_000_v005": [
+              188.54165649414062,
+              66.65715026855469
+            ],
+            "section_000_v004": [
+              185.46966552734375,
+              66.6636962890625
+            ],
+            "section_000_v003": [
+              183.92800903320312,
+              64.00654602050781
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_3#7"
+        },
+        "cap_start_001": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_001",
+          "uv": {
+            "cap_start_center": [
+              187.0,
+              64.0
+            ],
+            "section_000_v003": [
+              183.92800903320312,
+              64.00654602050781
+            ],
+            "section_000_v002": [
+              185.45834350585938,
+              61.34284973144531
+            ],
+            "section_000_v001": [
+              188.53033447265625,
+              61.3363037109375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_3#7"
+        },
+        "cap_start_002": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v001",
+            "section_000_v000",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_002",
+          "uv": {
+            "cap_start_center": [
+              187.0,
+              64.0
+            ],
+            "section_000_v001": [
+              188.53033447265625,
+              61.3363037109375
+            ],
+            "section_000_v000": [
+              190.07199096679688,
+              63.99345397949219
+            ],
+            "section_000_v005": [
+              188.54165649414062,
+              66.65715026855469
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_3#7"
+        },
+        "cap_end_000": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_000",
+          "uv": {
+            "cap_end_center": [
+              187.0,
+              56.0
+            ],
+            "section_001_v000": [
+              183.92800903320312,
+              55.99345397949219
+            ],
+            "section_001_v001": [
+              185.46966552734375,
+              53.3363037109375
+            ],
+            "section_001_v002": [
+              188.54165649414062,
+              53.34284973144531
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_3#0"
+        },
+        "cap_end_001": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_001",
+          "uv": {
+            "cap_end_center": [
+              187.0,
+              56.0
+            ],
+            "section_001_v002": [
+              188.54165649414062,
+              53.34284973144531
+            ],
+            "section_001_v003": [
+              190.07199096679688,
+              56.00654602050781
+            ],
+            "section_001_v004": [
+              188.53033447265625,
+              58.6636962890625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_3#0"
+        },
+        "cap_end_002": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v004",
+            "section_001_v005",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_002",
+          "uv": {
+            "cap_end_center": [
+              187.0,
+              56.0
+            ],
+            "section_001_v004": [
+              188.53033447265625,
+              58.6636962890625
+            ],
+            "section_001_v005": [
+              185.45834350585938,
+              58.65715026855469
+            ],
+            "section_001_v000": [
+              183.92800903320312,
+              55.99345397949219
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "wood_border_3#0"
+        }
+      },
+      "type": "mesh",
+      "uuid": "18655781-88f6-5709-991f-820c819221d5",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            -0.3520000000000003,
+            0.16000000000000014,
+            5.136
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            -0.3520000000000003,
+            0.16000000000000014,
+            5.136
+          ],
+          "center": [
+            -0.17600000000000016,
+            0.08000000000000007,
+            2.568
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003",
+            "section_000_v004",
+            "section_000_v005"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004",
+            "section_001_v005"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            -0.3520000000000003,
+            0.16000000000000014,
+            5.136
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            -0.3520000000000003,
+            0.16000000000000014,
+            5.136
+          ],
+          "center": [
+            -0.17600000000000016,
+            0.08000000000000007,
+            2.568
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              -0.06834242880811339,
+              0.03106474036732427,
+              0.9971781657911082
+            ],
+            "up": [
+              8.673617379884035e-19,
+              -0.9995151091689001,
+              0.03113754234171031
+            ]
+          },
+          "section_001": {
+            "origin": [
+              -0.3520000000000003,
+              0.16000000000000014,
+              5.136
+            ],
+            "forward": [
+              -0.06834242880811339,
+              0.03106474036732427,
+              0.9971781657911082
+            ],
+            "up": [
+              8.673617379884035e-19,
+              -0.9995151091689001,
+              0.03113754234171031
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              -0.06834242880811339,
+              0.03106474036732427,
+              0.9971781657911082
+            ],
+            "up": [
+              8.673617379884035e-19,
+              -0.9995151091689001,
+              0.03113754234171031
+            ]
+          },
+          "top": {
+            "origin": [
+              -0.3520000000000003,
+              0.16000000000000014,
+              5.136
+            ],
+            "forward": [
+              -0.06834242880811339,
+              0.03106474036732427,
+              0.9971781657911082
+            ],
+            "up": [
+              8.673617379884035e-19,
+              -0.9995151091689001,
+              0.03113754234171031
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "iron_pin_-1_0",
+      "color": 0,
+      "origin": [
+        -4.512,
+        1.152,
+        -2.256
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.20800000000000018,
+          0,
+          0
+        ],
+        "section_000_v001": [
+          0.10400000000000009,
+          0,
+          -0.18013328398716322
+        ],
+        "section_000_v002": [
+          -0.10400000000000009,
+          0,
+          -0.18013328398716322
+        ],
+        "section_000_v003": [
+          -0.20800000000000018,
+          0,
+          0
+        ],
+        "section_000_v004": [
+          -0.10400000000000009,
+          0,
+          0.18013328398716322
+        ],
+        "section_000_v005": [
+          0.10400000000000009,
+          0,
+          0.18013328398716322
+        ],
+        "section_001_v000": [
+          0.20800000000000018,
+          0.28800000000000003,
+          0
+        ],
+        "section_001_v001": [
+          0.10400000000000009,
+          0.28800000000000003,
+          -0.18013328398716322
+        ],
+        "section_001_v002": [
+          -0.10400000000000009,
+          0.28800000000000003,
+          -0.18013328398716322
+        ],
+        "section_001_v003": [
+          -0.20800000000000018,
+          0.28800000000000003,
+          0
+        ],
+        "section_001_v004": [
+          -0.10400000000000009,
+          0.28800000000000003,
+          0.18013328398716322
+        ],
+        "section_001_v005": [
+          0.10400000000000009,
+          0.28800000000000003,
+          0.18013328398716322
+        ],
+        "cap_start_center": [
+          0,
+          0,
+          0
+        ],
+        "cap_end_center": [
+          0,
+          0.28800000000000026,
+          0
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v001": [
+              95.0,
+              151.0
+            ],
+            "section_001_v001": [
+              95.0,
+              148.6959991455078
+            ],
+            "section_001_v000": [
+              96.66400146484375,
+              148.6959991455078
+            ],
+            "section_000_v000": [
+              96.66400146484375,
+              151.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_0#2"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v001",
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v001": [
+              91.0,
+              38.0
+            ],
+            "section_000_v002": [
+              89.33599853515625,
+              38.0
+            ],
+            "section_001_v002": [
+              89.33599853515625,
+              35.69599914550781
+            ],
+            "section_001_v001": [
+              91.0,
+              35.69599914550781
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_0#7"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v002",
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v002": [
+              91.0,
+              28.0
+            ],
+            "section_000_v003": [
+              89.33599853515625,
+              28.0
+            ],
+            "section_001_v003": [
+              89.33599853515625,
+              25.695999145507812
+            ],
+            "section_001_v002": [
+              91.0,
+              25.695999145507812
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_0#3",
+          "model_as_code_mirror": [
+            "iron_pin_-1_0",
+            "section_000__section_001_side_000"
+          ]
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v003",
+            "section_000_v004",
+            "section_001_v004",
+            "section_001_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v003": [
+              96.66400146484375,
+              146.0
+            ],
+            "section_000_v004": [
+              95.0,
+              146.0
+            ],
+            "section_001_v004": [
+              95.0,
+              143.6959991455078
+            ],
+            "section_001_v003": [
+              96.66400146484375,
+              143.6959991455078
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_0#1",
+          "model_as_code_mirror": [
+            "iron_pin_-1_0",
+            "section_000__section_001_side_005"
+          ]
+        },
+        "section_000__section_001_side_004": {
+          "vertices": [
+            "section_000_v005",
+            "section_001_v005",
+            "section_001_v004",
+            "section_000_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_004",
+          "uv": {
+            "section_000_v005": [
+              89.0,
+              33.0
+            ],
+            "section_001_v005": [
+              89.0,
+              30.695999145507812
+            ],
+            "section_001_v004": [
+              90.66400146484375,
+              30.695999145507812
+            ],
+            "section_000_v004": [
+              90.66400146484375,
+              33.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_0#4"
+        },
+        "section_000__section_001_side_005": {
+          "vertices": [
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v005",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_005",
+          "uv": {
+            "section_000_v000": [
+              95.33599853515625,
+              141.0
+            ],
+            "section_001_v000": [
+              95.33599853515625,
+              138.6959991455078
+            ],
+            "section_001_v005": [
+              97.0,
+              138.6959991455078
+            ],
+            "section_000_v005": [
+              97.0,
+              141.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_0#0"
+        },
+        "cap_start_000": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v005",
+            "section_000_v004",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_000",
+          "uv": {
+            "cap_start_center": [
+              11.0,
+              144.0
+            ],
+            "section_000_v005": [
+              12.66400146484375,
+              144.0
+            ],
+            "section_000_v004": [
+              11.832000732421875,
+              145.44107055664062
+            ],
+            "section_000_v003": [
+              10.167999267578125,
+              145.44107055664062
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_0#5"
+        },
+        "cap_start_001": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_001",
+          "uv": {
+            "cap_start_center": [
+              11.0,
+              144.0
+            ],
+            "section_000_v003": [
+              10.167999267578125,
+              145.44107055664062
+            ],
+            "section_000_v002": [
+              9.33599853515625,
+              144.0
+            ],
+            "section_000_v001": [
+              10.167999267578125,
+              142.55892944335938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_0#5"
+        },
+        "cap_start_002": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v001",
+            "section_000_v000",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_002",
+          "uv": {
+            "cap_start_center": [
+              11.0,
+              144.0
+            ],
+            "section_000_v001": [
+              10.167999267578125,
+              142.55892944335938
+            ],
+            "section_000_v000": [
+              11.832000732421875,
+              142.55892944335938
+            ],
+            "section_000_v005": [
+              12.66400146484375,
+              144.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_0#5"
+        },
+        "cap_end_000": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_000",
+          "uv": {
+            "cap_end_center": [
+              11.0,
+              150.0
+            ],
+            "section_001_v000": [
+              12.66400146484375,
+              150.0
+            ],
+            "section_001_v001": [
+              11.832000732421875,
+              151.44107055664062
+            ],
+            "section_001_v002": [
+              10.167999267578125,
+              151.44107055664062
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_0#6"
+        },
+        "cap_end_001": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_001",
+          "uv": {
+            "cap_end_center": [
+              11.0,
+              150.0
+            ],
+            "section_001_v002": [
+              10.167999267578125,
+              151.44107055664062
+            ],
+            "section_001_v003": [
+              9.33599853515625,
+              150.0
+            ],
+            "section_001_v004": [
+              10.167999267578125,
+              148.55892944335938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_0#6"
+        },
+        "cap_end_002": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v004",
+            "section_001_v005",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_002",
+          "uv": {
+            "cap_end_center": [
+              11.0,
+              150.0
+            ],
+            "section_001_v004": [
+              10.167999267578125,
+              148.55892944335938
+            ],
+            "section_001_v005": [
+              11.832000732421875,
+              148.55892944335938
+            ],
+            "section_001_v000": [
+              12.66400146484375,
+              150.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_0#6"
+        }
+      },
+      "type": "mesh",
+      "uuid": "93ecbd48-f6e8-565b-b0af-497cd70f4732",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "center": [
+            0,
+            0.14400000000000013,
+            0
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003",
+            "section_000_v004",
+            "section_000_v005"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004",
+            "section_001_v005"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "center": [
+            0,
+            0.14400000000000013,
+            0
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "section_001": {
+            "origin": [
+              0,
+              0.28800000000000003,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "top": {
+            "origin": [
+              0,
+              0.28800000000000003,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "iron_pin_-1_1",
+      "color": 0,
+      "origin": [
+        -4.512,
+        1.152,
+        2.272
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.20800000000000018,
+          0,
+          0
+        ],
+        "section_000_v001": [
+          0.10400000000000009,
+          0,
+          -0.18013328398716322
+        ],
+        "section_000_v002": [
+          -0.10400000000000009,
+          0,
+          -0.18013328398716322
+        ],
+        "section_000_v003": [
+          -0.20800000000000018,
+          0,
+          0
+        ],
+        "section_000_v004": [
+          -0.10400000000000009,
+          0,
+          0.18013328398716322
+        ],
+        "section_000_v005": [
+          0.10400000000000009,
+          0,
+          0.18013328398716322
+        ],
+        "section_001_v000": [
+          0.20800000000000018,
+          0.28800000000000003,
+          0
+        ],
+        "section_001_v001": [
+          0.10400000000000009,
+          0.28800000000000003,
+          -0.18013328398716322
+        ],
+        "section_001_v002": [
+          -0.10400000000000009,
+          0.28800000000000003,
+          -0.18013328398716322
+        ],
+        "section_001_v003": [
+          -0.20800000000000018,
+          0.28800000000000003,
+          0
+        ],
+        "section_001_v004": [
+          -0.10400000000000009,
+          0.28800000000000003,
+          0.18013328398716322
+        ],
+        "section_001_v005": [
+          0.10400000000000009,
+          0.28800000000000003,
+          0.18013328398716322
+        ],
+        "cap_start_center": [
+          0,
+          0,
+          0
+        ],
+        "cap_end_center": [
+          0,
+          0.28800000000000026,
+          0
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v001": [
+              243.0,
+              4.0
+            ],
+            "section_001_v001": [
+              243.0,
+              1.6959991455078125
+            ],
+            "section_001_v000": [
+              244.66400146484375,
+              1.6959991455078125
+            ],
+            "section_000_v000": [
+              244.66400146484375,
+              4.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_1#2"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v001",
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v001": [
+              241.0,
+              9.0
+            ],
+            "section_000_v002": [
+              239.33599853515625,
+              9.0
+            ],
+            "section_001_v002": [
+              239.33599853515625,
+              6.6959991455078125
+            ],
+            "section_001_v001": [
+              241.0,
+              6.6959991455078125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_1#7"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v002",
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v002": [
+              249.0,
+              4.0
+            ],
+            "section_000_v003": [
+              247.33599853515625,
+              4.0
+            ],
+            "section_001_v003": [
+              247.33599853515625,
+              1.6959991455078125
+            ],
+            "section_001_v002": [
+              249.0,
+              1.6959991455078125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_1#3",
+          "model_as_code_mirror": [
+            "iron_pin_-1_1",
+            "section_000__section_001_side_000"
+          ]
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v003",
+            "section_000_v004",
+            "section_001_v004",
+            "section_001_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v003": [
+              240.66400146484375,
+              4.0
+            ],
+            "section_000_v004": [
+              239.0,
+              4.0
+            ],
+            "section_001_v004": [
+              239.0,
+              1.6959991455078125
+            ],
+            "section_001_v003": [
+              240.66400146484375,
+              1.6959991455078125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_1#1",
+          "model_as_code_mirror": [
+            "iron_pin_-1_1",
+            "section_000__section_001_side_005"
+          ]
+        },
+        "section_000__section_001_side_004": {
+          "vertices": [
+            "section_000_v005",
+            "section_001_v005",
+            "section_001_v004",
+            "section_000_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_004",
+          "uv": {
+            "section_000_v005": [
+              251.0,
+              4.0
+            ],
+            "section_001_v005": [
+              251.0,
+              1.6959991455078125
+            ],
+            "section_001_v004": [
+              252.66400146484375,
+              1.6959991455078125
+            ],
+            "section_000_v004": [
+              252.66400146484375,
+              4.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_1#4"
+        },
+        "section_000__section_001_side_005": {
+          "vertices": [
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v005",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_005",
+          "uv": {
+            "section_000_v000": [
+              89.33599853515625,
+              43.0
+            ],
+            "section_001_v000": [
+              89.33599853515625,
+              40.69599914550781
+            ],
+            "section_001_v005": [
+              91.0,
+              40.69599914550781
+            ],
+            "section_000_v005": [
+              91.0,
+              43.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_1#0"
+        },
+        "cap_start_000": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v005",
+            "section_000_v004",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_000",
+          "uv": {
+            "cap_start_center": [
+              11.0,
+              156.0
+            ],
+            "section_000_v005": [
+              12.66400146484375,
+              156.0
+            ],
+            "section_000_v004": [
+              11.832000732421875,
+              157.44107055664062
+            ],
+            "section_000_v003": [
+              10.167999267578125,
+              157.44107055664062
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_1#5"
+        },
+        "cap_start_001": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_001",
+          "uv": {
+            "cap_start_center": [
+              11.0,
+              156.0
+            ],
+            "section_000_v003": [
+              10.167999267578125,
+              157.44107055664062
+            ],
+            "section_000_v002": [
+              9.33599853515625,
+              156.0
+            ],
+            "section_000_v001": [
+              10.167999267578125,
+              154.55892944335938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_1#5"
+        },
+        "cap_start_002": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v001",
+            "section_000_v000",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_002",
+          "uv": {
+            "cap_start_center": [
+              11.0,
+              156.0
+            ],
+            "section_000_v001": [
+              10.167999267578125,
+              154.55892944335938
+            ],
+            "section_000_v000": [
+              11.832000732421875,
+              154.55892944335938
+            ],
+            "section_000_v005": [
+              12.66400146484375,
+              156.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_1#5"
+        },
+        "cap_end_000": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_000",
+          "uv": {
+            "cap_end_center": [
+              11.0,
+              162.0
+            ],
+            "section_001_v000": [
+              12.66400146484375,
+              162.0
+            ],
+            "section_001_v001": [
+              11.832000732421875,
+              163.44107055664062
+            ],
+            "section_001_v002": [
+              10.167999267578125,
+              163.44107055664062
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_1#6"
+        },
+        "cap_end_001": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_001",
+          "uv": {
+            "cap_end_center": [
+              11.0,
+              162.0
+            ],
+            "section_001_v002": [
+              10.167999267578125,
+              163.44107055664062
+            ],
+            "section_001_v003": [
+              9.33599853515625,
+              162.0
+            ],
+            "section_001_v004": [
+              10.167999267578125,
+              160.55892944335938
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_1#6"
+        },
+        "cap_end_002": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v004",
+            "section_001_v005",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_002",
+          "uv": {
+            "cap_end_center": [
+              11.0,
+              162.0
+            ],
+            "section_001_v004": [
+              10.167999267578125,
+              160.55892944335938
+            ],
+            "section_001_v005": [
+              11.832000732421875,
+              160.55892944335938
+            ],
+            "section_001_v000": [
+              12.66400146484375,
+              162.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_-1_1#6"
+        }
+      },
+      "type": "mesh",
+      "uuid": "d7728f67-0522-559e-a675-fc962ebc69a1",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "center": [
+            0,
+            0.14400000000000013,
+            0
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003",
+            "section_000_v004",
+            "section_000_v005"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004",
+            "section_001_v005"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "center": [
+            0,
+            0.14400000000000013,
+            0
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "section_001": {
+            "origin": [
+              0,
+              0.28800000000000003,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "top": {
+            "origin": [
+              0,
+              0.28800000000000003,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "iron_pin_1_0",
+      "color": 0,
+      "origin": [
+        4.512,
+        1.792,
+        -2.256
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.20800000000000018,
+          0,
+          0
+        ],
+        "section_000_v001": [
+          0.10400000000000009,
+          0,
+          -0.18013328398716322
+        ],
+        "section_000_v002": [
+          -0.10400000000000009,
+          0,
+          -0.18013328398716322
+        ],
+        "section_000_v003": [
+          -0.20800000000000018,
+          0,
+          0
+        ],
+        "section_000_v004": [
+          -0.10400000000000009,
+          0,
+          0.18013328398716322
+        ],
+        "section_000_v005": [
+          0.10400000000000009,
+          0,
+          0.18013328398716322
+        ],
+        "section_001_v000": [
+          0.20800000000000018,
+          0.28800000000000003,
+          0
+        ],
+        "section_001_v001": [
+          0.10400000000000009,
+          0.28800000000000003,
+          -0.18013328398716322
+        ],
+        "section_001_v002": [
+          -0.10400000000000009,
+          0.28800000000000003,
+          -0.18013328398716322
+        ],
+        "section_001_v003": [
+          -0.20800000000000018,
+          0.28800000000000003,
+          0
+        ],
+        "section_001_v004": [
+          -0.10400000000000009,
+          0.28800000000000003,
+          0.18013328398716322
+        ],
+        "section_001_v005": [
+          0.10400000000000009,
+          0.28800000000000003,
+          0.18013328398716322
+        ],
+        "cap_start_center": [
+          0,
+          0,
+          0
+        ],
+        "cap_end_center": [
+          0,
+          0.28800000000000003,
+          0
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v001": [
+              251.0,
+              9.0
+            ],
+            "section_001_v001": [
+              251.0,
+              6.6959991455078125
+            ],
+            "section_001_v000": [
+              252.66400146484375,
+              6.6959991455078125
+            ],
+            "section_000_v000": [
+              252.66400146484375,
+              9.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_0#2"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v002": [
+              247.0,
+              14.0
+            ],
+            "section_001_v002": [
+              247.0,
+              11.695999145507812
+            ],
+            "section_001_v001": [
+              248.66400146484375,
+              11.695999145507812
+            ],
+            "section_000_v001": [
+              248.66400146484375,
+              14.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_0#7"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v002",
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v002": [
+              241.0,
+              14.0
+            ],
+            "section_000_v003": [
+              239.33599853515625,
+              14.0
+            ],
+            "section_001_v003": [
+              239.33599853515625,
+              11.695999145507812
+            ],
+            "section_001_v002": [
+              241.0,
+              11.695999145507812
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_0#3",
+          "model_as_code_mirror": [
+            "iron_pin_1_0",
+            "section_000__section_001_side_000"
+          ]
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v003",
+            "section_000_v004",
+            "section_001_v004",
+            "section_001_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v003": [
+              248.66400146484375,
+              9.0
+            ],
+            "section_000_v004": [
+              247.0,
+              9.0
+            ],
+            "section_001_v004": [
+              247.0,
+              6.6959991455078125
+            ],
+            "section_001_v003": [
+              248.66400146484375,
+              6.6959991455078125
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_0#1",
+          "model_as_code_mirror": [
+            "iron_pin_1_0",
+            "section_000__section_001_side_005"
+          ]
+        },
+        "section_000__section_001_side_004": {
+          "vertices": [
+            "section_000_v004",
+            "section_000_v005",
+            "section_001_v005",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_004",
+          "uv": {
+            "section_000_v004": [
+              245.0,
+              14.0
+            ],
+            "section_000_v005": [
+              243.33599853515625,
+              14.0
+            ],
+            "section_001_v005": [
+              243.33599853515625,
+              11.695999145507812
+            ],
+            "section_001_v004": [
+              245.0,
+              11.695999145507812
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_0#4"
+        },
+        "section_000__section_001_side_005": {
+          "vertices": [
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v005",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_005",
+          "uv": {
+            "section_000_v000": [
+              243.33599853515625,
+              9.0
+            ],
+            "section_001_v000": [
+              243.33599853515625,
+              6.6959991455078125
+            ],
+            "section_001_v005": [
+              245.0,
+              6.6959991455078125
+            ],
+            "section_000_v005": [
+              245.0,
+              9.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_0#0"
+        },
+        "cap_start_000": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v005",
+            "section_000_v004",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_000",
+          "uv": {
+            "cap_start_center": [
+              91.0,
+              3.0
+            ],
+            "section_000_v005": [
+              92.66400146484375,
+              3.0
+            ],
+            "section_000_v004": [
+              91.83200073242188,
+              4.441070556640625
+            ],
+            "section_000_v003": [
+              90.16799926757812,
+              4.441070556640625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_0#5"
+        },
+        "cap_start_001": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_001",
+          "uv": {
+            "cap_start_center": [
+              91.0,
+              3.0
+            ],
+            "section_000_v003": [
+              90.16799926757812,
+              4.441070556640625
+            ],
+            "section_000_v002": [
+              89.33599853515625,
+              3.0
+            ],
+            "section_000_v001": [
+              90.16799926757812,
+              1.558929443359375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_0#5"
+        },
+        "cap_start_002": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v001",
+            "section_000_v000",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_002",
+          "uv": {
+            "cap_start_center": [
+              91.0,
+              3.0
+            ],
+            "section_000_v001": [
+              90.16799926757812,
+              1.558929443359375
+            ],
+            "section_000_v000": [
+              91.83200073242188,
+              1.558929443359375
+            ],
+            "section_000_v005": [
+              92.66400146484375,
+              3.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_0#5"
+        },
+        "cap_end_000": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_000",
+          "uv": {
+            "cap_end_center": [
+              91.0,
+              9.0
+            ],
+            "section_001_v000": [
+              92.66400146484375,
+              9.0
+            ],
+            "section_001_v001": [
+              91.83200073242188,
+              10.441070556640625
+            ],
+            "section_001_v002": [
+              90.16799926757812,
+              10.441070556640625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_0#6"
+        },
+        "cap_end_001": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_001",
+          "uv": {
+            "cap_end_center": [
+              91.0,
+              9.0
+            ],
+            "section_001_v002": [
+              90.16799926757812,
+              10.441070556640625
+            ],
+            "section_001_v003": [
+              89.33599853515625,
+              9.0
+            ],
+            "section_001_v004": [
+              90.16799926757812,
+              7.558929443359375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_0#6"
+        },
+        "cap_end_002": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v004",
+            "section_001_v005",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_002",
+          "uv": {
+            "cap_end_center": [
+              91.0,
+              9.0
+            ],
+            "section_001_v004": [
+              90.16799926757812,
+              7.558929443359375
+            ],
+            "section_001_v005": [
+              91.83200073242188,
+              7.558929443359375
+            ],
+            "section_001_v000": [
+              92.66400146484375,
+              9.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_0#6"
+        }
+      },
+      "type": "mesh",
+      "uuid": "fc4c796e-4b8a-5cde-b8dc-da9c41ef828f",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "center": [
+            0,
+            0.1439999999999999,
+            0
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003",
+            "section_000_v004",
+            "section_000_v005"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004",
+            "section_001_v005"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "center": [
+            0,
+            0.1439999999999999,
+            0
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "section_001": {
+            "origin": [
+              0,
+              0.28800000000000003,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "top": {
+            "origin": [
+              0,
+              0.28800000000000003,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "iron_pin_1_1",
+      "color": 0,
+      "origin": [
+        4.512,
+        1.792,
+        2.272
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "visibility": true,
+      "vertices": {
+        "section_000_v000": [
+          0.20800000000000018,
+          0,
+          0
+        ],
+        "section_000_v001": [
+          0.10400000000000009,
+          0,
+          -0.18013328398716322
+        ],
+        "section_000_v002": [
+          -0.10400000000000009,
+          0,
+          -0.18013328398716322
+        ],
+        "section_000_v003": [
+          -0.20800000000000018,
+          0,
+          0
+        ],
+        "section_000_v004": [
+          -0.10400000000000009,
+          0,
+          0.18013328398716322
+        ],
+        "section_000_v005": [
+          0.10400000000000009,
+          0,
+          0.18013328398716322
+        ],
+        "section_001_v000": [
+          0.20800000000000018,
+          0.28800000000000003,
+          0
+        ],
+        "section_001_v001": [
+          0.10400000000000009,
+          0.28800000000000003,
+          -0.18013328398716322
+        ],
+        "section_001_v002": [
+          -0.10400000000000009,
+          0.28800000000000003,
+          -0.18013328398716322
+        ],
+        "section_001_v003": [
+          -0.20800000000000018,
+          0.28800000000000003,
+          0
+        ],
+        "section_001_v004": [
+          -0.10400000000000009,
+          0.28800000000000003,
+          0.18013328398716322
+        ],
+        "section_001_v005": [
+          0.10400000000000009,
+          0.28800000000000003,
+          0.18013328398716322
+        ],
+        "cap_start_center": [
+          0,
+          0,
+          0
+        ],
+        "cap_end_center": [
+          0,
+          0.28800000000000003,
+          0
+        ]
+      },
+      "faces": {
+        "section_000__section_001_side_000": {
+          "vertices": [
+            "section_000_v001",
+            "section_001_v001",
+            "section_001_v000",
+            "section_000_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_000",
+          "uv": {
+            "section_000_v001": [
+              242.0,
+              19.0
+            ],
+            "section_001_v001": [
+              242.0,
+              16.695999145507812
+            ],
+            "section_001_v000": [
+              243.66400146484375,
+              16.695999145507812
+            ],
+            "section_000_v000": [
+              243.66400146484375,
+              19.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_1#2"
+        },
+        "section_000__section_001_side_001": {
+          "vertices": [
+            "section_000_v002",
+            "section_001_v002",
+            "section_001_v001",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_001",
+          "uv": {
+            "section_000_v002": [
+              238.0,
+              24.0
+            ],
+            "section_001_v002": [
+              238.0,
+              21.695999145507812
+            ],
+            "section_001_v001": [
+              239.66400146484375,
+              21.695999145507812
+            ],
+            "section_000_v001": [
+              239.66400146484375,
+              24.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_1#7"
+        },
+        "section_000__section_001_side_002": {
+          "vertices": [
+            "section_000_v002",
+            "section_000_v003",
+            "section_001_v003",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_002",
+          "uv": {
+            "section_000_v002": [
+              248.0,
+              19.0
+            ],
+            "section_000_v003": [
+              246.33599853515625,
+              19.0
+            ],
+            "section_001_v003": [
+              246.33599853515625,
+              16.695999145507812
+            ],
+            "section_001_v002": [
+              248.0,
+              16.695999145507812
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_1#3",
+          "model_as_code_mirror": [
+            "iron_pin_1_1",
+            "section_000__section_001_side_000"
+          ]
+        },
+        "section_000__section_001_side_003": {
+          "vertices": [
+            "section_000_v003",
+            "section_000_v004",
+            "section_001_v004",
+            "section_001_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_003",
+          "uv": {
+            "section_000_v003": [
+              239.66400146484375,
+              19.0
+            ],
+            "section_000_v004": [
+              238.0,
+              19.0
+            ],
+            "section_001_v004": [
+              238.0,
+              16.695999145507812
+            ],
+            "section_001_v003": [
+              239.66400146484375,
+              16.695999145507812
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_1#1",
+          "model_as_code_mirror": [
+            "iron_pin_1_1",
+            "section_000__section_001_side_005"
+          ]
+        },
+        "section_000__section_001_side_004": {
+          "vertices": [
+            "section_000_v004",
+            "section_000_v005",
+            "section_001_v005",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_004",
+          "uv": {
+            "section_000_v004": [
+              252.0,
+              19.0
+            ],
+            "section_000_v005": [
+              250.33599853515625,
+              19.0
+            ],
+            "section_001_v005": [
+              250.33599853515625,
+              16.695999145507812
+            ],
+            "section_001_v004": [
+              252.0,
+              16.695999145507812
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_1#4"
+        },
+        "section_000__section_001_side_005": {
+          "vertices": [
+            "section_000_v000",
+            "section_001_v000",
+            "section_001_v005",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "side",
+          "model_as_code_source_face": "section_000__section_001_side_005",
+          "uv": {
+            "section_000_v000": [
+              251.33599853515625,
+              14.0
+            ],
+            "section_001_v000": [
+              251.33599853515625,
+              11.695999145507812
+            ],
+            "section_001_v005": [
+              253.0,
+              11.695999145507812
+            ],
+            "section_000_v005": [
+              253.0,
+              14.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_1#0"
+        },
+        "cap_start_000": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v005",
+            "section_000_v004",
+            "section_000_v003"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_000",
+          "uv": {
+            "cap_start_center": [
+              91.0,
+              15.0
+            ],
+            "section_000_v005": [
+              92.66400146484375,
+              15.0
+            ],
+            "section_000_v004": [
+              91.83200073242188,
+              16.441070556640625
+            ],
+            "section_000_v003": [
+              90.16799926757812,
+              16.441070556640625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_1#5"
+        },
+        "cap_start_001": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v003",
+            "section_000_v002",
+            "section_000_v001"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_001",
+          "uv": {
+            "cap_start_center": [
+              91.0,
+              15.0
+            ],
+            "section_000_v003": [
+              90.16799926757812,
+              16.441070556640625
+            ],
+            "section_000_v002": [
+              89.33599853515625,
+              15.0
+            ],
+            "section_000_v001": [
+              90.16799926757812,
+              13.558929443359375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_1#5"
+        },
+        "cap_start_002": {
+          "vertices": [
+            "cap_start_center",
+            "section_000_v001",
+            "section_000_v000",
+            "section_000_v005"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_start",
+          "model_as_code_source_face": "cap_start_002",
+          "uv": {
+            "cap_start_center": [
+              91.0,
+              15.0
+            ],
+            "section_000_v001": [
+              90.16799926757812,
+              13.558929443359375
+            ],
+            "section_000_v000": [
+              91.83200073242188,
+              13.558929443359375
+            ],
+            "section_000_v005": [
+              92.66400146484375,
+              15.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_1#5"
+        },
+        "cap_end_000": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_000",
+          "uv": {
+            "cap_end_center": [
+              91.0,
+              21.0
+            ],
+            "section_001_v000": [
+              92.66400146484375,
+              21.0
+            ],
+            "section_001_v001": [
+              91.83200073242188,
+              22.441070556640625
+            ],
+            "section_001_v002": [
+              90.16799926757812,
+              22.441070556640625
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_1#6"
+        },
+        "cap_end_001": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_001",
+          "uv": {
+            "cap_end_center": [
+              91.0,
+              21.0
+            ],
+            "section_001_v002": [
+              90.16799926757812,
+              22.441070556640625
+            ],
+            "section_001_v003": [
+              89.33599853515625,
+              21.0
+            ],
+            "section_001_v004": [
+              90.16799926757812,
+              19.558929443359375
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_1#6"
+        },
+        "cap_end_002": {
+          "vertices": [
+            "cap_end_center",
+            "section_001_v004",
+            "section_001_v005",
+            "section_001_v000"
+          ],
+          "texture": 0,
+          "model_as_code_group": "cap_end",
+          "model_as_code_source_face": "cap_end_002",
+          "uv": {
+            "cap_end_center": [
+              91.0,
+              21.0
+            ],
+            "section_001_v004": [
+              90.16799926757812,
+              19.558929443359375
+            ],
+            "section_001_v005": [
+              91.83200073242188,
+              19.558929443359375
+            ],
+            "section_001_v000": [
+              92.66400146484375,
+              21.0
+            ]
+          },
+          "rotation": 0,
+          "model_as_code_chart": "iron_pin_1_1#6"
+        }
+      },
+      "type": "mesh",
+      "uuid": "75204138-03b8-5926-a982-bfc0817d7821",
+      "shading": "flat",
+      "model_as_code_mesh": {
+        "closed": true,
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "center": [
+            0,
+            0.1439999999999999,
+            0
+          ]
+        },
+        "primitive": null,
+        "rings": {
+          "section_000": [
+            "section_000_v000",
+            "section_000_v001",
+            "section_000_v002",
+            "section_000_v003",
+            "section_000_v004",
+            "section_000_v005"
+          ],
+          "section_001": [
+            "section_001_v000",
+            "section_001_v001",
+            "section_001_v002",
+            "section_001_v003",
+            "section_001_v004",
+            "section_001_v005"
+          ]
+        }
+      },
+      "model_as_code_spatial": {
+        "anchors": {
+          "section_000": [
+            0,
+            0,
+            0
+          ],
+          "section_001": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "base": [
+            0,
+            0,
+            0
+          ],
+          "top": [
+            0,
+            0.28800000000000003,
+            0
+          ],
+          "center": [
+            0,
+            0.1439999999999999,
+            0
+          ]
+        },
+        "frames": {
+          "section_000": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "section_001": {
+            "origin": [
+              0,
+              0.28800000000000003,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "base": {
+            "origin": [
+              0,
+              0,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          },
+          "top": {
+            "origin": [
+              0,
+              0.28800000000000003,
+              0
+            ],
+            "forward": [
+              0,
+              1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "root",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "export": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "model_as_code_role": "folder"
+    }
+  ],
+  "outliner": [
+    {
+      "uuid": "de62c337-1acc-58e8-aa25-4db34539d25c",
+      "isOpen": true,
+      "children": [
+        "a4008470-91b9-5eff-ada3-31dbff2fc8bb",
+        "ecd398e8-b7db-5bae-ba3c-63bef7742a51",
+        "34a3beac-cdac-541f-89c0-4a5f36a1fc51",
+        "9381f835-7799-5591-885d-5ccfecbc0212",
+        "66a846ae-0cc5-5c89-a9fe-3768750fe12d",
+        "3daafc4f-6e4e-5b91-89f6-1739528fd1c5",
+        "18655781-88f6-5709-991f-820c819221d5",
+        "93ecbd48-f6e8-565b-b0af-497cd70f4732",
+        "d7728f67-0522-559e-a675-fc962ebc69a1",
+        "fc4c796e-4b8a-5cde-b8dc-da9c41ef828f",
+        "75204138-03b8-5926-a982-bfc0817d7821"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "7066dba0-1aef-4ed8-9a07-107cd1ebd1c0",
+      "id": "0",
+      "name": "texture.png",
+      "relative_path": "texture.png",
+      "width": 256,
+      "height": 256,
+      "uv_width": 256,
+      "uv_height": 256,
+      "mode": "link",
+      "internal": false,
+      "saved": true,
+      "visible": true,
+      "render_mode": "default",
+      "render_sides": "auto",
+      "frame_time": 1,
+      "frame_order_type": "loop",
+      "frame_order": "",
+      "frame_interpolate": false
+    }
+  ],
+  "animations": [],
+  "resolution": {
+    "width": 256,
+    "height": 256
+  }
+}

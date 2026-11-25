@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "engine/SM_Tool_Mop_01.glb",
+      "runtime_role": "default"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "project": "cleaners",
+    "mode": "strip",
+    "frameCount": 4,
+    "frameWidth": 20,
+    "frameHeight": 20,
+    "fps": 5,
+    "width": 80,
+    "height": 20,
+    "scale": 1,
+    "format": "png",
+    "image": "ui_task_marks_01.png",
+    "animations": {
+      "clean": [
+        0
+      ],
+      "disposal": [
+        1
+      ],
+      "restock": [
+        2
+      ],
+      "rearm": [
+        3
+      ]
+    }
+  },
+  "frames": {
+    "frame_0": {
+      "x": 0,
+      "y": 0,
+      "width": 20,
+      "height": 20,
+      "logical": {
+        "x": 0,
+        "y": 0,
+        "width": 20,
+        "height": 20
+      }
+    },
+    "frame_1": {
+      "x": 20,
+      "y": 0,
+      "width": 20,
+      "height": 20,
+      "logical": {
+        "x": 20,
+        "y": 0,
+        "width": 20,
+        "height": 20
+      }
+    },
+    "frame_2": {
+      "x": 40,
+      "y": 0,
+      "width": 20,
+      "height": 20,
+      "logical": {
+        "x": 40,
+        "y": 0,
+        "width": 20,
+        "height": 20
+      }
+    },
+    "frame_3": {
+      "x": 60,
+      "y": 0,
+      "width": 20,
+      "height": 20,
+      "logical": {
+        "x": 60,
+        "y": 0,
+        "width": 20,
+        "height": 20
+      }
+    }
+  }
+}

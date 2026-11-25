@@ -1,0 +1,30 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "engine/SK_Char_Adventurer_Paladin_01_Slain.glb",
+      "runtime_role": "default",
+      "texture_variant": "default",
+      "animations": [
+        "pose_stand",
+        "pose_pinned",
+        "idle_hanging",
+        "pose_lying"
+      ]
+    },
+    {
+      "id": "rusty",
+      "format": "glb",
+      "output": "engine/SK_Char_Adventurer_Paladin_01_Rusty_Slain.glb",
+      "runtime_role": "rusty",
+      "texture_variant": "rusty",
+      "animations": [
+        "pose_stand",
+        "pose_pinned",
+        "idle_hanging",
+        "pose_lying"
+      ]
+    }
+  ]
+}

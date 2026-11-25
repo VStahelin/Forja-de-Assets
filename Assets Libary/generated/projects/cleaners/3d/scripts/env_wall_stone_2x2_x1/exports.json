@@ -1,0 +1,10 @@
+{
+  "targets": [
+    {
+      "id": "default",
+      "format": "glb",
+      "output": "engine/SM_Env_WallStone_2x2_x1.glb",
+      "runtime_role": "default"
+    }
+  ]
+}
